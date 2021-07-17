@@ -22,7 +22,10 @@ j*.sh.o*
 *.enc_ukb
 *.enc
 *.cwa
+.Renviron
 manuscript
 data
 analysis
 environment
+000_metabolite_format/
+000_adiposity_format/
