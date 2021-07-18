@@ -87,7 +87,6 @@ bf$id.exposure <- "Lu BF EU sex combined 5 SNPs"
 bf$f_stats <- (bf$b / bf$se)^2 
 bf$mean_fstat <- mean(bf$f_stats)
 
-
 ## extract outcome data ====
 outcome_data_bmi <- read_outcome_data(
     snps = bmi$SNP,
@@ -174,7 +173,7 @@ for (i in 1:length(plot_mr_funnel)) {
 dev.off()
 
 ## Save output ====
-write.table(exposure_data, "007_metabolites_outcomes/analysis/002_adiposity_metabolite/bmi/exposure_data.txt", 
+write.table(bmi, "007_metabolites_outcomes/analysis/002_adiposity_metabolite/bmi/exposure_data.txt", 
             row.names = FALSE, col.names = TRUE, quote = FALSE, sep = "\t")
 write.table(harmonise_data, "007_metabolites_outcomes/analysis/002_adiposity_metabolite/bmi/harmonise_data.txt", 
             row.names = FALSE, col.names = TRUE, quote = FALSE, sep = "\t")
@@ -237,7 +236,7 @@ for (i in 1:length(plot_mr_funnel)) {
 dev.off()
 
 ## Save output ====
-write.table(exposure_data, "007_metabolites_outcomes/analysis/002_adiposity_metabolite/whr/exposure_data.txt", 
+write.table(whr, "007_metabolites_outcomes/analysis/002_adiposity_metabolite/whr/exposure_data.txt", 
             row.names = FALSE, col.names = TRUE, quote = FALSE, sep = "\t")
 write.table(harmonise_data, "007_metabolites_outcomes/analysis/002_adiposity_metabolite/whr/harmonise_data.txt", 
             row.names = FALSE, col.names = TRUE, quote = FALSE, sep = "\t")
@@ -299,7 +298,7 @@ for (i in 1:length(plot_mr_funnel)) {
 dev.off()
 
 ## Save output ====
-write.table(exposure_data, "007_metabolites_outcomes/analysis/002_adiposity_metabolite/bf/exposure_data.txt", 
+write.table(bf, "007_metabolites_outcomes/analysis/002_adiposity_metabolite/bf/exposure_data.txt", 
             row.names = FALSE, col.names = TRUE, quote = FALSE, sep = "\t")
 write.table(harmonise_data, "007_metabolites_outcomes/analysis/002_adiposity_metabolite/bf/harmonise_data.txt", 
             row.names = FALSE, col.names = TRUE, quote = FALSE, sep = "\t")
