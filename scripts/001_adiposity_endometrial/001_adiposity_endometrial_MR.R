@@ -1,12 +1,10 @@
 rm(list=ls())
-# MR analysis of measures of adiposity and metabolites 
+# MR analysis of measures of adiposity and endometrial cancer 
 
 # environment ====
 ## library ====
 #remotes::install_github("MRCIEU/TwoSampleMR")
-#remotes::install_github("mrcieu/ieugwasr")
 library(TwoSampleMR)
-library(ieugwasr)
 library(data.table)
 library(RadialMR)
 library(dplyr)
@@ -31,61 +29,60 @@ d4 <- wes_palette("Rushmore1", type = "discrete")
 discrete_wes_pal <- c(d1, d2, d3, d4)
 rm(d1,d2,d3,d4)
 
-### source other scripts
-source("002_adiposity_metabolites/scripts/my_mr_scatter_plot.R")
-
 ## extract exposure instruments ====
-a <- read_exposure_data("002_adiposity_metabolites/data/locke_BMI_77.txt",
-                                    clump = F,
-                                    sep = "\t",
-                                    snp_col = "SNP",
-                                    beta_col = "b",
-                                    se_col = "SE",
-                                    eaf_col = "EAF",
-                                    effect_allele_col = "EA",
-                                    other_allele_col = "OA",
-                                    pval_col = "p",
-                                    samplesize_col = "n",
-                                    min_pval = 5e-8)
-a$exposure <- "Locke BMI EU sex combined 77 SNPs clumped"
-a$id.exposure <- "Locke BMI EU sex combined 77 SNPs clumped"
+a <- read_exposure_data("adiposity_metabolites_endometrial_cancer/data/bmi_snps.txt",
+                                  clump = F,
+                                  sep = "\t",
+                                  snp_col = "SNP",
+                                  beta_col = "beta.exposure",
+                                  se_col = "se.exposure",
+                                  eaf_col = "eaf.exposure",
+                                  effect_allele_col = "effect_allele.exposure",
+                                  other_allele_col = "other_allele.exposure",
+                                  pval_col = "pval.exposure",
+                                  samplesize_col = "samplesize.exposure",
+                                  phenotype = "exposure",
+                                  min_pval = 5e-9)
+a$exposure <- "BMI"
+a$id.exposure <- "BMI"
 a$f_stats <- (a$b / a$se)^2 
 a$mean_fstat <- mean(a$f_stats)
 
-a1 <- read_exposure_data("002_adiposity_metabolites/data/shungin_WHR_26.txt",
-                                    clump = F,
-                                    sep = "\t",
-                                    snp_col = "SNP",
-                                    beta_col = "WHR_EU_SC_meta_analysis_beta",
-                                    se_col = "WHR_EU_SC_meta_analysis_SE",
-                                    eaf_col = "WHR_EU_SC_meta_analysis_EAF",
-                                    effect_allele_col = "EA",
-                                    other_allele_col = "NEA",
-                                    pval_col = "WHR_EU_SC_meta_analysis_P",
-                                    samplesize_col = "WHR_EU_SC_meta_analysis_N",
-                                    min_pval = 5e-8)
-a1$exposure <- "Shungin WHR EU sex combined 26 SNPs"
-a1$id.exposure <- "Shungin WHR EU sex combined 26 SNPs"
-a1$f_stats <- (a1$b / a1$se)^2 
-a1$mean_fstat <- mean(a1$f_stats)
+a1 <- read_exposure_data("adiposity_metabolites_endometrial_cancer/data/whr_snps.txt",
+                                  clump = F,
+                                  sep = "\t",
+                                  snp_col = "SNP",
+                                  beta_col = "beta.exposure",
+                                  se_col = "se.exposure",
+                                  eaf_col = "eaf.exposure",
+                                  effect_allele_col = "effect_allele.exposure",
+                                  other_allele_col = "other_allele.exposure",
+                                  pval_col = "pval.exposure",
+                                  samplesize_col = "samplesize.exposure",
+                                  phenotype = "exposure",
+                                  min_pval = 5e-9)
+a$exposure <- "WHR"
+a$id.exposure <- "WHR"
+a$f_stats <- (a$b / a$se)^2 
+a$mean_fstat <- mean(a$f_stats)
 
-a2 <- read_exposure_data("002_adiposity_metabolites/data/lu_BF_5-EU_no-FA-SNPs.txt",
-                                    clump = F,
-                                    sep = "\t",
-                                    snp_col = "SNP",
-                                    beta_col = "b",
-                                    se_col = "se",
-                                    eaf_col = "EAF",
-                                    effect_allele_col = "EA",
-                                    other_allele_col = "OA",
-                                    pval_col = "p",
-                                    samplesize_col = "n",
-                                    min_pval = 5e-8)
-
-a2$exposure <- "Lu BF EU sex combined 5 SNPs"
-a2$id.exposure <- "Lu BF EU sex combined 5 SNPs"
-a2$f_stats <- (a2$b / a2$se)^2 
-a2$mean_fstat <- mean(a2$f_stats)
+a2 <- read_exposure_data("adiposity_metabolites_endometrial_cancer/data/whradjbmi_snps.txt",
+                                  clump = F,
+                                  sep = "\t",
+                                  snp_col = "SNP",
+                                  beta_col = "beta.exposure",
+                                  se_col = "se.exposure",
+                                  eaf_col = "eaf.exposure",
+                                  effect_allele_col = "effect_allele.exposure",
+                                  other_allele_col = "other_allele.exposure",
+                                  pval_col = "pval.exposure",
+                                  samplesize_col = "samplesize.exposure",
+                                  phenotype = "exposure",
+                                  min_pval = 5e-9)
+a$exposure <- "WHRadjBMI"
+a$id.exposure <- "WHRadjBMI"
+a$f_stats <- (a$b / a$se)^2 
+a$mean_fstat <- mean(a$f_stats)
 
 exposure_data <- bind_rows(a,a1,a2)
 
@@ -112,44 +109,44 @@ plot_leaveoneout_forest <- mr_leaveoneout_plot(mr_leaveoneout)
 plot_mr_funnel <- mr_funnel_plot(mr_singlesnp)
 
 ### save plots ====
-pdf("007_metabolites_outcomes/analysis/001_adiposity_endometrial/plot_mr_scatter.pdf")
+pdf("adiposity_metabolites_endometrial_cancer/analysis/001_adiposity_endometrial/figures/plot_mr_scatter.pdf")
 for (i in 1:length(plot_mr_scatter)) {
   print(plot_mr_scatter[[i]])
 }
 dev.off()
 
-pdf("007_metabolites_outcomes/analysis/001_adiposity_endometrial/plot_singlesnp_forest.pdf")
+pdf("adiposity_metabolites_endometrial_cancer/analysis/001_adiposity_endometrial/figures/plot_singlesnp_forest.pdf")
 for (i in 1:length(plot_singlesnp_forest)) {
   print(plot_singlesnp_forest[[i]])
 }
 dev.off()
 
-pdf("007_metabolites_outcomes/analysis/001_adiposity_endometrial/plot_leaveoneout_forest.pdf")
+pdf("adiposity_metabolites_endometrial_cancer/analysis/001_adiposity_endometrial/figures/plot_leaveoneout_forest.pdf")
 for (i in 1:length(plot_leaveoneout_forest)) {
   print(plot_leaveoneout_forest[[i]])
 }
 dev.off()
 
-pdf("007_metabolites_outcomes/analysis/001_adiposity_endometrial/plot_mr_funnel.pdf")
+pdf("adiposity_metabolites_endometrial_cancer/analysis/001_adiposity_endometrial/figures/plot_mr_funnel.pdf")
 for (i in 1:length(plot_mr_funnel)) {
   print(plot_mr_funnel[[i]])
 }
 dev.off()
 
 ## Save output ====
-write.table(exposure_data, "007_metabolites_outcomes/analysis/001_adiposity_endometrial/exposure_data.txt", 
+write.table(exposure_data, "adiposity_metabolites_endometrial_cancer/analysis/001_adiposity_endometrial/exposure_data.txt", 
             row.names = FALSE, col.names = TRUE, quote = FALSE, sep = "\t")
-write.table(harmonise_data, "007_metabolites_outcomes/analysis/001_adiposity_endometrial/harmonise_data.txt", 
+write.table(harmonise_data, "adiposity_metabolites_endometrial_cancer/analysis/001_adiposity_endometrial/harmonise_data.txt", 
             row.names = FALSE, col.names = TRUE, quote = FALSE, sep = "\t")
-write.table(mr_results, "007_metabolites_outcomes/analysis/001_adiposity_endometrial/mr_results.txt", 
+write.table(mr_results, "adiposity_metabolites_endometrial_cancer/analysis/001_adiposity_endometrial/mr_results.txt", 
             row.names = FALSE, col.names = TRUE, quote = FALSE, sep = "\t")
-write.table(mr_singlesnp, "007_metabolites_outcomes/analysis/001_adiposity_endometrial/mr_singlesnp.txt", 
+write.table(mr_singlesnp, "adiposity_metabolites_endometrial_cancer/analysis/001_adiposity_endometrial/mr_singlesnp.txt", 
             row.names = FALSE, col.names = TRUE, quote = FALSE, sep = "\t")
-write.table(mr_hetrogeneity, "007_metabolites_outcomes/analysis/001_adiposity_endometrial/mr_hetrogeneity.txt", 
+write.table(mr_hetrogeneity, "adiposity_metabolites_endometrial_cancer/analysis/001_adiposity_endometrial/mr_hetrogeneity.txt", 
             row.names = FALSE, col.names = TRUE, quote = FALSE, sep = "\t")
-write.table(mr_pleiotropy, "007_metabolites_outcomes/analysis/001_adiposity_endometrial/mr_pleiotropy.txt", 
+write.table(mr_pleiotropy, "adiposity_metabolites_endometrial_cancer/analysis/001_adiposity_endometrial/mr_pleiotropy.txt", 
             row.names = FALSE, col.names = TRUE, quote = FALSE, sep = "\t")
-write.table(mr_leaveoneout, "007_metabolites_outcomes/analysis/001_adiposity_endometrial/mr_leaveoneout.txt", 
+write.table(mr_leaveoneout, "adiposity_metabolites_endometrial_cancer/analysis/001_adiposity_endometrial/mr_leaveoneout.txt", 
             row.names = FALSE, col.names = TRUE, quote = FALSE, sep = "\t")
 
 
