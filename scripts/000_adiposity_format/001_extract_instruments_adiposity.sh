@@ -8,6 +8,4 @@ export WORK_DIR=/newhome/ml16847/001_projects/adiposity_metabolites_endometrial_
 cd $WORK_DIR
 
 #loop through files in linux to extract GWAS significant SNPs
-ls *.txt | while read f; do awk -F"\t" 'NR==1{print;next}$9<5e-09' ${f} > /newhome/ml16847/001_projects/adiposity_metabolites_endometrial_cancer/data/${f}_snps.txt; done;
-
-
+ls *.txt | while read f; do awk -F" " 'NR==1{print;next}$9<5e-09' ${f} > /newhome/ml16847/001_projects/adiposity_metabolites_endometrial_cancer/data/${f}_snps.txt; done;
