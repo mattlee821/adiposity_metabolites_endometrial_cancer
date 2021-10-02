@@ -31,9 +31,6 @@ d4 <- wes_palette("Rushmore1", type = "discrete")
 discrete_wes_pal <- c(d1, d2, d3, d4)
 rm(d1,d2,d3,d4)
 
-### source other scripts
-source("002_adiposity_metabolites/scripts/my_mr_scatter_plot.R")
-
 ## extract exposure instruments ====
 exposure_data <- read_exposure_data("UKB_NMR_GWAS/exposure_data_female.txt",
                                     clump = F,
@@ -75,44 +72,44 @@ plot_leaveoneout_forest <- mr_leaveoneout_plot(mr_leaveoneout)
 plot_mr_funnel <- mr_funnel_plot(mr_singlesnp)
 
 ### save plots ====
-pdf("007_metabolites_outcomes/analysis/003_metabolite_endometrial/plot_mr_scatter.pdf")
+pdf("adiposity_metabolites_endometrial_cancer/analysis/003_metabolite_endometrial/figures/plot_mr_scatter.pdf")
 for (i in 1:length(plot_mr_scatter)) {
   print(plot_mr_scatter[[i]])
 }
 dev.off()
 
-pdf("007_metabolites_outcomes/analysis/003_metabolite_endometrial/plot_singlesnp_forest.pdf")
+pdf("adiposity_metabolites_endometrial_cancer/analysis/003_metabolite_endometrial/figures/plot_singlesnp_forest.pdf")
 for (i in 1:length(plot_singlesnp_forest)) {
   print(plot_singlesnp_forest[[i]])
 }
 dev.off()
 
-pdf("007_metabolites_outcomes/analysis/003_metabolite_endometrial/plot_leaveoneout_forest.pdf")
+pdf("adiposity_metabolites_endometrial_cancer/analysis/003_metabolite_endometrial/figures/plot_leaveoneout_forest.pdf")
 for (i in 1:length(plot_leaveoneout_forest)) {
   print(plot_leaveoneout_forest[[i]])
 }
 dev.off()
 
-pdf("007_metabolites_outcomes/analysis/003_metabolite_endometrial/plot_mr_funnel.pdf")
+pdf("adiposity_metabolites_endometrial_cancer/analysis/003_metabolite_endometrial/figures/plot_mr_funnel.pdf")
 for (i in 1:length(plot_mr_funnel)) {
   print(plot_mr_funnel[[i]])
 }
 dev.off()
 
 ## Save output ====
-write.table(exposure_data, "007_metabolites_outcomes/analysis/003_metabolite_endometrial/exposure_data.txt", 
+write.table(exposure_data, "adiposity_metabolites_endometrial_cancer/analysis/003_metabolite_endometrial/exposure_data.txt", 
             row.names = FALSE, col.names = TRUE, quote = FALSE, sep = "\t")
-write.table(harmonise_data, "007_metabolites_outcomes/analysis/003_metabolite_endometrial/harmonise_data.txt", 
+write.table(harmonise_data, "adiposity_metabolites_endometrial_cancer/analysis/003_metabolite_endometrial/harmonise_data.txt", 
             row.names = FALSE, col.names = TRUE, quote = FALSE, sep = "\t")
-write.table(mr_results, "007_metabolites_outcomes/analysis/003_metabolite_endometrial/mr_results.txt", 
+write.table(mr_results, "adiposity_metabolites_endometrial_cancer/analysis/003_metabolite_endometrial/mr_results.txt", 
             row.names = FALSE, col.names = TRUE, quote = FALSE, sep = "\t")
-write.table(mr_singlesnp, "007_metabolites_outcomes/analysis/003_metabolite_endometrial/mr_singlesnp.txt", 
+write.table(mr_singlesnp, "adiposity_metabolites_endometrial_cancer/analysis/003_metabolite_endometrial/mr_singlesnp.txt", 
             row.names = FALSE, col.names = TRUE, quote = FALSE, sep = "\t")
-write.table(mr_hetrogeneity, "007_metabolites_outcomes/analysis/003_metabolite_endometrial/mr_hetrogeneity.txt", 
+write.table(mr_hetrogeneity, "adiposity_metabolites_endometrial_cancer/analysis/003_metabolite_endometrial/mr_hetrogeneity.txt", 
             row.names = FALSE, col.names = TRUE, quote = FALSE, sep = "\t")
-write.table(mr_pleiotropy, "007_metabolites_outcomes/analysis/003_metabolite_endometrial/mr_pleiotropy.txt", 
+write.table(mr_pleiotropy, "adiposity_metabolites_endometrial_cancer/analysis/003_metabolite_endometrial/mr_pleiotropy.txt", 
             row.names = FALSE, col.names = TRUE, quote = FALSE, sep = "\t")
-write.table(mr_leaveoneout, "007_metabolites_outcomes/analysis/003_metabolite_endometrial/mr_leaveoneout.txt", 
+write.table(mr_leaveoneout, "adiposity_metabolites_endometrial_cancer/analysis/003_metabolite_endometrial/mr_leaveoneout.txt", 
             row.names = FALSE, col.names = TRUE, quote = FALSE, sep = "\t")
 
 
