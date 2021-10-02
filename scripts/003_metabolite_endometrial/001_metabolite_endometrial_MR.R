@@ -66,7 +66,7 @@ mr_pleiotropy <- mr_pleiotropy_test(harmonise_data)
 mr_leaveoneout <- mr_leaveoneout(harmonise_data)
 
 ## Plots ====
-plot_mr_scatter <- my_mr_scatter_plot(mr_results, harmonise_data)
+plot_mr_scatter <- mr_scatter_plot(mr_results, harmonise_data)
 plot_singlesnp_forest <- mr_forest_plot(mr_singlesnp)
 plot_leaveoneout_forest <- mr_leaveoneout_plot(mr_leaveoneout)
 plot_mr_funnel <- mr_funnel_plot(mr_singlesnp)
