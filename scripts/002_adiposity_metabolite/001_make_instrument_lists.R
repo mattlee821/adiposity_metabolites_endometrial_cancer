@@ -14,53 +14,56 @@ setwd(directory_1)
 
 # obtain list of instruments
 ## BMI and metabolites ====
-data <- read_exposure_data("002_adiposity_metabolites/data/locke_BMI_77.txt",
-                                    clump = F,
-                                    sep = "\t",
-                                    snp_col = "SNP",
-                                    beta_col = "b",
-                                    se_col = "SE",
-                                    eaf_col = "EAF",
-                                    effect_allele_col = "EA",
-                                    other_allele_col = "OA",
-                                    pval_col = "p",
-                                    samplesize_col = "n",
-                                    min_pval = 5e-8)
-data <- as.data.frame(unique(data[,c(1)]))
-write.table(data, "007_metabolites_outcomes/data/adiposity_GWAS/bmi_instrument_list.txt", 
+data <- read_exposure_data("adiposity_metabolites_endometrial_cancer/data/bmi_snps.txt",
+                                  clump = F,
+                                  sep = "\t",
+                                  snp_col = "SNP",
+                                  beta_col = "beta.exposure",
+                                  se_col = "se.exposure",
+                                  eaf_col = "eaf.exposure",
+                                  effect_allele_col = "effect_allele.exposure",
+                                  other_allele_col = "other_allele.exposure",
+                                  pval_col = "pval.exposure",
+                                  samplesize_col = "samplesize.exposure",
+                                  phenotype = "exposure",
+                                  min_pval = 5e-9)
+data <- as.data.frame(unique(data[,c("SNP")]))
+write.table(data, "adiposity_metabolites_endometrial_cancer/data/adiposity_GWAS/bmi_snp_list.txt", 
             row.names = FALSE, col.names = TRUE, quote = FALSE, sep = "\t")
 
 ## WHR and metabolites ====
-data <- read_exposure_data("002_adiposity_metabolites/data/shungin_WHR_26.txt",
-                                    clump = F,
-                                    sep = "\t",
-                                    snp_col = "SNP",
-                                    beta_col = "WHR_EU_SC_meta_analysis_beta",
-                                    se_col = "WHR_EU_SC_meta_analysis_SE",
-                                    eaf_col = "WHR_EU_SC_meta_analysis_EAF",
-                                    effect_allele_col = "EA",
-                                    other_allele_col = "NEA",
-                                    pval_col = "WHR_EU_SC_meta_analysis_P",
-                                    samplesize_col = "WHR_EU_SC_meta_analysis_N",
-                                    min_pval = 5e-8)
-data <- as.data.frame(unique(data[,c(1)]))
-write.table(data, "007_metabolites_outcomes/data/adiposity_GWAS/whr_instrument_list.txt", 
+data <- read_exposure_data("adiposity_metabolites_endometrial_cancer/data/whr_snps.txt",
+                                  clump = F,
+                                  sep = "\t",
+                                  snp_col = "SNP",
+                                  beta_col = "beta.exposure",
+                                  se_col = "se.exposure",
+                                  eaf_col = "eaf.exposure",
+                                  effect_allele_col = "effect_allele.exposure",
+                                  other_allele_col = "other_allele.exposure",
+                                  pval_col = "pval.exposure",
+                                  samplesize_col = "samplesize.exposure",
+                                  phenotype = "exposure",
+                                  min_pval = 5e-9)
+data <- as.data.frame(unique(data[,c("SNP")]))
+write.table(data, "adiposity_metabolites_endometrial_cancer/data/adiposity_GWAS/whr_snp_list.txt", 
             row.names = FALSE, col.names = TRUE, quote = FALSE, sep = "\t")
 
 ## BF and metabolites ====
-data <- read_exposure_data("002_adiposity_metabolites/data/lu_BF_5-EU_no-FA-SNPs.txt",
-                           clump = F,
-                           sep = "\t",
-                           snp_col = "SNP",
-                           beta_col = "b",
-                           se_col = "se",
-                           eaf_col = "EAF",
-                           effect_allele_col = "EA",
-                           other_allele_col = "OA",
-                           pval_col = "p",
-                           samplesize_col = "n",
-                           min_pval = 5e-8)
-data <- as.data.frame(unique(data[,c(1)]))
-write.table(data, "007_metabolites_outcomes/data/adiposity_GWAS/bf_instrument_list.txt", 
+data <- read_exposure_data("adiposity_metabolites_endometrial_cancer/data/whradjbmi_snps.txt",
+                                  clump = F,
+                                  sep = "\t",
+                                  snp_col = "SNP",
+                                  beta_col = "beta.exposure",
+                                  se_col = "se.exposure",
+                                  eaf_col = "eaf.exposure",
+                                  effect_allele_col = "effect_allele.exposure",
+                                  other_allele_col = "other_allele.exposure",
+                                  pval_col = "pval.exposure",
+                                  samplesize_col = "samplesize.exposure",
+                                  phenotype = "exposure",
+                                  min_pval = 5e-9)
+data <- as.data.frame(unique(data[,c("SNP")]))
+write.table(data, "adiposity_metabolites_endometrial_cancer/data/adiposity_GWAS/whradjbmi_snp_list.txt", 
             row.names = FALSE, col.names = TRUE, quote = FALSE, sep = "\t")
 
