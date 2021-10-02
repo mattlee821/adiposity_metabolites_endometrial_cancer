@@ -61,10 +61,10 @@ a1 <- read_exposure_data("adiposity_metabolites_endometrial_cancer/data/whr_snps
                                   samplesize_col = "samplesize.exposure",
                                   phenotype = "exposure",
                                   min_pval = 5e-9)
-a$exposure <- "WHR"
-a$id.exposure <- "WHR"
-a$f_stats <- (a$b / a$se)^2 
-a$mean_fstat <- mean(a$f_stats)
+a1$exposure <- "WHR"
+a1$id.exposure <- "WHR"
+a1$f_stats <- (a1$b / a1$se)^2 
+a1$mean_fstat <- mean(a1$f_stats)
 
 a2 <- read_exposure_data("adiposity_metabolites_endometrial_cancer/data/whradjbmi_snps.txt",
                                   clump = F,
@@ -79,10 +79,10 @@ a2 <- read_exposure_data("adiposity_metabolites_endometrial_cancer/data/whradjbm
                                   samplesize_col = "samplesize.exposure",
                                   phenotype = "exposure",
                                   min_pval = 5e-9)
-a$exposure <- "WHRadjBMI"
-a$id.exposure <- "WHRadjBMI"
-a$f_stats <- (a$b / a$se)^2 
-a$mean_fstat <- mean(a$f_stats)
+a2$exposure <- "WHRadjBMI"
+a2$id.exposure <- "WHRadjBMI"
+a2$f_stats <- (a2$b / a2$se)^2 
+a2$mean_fstat <- mean(a2$f_stats)
 
 exposure_data <- bind_rows(a,a1,a2)
 
