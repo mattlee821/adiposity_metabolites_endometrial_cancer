@@ -31,11 +31,8 @@ d4 <- wes_palette("Rushmore1", type = "discrete")
 discrete_wes_pal <- c(d1, d2, d3, d4)
 rm(d1,d2,d3,d4)
 
-### source other scripts
-source("002_adiposity_metabolites/scripts/my_mr_scatter_plot.R")
-
 ## extract exposure instruments ====
-bmi <- read_exposure_data("002_adiposity_metabolites/data/locke_BMI_77.txt",
+bmi <- read_exposure_data("adiposity_metabolites_endometrial_cancer/data/bmi_snps.txt",
                                     clump = F,
                                     sep = "\t",
                                     snp_col = "SNP",
@@ -47,12 +44,12 @@ bmi <- read_exposure_data("002_adiposity_metabolites/data/locke_BMI_77.txt",
                                     pval_col = "p",
                                     samplesize_col = "n",
                                     min_pval = 5e-8)
-bmi$exposure <- "Locke BMI EU sex combined 77 SNPs clumped"
-bmi$id.exposure <- "Locke BMI EU sex combined 77 SNPs clumped"
+bmi$exposure <- "BMI"
+bmi$id.exposure <- "BMI"
 bmi$f_stats <- (bmi$b / bmi$se)^2 
 bmi$mean_fstat <- mean(bmi$f_stats)
 
-whr <- read_exposure_data("002_adiposity_metabolites/data/shungin_WHR_26.txt",
+whr <- read_exposure_data("adiposity_metabolites_endometrial_cancer/data/whr_snps.txt",
                                     clump = F,
                                     sep = "\t",
                                     snp_col = "SNP",
@@ -64,12 +61,12 @@ whr <- read_exposure_data("002_adiposity_metabolites/data/shungin_WHR_26.txt",
                                     pval_col = "WHR_EU_SC_meta_analysis_P",
                                     samplesize_col = "WHR_EU_SC_meta_analysis_N",
                                     min_pval = 5e-8)
-whr$exposure <- "Shungin WHR EU sex combined 26 SNPs"
-whr$id.exposure <- "Shungin WHR EU sex combined 26 SNPs"
+whr$exposure <- "WHR"
+whr$id.exposure <- "WHR"
 whr$f_stats <- (whr$b / whr$se)^2 
 whr$mean_fstat <- mean(whr$f_stats)
 
-bf <- read_exposure_data("002_adiposity_metabolites/data/lu_BF_5-EU_no-FA-SNPs.txt",
+whradjbmi <- read_exposure_data("adiposity_metabolites_endometrial_cancer/data/whradjbmi_snps.txt",
                                     clump = F,
                                     sep = "\t",
                                     snp_col = "SNP",
@@ -82,15 +79,15 @@ bf <- read_exposure_data("002_adiposity_metabolites/data/lu_BF_5-EU_no-FA-SNPs.t
                                     samplesize_col = "n",
                                     min_pval = 5e-8)
 
-bf$exposure <- "Lu BF EU sex combined 5 SNPs"
-bf$id.exposure <- "Lu BF EU sex combined 5 SNPs"
-bf$f_stats <- (bf$b / bf$se)^2 
-bf$mean_fstat <- mean(bf$f_stats)
+whradjbmi$exposure <- "WHRadjBMI"
+whradjbmi$id.exposure <- "WHRadjBMI"
+whradjbmi$f_stats <- (whradjbmi$b / whradjbmi$se)^2 
+whradjbmi$mean_fstat <- mean(whradjbmi$f_stats)
 
 ## extract outcome data ====
 outcome_data_bmi <- read_outcome_data(
     snps = bmi$SNP,
-    filename = "007_metabolites_outcomes/data/adiposity_instruments_metabolites/metabolite_outcome_bmi.txt",
+    filename = "adiposity_metabolites_outcomes/data/adiposity_instruments_metabolites/metabolite_outcome_bmi.txt",
     sep = " ",
     snp_col = "SNP",
     beta_col = "BETA",
@@ -103,7 +100,7 @@ outcome_data_bmi <- read_outcome_data(
 
 outcome_data_whr <- read_outcome_data(
     snps = whr$SNP,
-    filename = "007_metabolites_outcomes/data/adiposity_instruments_metabolites/metabolite_outcome_whr.txt",
+    filename = "adiposity_metabolites_outcomes/data/adiposity_instruments_metabolites/metabolite_outcome_whr.txt",
     sep = " ",
     snp_col = "SNP",
     beta_col = "BETA",
@@ -114,9 +111,9 @@ outcome_data_whr <- read_outcome_data(
     pval_col = "P_BOLT_LMM_INF",
     phenotype = "phenotype")
 
-outcome_data_bf <- read_outcome_data(
-    snps = bf$SNP,
-    filename = "007_metabolites_outcomes/data/adiposity_instruments_metabolites/metabolite_outcome_bf.txt",
+outcome_data_whradjbmi <- read_outcome_data(
+    snps = whradjbmi$SNP,
+    filename = "adiposity_metabolites_outcomes/data/adiposity_instruments_metabolites/metabolite_outcome_whradjbmi.txt",
     sep = " ",
     snp_col = "SNP",
     beta_col = "BETA",
@@ -142,50 +139,50 @@ mr_pleiotropy <- mr_pleiotropy_test(harmonise_data)
 mr_leaveoneout <- mr_leaveoneout(harmonise_data)
 
 ## Plots ====
-plot_mr_scatter <- my_mr_scatter_plot(mr_results, harmonise_data)
+plot_mr_scatter <- mr_scatter_plot(mr_results, harmonise_data)
 plot_singlesnp_forest <- mr_forest_plot(mr_singlesnp)
 plot_leaveoneout_forest <- mr_leaveoneout_plot(mr_leaveoneout)
 plot_mr_funnel <- mr_funnel_plot(mr_singlesnp)
 
 ### save plots ====
-pdf("007_metabolites_outcomes/analysis/002_adiposity_metabolite/bmi/plot_mr_scatter.pdf")
+pdf("adiposity_metabolites_outcomes/analysis/002_adiposity_metabolite/bmi/figures/mr_scatter.pdf")
 for (i in 1:length(plot_mr_scatter)) {
   print(plot_mr_scatter[[i]])
 }
 dev.off()
 
-pdf("007_metabolites_outcomes/analysis/002_adiposity_metabolite/bmi/plot_singlesnp_forest.pdf")
+pdf("adiposity_metabolites_outcomes/analysis/002_adiposity_metabolite/bmi/figures/singlesnp_forest.pdf")
 for (i in 1:length(plot_singlesnp_forest)) {
   print(plot_singlesnp_forest[[i]])
 }
 dev.off()
 
-pdf("007_metabolites_outcomes/analysis/002_adiposity_metabolite/bmi/plot_leaveoneout_forest.pdf")
+pdf("adiposity_metabolites_outcomes/analysis/002_adiposity_metabolite/bmi/figures/leaveoneout_forest.pdf")
 for (i in 1:length(plot_leaveoneout_forest)) {
   print(plot_leaveoneout_forest[[i]])
 }
 dev.off()
 
-pdf("007_metabolites_outcomes/analysis/002_adiposity_metabolite/bmi/plot_mr_funnel.pdf")
+pdf("adiposity_metabolites_outcomes/analysis/002_adiposity_metabolite/bmi/figures/mr_funnel.pdf")
 for (i in 1:length(plot_mr_funnel)) {
   print(plot_mr_funnel[[i]])
 }
 dev.off()
 
 ## Save output ====
-write.table(bmi, "007_metabolites_outcomes/analysis/002_adiposity_metabolite/bmi/exposure_data.txt", 
+write.table(bmi, "adiposity_metabolites_outcomes/analysis/002_adiposity_metabolite/bmi/exposure_data.txt", 
             row.names = FALSE, col.names = TRUE, quote = FALSE, sep = "\t")
-write.table(harmonise_data, "007_metabolites_outcomes/analysis/002_adiposity_metabolite/bmi/harmonise_data.txt", 
+write.table(harmonise_data, "adiposity_metabolites_outcomes/analysis/002_adiposity_metabolite/bmi/harmonise_data.txt", 
             row.names = FALSE, col.names = TRUE, quote = FALSE, sep = "\t")
-write.table(mr_results, "007_metabolites_outcomes/analysis/002_adiposity_metabolite/bmi/mr_results.txt", 
+write.table(mr_results, "adiposity_metabolites_outcomes/analysis/002_adiposity_metabolite/bmi/mr_results.txt", 
             row.names = FALSE, col.names = TRUE, quote = FALSE, sep = "\t")
-write.table(mr_singlesnp, "007_metabolites_outcomes/analysis/002_adiposity_metabolite/bmi/mr_singlesnp.txt", 
+write.table(mr_singlesnp, "adiposity_metabolites_outcomes/analysis/002_adiposity_metabolite/bmi/mr_singlesnp.txt", 
             row.names = FALSE, col.names = TRUE, quote = FALSE, sep = "\t")
-write.table(mr_hetrogeneity, "007_metabolites_outcomes/analysis/002_adiposity_metabolite/bmi/mr_hetrogeneity.txt", 
+write.table(mr_hetrogeneity, "adiposity_metabolites_outcomes/analysis/002_adiposity_metabolite/bmi/mr_hetrogeneity.txt", 
             row.names = FALSE, col.names = TRUE, quote = FALSE, sep = "\t")
-write.table(mr_pleiotropy, "007_metabolites_outcomes/analysis/002_adiposity_metabolite/bmi/mr_pleiotropy.txt", 
+write.table(mr_pleiotropy, "adiposity_metabolites_outcomes/analysis/002_adiposity_metabolite/bmi/mr_pleiotropy.txt", 
             row.names = FALSE, col.names = TRUE, quote = FALSE, sep = "\t")
-write.table(mr_leaveoneout, "007_metabolites_outcomes/analysis/002_adiposity_metabolite/bmi/mr_leaveoneout.txt", 
+write.table(mr_leaveoneout, "adiposity_metabolites_outcomes/analysis/002_adiposity_metabolite/bmi/mr_leaveoneout.txt", 
             row.names = FALSE, col.names = TRUE, quote = FALSE, sep = "\t")
 
 
@@ -205,56 +202,56 @@ mr_pleiotropy <- mr_pleiotropy_test(harmonise_data)
 mr_leaveoneout <- mr_leaveoneout(harmonise_data)
 
 ## Plots ====
-plot_mr_scatter <- my_mr_scatter_plot(mr_results, harmonise_data)
+plot_mr_scatter <- mr_scatter_plot(mr_results, harmonise_data)
 plot_singlesnp_forest <- mr_forest_plot(mr_singlesnp)
 plot_leaveoneout_forest <- mr_leaveoneout_plot(mr_leaveoneout)
 plot_mr_funnel <- mr_funnel_plot(mr_singlesnp)
 
 ### save plots ====
-pdf("007_metabolites_outcomes/analysis/002_adiposity_metabolite/whr/plot_mr_scatter.pdf")
+pdf("adiposity_metabolites_outcomes/analysis/002_adiposity_metabolite/whr/figures/mr_scatter.pdf")
 for (i in 1:length(plot_mr_scatter)) {
   print(plot_mr_scatter[[i]])
 }
 dev.off()
 
-pdf("007_metabolites_outcomes/analysis/002_adiposity_metabolite/whr/plot_singlesnp_forest.pdf")
+pdf("adiposity_metabolites_outcomes/analysis/002_adiposity_metabolite/whr/figures/singlesnp_forest.pdf")
 for (i in 1:length(plot_singlesnp_forest)) {
   print(plot_singlesnp_forest[[i]])
 }
 dev.off()
 
-pdf("007_metabolites_outcomes/analysis/002_adiposity_metabolite/whr/plot_leaveoneout_forest.pdf")
+pdf("adiposity_metabolites_outcomes/analysis/002_adiposity_metabolite/whr/figures/leaveoneout_forest.pdf")
 for (i in 1:length(plot_leaveoneout_forest)) {
   print(plot_leaveoneout_forest[[i]])
 }
 dev.off()
 
-pdf("007_metabolites_outcomes/analysis/002_adiposity_metabolite/whr/plot_mr_funnel.pdf")
+pdf("adiposity_metabolites_outcomes/analysis/002_adiposity_metabolite/whr/figures/mr_funnel.pdf")
 for (i in 1:length(plot_mr_funnel)) {
   print(plot_mr_funnel[[i]])
 }
 dev.off()
 
 ## Save output ====
-write.table(whr, "007_metabolites_outcomes/analysis/002_adiposity_metabolite/whr/exposure_data.txt", 
+write.table(whr, "adiposity_metabolites_outcomes/analysis/002_adiposity_metabolite/whr/exposure_data.txt", 
             row.names = FALSE, col.names = TRUE, quote = FALSE, sep = "\t")
-write.table(harmonise_data, "007_metabolites_outcomes/analysis/002_adiposity_metabolite/whr/harmonise_data.txt", 
+write.table(harmonise_data, "adiposity_metabolites_outcomes/analysis/002_adiposity_metabolite/whr/harmonise_data.txt", 
             row.names = FALSE, col.names = TRUE, quote = FALSE, sep = "\t")
-write.table(mr_results, "007_metabolites_outcomes/analysis/002_adiposity_metabolite/whr/mr_results.txt", 
+write.table(mr_results, "adiposity_metabolites_outcomes/analysis/002_adiposity_metabolite/whr/mr_results.txt", 
             row.names = FALSE, col.names = TRUE, quote = FALSE, sep = "\t")
-write.table(mr_singlesnp, "007_metabolites_outcomes/analysis/002_adiposity_metabolite/whr/mr_singlesnp.txt", 
+write.table(mr_singlesnp, "adiposity_metabolites_outcomes/analysis/002_adiposity_metabolite/whr/mr_singlesnp.txt", 
             row.names = FALSE, col.names = TRUE, quote = FALSE, sep = "\t")
-write.table(mr_hetrogeneity, "007_metabolites_outcomes/analysis/002_adiposity_metabolite/whr/mr_hetrogeneity.txt", 
+write.table(mr_hetrogeneity, "adiposity_metabolites_outcomes/analysis/002_adiposity_metabolite/whr/mr_hetrogeneity.txt", 
             row.names = FALSE, col.names = TRUE, quote = FALSE, sep = "\t")
-write.table(mr_pleiotropy, "007_metabolites_outcomes/analysis/002_adiposity_metabolite/whr/mr_pleiotropy.txt", 
+write.table(mr_pleiotropy, "adiposity_metabolites_outcomes/analysis/002_adiposity_metabolite/whr/mr_pleiotropy.txt", 
             row.names = FALSE, col.names = TRUE, quote = FALSE, sep = "\t")
-write.table(mr_leaveoneout, "007_metabolites_outcomes/analysis/002_adiposity_metabolite/whr/mr_leaveoneout.txt", 
+write.table(mr_leaveoneout, "adiposity_metabolites_outcomes/analysis/002_adiposity_metabolite/whr/mr_leaveoneout.txt", 
             row.names = FALSE, col.names = TRUE, quote = FALSE, sep = "\t")
 
 
-# BF ====
+# whradjbmi ====
 ## harmonize data ====
-harmonise_data <- harmonise_data(bf, outcome_data_bf, action = 2)
+harmonise_data <- harmonise_data(whradjbmi, outcome_data_whradjbmi, action = 2)
 
 ## MR ====
 mr_results <- mr(harmonise_data, method_list = methods)
@@ -267,48 +264,48 @@ mr_pleiotropy <- mr_pleiotropy_test(harmonise_data)
 mr_leaveoneout <- mr_leaveoneout(harmonise_data)
 
 ## Plots ====
-plot_mr_scatter <- my_mr_scatter_plot(mr_results, harmonise_data)
+plot_mr_scatter <- mr_scatter_plot(mr_results, harmonise_data)
 plot_singlesnp_forest <- mr_forest_plot(mr_singlesnp)
 plot_leaveoneout_forest <- mr_leaveoneout_plot(mr_leaveoneout)
 plot_mr_funnel <- mr_funnel_plot(mr_singlesnp)
 
 ### save plots ====
-pdf("007_metabolites_outcomes/analysis/002_adiposity_metabolite/bf/plot_mr_scatter.pdf")
+pdf("adiposity_metabolites_outcomes/analysis/002_adiposity_metabolite/whradjbmi/figures/mr_scatter.pdf")
 for (i in 1:length(plot_mr_scatter)) {
   print(plot_mr_scatter[[i]])
 }
 dev.off()
 
-pdf("007_metabolites_outcomes/analysis/002_adiposity_metabolite/bf/plot_singlesnp_forest.pdf")
+pdf("adiposity_metabolites_outcomes/analysis/002_adiposity_metabolite/whradjbmi/figures/singlesnp_forest.pdf")
 for (i in 1:length(plot_singlesnp_forest)) {
   print(plot_singlesnp_forest[[i]])
 }
 dev.off()
 
-pdf("007_metabolites_outcomes/analysis/002_adiposity_metabolite/bf/plot_leaveoneout_forest.pdf")
+pdf("adiposity_metabolites_outcomes/analysis/002_adiposity_metabolite/whradjbmi/figures/leaveoneout_forest.pdf")
 for (i in 1:length(plot_leaveoneout_forest)) {
   print(plot_leaveoneout_forest[[i]])
 }
 dev.off()
 
-pdf("007_metabolites_outcomes/analysis/002_adiposity_metabolite/bf/plot_mr_funnel.pdf")
+pdf("adiposity_metabolites_outcomes/analysis/002_adiposity_metabolite/whradjbmi/figures/mr_funnel.pdf")
 for (i in 1:length(plot_mr_funnel)) {
   print(plot_mr_funnel[[i]])
 }
 dev.off()
 
 ## Save output ====
-write.table(bf, "007_metabolites_outcomes/analysis/002_adiposity_metabolite/bf/exposure_data.txt", 
+write.table(whradjbmi, "adiposity_metabolites_outcomes/analysis/002_adiposity_metabolite/whradjbmi/exposure_data.txt", 
             row.names = FALSE, col.names = TRUE, quote = FALSE, sep = "\t")
-write.table(harmonise_data, "007_metabolites_outcomes/analysis/002_adiposity_metabolite/bf/harmonise_data.txt", 
+write.table(harmonise_data, "adiposity_metabolites_outcomes/analysis/002_adiposity_metabolite/whradjbmi/harmonise_data.txt", 
             row.names = FALSE, col.names = TRUE, quote = FALSE, sep = "\t")
-write.table(mr_results, "007_metabolites_outcomes/analysis/002_adiposity_metabolite/bf/mr_results.txt", 
+write.table(mr_results, "adiposity_metabolites_outcomes/analysis/002_adiposity_metabolite/whradjbmi/mr_results.txt", 
             row.names = FALSE, col.names = TRUE, quote = FALSE, sep = "\t")
-write.table(mr_singlesnp, "007_metabolites_outcomes/analysis/002_adiposity_metabolite/bf/mr_singlesnp.txt", 
+write.table(mr_singlesnp, "adiposity_metabolites_outcomes/analysis/002_adiposity_metabolite/whradjbmi/mr_singlesnp.txt", 
             row.names = FALSE, col.names = TRUE, quote = FALSE, sep = "\t")
-write.table(mr_hetrogeneity, "007_metabolites_outcomes/analysis/002_adiposity_metabolite/bf/mr_hetrogeneity.txt", 
+write.table(mr_hetrogeneity, "adiposity_metabolites_outcomes/analysis/002_adiposity_metabolite/whradjbmi/mr_hetrogeneity.txt", 
             row.names = FALSE, col.names = TRUE, quote = FALSE, sep = "\t")
-write.table(mr_pleiotropy, "007_metabolites_outcomes/analysis/002_adiposity_metabolite/bf/mr_pleiotropy.txt", 
+write.table(mr_pleiotropy, "adiposity_metabolites_outcomes/analysis/002_adiposity_metabolite/whradjbmi/mr_pleiotropy.txt", 
             row.names = FALSE, col.names = TRUE, quote = FALSE, sep = "\t")
-write.table(mr_leaveoneout, "007_metabolites_outcomes/analysis/002_adiposity_metabolite/bf/mr_leaveoneout.txt", 
+write.table(mr_leaveoneout, "adiposity_metabolites_outcomes/analysis/002_adiposity_metabolite/whradjbmi/mr_leaveoneout.txt", 
             row.names = FALSE, col.names = TRUE, quote = FALSE, sep = "\t")
