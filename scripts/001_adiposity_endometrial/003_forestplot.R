@@ -25,7 +25,7 @@ data$outcome_label[data$outcome == "Endometrial cancer || id:ebi-a-GCST006464"] 
 data$method[data$method == "Inverse variance weighted (multiplicative random effects)"] <- "IVW-MRE"
 
 plot_data <- data 
-plot_data$exposure <- factor(plot_data$exposure, levels = c("BMI", "WHR", "BF"))
+plot_data$exposure <- factor(plot_data$exposure, levels = c("BMI", "WHR", "WHRadjBMI"))
 plot_data$outcome_label <- factor(plot_data$outcome_label, levels = c("Endometrial cancer", "Endometrioid", "Non-endometroid"))
 plot_data <- droplevels(plot_data)
 xmin <- min(plot_data$lower_ci)
