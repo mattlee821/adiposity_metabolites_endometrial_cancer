@@ -33,51 +33,54 @@ rm(d1,d2,d3,d4)
 
 ## extract exposure instruments ====
 bmi <- read_exposure_data("adiposity_metabolites_endometrial_cancer/data/bmi_snps.txt",
-                                    clump = F,
-                                    sep = "\t",
-                                    snp_col = "SNP",
-                                    beta_col = "b",
-                                    se_col = "SE",
-                                    eaf_col = "EAF",
-                                    effect_allele_col = "EA",
-                                    other_allele_col = "OA",
-                                    pval_col = "p",
-                                    samplesize_col = "n",
-                                    min_pval = 5e-8)
+                                  clump = F,
+                                  sep = "\t",
+                                  snp_col = "SNP",
+                                  beta_col = "beta.exposure",
+                                  se_col = "se.exposure",
+                                  eaf_col = "eaf.exposure",
+                                  effect_allele_col = "effect_allele.exposure",
+                                  other_allele_col = "other_allele.exposure",
+                                  pval_col = "pval.exposure",
+                                  samplesize_col = "samplesize.exposure",
+                                  phenotype = "exposure",
+                                  min_pval = 5e-9)
 bmi$exposure <- "BMI"
 bmi$id.exposure <- "BMI"
 bmi$f_stats <- (bmi$b / bmi$se)^2 
 bmi$mean_fstat <- mean(bmi$f_stats)
 
 whr <- read_exposure_data("adiposity_metabolites_endometrial_cancer/data/whr_snps.txt",
-                                    clump = F,
-                                    sep = "\t",
-                                    snp_col = "SNP",
-                                    beta_col = "WHR_EU_SC_meta_analysis_beta",
-                                    se_col = "WHR_EU_SC_meta_analysis_SE",
-                                    eaf_col = "WHR_EU_SC_meta_analysis_EAF",
-                                    effect_allele_col = "EA",
-                                    other_allele_col = "NEA",
-                                    pval_col = "WHR_EU_SC_meta_analysis_P",
-                                    samplesize_col = "WHR_EU_SC_meta_analysis_N",
-                                    min_pval = 5e-8)
+                                  clump = F,
+                                  sep = "\t",
+                                  snp_col = "SNP",
+                                  beta_col = "beta.exposure",
+                                  se_col = "se.exposure",
+                                  eaf_col = "eaf.exposure",
+                                  effect_allele_col = "effect_allele.exposure",
+                                  other_allele_col = "other_allele.exposure",
+                                  pval_col = "pval.exposure",
+                                  samplesize_col = "samplesize.exposure",
+                                  phenotype = "exposure",
+                                  min_pval = 5e-9)
 whr$exposure <- "WHR"
 whr$id.exposure <- "WHR"
 whr$f_stats <- (whr$b / whr$se)^2 
 whr$mean_fstat <- mean(whr$f_stats)
 
 whradjbmi <- read_exposure_data("adiposity_metabolites_endometrial_cancer/data/whradjbmi_snps.txt",
-                                    clump = F,
-                                    sep = "\t",
-                                    snp_col = "SNP",
-                                    beta_col = "b",
-                                    se_col = "se",
-                                    eaf_col = "EAF",
-                                    effect_allele_col = "EA",
-                                    other_allele_col = "OA",
-                                    pval_col = "p",
-                                    samplesize_col = "n",
-                                    min_pval = 5e-8)
+                                  clump = F,
+                                  sep = "\t",
+                                  snp_col = "SNP",
+                                  beta_col = "beta.exposure",
+                                  se_col = "se.exposure",
+                                  eaf_col = "eaf.exposure",
+                                  effect_allele_col = "effect_allele.exposure",
+                                  other_allele_col = "other_allele.exposure",
+                                  pval_col = "pval.exposure",
+                                  samplesize_col = "samplesize.exposure",
+                                  phenotype = "exposure",
+                                  min_pval = 5e-9)
 
 whradjbmi$exposure <- "WHRadjBMI"
 whradjbmi$id.exposure <- "WHRadjBMI"
