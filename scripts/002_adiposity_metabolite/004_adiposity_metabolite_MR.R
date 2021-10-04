@@ -90,7 +90,7 @@ whradjbmi$mean_fstat <- mean(whradjbmi$f_stats)
 ## extract outcome data ====
 outcome_data_bmi <- read_outcome_data(
     snps = bmi$SNP,
-    filename = "adiposity_metabolites_endometrial_cancer/data/adiposity_metabolites_endometrial_cancer/metabolite_outcome_bmi.txt",
+    filename = "adiposity_metabolites_endometrial_cancer/data/adiposity_metabolites_outcomes/metabolite_outcome_bmi.txt",
     sep = " ",
     snp_col = "SNP",
     beta_col = "BETA",
@@ -103,7 +103,7 @@ outcome_data_bmi <- read_outcome_data(
 
 outcome_data_whr <- read_outcome_data(
     snps = whr$SNP,
-    filename = "adiposity_metabolites_endometrial_cancer/data/adiposity_metabolites_endometrial_cancer/metabolite_outcome_whr.txt",
+    filename = "adiposity_metabolites_endometrial_cancer/data/adiposity_metabolites_outcomes/metabolite_outcome_whr.txt",
     sep = " ",
     snp_col = "SNP",
     beta_col = "BETA",
@@ -116,7 +116,7 @@ outcome_data_whr <- read_outcome_data(
 
 outcome_data_whradjbmi <- read_outcome_data(
     snps = whradjbmi$SNP,
-    filename = "adiposity_metabolites_endometrial_cancer/data/adiposity_metabolites_endometrial_cancer/metabolite_outcome_whradjbmi.txt",
+    filename = "adiposity_metabolites_endometrial_cancer/data/adiposity_metabolites_outcomes/metabolite_outcome_whradjbmi.txt",
     sep = " ",
     snp_col = "SNP",
     beta_col = "BETA",
