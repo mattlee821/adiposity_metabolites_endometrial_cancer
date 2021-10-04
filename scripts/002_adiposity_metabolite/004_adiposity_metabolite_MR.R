@@ -90,7 +90,7 @@ whradjbmi$mean_fstat <- mean(whradjbmi$f_stats)
 ## extract outcome data ====
 outcome_data_bmi <- read_outcome_data(
     snps = bmi$SNP,
-    filename = "adiposity_metabolites_endometrial_cancer/data/adiposity_metabolites_outcomes/metabolite_outcome_bmi.txt",
+    filename = "adiposity_metabolites_endometrial_cancer/data/adiposity_metabolites_endometrial_cancer/metabolite_outcome_bmi.txt",
     sep = " ",
     snp_col = "SNP",
     beta_col = "BETA",
@@ -103,7 +103,7 @@ outcome_data_bmi <- read_outcome_data(
 
 outcome_data_whr <- read_outcome_data(
     snps = whr$SNP,
-    filename = "adiposity_metabolites_endometrial_cancer/data/adiposity_metabolites_outcomes/metabolite_outcome_whr.txt",
+    filename = "adiposity_metabolites_endometrial_cancer/data/adiposity_metabolites_endometrial_cancer/metabolite_outcome_whr.txt",
     sep = " ",
     snp_col = "SNP",
     beta_col = "BETA",
@@ -116,7 +116,7 @@ outcome_data_whr <- read_outcome_data(
 
 outcome_data_whradjbmi <- read_outcome_data(
     snps = whradjbmi$SNP,
-    filename = "adiposity_metabolites_endometrial_cancer/data/adiposity_metabolites_outcomes/metabolite_outcome_whradjbmi.txt",
+    filename = "adiposity_metabolites_endometrial_cancer/data/adiposity_metabolites_endometrial_cancer/metabolite_outcome_whradjbmi.txt",
     sep = " ",
     snp_col = "SNP",
     beta_col = "BETA",
@@ -148,44 +148,44 @@ plot_leaveoneout_forest <- mr_leaveoneout_plot(mr_leaveoneout)
 plot_mr_funnel <- mr_funnel_plot(mr_singlesnp)
 
 ### save plots ====
-pdf("adiposity_metabolites_outcomes/analysis/002_adiposity_metabolite/bmi/figures/mr_scatter.pdf")
+pdf("adiposity_metabolites_endometrial_cancer/analysis/002_adiposity_metabolite/bmi/figures/mr_scatter.pdf")
 for (i in 1:length(plot_mr_scatter)) {
   print(plot_mr_scatter[[i]])
 }
 dev.off()
 
-pdf("adiposity_metabolites_outcomes/analysis/002_adiposity_metabolite/bmi/figures/singlesnp_forest.pdf")
+pdf("adiposity_metabolites_endometrial_cancer/analysis/002_adiposity_metabolite/bmi/figures/singlesnp_forest.pdf")
 for (i in 1:length(plot_singlesnp_forest)) {
   print(plot_singlesnp_forest[[i]])
 }
 dev.off()
 
-pdf("adiposity_metabolites_outcomes/analysis/002_adiposity_metabolite/bmi/figures/leaveoneout_forest.pdf")
+pdf("adiposity_metabolites_endometrial_cancer/analysis/002_adiposity_metabolite/bmi/figures/leaveoneout_forest.pdf")
 for (i in 1:length(plot_leaveoneout_forest)) {
   print(plot_leaveoneout_forest[[i]])
 }
 dev.off()
 
-pdf("adiposity_metabolites_outcomes/analysis/002_adiposity_metabolite/bmi/figures/mr_funnel.pdf")
+pdf("adiposity_metabolites_endometrial_cancer/analysis/002_adiposity_metabolite/bmi/figures/mr_funnel.pdf")
 for (i in 1:length(plot_mr_funnel)) {
   print(plot_mr_funnel[[i]])
 }
 dev.off()
 
 ## Save output ====
-write.table(bmi, "adiposity_metabolites_outcomes/analysis/002_adiposity_metabolite/bmi/exposure_data.txt", 
+write.table(bmi, "adiposity_metabolites_endometrial_cancer/analysis/002_adiposity_metabolite/bmi/exposure_data.txt", 
             row.names = FALSE, col.names = TRUE, quote = FALSE, sep = "\t")
-write.table(harmonise_data, "adiposity_metabolites_outcomes/analysis/002_adiposity_metabolite/bmi/harmonise_data.txt", 
+write.table(harmonise_data, "adiposity_metabolites_endometrial_cancer/analysis/002_adiposity_metabolite/bmi/harmonise_data.txt", 
             row.names = FALSE, col.names = TRUE, quote = FALSE, sep = "\t")
-write.table(mr_results, "adiposity_metabolites_outcomes/analysis/002_adiposity_metabolite/bmi/mr_results.txt", 
+write.table(mr_results, "adiposity_metabolites_endometrial_cancer/analysis/002_adiposity_metabolite/bmi/mr_results.txt", 
             row.names = FALSE, col.names = TRUE, quote = FALSE, sep = "\t")
-write.table(mr_singlesnp, "adiposity_metabolites_outcomes/analysis/002_adiposity_metabolite/bmi/mr_singlesnp.txt", 
+write.table(mr_singlesnp, "adiposity_metabolites_endometrial_cancer/analysis/002_adiposity_metabolite/bmi/mr_singlesnp.txt", 
             row.names = FALSE, col.names = TRUE, quote = FALSE, sep = "\t")
-write.table(mr_hetrogeneity, "adiposity_metabolites_outcomes/analysis/002_adiposity_metabolite/bmi/mr_hetrogeneity.txt", 
+write.table(mr_hetrogeneity, "adiposity_metabolites_endometrial_cancer/analysis/002_adiposity_metabolite/bmi/mr_hetrogeneity.txt", 
             row.names = FALSE, col.names = TRUE, quote = FALSE, sep = "\t")
-write.table(mr_pleiotropy, "adiposity_metabolites_outcomes/analysis/002_adiposity_metabolite/bmi/mr_pleiotropy.txt", 
+write.table(mr_pleiotropy, "adiposity_metabolites_endometrial_cancer/analysis/002_adiposity_metabolite/bmi/mr_pleiotropy.txt", 
             row.names = FALSE, col.names = TRUE, quote = FALSE, sep = "\t")
-write.table(mr_leaveoneout, "adiposity_metabolites_outcomes/analysis/002_adiposity_metabolite/bmi/mr_leaveoneout.txt", 
+write.table(mr_leaveoneout, "adiposity_metabolites_endometrial_cancer/analysis/002_adiposity_metabolite/bmi/mr_leaveoneout.txt", 
             row.names = FALSE, col.names = TRUE, quote = FALSE, sep = "\t")
 
 
@@ -211,44 +211,44 @@ plot_leaveoneout_forest <- mr_leaveoneout_plot(mr_leaveoneout)
 plot_mr_funnel <- mr_funnel_plot(mr_singlesnp)
 
 ### save plots ====
-pdf("adiposity_metabolites_outcomes/analysis/002_adiposity_metabolite/whr/figures/mr_scatter.pdf")
+pdf("adiposity_metabolites_endometrial_cancer/analysis/002_adiposity_metabolite/whr/figures/mr_scatter.pdf")
 for (i in 1:length(plot_mr_scatter)) {
   print(plot_mr_scatter[[i]])
 }
 dev.off()
 
-pdf("adiposity_metabolites_outcomes/analysis/002_adiposity_metabolite/whr/figures/singlesnp_forest.pdf")
+pdf("adiposity_metabolites_endometrial_cancer/analysis/002_adiposity_metabolite/whr/figures/singlesnp_forest.pdf")
 for (i in 1:length(plot_singlesnp_forest)) {
   print(plot_singlesnp_forest[[i]])
 }
 dev.off()
 
-pdf("adiposity_metabolites_outcomes/analysis/002_adiposity_metabolite/whr/figures/leaveoneout_forest.pdf")
+pdf("adiposity_metabolites_endometrial_cancer/analysis/002_adiposity_metabolite/whr/figures/leaveoneout_forest.pdf")
 for (i in 1:length(plot_leaveoneout_forest)) {
   print(plot_leaveoneout_forest[[i]])
 }
 dev.off()
 
-pdf("adiposity_metabolites_outcomes/analysis/002_adiposity_metabolite/whr/figures/mr_funnel.pdf")
+pdf("adiposity_metabolites_endometrial_cancer/analysis/002_adiposity_metabolite/whr/figures/mr_funnel.pdf")
 for (i in 1:length(plot_mr_funnel)) {
   print(plot_mr_funnel[[i]])
 }
 dev.off()
 
 ## Save output ====
-write.table(whr, "adiposity_metabolites_outcomes/analysis/002_adiposity_metabolite/whr/exposure_data.txt", 
+write.table(whr, "adiposity_metabolites_endometrial_cancer/analysis/002_adiposity_metabolite/whr/exposure_data.txt", 
             row.names = FALSE, col.names = TRUE, quote = FALSE, sep = "\t")
-write.table(harmonise_data, "adiposity_metabolites_outcomes/analysis/002_adiposity_metabolite/whr/harmonise_data.txt", 
+write.table(harmonise_data, "adiposity_metabolites_endometrial_cancer/analysis/002_adiposity_metabolite/whr/harmonise_data.txt", 
             row.names = FALSE, col.names = TRUE, quote = FALSE, sep = "\t")
-write.table(mr_results, "adiposity_metabolites_outcomes/analysis/002_adiposity_metabolite/whr/mr_results.txt", 
+write.table(mr_results, "adiposity_metabolites_endometrial_cancer/analysis/002_adiposity_metabolite/whr/mr_results.txt", 
             row.names = FALSE, col.names = TRUE, quote = FALSE, sep = "\t")
-write.table(mr_singlesnp, "adiposity_metabolites_outcomes/analysis/002_adiposity_metabolite/whr/mr_singlesnp.txt", 
+write.table(mr_singlesnp, "adiposity_metabolites_endometrial_cancer/analysis/002_adiposity_metabolite/whr/mr_singlesnp.txt", 
             row.names = FALSE, col.names = TRUE, quote = FALSE, sep = "\t")
-write.table(mr_hetrogeneity, "adiposity_metabolites_outcomes/analysis/002_adiposity_metabolite/whr/mr_hetrogeneity.txt", 
+write.table(mr_hetrogeneity, "adiposity_metabolites_endometrial_cancer/analysis/002_adiposity_metabolite/whr/mr_hetrogeneity.txt", 
             row.names = FALSE, col.names = TRUE, quote = FALSE, sep = "\t")
-write.table(mr_pleiotropy, "adiposity_metabolites_outcomes/analysis/002_adiposity_metabolite/whr/mr_pleiotropy.txt", 
+write.table(mr_pleiotropy, "adiposity_metabolites_endometrial_cancer/analysis/002_adiposity_metabolite/whr/mr_pleiotropy.txt", 
             row.names = FALSE, col.names = TRUE, quote = FALSE, sep = "\t")
-write.table(mr_leaveoneout, "adiposity_metabolites_outcomes/analysis/002_adiposity_metabolite/whr/mr_leaveoneout.txt", 
+write.table(mr_leaveoneout, "adiposity_metabolites_endometrial_cancer/analysis/002_adiposity_metabolite/whr/mr_leaveoneout.txt", 
             row.names = FALSE, col.names = TRUE, quote = FALSE, sep = "\t")
 
 
@@ -273,42 +273,42 @@ plot_leaveoneout_forest <- mr_leaveoneout_plot(mr_leaveoneout)
 plot_mr_funnel <- mr_funnel_plot(mr_singlesnp)
 
 ### save plots ====
-pdf("adiposity_metabolites_outcomes/analysis/002_adiposity_metabolite/whradjbmi/figures/mr_scatter.pdf")
+pdf("adiposity_metabolites_endometrial_cancer/analysis/002_adiposity_metabolite/whradjbmi/figures/mr_scatter.pdf")
 for (i in 1:length(plot_mr_scatter)) {
   print(plot_mr_scatter[[i]])
 }
 dev.off()
 
-pdf("adiposity_metabolites_outcomes/analysis/002_adiposity_metabolite/whradjbmi/figures/singlesnp_forest.pdf")
+pdf("adiposity_metabolites_endometrial_cancer/analysis/002_adiposity_metabolite/whradjbmi/figures/singlesnp_forest.pdf")
 for (i in 1:length(plot_singlesnp_forest)) {
   print(plot_singlesnp_forest[[i]])
 }
 dev.off()
 
-pdf("adiposity_metabolites_outcomes/analysis/002_adiposity_metabolite/whradjbmi/figures/leaveoneout_forest.pdf")
+pdf("adiposity_metabolites_endometrial_cancer/analysis/002_adiposity_metabolite/whradjbmi/figures/leaveoneout_forest.pdf")
 for (i in 1:length(plot_leaveoneout_forest)) {
   print(plot_leaveoneout_forest[[i]])
 }
 dev.off()
 
-pdf("adiposity_metabolites_outcomes/analysis/002_adiposity_metabolite/whradjbmi/figures/mr_funnel.pdf")
+pdf("adiposity_metabolites_endometrial_cancer/analysis/002_adiposity_metabolite/whradjbmi/figures/mr_funnel.pdf")
 for (i in 1:length(plot_mr_funnel)) {
   print(plot_mr_funnel[[i]])
 }
 dev.off()
 
 ## Save output ====
-write.table(whradjbmi, "adiposity_metabolites_outcomes/analysis/002_adiposity_metabolite/whradjbmi/exposure_data.txt", 
+write.table(whradjbmi, "adiposity_metabolites_endometrial_cancer/analysis/002_adiposity_metabolite/whradjbmi/exposure_data.txt", 
             row.names = FALSE, col.names = TRUE, quote = FALSE, sep = "\t")
-write.table(harmonise_data, "adiposity_metabolites_outcomes/analysis/002_adiposity_metabolite/whradjbmi/harmonise_data.txt", 
+write.table(harmonise_data, "adiposity_metabolites_endometrial_cancer/analysis/002_adiposity_metabolite/whradjbmi/harmonise_data.txt", 
             row.names = FALSE, col.names = TRUE, quote = FALSE, sep = "\t")
-write.table(mr_results, "adiposity_metabolites_outcomes/analysis/002_adiposity_metabolite/whradjbmi/mr_results.txt", 
+write.table(mr_results, "adiposity_metabolites_endometrial_cancer/analysis/002_adiposity_metabolite/whradjbmi/mr_results.txt", 
             row.names = FALSE, col.names = TRUE, quote = FALSE, sep = "\t")
-write.table(mr_singlesnp, "adiposity_metabolites_outcomes/analysis/002_adiposity_metabolite/whradjbmi/mr_singlesnp.txt", 
+write.table(mr_singlesnp, "adiposity_metabolites_endometrial_cancer/analysis/002_adiposity_metabolite/whradjbmi/mr_singlesnp.txt", 
             row.names = FALSE, col.names = TRUE, quote = FALSE, sep = "\t")
-write.table(mr_hetrogeneity, "adiposity_metabolites_outcomes/analysis/002_adiposity_metabolite/whradjbmi/mr_hetrogeneity.txt", 
+write.table(mr_hetrogeneity, "adiposity_metabolites_endometrial_cancer/analysis/002_adiposity_metabolite/whradjbmi/mr_hetrogeneity.txt", 
             row.names = FALSE, col.names = TRUE, quote = FALSE, sep = "\t")
-write.table(mr_pleiotropy, "adiposity_metabolites_outcomes/analysis/002_adiposity_metabolite/whradjbmi/mr_pleiotropy.txt", 
+write.table(mr_pleiotropy, "adiposity_metabolites_endometrial_cancer/analysis/002_adiposity_metabolite/whradjbmi/mr_pleiotropy.txt", 
             row.names = FALSE, col.names = TRUE, quote = FALSE, sep = "\t")
-write.table(mr_leaveoneout, "adiposity_metabolites_outcomes/analysis/002_adiposity_metabolite/whradjbmi/mr_leaveoneout.txt", 
+write.table(mr_leaveoneout, "adiposity_metabolites_endometrial_cancer/analysis/002_adiposity_metabolite/whradjbmi/mr_leaveoneout.txt", 
             row.names = FALSE, col.names = TRUE, quote = FALSE, sep = "\t")
