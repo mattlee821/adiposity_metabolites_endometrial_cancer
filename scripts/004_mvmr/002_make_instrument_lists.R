@@ -15,7 +15,9 @@ setwd(directory_1)
 
 # obtain metabolite instruments ====
 ## metabolites ====
-metabolites <- read_exposure_data("UKB_NMR_GWAS/exposure_data_female.txt",
+# metabolites <- read_exposure_data("UKB_NMR_GWAS/exposure_data_female.txt",
+metabolites <- read_exposure_data("adiposity_metabolites_endometrial_cancer/data/exposure_data_female.txt",
+                                  
                                   clump = F,
                                   sep = " ",
                                   snp_col = "SNP",
@@ -32,17 +34,19 @@ metabolites$UKB_label = gsub("_", "", metabolites$UKB_label)
 metabolites$UKB_label = gsub("%", "pct", metabolites$UKB_label)
 metabolites$UKB_label = gsub("-", "", metabolites$UKB_label)
 metabolites$UKB_label = tolower(metabolites$UKB_label)
-colnames(metabolites) <- c("SNP","filename","UKB_label")
-metabolites$filename <- sub(".txt_snps", "", metabolites$filename)
 
-## associated metabolites
+## associated metabolites and clump
 associated_metabolites <- read.table("adiposity_metabolites_endometrial_cancer/analysis/004_mvmr/associated_metabolites.txt", header = T, sep = "\t")
 associated_metabolites <- associated_metabolites[,1]
 metabolites <- metabolites[metabolites$UKB_label %in% associated_metabolites,]
 metabolites <- clump_data(metabolites,
                             clump_kb = 10000,
                             clump_r2 = 0.001)
-metabolites <- select(metabolites, "SNP", "exposure")
+
+## format for saving
+metabolites <- select(metabolites, "SNP", "exposure", "UKB_label")
+colnames(metabolites) <- c("SNP","filename","UKB_label")
+metabolites$filename <- sub(".txt_snps", "", metabolites$filename)
 
 ## adiposity instruments ====
 ### bmi ====
