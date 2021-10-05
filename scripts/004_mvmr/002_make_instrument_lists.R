@@ -27,9 +27,6 @@ metabolites <- read_exposure_data("UKB_NMR_GWAS/exposure_data_female.txt",
                                   pval_col = "P_BOLT_LMM_INF",
                                   phenotype = "phenotype",
                                   min_pval = 5e-8)
-metabolites <- clump_data(metabolites,
-                            clump_kb = 10000,
-                            clump_r2 = 0.001)
 metabolites <- select(metabolites, "SNP", "exposure")
 metabolites$UKB_label <- sub("_int_imputed.txt_snps.txt*", "", metabolites$exposure)
 metabolites$UKB_label = gsub("_", "", metabolites$UKB_label)
@@ -43,7 +40,9 @@ metabolites$filename <- sub(".txt_snps", "", metabolites$filename)
 associated_metabolites <- read.table("adiposity_metabolites_endometrial_cancer/analysis/004_mvmr/associated_metabolites.txt", header = T, sep = "\t")
 associated_metabolites <- associated_metabolites[,1]
 metabolites <- metabolites[metabolites$UKB_label %in% associated_metabolites,]
-
+metabolites <- clump_data(metabolites,
+                            clump_kb = 10000,
+                            clump_r2 = 0.001)
 ## adiposity instruments ====
 ### bmi ====
 adiposity <- read_exposure_data("adiposity_metabolites_endometrial_cancer/data/bmi_snps.txt",
