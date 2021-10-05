@@ -15,8 +15,7 @@ setwd(directory_1)
 
 # obtain metabolite instruments ====
 ## metabolites ====
-# metabolites <- read_exposure_data("UKB_NMR_GWAS/exposure_data_female.txt",
-metabolites <- read_exposure_data("adiposity_metabolites_endometrial_cancer/data/exposure_data_female.txt",
+metabolites <- read_exposure_data("UKB_NMR_GWAS/exposure_data_female.txt",
                                   clump = F,
                                   sep = " ",
                                   snp_col = "SNP",
