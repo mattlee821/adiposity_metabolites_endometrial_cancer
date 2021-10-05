@@ -3,6 +3,7 @@ rm(list=ls())
 
 # environment ====
 ## library ====
+library(TwoSampleMR)
 library(data.table)
 library(dplyr)
 
