@@ -16,7 +16,7 @@ colours <- names(wes_palettes)
 discrete_palette <- wes_palette(colours[8], type = "discrete")
 
 # data ====
-plot_data <- read.table("007_metabolites_outcomes/analysis/003_metabolite_endometrial/mr_results_formatted_associated_metabolites.txt", header = T, sep = "\t")
+plot_data <- read.table("adiposity_metabolites_endometrial_cancer/analysis/003_metabolite_endometrial/mr_results_formatted_associated_metabolites.txt", header = T, sep = "\t")
 plot_data$outcome_label[plot_data$outcome == "Endometrial cancer (endometrioid histology) || id:ebi-a-GCST006465"] <- "Endometrioid"
 plot_data$outcome_label[plot_data$outcome == "Endometrial cancer (Non-endometrioid histology) || id:ebi-a-GCST006466"] <- "Non-endometroid"
 plot_data$outcome_label[plot_data$outcome == "Endometrial cancer || id:ebi-a-GCST006464"] <- "Endometrial cancer"
@@ -31,7 +31,7 @@ ci <- 0.95
 
 plot_data <- plot_data[order(plot_data$UKB_name.1),]
 
-pdf("007_metabolites_outcomes/analysis/003_metabolite_endometrial/figures/forestplot.pdf",
+pdf("adiposity_metabolites_endometrial_cancer/analysis/003_metabolite_endometrial/figures/forestplot.pdf",
     width = 8, height = 8, pointsize = 10)
 forestplot(df = plot_data,
            name = UKB_name.1,

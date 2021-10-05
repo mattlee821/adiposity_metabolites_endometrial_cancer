@@ -16,5 +16,12 @@ data$metabolite = gsub("-", "", data$metabolite)
 data$metabolite = tolower(data$metabolite)
 data$UKB_label <- data$metabolite
 data <- left_join(data, metab, by = "UKB_label")
+
+# OR and CI
+data$OR <- exp(data$b)
+data$lower_ci <- data$OR - (1.96 * data$se)
+data$upper_ci <- data$OR + (1.96 * data$se)
+
+# save
 write.table(data, "adiposity_metabolites_endometrial_cancer/analysis/003_metabolite_endometrial/mr_results_formatted.txt", 
             row.names = FALSE, col.names = TRUE, quote = FALSE, sep = "\t")

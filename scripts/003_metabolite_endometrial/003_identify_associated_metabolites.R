@@ -5,55 +5,17 @@ setwd(directory_1)
 
 library(dplyr)
 
-# bmi ====
-associated_metabolites <- read.table("007_metabolites_outcomes/analysis/002_adiposity_metabolite/bmi/mr_results_formatted_associated_metabolites.txt", header = T, sep = "\t")
-associated_metabolites <- unique(associated_metabolites$metabolite)
-data <- read.table("007_metabolites_outcomes/analysis/003_metabolite_endometrial/mr_results_formatted.txt", header = T, sep = "\t")
-data <- data[data$UKB_label %in% associated_metabolites,]
-# identify differences
-data_metabolites <- unique(data$UKB_label)
-length(data_metabolites) - length(associated_metabolites)
-setdiff(data_metabolites, associated_metabolites)
-setdiff(associated_metabolites, data_metabolites)
-# identify nominal threshold
+# data ====
+data <- read.table("adiposity_metabolites_endometrial_cancer/analysis/003_metabolite_endometrial/mr_results_formatted.txt", header = T, sep = "\t")
+data1 <- subset(data, method == "Wald ratio")
 data <- subset(data, method == "Inverse variance weighted (multiplicative random effects)")
-data$adiposity <- "bmi"
-bmi <- subset(data, pval < 0.05)
-
-# whr ====
-associated_metabolites <- read.table("007_metabolites_outcomes/analysis/002_adiposity_metabolite/whr/mr_results_formatted_associated_metabolites.txt", header = T, sep = "\t")
-associated_metabolites <- unique(associated_metabolites$metabolite)
-data <- read.table("007_metabolites_outcomes/analysis/003_metabolite_endometrial/mr_results_formatted.txt", header = T, sep = "\t")
-data <- data[data$UKB_label %in% associated_metabolites,]
-# identify differences
-data_metabolites <- unique(data$UKB_label)
-length(data_metabolites) - length(associated_metabolites)
-setdiff(data_metabolites, associated_metabolites)
-setdiff(associated_metabolites, data_metabolites)
-# identify nominal threshold
-data <- subset(data, method == "Inverse variance weighted (multiplicative random effects)")
-data$adiposity <- "whr"
-whr <- subset(data, pval < 0.05)
-
-# bf ====
-associated_metabolites <- read.table("007_metabolites_outcomes/analysis/002_adiposity_metabolite/bf/mr_results_formatted_associated_metabolites.txt", header = T, sep = "\t")
-associated_metabolites <- unique(associated_metabolites$metabolite)
-data <- read.table("007_metabolites_outcomes/analysis/003_metabolite_endometrial/mr_results_formatted.txt", header = T, sep = "\t")
-data <- data[data$UKB_label %in% associated_metabolites,]
-# identify differences
-data_metabolites <- unique(data$UKB_label)
-length(data_metabolites) - length(associated_metabolites)
-setdiff(data_metabolites, associated_metabolites)
-setdiff(associated_metabolites, data_metabolites)
-# identify nominal threshold
-data <- subset(data, method == "Inverse variance weighted (multiplicative random effects)")
-data$adiposity <- "bf"
-bf <- subset(data, pval < 0.05)
-
-# ====
-data <- rbind(bmi,whr,bf)
-associated_metabolites <- unique(data$UKB_label)
-data <- read.table("007_metabolites_outcomes/analysis/003_metabolite_endometrial/mr_results_formatted.txt", header = T, sep = "\t")
-data <- data[data$UKB_label %in% associated_metabolites,]
-write.table(data, "007_metabolites_outcomes/analysis/003_metabolite_endometrial/mr_results_formatted_associated_metabolites.txt", 
+data <- rbind(data, data1)
+rm(data1)
+data$direction[data$OR > 1] <- "+"
+data$direction[data$OR < 1] <- "-"
+data <- select(data, c("metabolite","outcome",
+                       "nsnp","b","se","OR","lower_ci","upper_ci","pval","direction",
+                       "UKB_label","UKB_name","UKB_name2","UKB_unit","UKB_class","UKB_subclass","UKB_subclass_unit","UKB_derived"))
+data <- subset(data, pval < 0.05)
+write.table(data, "adiposity_metabolites_endometrial_cancer/analysis/003_metabolite_endometrial/associated_metabolites.txt", 
             row.names = FALSE, col.names = TRUE, quote = FALSE, sep = "\t")
