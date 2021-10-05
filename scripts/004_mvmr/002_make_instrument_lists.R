@@ -15,7 +15,8 @@ setwd(directory_1)
 
 # obtain metabolite instruments ====
 ## metabolites ====
-metabolites <- read_exposure_data("UKB_NMR_GWAS/exposure_data_female.txt",
+# metabolites <- read_exposure_data("UKB_NMR_GWAS/exposure_data_female.txt",
+metabolites <- read_exposure_data("adiposity_metabolites_endometrial_cancer/data/exposure_data_female.txt",
                                   clump = F,
                                   sep = " ",
                                   snp_col = "SNP",
@@ -70,8 +71,12 @@ bmi_metabolites_list = lapply(associated_metabolites, function(met){
   w = which(metabolites$UKB_label == met)
   return( metabolites[w, ] )
 })
+
 for (i in 1:length(bmi_metabolites_list))
   bmi_metabolites_list[[i]] = rbind(bmi_metabolites_list[[i]], adiposity)
+
+for (i in 1:length(bmi_metabolites_list))
+  bmi_metabolites_list[[i]] = select(bmi_metabolites_list[[i]], "SNP")
 
 ### whr ====
 adiposity <- read_exposure_data("adiposity_metabolites_endometrial_cancer/data/whr_snps.txt",
@@ -96,8 +101,12 @@ whr_metabolites_list = lapply(associated_metabolites, function(met){
   w = which(metabolites$UKB_label == met)
   return( metabolites[w, ] )
 })
+
 for (i in 1:length(whr_metabolites_list))
   whr_metabolites_list[[i]] = rbind(whr_metabolites_list[[i]], adiposity)
+
+for (i in 1:length(whr_metabolites_list))
+  whr_metabolites_list[[i]] = select(whr_metabolites_list[[i]], "SNP")
 
 ### whradjbmi ====
 adiposity <- read_exposure_data("adiposity_metabolites_endometrial_cancer/data/whradjbmi_snps.txt",
@@ -122,8 +131,12 @@ whradjbmi_metabolites_list = lapply(associated_metabolites, function(met){
   w = which(metabolites$UKB_label == met)
   return( metabolites[w, ] )
 })
+
 for (i in 1:length(whradjbmi_metabolites_list))
   whradjbmi_metabolites_list[[i]] = rbind(whradjbmi_metabolites_list[[i]], adiposity)
+
+for (i in 1:length(whradjbmi_metabolites_list))
+  whradjbmi_metabolites_list[[i]] = select(whradjbmi_metabolites_list[[i]], "SNP")
 
 
 ## save ====
