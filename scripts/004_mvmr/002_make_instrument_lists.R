@@ -78,6 +78,16 @@ for (i in 1:length(bmi_metabolites_list))
 for (i in 1:length(bmi_metabolites_list))
   bmi_metabolites_list[[i]] = select(bmi_metabolites_list[[i]], "SNP")
 
+for (i in 1:length(bmi_metabolites_list))
+  bmi_metabolites_list[[i]] <- clump_data(bmi_metabolites_list[[i]],
+                                         clump_kb = 10000,
+                                         clump_r2 = 0.001)
+
+#### save
+for (i in 1:length(bmi_metabolites_list))
+  write.table(bmi_metabolites_list[[i]], paste0("adiposity_metabolites_endometrial_cancer/analysis/004_mvmr/snp_lists/bmi/",whradjbmi_metabolites_list[[i]][1,2]),
+              row.names = FALSE, col.names = TRUE, quote = FALSE, sep = "\t")
+
 ### whr ====
 adiposity <- read_exposure_data("adiposity_metabolites_endometrial_cancer/data/whr_snps.txt",
                          clump = F,
@@ -107,6 +117,17 @@ for (i in 1:length(whr_metabolites_list))
 
 for (i in 1:length(whr_metabolites_list))
   whr_metabolites_list[[i]] = select(whr_metabolites_list[[i]], "SNP")
+
+for (i in 1:length(whr_metabolites_list))
+  whr_metabolites_list[[i]] <- clump_data(whr_metabolites_list[[i]],
+                                          clump_kb = 10000,
+                                          clump_r2 = 0.001)
+
+## save ====
+for (i in 1:length(whr_metabolites_list))
+  write.table(whr_metabolites_list[[i]], paste0("adiposity_metabolites_endometrial_cancer/analysis/004_mvmr/snp_lists/whr/",whradjbmi_metabolites_list[[i]][1,2]),
+              row.names = FALSE, col.names = TRUE, quote = FALSE, sep = "\t")
+
 
 ### whradjbmi ====
 adiposity <- read_exposure_data("adiposity_metabolites_endometrial_cancer/data/whradjbmi_snps.txt",
@@ -138,16 +159,12 @@ for (i in 1:length(whradjbmi_metabolites_list))
 for (i in 1:length(whradjbmi_metabolites_list))
   whradjbmi_metabolites_list[[i]] = select(whradjbmi_metabolites_list[[i]], "SNP")
 
+for (i in 1:length(whradjbmi_metabolites_list))
+  whradjbmi_metabolites_list[[i]] <- clump_data(whradjbmi_metabolites_list[[i]],
+                                          clump_kb = 10000,
+                                          clump_r2 = 0.001)
 
-## save ====
-for (i in 1:length(bmi_metabolites_list))
-  write.table(bmi_metabolites_list[[i]], paste0("adiposity_metabolites_endometrial_cancer/analysis/004_mvmr/snp_lists/bmi/",whradjbmi_metabolites_list[[i]][1,2]),
-              row.names = FALSE, col.names = TRUE, quote = FALSE, sep = "\t")
-
-for (i in 1:length(whr_metabolites_list))
-  write.table(whr_metabolites_list[[i]], paste0("adiposity_metabolites_endometrial_cancer/analysis/004_mvmr/snp_lists/whr/",whradjbmi_metabolites_list[[i]][1,2]),
-              row.names = FALSE, col.names = TRUE, quote = FALSE, sep = "\t")
-
+#### save
 for (i in 1:length(whradjbmi_metabolites_list))
   write.table(whradjbmi_metabolites_list[[i]], paste0("adiposity_metabolites_endometrial_cancer/analysis/004_mvmr/snp_lists/whradjbmi/",whradjbmi_metabolites_list[[i]][1,2]),
             row.names = FALSE, col.names = TRUE, quote = FALSE, sep = "\t")
