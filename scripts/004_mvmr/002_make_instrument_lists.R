@@ -75,16 +75,20 @@ for (i in 1:length(bmi_metabolites_list))
   bmi_metabolites_list[[i]] = rbind(bmi_metabolites_list[[i]], adiposity)
 
 for (i in 1:length(bmi_metabolites_list))
-  bmi_metabolites_list[[i]] = select(bmi_metabolites_list[[i]], "SNP")
-
-for (i in 1:length(bmi_metabolites_list))
   bmi_metabolites_list[[i]] <- clump_data(bmi_metabolites_list[[i]],
                                          clump_kb = 10000,
                                          clump_r2 = 0.001)
 
+names <- unlist(lapply(bmi_metabolites_list,function(x) x[1,2]))
+for (i in 1:length(bmi_metabolites_list))
+  names(bmi_metabolites_list[[i]]) = names[[i]]
+
+for (i in 1:length(bmi_metabolites_list))
+  bmi_metabolites_list[[i]] <- as.data.frame(bmi_metabolites_list[[i]][,1])
+
 #### save
 for (i in 1:length(bmi_metabolites_list))
-  write.table(bmi_metabolites_list[[i]], paste0("adiposity_metabolites_endometrial_cancer/analysis/004_mvmr/snp_lists/bmi/",whradjbmi_metabolites_list[[i]][1,2]),
+  write.table(bmi_metabolites_list[i], paste0("adiposity_metabolites_endometrial_cancer/analysis/004_mvmr/snp_lists/bmi/",names[[i]],".txt"),
               row.names = FALSE, col.names = TRUE, quote = FALSE, sep = "\t")
 
 ### whr ====
@@ -115,18 +119,21 @@ for (i in 1:length(whr_metabolites_list))
   whr_metabolites_list[[i]] = rbind(whr_metabolites_list[[i]], adiposity)
 
 for (i in 1:length(whr_metabolites_list))
-  whr_metabolites_list[[i]] = select(whr_metabolites_list[[i]], "SNP")
-
-for (i in 1:length(whr_metabolites_list))
   whr_metabolites_list[[i]] <- clump_data(whr_metabolites_list[[i]],
                                           clump_kb = 10000,
                                           clump_r2 = 0.001)
 
-## save ====
+names <- unlist(lapply(whr_metabolites_list,function(x) x[1,2]))
 for (i in 1:length(whr_metabolites_list))
-  write.table(whr_metabolites_list[[i]], paste0("adiposity_metabolites_endometrial_cancer/analysis/004_mvmr/snp_lists/whr/",whradjbmi_metabolites_list[[i]][1,2]),
-              row.names = FALSE, col.names = TRUE, quote = FALSE, sep = "\t")
+  names(whr_metabolites_list[[i]]) = names[[i]]
 
+for (i in 1:length(whr_metabolites_list))
+  whr_metabolites_list[[i]] <- as.data.frame(whr_metabolites_list[[i]][,1])
+
+#### save
+for (i in 1:length(whr_metabolites_list))
+  write.table(whr_metabolites_list[i], paste0("adiposity_metabolites_endometrial_cancer/analysis/004_mvmr/snp_lists/whr/",names[[i]],".txt"),
+              row.names = FALSE, col.names = TRUE, quote = FALSE, sep = "\t")
 
 ### whradjbmi ====
 adiposity <- read_exposure_data("adiposity_metabolites_endometrial_cancer/data/whradjbmi_snps.txt",
@@ -156,14 +163,18 @@ for (i in 1:length(whradjbmi_metabolites_list))
   whradjbmi_metabolites_list[[i]] = rbind(whradjbmi_metabolites_list[[i]], adiposity)
 
 for (i in 1:length(whradjbmi_metabolites_list))
-  whradjbmi_metabolites_list[[i]] = select(whradjbmi_metabolites_list[[i]], "SNP")
-
-for (i in 1:length(whradjbmi_metabolites_list))
   whradjbmi_metabolites_list[[i]] <- clump_data(whradjbmi_metabolites_list[[i]],
                                           clump_kb = 10000,
                                           clump_r2 = 0.001)
 
+names <- unlist(lapply(whradjbmi_metabolites_list,function(x) x[1,2]))
+for (i in 1:length(whradjbmi_metabolites_list))
+  names(whradjbmi_metabolites_list[[i]]) = names[[i]]
+
+for (i in 1:length(whradjbmi_metabolites_list))
+  whradjbmi_metabolites_list[[i]] <- as.data.frame(whradjbmi_metabolites_list[[i]][,1])
+
 #### save
 for (i in 1:length(whradjbmi_metabolites_list))
-  write.table(whradjbmi_metabolites_list[[i]], paste0("adiposity_metabolites_endometrial_cancer/analysis/004_mvmr/snp_lists/whradjbmi/",whradjbmi_metabolites_list[[i]][1,2]),
-            row.names = FALSE, col.names = TRUE, quote = FALSE, sep = "\t")
+  write.table(whradjbmi_metabolites_list[i], paste0("adiposity_metabolites_endometrial_cancer/analysis/004_mvmr/snp_lists/whradjbmi/",names[[i]],".txt"),
+              row.names = FALSE, col.names = TRUE, quote = FALSE, sep = "\t")
