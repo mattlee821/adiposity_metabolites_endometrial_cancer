@@ -88,7 +88,7 @@ for (i in 1:length(bmi_metabolites_list))
 
 #### save
 for (i in 1:length(bmi_metabolites_list))
-  write.table(bmi_metabolites_list[i], paste0("adiposity_metabolites_endometrial_cancer/analysis/004_mvmr/snp_lists/bmi/",names[[i]],".txt"),
+  write.table(bmi_metabolites_list[i], paste0("adiposity_metabolites_endometrial_cancer/analysis/004_mvmr/snp_lists/bmi/",names[[i]]),
               row.names = FALSE, col.names = TRUE, quote = FALSE, sep = "\t")
 
 ### whr ====
@@ -132,7 +132,7 @@ for (i in 1:length(whr_metabolites_list))
 
 #### save
 for (i in 1:length(whr_metabolites_list))
-  write.table(whr_metabolites_list[i], paste0("adiposity_metabolites_endometrial_cancer/analysis/004_mvmr/snp_lists/whr/",names[[i]],".txt"),
+  write.table(whr_metabolites_list[i], paste0("adiposity_metabolites_endometrial_cancer/analysis/004_mvmr/snp_lists/whr/",names[[i]]),
               row.names = FALSE, col.names = TRUE, quote = FALSE, sep = "\t")
 
 ### whradjbmi ====
@@ -176,5 +176,5 @@ for (i in 1:length(whradjbmi_metabolites_list))
 
 #### save
 for (i in 1:length(whradjbmi_metabolites_list))
-  write.table(whradjbmi_metabolites_list[i], paste0("adiposity_metabolites_endometrial_cancer/analysis/004_mvmr/snp_lists/whradjbmi/",names[[i]],".txt"),
+  write.table(whradjbmi_metabolites_list[i], paste0("adiposity_metabolites_endometrial_cancer/analysis/004_mvmr/snp_lists/whradjbmi/",names[[i]]),
               row.names = FALSE, col.names = TRUE, quote = FALSE, sep = "\t")
