@@ -1,37 +1,37 @@
 id.exposure	id.outcome	outcome	exposure	method	nsnp	b	se	pval
-Locke BMI EU sex combined 77 SNPs clumped	ebi-a-GCST006464	Endometrial cancer || id:ebi-a-GCST006464	Locke BMI EU sex combined 77 SNPs clumped	MR Egger	76	0.540242251791419	0.205608782671742	0.0104504787160705
-Locke BMI EU sex combined 77 SNPs clumped	ebi-a-GCST006464	Endometrial cancer || id:ebi-a-GCST006464	Locke BMI EU sex combined 77 SNPs clumped	Weighted median	76	0.573654077954739	0.129425720751005	9.32316476613523e-06
-Locke BMI EU sex combined 77 SNPs clumped	ebi-a-GCST006464	Endometrial cancer || id:ebi-a-GCST006464	Locke BMI EU sex combined 77 SNPs clumped	Inverse variance weighted (multiplicative random effects)	76	0.646688373409247	0.0831627354438173	7.47475199746802e-15
-Locke BMI EU sex combined 77 SNPs clumped	ebi-a-GCST006464	Endometrial cancer || id:ebi-a-GCST006464	Locke BMI EU sex combined 77 SNPs clumped	Weighted mode	76	0.542655526196515	0.147773939123136	0.00044821214256919
-Locke BMI EU sex combined 77 SNPs clumped	ebi-a-GCST006465	Endometrial cancer (endometrioid histology) || id:ebi-a-GCST006465	Locke BMI EU sex combined 77 SNPs clumped	MR Egger	76	0.618569192518854	0.235250476967732	0.010397836039246
-Locke BMI EU sex combined 77 SNPs clumped	ebi-a-GCST006465	Endometrial cancer (endometrioid histology) || id:ebi-a-GCST006465	Locke BMI EU sex combined 77 SNPs clumped	Weighted median	76	0.663860558439413	0.135234223477424	9.15566286279414e-07
-Locke BMI EU sex combined 77 SNPs clumped	ebi-a-GCST006465	Endometrial cancer (endometrioid histology) || id:ebi-a-GCST006465	Locke BMI EU sex combined 77 SNPs clumped	Inverse variance weighted (multiplicative random effects)	76	0.702715008833379	0.095232211407754	1.59526593670411e-13
-Locke BMI EU sex combined 77 SNPs clumped	ebi-a-GCST006465	Endometrial cancer (endometrioid histology) || id:ebi-a-GCST006465	Locke BMI EU sex combined 77 SNPs clumped	Weighted mode	76	0.554087459844655	0.177945994632979	0.00261504189910531
-Locke BMI EU sex combined 77 SNPs clumped	ebi-a-GCST006466	Endometrial cancer (Non-endometrioid histology) || id:ebi-a-GCST006466	Locke BMI EU sex combined 77 SNPs clumped	MR Egger	76	0.073359602740502	0.496090166760368	0.882843181608885
-Locke BMI EU sex combined 77 SNPs clumped	ebi-a-GCST006466	Endometrial cancer (Non-endometrioid histology) || id:ebi-a-GCST006466	Locke BMI EU sex combined 77 SNPs clumped	Weighted median	76	0.185786069756317	0.322839276438204	0.564969806432474
-Locke BMI EU sex combined 77 SNPs clumped	ebi-a-GCST006466	Endometrial cancer (Non-endometrioid histology) || id:ebi-a-GCST006466	Locke BMI EU sex combined 77 SNPs clumped	Inverse variance weighted (multiplicative random effects)	76	0.489596474816148	0.195285860313148	0.0121734567005973
-Locke BMI EU sex combined 77 SNPs clumped	ebi-a-GCST006466	Endometrial cancer (Non-endometrioid histology) || id:ebi-a-GCST006466	Locke BMI EU sex combined 77 SNPs clumped	Weighted mode	76	0.188100932971858	0.42227915814687	0.657283382175575
-Lu BF EU sex combined 5 SNPs	ebi-a-GCST006464	Endometrial cancer || id:ebi-a-GCST006464	Lu BF EU sex combined 5 SNPs	MR Egger	5	1.61297140204074	0.856633104536826	0.156243437258536
-Lu BF EU sex combined 5 SNPs	ebi-a-GCST006464	Endometrial cancer || id:ebi-a-GCST006464	Lu BF EU sex combined 5 SNPs	Weighted median	5	0.930858202570263	0.249981916630675	0.000196322520253777
-Lu BF EU sex combined 5 SNPs	ebi-a-GCST006464	Endometrial cancer || id:ebi-a-GCST006464	Lu BF EU sex combined 5 SNPs	Inverse variance weighted (multiplicative random effects)	5	0.930922865553603	0.112130060167026	1.02226450398168e-16
-Lu BF EU sex combined 5 SNPs	ebi-a-GCST006464	Endometrial cancer || id:ebi-a-GCST006464	Lu BF EU sex combined 5 SNPs	Weighted mode	5	0.930580420102645	0.308891596342821	0.0394475714118039
-Lu BF EU sex combined 5 SNPs	ebi-a-GCST006465	Endometrial cancer (endometrioid histology) || id:ebi-a-GCST006465	Lu BF EU sex combined 5 SNPs	MR Egger	5	2.61677073180817	1.01144946052138	0.0812744903332364
-Lu BF EU sex combined 5 SNPs	ebi-a-GCST006465	Endometrial cancer (endometrioid histology) || id:ebi-a-GCST006465	Lu BF EU sex combined 5 SNPs	Weighted median	5	1.20832082873776	0.280629552944535	1.66420570659223e-05
-Lu BF EU sex combined 5 SNPs	ebi-a-GCST006465	Endometrial cancer (endometrioid histology) || id:ebi-a-GCST006465	Lu BF EU sex combined 5 SNPs	Inverse variance weighted (multiplicative random effects)	5	1.00544844336654	0.205492368067476	9.93735924407916e-07
-Lu BF EU sex combined 5 SNPs	ebi-a-GCST006465	Endometrial cancer (endometrioid histology) || id:ebi-a-GCST006465	Lu BF EU sex combined 5 SNPs	Weighted mode	5	1.24317292751041	0.345709907410684	0.022839347156701
-Lu BF EU sex combined 5 SNPs	ebi-a-GCST006466	Endometrial cancer (Non-endometrioid histology) || id:ebi-a-GCST006466	Lu BF EU sex combined 5 SNPs	MR Egger	5	2.92571315616588	3.35407781033601	0.447248236139322
-Lu BF EU sex combined 5 SNPs	ebi-a-GCST006466	Endometrial cancer (Non-endometrioid histology) || id:ebi-a-GCST006466	Lu BF EU sex combined 5 SNPs	Weighted median	5	0.218506309433701	0.701269541006306	0.75535459194015
-Lu BF EU sex combined 5 SNPs	ebi-a-GCST006466	Endometrial cancer (Non-endometrioid histology) || id:ebi-a-GCST006466	Lu BF EU sex combined 5 SNPs	Inverse variance weighted (multiplicative random effects)	5	0.696876293686971	0.685736363277991	0.309512632894522
-Lu BF EU sex combined 5 SNPs	ebi-a-GCST006466	Endometrial cancer (Non-endometrioid histology) || id:ebi-a-GCST006466	Lu BF EU sex combined 5 SNPs	Weighted mode	5	0.0273035211328514	0.830354891059789	0.975344241660949
-Shungin WHR EU sex combined 26 SNPs	ebi-a-GCST006464	Endometrial cancer || id:ebi-a-GCST006464	Shungin WHR EU sex combined 26 SNPs	MR Egger	26	0.249376727824041	0.465681250394393	0.597225598770743
-Shungin WHR EU sex combined 26 SNPs	ebi-a-GCST006464	Endometrial cancer || id:ebi-a-GCST006464	Shungin WHR EU sex combined 26 SNPs	Weighted median	26	0.10971005323423	0.176749696434289	0.534791382552696
-Shungin WHR EU sex combined 26 SNPs	ebi-a-GCST006464	Endometrial cancer || id:ebi-a-GCST006464	Shungin WHR EU sex combined 26 SNPs	Inverse variance weighted (multiplicative random effects)	26	0.229444471068869	0.140877258425339	0.103380030345982
-Shungin WHR EU sex combined 26 SNPs	ebi-a-GCST006464	Endometrial cancer || id:ebi-a-GCST006464	Shungin WHR EU sex combined 26 SNPs	Weighted mode	26	0.0787726278437644	0.27185096033205	0.774386478826103
-Shungin WHR EU sex combined 26 SNPs	ebi-a-GCST006465	Endometrial cancer (endometrioid histology) || id:ebi-a-GCST006465	Shungin WHR EU sex combined 26 SNPs	MR Egger	26	0.826341632021448	0.531043437784634	0.132780680261944
-Shungin WHR EU sex combined 26 SNPs	ebi-a-GCST006465	Endometrial cancer (endometrioid histology) || id:ebi-a-GCST006465	Shungin WHR EU sex combined 26 SNPs	Weighted median	26	0.233372266112739	0.221993877233711	0.293141296998825
-Shungin WHR EU sex combined 26 SNPs	ebi-a-GCST006465	Endometrial cancer (endometrioid histology) || id:ebi-a-GCST006465	Shungin WHR EU sex combined 26 SNPs	Inverse variance weighted (multiplicative random effects)	26	0.225967807203901	0.1661735735802	0.173883732937566
-Shungin WHR EU sex combined 26 SNPs	ebi-a-GCST006465	Endometrial cancer (endometrioid histology) || id:ebi-a-GCST006465	Shungin WHR EU sex combined 26 SNPs	Weighted mode	26	0.295557560117057	0.332207848860858	0.382121081929349
-Shungin WHR EU sex combined 26 SNPs	ebi-a-GCST006466	Endometrial cancer (Non-endometrioid histology) || id:ebi-a-GCST006466	Shungin WHR EU sex combined 26 SNPs	MR Egger	26	1.30909452053631	1.12830414521447	0.25736630408891
-Shungin WHR EU sex combined 26 SNPs	ebi-a-GCST006466	Endometrial cancer (Non-endometrioid histology) || id:ebi-a-GCST006466	Shungin WHR EU sex combined 26 SNPs	Weighted median	26	0.907215479799535	0.508485033876994	0.0743986853291336
-Shungin WHR EU sex combined 26 SNPs	ebi-a-GCST006466	Endometrial cancer (Non-endometrioid histology) || id:ebi-a-GCST006466	Shungin WHR EU sex combined 26 SNPs	Inverse variance weighted (multiplicative random effects)	26	0.836678468565582	0.322681672687192	0.00951728743031133
-Shungin WHR EU sex combined 26 SNPs	ebi-a-GCST006466	Endometrial cancer (Non-endometrioid histology) || id:ebi-a-GCST006466	Shungin WHR EU sex combined 26 SNPs	Weighted mode	26	1.28431313869994	0.764541891444995	0.10544298680577
+BMI	ebi-a-GCST006464	Endometrial cancer || id:ebi-a-GCST006464	BMI	MR Egger	264	0.4060861212467	0.318013010340999	0.20275109866264
+BMI	ebi-a-GCST006464	Endometrial cancer || id:ebi-a-GCST006464	BMI	Weighted median	264	0.539251133386989	0.0988987379776619	4.96502900757265e-08
+BMI	ebi-a-GCST006464	Endometrial cancer || id:ebi-a-GCST006464	BMI	Inverse variance weighted (multiplicative random effects)	264	0.586382116286176	0.0710542691135718	1.54991414412293e-16
+BMI	ebi-a-GCST006464	Endometrial cancer || id:ebi-a-GCST006464	BMI	Weighted mode	264	0.559167532606934	0.349047747274915	0.110360378767262
+BMI	ebi-a-GCST006465	Endometrial cancer (endometrioid histology) || id:ebi-a-GCST006465	BMI	MR Egger	264	0.280107632306284	0.376032563365744	0.456998264589342
+BMI	ebi-a-GCST006465	Endometrial cancer (endometrioid histology) || id:ebi-a-GCST006465	BMI	Weighted median	264	0.513538993135984	0.113124200565102	5.6360166189079e-06
+BMI	ebi-a-GCST006465	Endometrial cancer (endometrioid histology) || id:ebi-a-GCST006465	BMI	Inverse variance weighted (multiplicative random effects)	264	0.537355095173567	0.0835563031505311	1.26722151869986e-10
+BMI	ebi-a-GCST006465	Endometrial cancer (endometrioid histology) || id:ebi-a-GCST006465	BMI	Weighted mode	264	0.642097122334479	0.352031020180508	0.0692900263184751
+BMI	ebi-a-GCST006466	Endometrial cancer (Non-endometrioid histology) || id:ebi-a-GCST006466	BMI	MR Egger	262	0.929600764056598	0.848056281100203	0.274025409025794
+BMI	ebi-a-GCST006466	Endometrial cancer (Non-endometrioid histology) || id:ebi-a-GCST006466	BMI	Weighted median	262	0.777470123219073	0.259788645290303	0.00276519171172846
+BMI	ebi-a-GCST006466	Endometrial cancer (Non-endometrioid histology) || id:ebi-a-GCST006466	BMI	Inverse variance weighted (multiplicative random effects)	262	0.786882967059839	0.179123710374337	1.11818647943139e-05
+BMI	ebi-a-GCST006466	Endometrial cancer (Non-endometrioid histology) || id:ebi-a-GCST006466	BMI	Weighted mode	262	0.88476577723266	0.863234403376084	0.306339229852837
+WHR	ebi-a-GCST006464	Endometrial cancer || id:ebi-a-GCST006464	WHR	MR Egger	223	0.269027069419313	0.238136827607707	0.259820432117042
+WHR	ebi-a-GCST006464	Endometrial cancer || id:ebi-a-GCST006464	WHR	Weighted median	223	0.107985787311977	0.0984374678333648	0.272641902355765
+WHR	ebi-a-GCST006464	Endometrial cancer || id:ebi-a-GCST006464	WHR	Inverse variance weighted (multiplicative random effects)	223	0.0920421665240078	0.0819055997132543	0.261115218644787
+WHR	ebi-a-GCST006464	Endometrial cancer || id:ebi-a-GCST006464	WHR	Weighted mode	223	0.0810003975151448	0.326918761729984	0.804542006466639
+WHR	ebi-a-GCST006465	Endometrial cancer (endometrioid histology) || id:ebi-a-GCST006465	WHR	MR Egger	223	0.137103166537191	0.264427073633324	0.60463418793966
+WHR	ebi-a-GCST006465	Endometrial cancer (endometrioid histology) || id:ebi-a-GCST006465	WHR	Weighted median	223	0.00995432616221085	0.113454016053713	0.930084231972526
+WHR	ebi-a-GCST006465	Endometrial cancer (endometrioid histology) || id:ebi-a-GCST006465	WHR	Inverse variance weighted (multiplicative random effects)	223	0.0862271064250103	0.0907357962891604	0.341954916770029
+WHR	ebi-a-GCST006465	Endometrial cancer (endometrioid histology) || id:ebi-a-GCST006465	WHR	Weighted mode	223	-0.04407000830789	0.309662889009909	0.886959421160343
+WHR	ebi-a-GCST006466	Endometrial cancer (Non-endometrioid histology) || id:ebi-a-GCST006466	WHR	MR Egger	216	1.38491767837903	0.637990600180868	0.0310505660754797
+WHR	ebi-a-GCST006466	Endometrial cancer (Non-endometrioid histology) || id:ebi-a-GCST006466	WHR	Weighted median	216	0.140729826982846	0.275307166388427	0.609229320715832
+WHR	ebi-a-GCST006466	Endometrial cancer (Non-endometrioid histology) || id:ebi-a-GCST006466	WHR	Inverse variance weighted (multiplicative random effects)	216	0.355504792435735	0.202754387946147	0.0795373907711503
+WHR	ebi-a-GCST006466	Endometrial cancer (Non-endometrioid histology) || id:ebi-a-GCST006466	WHR	Weighted mode	216	-0.71091651139359	0.77695526267138	0.361215042433697
+WHRadjBMI	ebi-a-GCST006464	Endometrial cancer || id:ebi-a-GCST006464	WHRadjBMI	MR Egger	270	0.189310138564907	0.163736051939103	0.248632695344556
+WHRadjBMI	ebi-a-GCST006464	Endometrial cancer || id:ebi-a-GCST006464	WHRadjBMI	Weighted median	270	-0.169595097482573	0.0851162224733885	0.0463149062517073
+WHRadjBMI	ebi-a-GCST006464	Endometrial cancer || id:ebi-a-GCST006464	WHRadjBMI	Inverse variance weighted (multiplicative random effects)	270	-0.0698604343389362	0.064845606829035	0.28133068301224
+WHRadjBMI	ebi-a-GCST006464	Endometrial cancer || id:ebi-a-GCST006464	WHRadjBMI	Weighted mode	270	-0.383823133693917	0.258928021300933	0.139416507856489
+WHRadjBMI	ebi-a-GCST006465	Endometrial cancer (endometrioid histology) || id:ebi-a-GCST006465	WHRadjBMI	MR Egger	270	0.104138450105869	0.187744182349943	0.579574319630951
+WHRadjBMI	ebi-a-GCST006465	Endometrial cancer (endometrioid histology) || id:ebi-a-GCST006465	WHRadjBMI	Weighted median	270	-0.0669170768601581	0.102384004146232	0.513376519863559
+WHRadjBMI	ebi-a-GCST006465	Endometrial cancer (endometrioid histology) || id:ebi-a-GCST006465	WHRadjBMI	Inverse variance weighted (multiplicative random effects)	270	-0.0952550527607023	0.0739776823261317	0.197878700156366
+WHRadjBMI	ebi-a-GCST006465	Endometrial cancer (endometrioid histology) || id:ebi-a-GCST006465	WHRadjBMI	Weighted mode	270	-0.0920529372059953	0.221089736190525	0.677478553697539
+WHRadjBMI	ebi-a-GCST006466	Endometrial cancer (Non-endometrioid histology) || id:ebi-a-GCST006466	WHRadjBMI	MR Egger	265	1.19962579029492	0.463065417629619	0.0101149343060287
+WHRadjBMI	ebi-a-GCST006466	Endometrial cancer (Non-endometrioid histology) || id:ebi-a-GCST006466	WHRadjBMI	Weighted median	265	0.111497512381728	0.257562758584413	0.665091385441646
+WHRadjBMI	ebi-a-GCST006466	Endometrial cancer (Non-endometrioid histology) || id:ebi-a-GCST006466	WHRadjBMI	Inverse variance weighted (multiplicative random effects)	265	0.227252895281768	0.174643517362328	0.193176778468113
+WHRadjBMI	ebi-a-GCST006466	Endometrial cancer (Non-endometrioid histology) || id:ebi-a-GCST006466	WHRadjBMI	Weighted mode	265	-0.222800182245781	0.700995540534497	0.750862149157958
