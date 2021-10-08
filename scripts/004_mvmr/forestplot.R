@@ -22,6 +22,13 @@ discrete_palette <- c(discrete_palette,a)
 
 # data ====
 data <- read.table("adiposity_metabolites_endometrial_cancer/analysis/004_mvmr/results/combined/2smr_mvmr_formatted_results.txt", header = T, sep = "\t", stringsAsFactors = T)
+mr <- subset(data, group == "Adiposity on cancer")
+mvmr <- subset(data, method == "Multivariable MR")
+bmi_mvmr <- subset(mvmr, exposure == "BMI")
+whr_mvmr <- subset(mvmr, exposure == "WHR")
+whradjbmi_mvmr <- subset(mvmr, exposure == "WHRadjBMI")
+mvmr <- rbind(bmi_mvmr, whr_mvmr, whradjbmi_mvmr)
+data <- rbind(mr,mvmr)
 
 ## format factors
 my_files <- list.files(path = "adiposity_metabolites_endometrial_cancer/analysis/004_mvmr/results/adiposity/whradjbmi/", pattern = "*txt")
@@ -32,7 +39,7 @@ my_files = gsub("-", "", my_files)
 my_files = tolower(my_files)
 my_files <- sort(my_files)
 data$adjusted <- factor(data$adjusted, levels = c("BMI", "WHR", "WHRadjBMI", my_files))
-data$exposure <- factor(data$exposure, levels = c("BMI", "WHR", "WHRadjBMI", my_files))
+data$exposure <- factor(data$exposure, levels = c("BMI", "WHR", "WHRadjBMI"))
 data$outcome <- factor(data$outcome, levels = c("Endometrial cancer", "Endometrioid cancer", "Non-endometrioid cancer"))
 data$method <- factor(data$method, levels = c("Two Sample MR", "Multivariable MR"))
 
@@ -54,8 +61,8 @@ p1 <- forestplot(df = plot_data1,
                  logodds = T) +
   theme(axis.title.x = element_blank()) +
   theme(legend.position = "none") +
-  coord_cartesian(xlim = c(0.3, 4)) +
-  ggtitle("Endometrial") +
+  coord_cartesian(xlim = c(0.8, 3)) +
+  ggtitle("Endometrial cancer") +
   ggforce::facet_col(facets = ~method,
                      scales = "free_y",
                      space = "free") 
@@ -74,7 +81,7 @@ p2 <- forestplot(df = plot_data1,
   theme(axis.title.x = element_blank()) +
   theme(axis.text.y = element_blank()) +
   theme(legend.position = "none") +
-  coord_cartesian(xlim = c(0.3, 4)) +
+  coord_cartesian(xlim = c(0.8, 3)) +
   ggtitle("Endometrioid cancer") +
   ggforce::facet_col(facets = ~method,
                      scales = "free_y",
@@ -94,7 +101,7 @@ p3 <- forestplot(df = plot_data1,
   theme(axis.title.x = element_blank()) +
   theme(axis.text.y = element_blank()) +
   theme(legend.position = "none") +
-  coord_cartesian(xlim = c(0.3, 4)) +
+  coord_cartesian(xlim = c(0.8, 3)) +
   ggtitle("Non-endometrioid cancer") +
   ggforce::facet_col(facets = ~method,
                      scales = "free_y",
