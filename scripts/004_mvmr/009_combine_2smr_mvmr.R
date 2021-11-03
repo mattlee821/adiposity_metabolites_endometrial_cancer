@@ -40,8 +40,13 @@ data <- read.table("adiposity_metabolites_endometrial_cancer/analysis/004_mvmr/r
 data$outcome[data$outcome == "endometrioid_cancer"] <- "Endometrioid cancer"
 data$outcome[data$outcome == "non_endometrioid_cancer"] <- "Non-endometrioid cancer"
 
+## negative ontrol
+negative_control <- read.table("adiposity_metabolites_endometrial_cancer/analysis/004_mvmr/results/combined/negative_control_mvmr_results_formatted.txt", header = T, sep = "\t")
+negative_control$outcome[negative_control$outcome == "endometrioid_cancer"] <- "Endometrioid cancer"
+negative_control$outcome[negative_control$outcome == "non_endometrioid_cancer"] <- "Non-endometrioid cancer"
+
 ## combine ====
-data <- bind_rows(adiposity_cancer,metabolites_cancer,data)
+data <- bind_rows(adiposity_cancer,metabolites_cancer,data,negative_control)
 
 ## format ====
 my_files <- list.files(path = "adiposity_metabolites_endometrial_cancer/analysis/004_mvmr/results/adiposity/whradjbmi/", pattern = "*txt")
@@ -52,11 +57,13 @@ my_files = gsub("-", "", my_files)
 my_files = tolower(my_files)
 data$adjusted <- factor(data$adjusted, levels = c("BMI", "WHR", "WHRadjBMI", my_files))
 
-data$method <- factor(data$method, levels = c("Two Sample MR", "Multivariable MR"))
+data$method <- factor(data$method, levels = c("Two Sample MR", "Multivariable MR", "Negative control MVMR"))
 
 data$OR <- exp(data$b)
-data$lower_ci <- data$OR - (1.96 * data$se)
-data$upper_ci <- data$OR + (1.96 * data$se)
+data$lower_ci <- data$b - (1.96 * data$se)
+data$lower_ci <- exp(data$lower_ci)
+data$upper_ci <- data$b + (1.96 * data$se)
+data$upper_ci <- exp(data$upper_ci)
 
 ## save ====
 write.table(data, "adiposity_metabolites_endometrial_cancer/analysis/004_mvmr/results/combined/2smr_mvmr_formatted_results.txt", 
