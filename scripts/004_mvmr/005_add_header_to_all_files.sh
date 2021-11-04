@@ -119,6 +119,8 @@ sed -i "1s/^/$(head -n1 ${DATA_DIR}/header)\n/" ${DATA_DIR}/XS_VLDL_TG_int_imput
 head -1 ${METABOLITE_DIR}/XS_VLDL_TG_pct_int_imputed.txt > ${DATA_DIR}/header
 sed -i "1s/^/$(head -n1 ${DATA_DIR}/header)\n/" ${DATA_DIR}/XS_VLDL_TG_pct_int_imputed.txt
 
+rm ${DATA_DIR}/header
+
 # metabolite instruments adjusted for whr - we use Acetate_int_imputed.txt to extract header
 export DATA_DIR=/newhome/ml16847/001_projects/adiposity_metabolites_endometrial_cancer/analysis/004_mvmr/metabolite_instruments/whr
 head -1 ${METABOLITE_DIR}/Ala_int_imputed.txt > ${DATA_DIR}/header
@@ -211,6 +213,8 @@ head -1 ${METABOLITE_DIR}/XS_VLDL_TG_int_imputed.txt > ${DATA_DIR}/header
 sed -i "1s/^/$(head -n1 ${DATA_DIR}/header)\n/" ${DATA_DIR}/XS_VLDL_TG_int_imputed.txt
 head -1 ${METABOLITE_DIR}/XS_VLDL_TG_pct_int_imputed.txt > ${DATA_DIR}/header
 sed -i "1s/^/$(head -n1 ${DATA_DIR}/header)\n/" ${DATA_DIR}/XS_VLDL_TG_pct_int_imputed.txt
+
+rm ${DATA_DIR}/header
 
 # metabolite instruments adjusted for whradjbmi - we use Acetate_int_imputed.txt to extract header
 export DATA_DIR=/newhome/ml16847/001_projects/adiposity_metabolites_endometrial_cancer/analysis/004_mvmr/metabolite_instruments/whradjbmi
@@ -305,7 +309,7 @@ sed -i "1s/^/$(head -n1 ${DATA_DIR}/header)\n/" ${DATA_DIR}/XS_VLDL_TG_int_imput
 head -1 ${METABOLITE_DIR}/XS_VLDL_TG_pct_int_imputed.txt > ${DATA_DIR}/header
 sed -i "1s/^/$(head -n1 ${DATA_DIR}/header)\n/" ${DATA_DIR}/XS_VLDL_TG_pct_int_imputed.txt
 
-rm header
+rm ${DATA_DIR}/header
 
 
 

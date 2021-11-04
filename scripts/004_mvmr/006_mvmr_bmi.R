@@ -39,8 +39,11 @@ for (i in seq_along(my_files)) {
 names(metabolites) <- gsub("\\.txt$", "", my_files)
 
 for (i in 1:length(metabolites))
-  colnames(metabolites[[i]]) <- c("SNP","CHR","POS","GENPOS","effect_allele.outcome","other_allele.outcome","eaf.outcome",
-                                  "INFO","CHISQ_LINREG","P_LINREG","beta.outcome","se.outcome","CHISQ_BOLT_LMM_INF","pval.outcome")
+  metabolites[[i]] <- select(metabolites[[i]], c("SNP", "CHR", "BP", "ALLELE1", "ALLELE0", "A1FREQ",
+                                                 "INFO", "BETA", "SE", "P_BOLT_LMM_INF")) 
+for (i in 1:length(metabolites))
+  colnames(metabolites[[i]]) <- c("SNP","CHR","POS","effect_allele.outcome","other_allele.outcome","eaf.outcome",
+                                  "INFO","beta.outcome","se.outcome","pval.outcome")
 for (i in 1:length(metabolites))
   metabolites[[i]]$outcome <- my_files[[i]]
 for (i in 1:length(metabolites))
