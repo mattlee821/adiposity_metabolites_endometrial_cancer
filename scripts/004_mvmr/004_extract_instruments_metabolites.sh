@@ -16,50 +16,56 @@ export WHR_INSTRUMENTS_SNP_DIR=/newhome/ml16847/001_projects/adiposity_metabolit
 export WHRadjBMI_INSTRUMENTS_SNP_DIR=/newhome/ml16847/001_projects/adiposity_metabolites_endometrial_cancer/analysis/004_mvmr/metabolite_instruments/whradjbmi
 
 export metabolite1=Ala_int_imputed.txt
-export metabolite2=ApoB_by_ApoA1_int_imputed.txt
-export metabolite3=Clinical_LDL_C_int_imputed.txt
-export metabolite4=Creatinine_int_imputed.txt
-export metabolite5=Glucose_int_imputed.txt
-export metabolite6=GlycA_int_imputed.txt
-export metabolite7=HDL_TG_int_imputed.txt
-export metabolite8=IDL_P_int_imputed.txt
-export metabolite9=IDL_TG_pct_int_imputed.txt
-export metabolite10=LDL_CE_int_imputed.txt
-export metabolite11=LDL_C_int_imputed.txt
-export metabolite12=LDL_L_int_imputed.txt
-export metabolite13=LDL_P_int_imputed.txt
+export metabolite2=Clinical_LDL_C_int_imputed.txt
+export metabolite3=GlycA_int_imputed.txt
+export metabolite4=HDL_CE_int_imputed.txt
+export metabolite5=HDL_TG_int_imputed.txt
+export metabolite6=IDL_C_int_imputed.txt
+export metabolite7=IDL_FC_int_imputed.txt
+export metabolite8=IDL_FC_pct_int_imputed.txt
+export metabolite9=IDL_P_int_imputed.txt
+export metabolite10=IDL_TG_pct_int_imputed.txt
+export metabolite11=LDL_CE_int_imputed.txt
+export metabolite12=LDL_C_int_imputed.txt
+export metabolite13=LDL_L_int_imputed.txt
 export metabolite14=LDL_PL_int_imputed.txt
-export metabolite15=L_HDL_TG_int_imputed.txt
-export metabolite16=L_LDL_P_int_imputed.txt
-export metabolite17=L_LDL_PL_int_imputed.txt
-export metabolite18=L_VLDL_CE_int_imputed.txt
-export metabolite19=L_VLDL_PL_pct_int_imputed.txt
-export metabolite20=M_HDL_TG_pct_int_imputed.txt
-export metabolite21=M_LDL_CE_int_imputed.txt
-export metabolite22=M_LDL_CE_pct_int_imputed.txt
-export metabolite23=M_LDL_C_int_imputed.txt
-export metabolite24=M_LDL_FC_int_imputed.txt
-export metabolite25=M_LDL_L_int_imputed.txt
-export metabolite26=M_LDL_P_int_imputed.txt
-export metabolite27=M_VLDL_C_int_imputed.txt
-export metabolite28=M_VLDL_TG_pct_int_imputed.txt
-export metabolite29=non_HDL_C_int_imputed.txt
-export metabolite30=Remnant_C_int_imputed.txt
-export metabolite31=SFA_pct_int_imputed.txt
-export metabolite32=S_HDL_TG_pct_int_imputed.txt
-export metabolite33=S_LDL_CE_pct_int_imputed.txt
-export metabolite34=S_LDL_C_int_imputed.txt
-export metabolite35=S_LDL_L_int_imputed.txt
-export metabolite36=S_VLDL_C_int_imputed.txt
-export metabolite37=S_VLDL_FC_int_imputed.txt
-export metabolite38=S_VLDL_TG_int_imputed.txt
-export metabolite39=S_VLDL_TG_pct_int_imputed.txt
-export metabolite40=TG_by_PG_int_imputed.txt
-export metabolite41=Total_TG_int_imputed.txt
-export metabolite42=Val_int_imputed.txt
-export metabolite43=XL_HDL_TG_int_imputed.txt
-export metabolite44=XS_VLDL_TG_int_imputed.txt
-export metabolite45=XS_VLDL_TG_pct_int_imputed.txt
+export metabolite15=L_HDL_CE_pct_int_imputed.txt
+export metabolite16=L_HDL_C_pct_int_imputed.txt
+export metabolite17=L_HDL_TG_int_imputed.txt
+export metabolite18=L_LDL_C_pct_int_imputed.txt
+export metabolite19=L_LDL_FC_int_imputed.txt
+export metabolite20=L_LDL_FC_pct_int_imputed.txt
+export metabolite21=L_LDL_P_int_imputed.txt
+export metabolite22=L_LDL_PL_int_imputed.txt
+export metabolite23=L_VLDL_PL_pct_int_imputed.txt
+export metabolite24=M_HDL_CE_pct_int_imputed.txt
+export metabolite25=M_HDL_C_pct_int_imputed.txt
+export metabolite26=M_HDL_TG_pct_int_imputed.txt
+export metabolite27=M_LDL_FC_int_imputed.txt
+export metabolite28=M_LDL_FC_pct_int_imputed.txt
+export metabolite29=M_VLDL_CE_int_imputed.txt
+export metabolite30=M_VLDL_C_int_imputed.txt
+export metabolite31=M_VLDL_FC_pct_int_imputed.txt
+export metabolite32=M_VLDL_PL_pct_int_imputed.txt
+export metabolite33=M_VLDL_TG_pct_int_imputed.txt
+export metabolite34=S_LDL_CE_pct_int_imputed.txt
+export metabolite35=S_LDL_FC_int_imputed.txt
+export metabolite36=S_VLDL_CE_pct_int_imputed.txt
+export metabolite37=S_VLDL_C_pct_int_imputed.txt
+export metabolite38=S_VLDL_PL_pct_int_imputed.txt
+export metabolite39=S_VLDL_TG_int_imputed.txt
+export metabolite40=S_VLDL_TG_pct_int_imputed.txt
+export metabolite41=XS_VLDL_TG_int_imputed.txt
+export metabolite42=XS_VLDL_TG_pct_int_imputed.txt
+export metabolite43=non_HDL_C_int_imputed.txt
+export metabolite44=Remnant_C_int_imputed.txt
+export metabolite45=S_HDL_TG_pct_int_imputed.txt
+export metabolite46=Total_TG_int_imputed.txt
+export metabolite47=TG_by_PG_int_imputed.txt
+export metabolite48=XL_HDL_TG_int_imputed.txt
+export metabolite49=S_HDL_C_pct_int_imputed.txt
+export metabolite50=XS_VLDL_CE_pct_int_imputed.txt
+export metabolite51=XS_VLDL_C_pct_int_imputed.txt
 
 # grep instruments from each GWAS file for BMI adjusted metabolites
 grep -w -F -f ${BMI_SNP_DIR}/${metabolite1} ${METABOLITE_DIR}/${metabolite1} > ${BMI_INSTRUMENTS_SNP_DIR}/${metabolite1}
@@ -107,6 +113,12 @@ grep -w -F -f ${BMI_SNP_DIR}/${metabolite42} ${METABOLITE_DIR}/${metabolite42} >
 grep -w -F -f ${BMI_SNP_DIR}/${metabolite43} ${METABOLITE_DIR}/${metabolite43} > ${BMI_INSTRUMENTS_SNP_DIR}/${metabolite43}
 grep -w -F -f ${BMI_SNP_DIR}/${metabolite44} ${METABOLITE_DIR}/${metabolite44} > ${BMI_INSTRUMENTS_SNP_DIR}/${metabolite44}
 grep -w -F -f ${BMI_SNP_DIR}/${metabolite45} ${METABOLITE_DIR}/${metabolite45} > ${BMI_INSTRUMENTS_SNP_DIR}/${metabolite45}
+grep -w -F -f ${BMI_SNP_DIR}/${metabolite46} ${METABOLITE_DIR}/${metabolite45} > ${BMI_INSTRUMENTS_SNP_DIR}/${metabolite46}
+grep -w -F -f ${BMI_SNP_DIR}/${metabolite47} ${METABOLITE_DIR}/${metabolite45} > ${BMI_INSTRUMENTS_SNP_DIR}/${metabolite47}
+grep -w -F -f ${BMI_SNP_DIR}/${metabolite48} ${METABOLITE_DIR}/${metabolite45} > ${BMI_INSTRUMENTS_SNP_DIR}/${metabolite48}
+grep -w -F -f ${BMI_SNP_DIR}/${metabolite49} ${METABOLITE_DIR}/${metabolite45} > ${BMI_INSTRUMENTS_SNP_DIR}/${metabolite49}
+grep -w -F -f ${BMI_SNP_DIR}/${metabolite50} ${METABOLITE_DIR}/${metabolite45} > ${BMI_INSTRUMENTS_SNP_DIR}/${metabolite50}
+grep -w -F -f ${BMI_SNP_DIR}/${metabolite51} ${METABOLITE_DIR}/${metabolite45} > ${BMI_INSTRUMENTS_SNP_DIR}/${metabolite51}
 
 # grep instruments from each GWAS file for WHR adjusted metabolites
 grep -w -F -f ${WHR_SNP_DIR}/${metabolite1} ${METABOLITE_DIR}/${metabolite1} > ${WHR_INSTRUMENTS_SNP_DIR}/${metabolite1}
@@ -154,6 +166,12 @@ grep -w -F -f ${WHR_SNP_DIR}/${metabolite42} ${METABOLITE_DIR}/${metabolite42} >
 grep -w -F -f ${WHR_SNP_DIR}/${metabolite43} ${METABOLITE_DIR}/${metabolite43} > ${WHR_INSTRUMENTS_SNP_DIR}/${metabolite43}
 grep -w -F -f ${WHR_SNP_DIR}/${metabolite44} ${METABOLITE_DIR}/${metabolite44} > ${WHR_INSTRUMENTS_SNP_DIR}/${metabolite44}
 grep -w -F -f ${WHR_SNP_DIR}/${metabolite45} ${METABOLITE_DIR}/${metabolite45} > ${WHR_INSTRUMENTS_SNP_DIR}/${metabolite45}
+grep -w -F -f ${WHR_SNP_DIR}/${metabolite46} ${METABOLITE_DIR}/${metabolite45} > ${WHR_INSTRUMENTS_SNP_DIR}/${metabolite46}
+grep -w -F -f ${WHR_SNP_DIR}/${metabolite47} ${METABOLITE_DIR}/${metabolite45} > ${WHR_INSTRUMENTS_SNP_DIR}/${metabolite47}
+grep -w -F -f ${WHR_SNP_DIR}/${metabolite48} ${METABOLITE_DIR}/${metabolite45} > ${WHR_INSTRUMENTS_SNP_DIR}/${metabolite48}
+grep -w -F -f ${WHR_SNP_DIR}/${metabolite49} ${METABOLITE_DIR}/${metabolite45} > ${WHR_INSTRUMENTS_SNP_DIR}/${metabolite49}
+grep -w -F -f ${WHR_SNP_DIR}/${metabolite50} ${METABOLITE_DIR}/${metabolite45} > ${WHR_INSTRUMENTS_SNP_DIR}/${metabolite50}
+grep -w -F -f ${WHR_SNP_DIR}/${metabolite51} ${METABOLITE_DIR}/${metabolite45} > ${WHR_INSTRUMENTS_SNP_DIR}/${metabolite51}
 
 # grep instruments from each GWAS file for WHRadjBMI adjusted metabolites
 grep -w -F -f ${WHRadjBMI_SNP_DIR}/${metabolite1} ${METABOLITE_DIR}/${metabolite1} > ${WHRadjBMI_INSTRUMENTS_SNP_DIR}/${metabolite1}
@@ -201,3 +219,10 @@ grep -w -F -f ${WHRadjBMI_SNP_DIR}/${metabolite42} ${METABOLITE_DIR}/${metabolit
 grep -w -F -f ${WHRadjBMI_SNP_DIR}/${metabolite43} ${METABOLITE_DIR}/${metabolite43} > ${WHRadjBMI_INSTRUMENTS_SNP_DIR}/${metabolite43}
 grep -w -F -f ${WHRadjBMI_SNP_DIR}/${metabolite44} ${METABOLITE_DIR}/${metabolite44} > ${WHRadjBMI_INSTRUMENTS_SNP_DIR}/${metabolite44}
 grep -w -F -f ${WHRadjBMI_SNP_DIR}/${metabolite45} ${METABOLITE_DIR}/${metabolite45} > ${WHRadjBMI_INSTRUMENTS_SNP_DIR}/${metabolite45}
+grep -w -F -f ${WHRadjBMI_SNP_DIR}/${metabolite46} ${METABOLITE_DIR}/${metabolite45} > ${WHRadjBMI_INSTRUMENTS_SNP_DIR}/${metabolite46}
+grep -w -F -f ${WHRadjBMI_SNP_DIR}/${metabolite47} ${METABOLITE_DIR}/${metabolite45} > ${WHRadjBMI_INSTRUMENTS_SNP_DIR}/${metabolite47}
+grep -w -F -f ${WHRadjBMI_SNP_DIR}/${metabolite48} ${METABOLITE_DIR}/${metabolite45} > ${WHRadjBMI_INSTRUMENTS_SNP_DIR}/${metabolite48}
+grep -w -F -f ${WHRadjBMI_SNP_DIR}/${metabolite49} ${METABOLITE_DIR}/${metabolite45} > ${WHRadjBMI_INSTRUMENTS_SNP_DIR}/${metabolite49}
+grep -w -F -f ${WHRadjBMI_SNP_DIR}/${metabolite50} ${METABOLITE_DIR}/${metabolite45} > ${WHRadjBMI_INSTRUMENTS_SNP_DIR}/${metabolite50}
+grep -w -F -f ${WHRadjBMI_SNP_DIR}/${metabolite51} ${METABOLITE_DIR}/${metabolite45} > ${WHRadjBMI_INSTRUMENTS_SNP_DIR}/${metabolite51}
+
