@@ -19,30 +19,111 @@ discrete_palette <- wes_palette(name = "Rushmore1", type = "discrete")
 discrete_palette <- wes_palette(name = "Darjeeling1", type = "discrete")
 a <- wes_palette(name = "Rushmore1", type = "discrete")
 discrete_palette <- c(discrete_palette,a)
+source("adiposity_metabolites_endometrial_cancer/scripts/my_forestplot.R")
 
-# data ====
+# MVMR
+increasing_increasing <- read.table("adiposity_metabolites_endometrial_cancer/analysis/004_mvmr/associated_metabolites_increasing_increasing.txt", header = T, sep = "\t")
+increasing_increasing <- increasing_increasing[,1]
+decreasing_decreasing <- read.table("adiposity_metabolites_endometrial_cancer/analysis/004_mvmr/associated_metabolites_decreasing_decreasing.txt", header = T, sep = "\t")
+decreasing_decreasing <- decreasing_decreasing[,1]
 data <- read.table("adiposity_metabolites_endometrial_cancer/analysis/004_mvmr/results/combined/2smr_mvmr_formatted_results.txt", header = T, sep = "\t", stringsAsFactors = T)
-mr <- subset(data, group == "Adiposity on cancer")
-mvmr <- subset(data, method == "Multivariable MR")
-mvmr <- subset(mvmr, exposure == "BMI")
-negative_control <- subset(data, method == "Negative control MVMR" & exposure == "BMI")
-data <- rbind(mr,mvmr,negative_control)
+data <- subset(data, method == "Multivariable MR")
+data <- subset(data, exposure == "BMI")
+pos_pos <- data[data$adjusted %in% increasing_increasing,]
+pos_pos <- droplevels(pos_pos)
+neg_neg <- data[data$adjusted %in% decreasing_decreasing,]
+neg_neg <- droplevels(neg_neg)
+
+# MR ====
+mr <- read.table("adiposity_metabolites_endometrial_cancer/analysis/004_mvmr/results/combined/2smr_mvmr_formatted_results.txt", header = T, sep = "\t", stringsAsFactors = T)
+mr <- subset(mr, group == "Adiposity on cancer")
+
+# negative control
+negative_control <- read.table("adiposity_metabolites_endometrial_cancer/analysis/004_mvmr/results/combined/2smr_mvmr_formatted_results.txt", header = T, sep = "\t", stringsAsFactors = T)
+negative_control <- subset(negative_control, method == "Negative control MVMR" & exposure == "BMI")
+
+# combine ====
+pos_pos <- rbind(mr,pos_pos,negative_control)
+neg_neg <- rbind(mr,neg_neg,negative_control)
 
 ## format factors
-my_files <- list.files(path = "adiposity_metabolites_endometrial_cancer/analysis/004_mvmr/results/adiposity/whradjbmi/", pattern = "*txt")
-my_files <- gsub("_int_imputed.txt", "", my_files)
-my_files = gsub("_", "", my_files)
-my_files = gsub("%", "pct", my_files)
-my_files = gsub("-", "", my_files)
-my_files = tolower(my_files)
-my_files <- sort(my_files)
-data$adjusted <- factor(data$adjusted, levels = c("BMI", "WHR", "WHRadjBMI", my_files))
-data$exposure <- factor(data$exposure, levels = c("BMI", "WHR", "WHRadjBMI"))
-data$outcome <- factor(data$outcome, levels = c("Endometrial cancer", "Endometrioid cancer", "Non-endometrioid cancer"))
-data$method <- factor(data$method, levels = c("Two Sample MR", "Negative control MVMR", "Multivariable MR"))
+increasing_increasing <- sort(increasing_increasing)
+decreasing_decreasing <- sort(decreasing_decreasing)
 
-# plot ====
-plot_data <- data
+pos_pos$adjusted <- factor(pos_pos$adjusted, levels = c("BMI", "WHR", "WHRadjBMI", increasing_increasing))
+pos_pos$exposure <- factor(pos_pos$exposure, levels = c("BMI", "WHR", "WHRadjBMI"))
+pos_pos$outcome <- factor(pos_pos$outcome, levels = c("Endometrial cancer", "Endometrioid cancer", "Non-endometrioid cancer"))
+pos_pos$method <- factor(pos_pos$method, levels = c("Two Sample MR", "Negative control MVMR", "Multivariable MR"))
+
+neg_neg$adjusted <- factor(neg_neg$adjusted, levels = c("BMI", "WHR", "WHRadjBMI", decreasing_decreasing))
+neg_neg$exposure <- factor(neg_neg$exposure, levels = c("BMI", "WHR", "WHRadjBMI"))
+neg_neg$outcome <- factor(neg_neg$outcome, levels = c("Endometrial cancer", "Endometrioid cancer", "Non-endometrioid cancer"))
+neg_neg$method <- factor(neg_neg$method, levels = c("Two Sample MR", "Negative control MVMR", "Multivariable MR"))
+
+# axis limits ====
+max(neg_neg$upper_ci, pos_pos$upper_ci)
+min(neg_neg$lower_ci, pos_pos$lower_ci)
+
+# colours ====
+colours1 <- c("#F2AD00", "#FF0000", "#5BBCD6",
+              "#b76da8",
+               "#5fbe50",
+               "#c656be",
+               "#4b8c39",
+               "#7862cf",
+               "#a8b547",
+               "#7083ca",
+               "#d59d3b",
+               "#45aecf",
+               "#d35238",
+               "#5ec396",
+               "#cf3d72",
+               "#36815b",
+               "#c56872",
+               "#7b7b35",
+               "#b77544")
+
+colours2 <- c("#F2AD00", "#FF0000", "#5BBCD6",
+              "#5482d2",
+               "#97bc37",
+               "#8b5cd5",
+               "#45992e",
+               "#9e40b6",
+               "#52c86b",
+               "#dd64d1",
+               "#678429",
+               "#516add",
+               "#d4a433",
+               "#b079db",
+               "#b5a94d",
+               "#a64297",
+               "#3a8a51",
+               "#de4a9f",
+               "#90bb76",
+               "#e4427b",
+               "#50c5b8",
+               "#dc414c",
+               "#348d72",
+               "#ce502a",
+               "#52a5d6",
+               "#d97f2e",
+               "#6557a0",
+               "#617e40",
+               "#b23a72",
+               "#746c27",
+               "#a797db",
+               "#9a622b",
+               "#da89c3",
+               "#e1986c",
+               "#99517a",
+               "#ae594f",
+               "#e47f8e",
+               "#ae394a")
+  
+
+
+# plot pos_pos ====
+plot_data <- pos_pos
 psignif <- 0.05
 ci <- 0.95
 max(plot_data$upper_ci)
@@ -50,7 +131,7 @@ min(plot_data$lower_ci)
 
 # outcome 1
 plot_data1 <- subset(plot_data, outcome == "Endometrial cancer")
-p1 <- forestplot(df = plot_data1,
+p1 <- my_forestplot(df = plot_data1,
                  name = exposure,
                  estimate = b,
                  pvalue = pval,
@@ -59,9 +140,10 @@ p1 <- forestplot(df = plot_data1,
                  se = se,
                  colour = adjusted,
                  logodds = T) +
+  scale_colour_manual(values = colours1) +
   theme(axis.title.x = element_blank()) +
   theme(legend.position = "none") +
-  coord_cartesian(xlim = c(0.8, 4)) +
+  coord_cartesian(xlim = c(0.8, 3.5)) +
   ggtitle("Endometrial cancer") +
   ggforce::facet_col(facets = ~method,
                      scales = "free_y",
@@ -69,7 +151,7 @@ p1 <- forestplot(df = plot_data1,
 
 # outcome 2
 plot_data1 <- subset(plot_data, outcome == "Endometrioid cancer")
-p2 <- forestplot(df = plot_data1,
+p2 <- my_forestplot(df = plot_data1,
                  name = exposure,
                  estimate = b,
                  pvalue = pval,
@@ -78,10 +160,11 @@ p2 <- forestplot(df = plot_data1,
                  se = se,
                  colour = adjusted,
                  logodds = T) +
+  scale_colour_manual(values = colours1) +
   theme(axis.title.x = element_blank()) +
   theme(axis.text.y = element_blank()) +
   theme(legend.position = "none") +
-  coord_cartesian(xlim = c(0.8, 4)) +
+  coord_cartesian(xlim = c(0.8, 3.5)) +
   ggtitle("Endometrioid cancer") +
   ggforce::facet_col(facets = ~method,
                      scales = "free_y",
@@ -89,7 +172,7 @@ p2 <- forestplot(df = plot_data1,
 
 # outcome 3
 plot_data1 <- subset(plot_data, outcome == "Non-endometrioid cancer")
-p3 <- forestplot(df = plot_data1,
+p3 <- my_forestplot(df = plot_data1,
                  name = exposure,
                  estimate = b,
                  pvalue = pval,
@@ -98,17 +181,18 @@ p3 <- forestplot(df = plot_data1,
                  se = se,
                  colour = adjusted,
                  logodds = T) +
+  scale_colour_manual(values = colours1) +
   theme(axis.title.x = element_blank()) +
   theme(axis.text.y = element_blank()) +
   theme(legend.position = "none") +
-  coord_cartesian(xlim = c(0.8, 4)) +
+  coord_cartesian(xlim = c(0.8, 3.5)) +
   ggtitle("Non-endometrioid cancer") +
   ggforce::facet_col(facets = ~method,
                      scales = "free_y",
                      space = "free") 
 
 # y_axis and legend
-legend <- forestplot(df = plot_data1,
+legend <- my_forestplot(df = plot_data1,
                      name = exposure,
                      estimate = b,
                      pvalue = pval,
@@ -117,14 +201,106 @@ legend <- forestplot(df = plot_data1,
                      se = se,
                      colour = adjusted,
                      logodds = T) +
+  scale_colour_manual(values = colours1) +
   theme(legend.title = element_blank()) +
   ggforce::facet_col(facets = ~method,
                      scales = "free_y",
                      space = "free") 
 legend <- get_legend(legend)
 
-pdf("adiposity_metabolites_endometrial_cancer/analysis/004_mvmr/figures/forestplot.pdf",
-    width = 14, height = 8, pointsize = 10)
+pdf("adiposity_metabolites_endometrial_cancer/analysis/004_mvmr/figures/forestplot_positive_positive.pdf",
+    width = 16, height = 9, pointsize = 10)
 plot_grid(p1,p2,p3,legend, nrow = 1, rel_widths = c(1.2,1,1,0.4))
+dev.off()
+
+# plot neg_neg ====
+plot_data <- neg_neg
+psignif <- 0.05
+ci <- 0.95
+max(plot_data$upper_ci)
+min(plot_data$lower_ci)
+
+# outcome 1
+plot_data1 <- subset(plot_data, outcome == "Endometrial cancer")
+p1 <- my_forestplot(df = plot_data1,
+                 name = exposure,
+                 estimate = b,
+                 pvalue = pval,
+                 psignif = psignif,
+                 ci = ci,
+                 se = se,
+                 colour = adjusted,
+                 logodds = T) +
+  scale_colour_manual(values = colours2) +
+  theme(axis.title.x = element_blank()) +
+  theme(legend.position = "none") +
+  coord_cartesian(xlim = c(0.8, 3.5)) +
+  ggtitle("Endometrial cancer") +
+  ggforce::facet_col(facets = ~method,
+                     scales = "free_y",
+                     space = "free") 
+
+# outcome 2
+plot_data1 <- subset(plot_data, outcome == "Endometrioid cancer")
+p2 <- my_forestplot(df = plot_data1,
+                 name = exposure,
+                 estimate = b,
+                 pvalue = pval,
+                 psignif = psignif,
+                 ci = ci,
+                 se = se,
+                 colour = adjusted,
+                 logodds = T) +
+  scale_colour_manual(values = colours2) +
+  theme(axis.title.x = element_blank()) +
+  theme(axis.text.y = element_blank()) +
+  theme(legend.position = "none") +
+  coord_cartesian(xlim = c(0.8, 3.5)) +
+  ggtitle("Endometrioid cancer") +
+  ggforce::facet_col(facets = ~method,
+                     scales = "free_y",
+                     space = "free") 
+
+# outcome 3
+plot_data1 <- subset(plot_data, outcome == "Non-endometrioid cancer")
+p3 <- my_forestplot(df = plot_data1,
+                 name = exposure,
+                 estimate = b,
+                 pvalue = pval,
+                 psignif = psignif,
+                 ci = ci,
+                 se = se,
+                 colour = adjusted,
+                 logodds = T) +
+  scale_colour_manual(values = colours2) +
+  theme(axis.title.x = element_blank()) +
+  theme(axis.text.y = element_blank()) +
+  theme(legend.position = "none") +
+  coord_cartesian(xlim = c(0.8, 3.5)) +
+  ggtitle("Non-endometrioid cancer") +
+  ggforce::facet_col(facets = ~method,
+                     scales = "free_y",
+                     space = "free") 
+
+# y_axis and legend
+legend <- my_forestplot(df = plot_data1,
+                     name = exposure,
+                     estimate = b,
+                     pvalue = pval,
+                     psignif = psignif,
+                     ci = ci,
+                     se = se,
+                     colour = adjusted,
+                     logodds = T) +
+  scale_colour_manual(values = colours2) +
+  theme(legend.title = element_blank()) +
+  ggforce::facet_col(facets = ~method,
+                     scales = "free_y",
+                     space = "free") 
+legend <- get_legend(legend)
+
+pdf("adiposity_metabolites_endometrial_cancer/analysis/004_mvmr/figures/forestplot_negative_negative.pdf",
+    width = 16, height = 9, pointsize = 10)
+plot_grid(p1,p2,p3,legend, nrow = 1, rel_widths = c(1.2,1,1,0.8))
 dev.off()
 
