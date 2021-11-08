@@ -181,6 +181,7 @@ data <- list()
 for (i in seq_along(my_files)) {
   data[[i]] <- read.table(paste0("adiposity_metabolites_endometrial_cancer/analysis/004_mvmr/results/combined/",file = my_files[i]), header = T, sep = "\t")
 }
+data = data[-3] # remove negative control dataframe
 data <- bind_rows(data, .id = "column_label")
 data <- subset(data, select = -column_label)
 
@@ -193,6 +194,7 @@ data <- list()
 for (i in seq_along(my_files)) {
   data[[i]] <- read.table(paste0("adiposity_metabolites_endometrial_cancer/analysis/004_mvmr/results/combined/",file = my_files[i]), header = T, sep = "\t")
 }
+data = data[-3] # remove negative control dataframe
 data <- bind_rows(data, .id = "column_label")
 data <- subset(data, select = -column_label)
 
