@@ -1,97 +1,403 @@
 exposure	outcome	group	adjusted	method	b	se	pval
-WHR	Endometrial cancer	WHR_ala	ala	Multivariable MR	0.0769407180235099	0.0830266109962303	0.35504559872682
-ala	Endometrial cancer	WHR_ala	WHR	Multivariable MR	0.0857918600894594	0.124620876319129	0.491874328727688
-WHR	endometrioid_cancer	WHR_ala	ala	Multivariable MR	0.0811547615336858	0.0918020582814171	0.37760115891469
-ala	endometrioid_cancer	WHR_ala	WHR	Multivariable MR	0.105166297573961	0.137824440923218	0.446211536074854
-WHR	non_endometrioid_cancer	WHR_ala	ala	Multivariable MR	0.315150447111617	0.209202964163479	0.13335845579466
-ala	non_endometrioid_cancer	WHR_ala	WHR	Multivariable MR	0.132970618838564	0.310058478151879	0.668437909192214
-WHR	Endometrial cancer	WHR_glyca	glyca	Multivariable MR	0.038223113530673	0.0928602721119036	0.681015342031859
-glyca	Endometrial cancer	WHR_glyca	WHR	Multivariable MR	0.213808036446199	0.192372926248568	0.267587770998225
-WHR	endometrioid_cancer	WHR_glyca	glyca	Multivariable MR	0.0632057980267972	0.101892569508966	0.53568467670475
-glyca	endometrioid_cancer	WHR_glyca	WHR	Multivariable MR	0.258565790906416	0.211090980739287	0.221910188977898
-WHR	non_endometrioid_cancer	WHR_glyca	glyca	Multivariable MR	0.219530375763215	0.224493528323195	0.329232017042775
-glyca	non_endometrioid_cancer	WHR_glyca	WHR	Multivariable MR	0.0637870660872077	0.461643020452843	0.890232824865985
-WHR	Endometrial cancer	WHR_hdltg	hdltg	Multivariable MR	0.0683483474481663	0.0890793619686315	0.443722545412774
-hdltg	Endometrial cancer	WHR_hdltg	WHR	Multivariable MR	0.225161173081187	0.184423068014081	0.223403690663607
-WHR	endometrioid_cancer	WHR_hdltg	hdltg	Multivariable MR	0.0586574909903404	0.0999716086264212	0.557965565535351
-hdltg	endometrioid_cancer	WHR_hdltg	WHR	Multivariable MR	0.306876173456407	0.206794886957921	0.139217956080871
-WHR	non_endometrioid_cancer	WHR_hdltg	hdltg	Multivariable MR	0.332529375210149	0.226524601130167	0.143562666830043
-hdltg	non_endometrioid_cancer	WHR_hdltg	WHR	Multivariable MR	-0.126321361836935	0.466009872816469	0.786594762260506
-WHR	Endometrial cancer	WHR_idltgpct	idltgpct	Multivariable MR	0.0373089262801952	0.0878236157415567	0.67136243583616
-idltgpct	Endometrial cancer	WHR_idltgpct	WHR	Multivariable MR	0.263146921719754	0.179317272536571	0.143590404715864
-WHR	endometrioid_cancer	WHR_idltgpct	idltgpct	Multivariable MR	0.0298354522621167	0.0981267461553731	0.761361040130159
-idltgpct	endometrioid_cancer	WHR_idltgpct	WHR	Multivariable MR	0.326830832680269	0.200304102526528	0.104099160816224
-WHR	non_endometrioid_cancer	WHR_idltgpct	idltgpct	Multivariable MR	0.356876729639076	0.224021044018161	0.112552796285535
-idltgpct	non_endometrioid_cancer	WHR_idltgpct	WHR	Multivariable MR	0.000645814047644364	0.453011709350492	0.99886379832373
-WHR	Endometrial cancer	WHR_lvldlplpct	lvldlplpct	Multivariable MR	0.0710042647565068	0.0884067410832502	0.42271110334392
-lvldlplpct	Endometrial cancer	WHR_lvldlplpct	WHR	Multivariable MR	0.119989110801454	0.177009824739592	0.498534458657186
-WHR	endometrioid_cancer	WHR_lvldlplpct	lvldlplpct	Multivariable MR	0.0734635288876535	0.0996856291068875	0.461899328587566
-lvldlplpct	endometrioid_cancer	WHR_lvldlplpct	WHR	Multivariable MR	0.17644616129037	0.199783049555409	0.378052448282245
-WHR	non_endometrioid_cancer	WHR_lvldlplpct	lvldlplpct	Multivariable MR	0.355599520305788	0.224453161279935	0.11453786978691
-lvldlplpct	non_endometrioid_cancer	WHR_lvldlplpct	WHR	Multivariable MR	-0.179292967688878	0.445608205152146	0.687806008480042
-WHR	Endometrial cancer	WHR_mhdltgpct	mhdltgpct	Multivariable MR	0.0540636056917721	0.0902315593223903	0.5496448845498
-mhdltgpct	Endometrial cancer	WHR_mhdltgpct	WHR	Multivariable MR	0.15175976061624	0.187267385722887	0.418542547342109
-WHR	endometrioid_cancer	WHR_mhdltgpct	mhdltgpct	Multivariable MR	0.0473492146947872	0.101510066331342	0.641330336495997
-mhdltgpct	endometrioid_cancer	WHR_mhdltgpct	WHR	Multivariable MR	0.185684917122446	0.210766728082493	0.379227136599785
-WHR	non_endometrioid_cancer	WHR_mhdltgpct	mhdltgpct	Multivariable MR	0.325849893985322	0.232647621901352	0.16270661364122
-mhdltgpct	non_endometrioid_cancer	WHR_mhdltgpct	WHR	Multivariable MR	0.130395941480013	0.478453596700324	0.785459683950267
-WHR	Endometrial cancer	WHR_mvldltgpct	mvldltgpct	Multivariable MR	0.0735364530207681	0.0905264127943785	0.417451430525853
-mvldltgpct	Endometrial cancer	WHR_mvldltgpct	WHR	Multivariable MR	0.135259046202094	0.193191835268017	0.484557920015436
-WHR	endometrioid_cancer	WHR_mvldltgpct	mvldltgpct	Multivariable MR	0.0704471240626286	0.101092444659039	0.486598166992304
-mvldltgpct	endometrioid_cancer	WHR_mvldltgpct	WHR	Multivariable MR	0.18541659085165	0.215531505751898	0.3905366443929
-WHR	non_endometrioid_cancer	WHR_mvldltgpct	mvldltgpct	Multivariable MR	0.288225068587669	0.225554962062806	0.202643453813978
-mvldltgpct	non_endometrioid_cancer	WHR_mvldltgpct	WHR	Multivariable MR	-0.184453722447761	0.477842811035876	0.699858098689772
-WHR	Endometrial cancer	WHR_shdltgpct	shdltgpct	Multivariable MR	0.0558139311197703	0.0889896047323145	0.531158281748914
-shdltgpct	Endometrial cancer	WHR_shdltgpct	WHR	Multivariable MR	0.127719743320604	0.180320744610106	0.479487423286432
-WHR	endometrioid_cancer	WHR_shdltgpct	shdltgpct	Multivariable MR	0.0504328999869688	0.0997518176120113	0.61363729547297
-shdltgpct	endometrioid_cancer	WHR_shdltgpct	WHR	Multivariable MR	0.211537857865686	0.202239861900993	0.296680159468545
-WHR	non_endometrioid_cancer	WHR_shdltgpct	shdltgpct	Multivariable MR	0.324713018206826	0.229181420675102	0.157938300414477
-shdltgpct	non_endometrioid_cancer	WHR_shdltgpct	WHR	Multivariable MR	-0.0303239775339772	0.45967449503916	0.947462644146193
-WHR	Endometrial cancer	WHR_sldlcepct	sldlcepct	Multivariable MR	0.030125497248643	0.0915822038215531	0.742508854778985
-sldlcepct	Endometrial cancer	WHR_sldlcepct	WHR	Multivariable MR	0.317969568574618	0.189014317709523	0.0939324695856965
-WHR	endometrioid_cancer	WHR_sldlcepct	sldlcepct	Multivariable MR	0.0350564085393538	0.102590926476027	0.732893383173126
-sldlcepct	endometrioid_cancer	WHR_sldlcepct	WHR	Multivariable MR	0.371012927095563	0.211738198738085	0.0811220468763411
-WHR	non_endometrioid_cancer	WHR_sldlcepct	sldlcepct	Multivariable MR	0.264386163674403	0.23271811904576	0.257200130271201
-sldlcepct	non_endometrioid_cancer	WHR_sldlcepct	WHR	Multivariable MR	-0.2005988583293	0.476333568950014	0.67408402103843
-WHR	Endometrial cancer	WHR_svldltg	svldltg	Multivariable MR	0.0484314842983628	0.0873730026775906	0.579909536241873
-svldltg	Endometrial cancer	WHR_svldltg	WHR	Multivariable MR	0.265979555169534	0.179869764007527	0.140585575203524
-WHR	endometrioid_cancer	WHR_svldltg	svldltg	Multivariable MR	0.0539924553179829	0.0985774841095929	0.584420439307807
-svldltg	endometrioid_cancer	WHR_svldltg	WHR	Multivariable MR	0.322434428571043	0.2027834556164	0.113204662253717
-WHR	non_endometrioid_cancer	WHR_svldltg	svldltg	Multivariable MR	0.2738683494088	0.224717120931251	0.224242096855833
-svldltg	non_endometrioid_cancer	WHR_svldltg	WHR	Multivariable MR	0.206847714777734	0.457732147059371	0.651784492912092
-WHR	Endometrial cancer	WHR_svldltgpct	svldltgpct	Multivariable MR	0.063676543841671	0.088859603811993	0.474337261414932
-svldltgpct	Endometrial cancer	WHR_svldltgpct	WHR	Multivariable MR	0.150230024035658	0.186571307041371	0.421513015010776
-WHR	endometrioid_cancer	WHR_svldltgpct	svldltgpct	Multivariable MR	0.058529555671251	0.0992253642962926	0.55585039383093
-svldltgpct	endometrioid_cancer	WHR_svldltgpct	WHR	Multivariable MR	0.187587286974201	0.208182601006265	0.368477073643323
-WHR	non_endometrioid_cancer	WHR_svldltgpct	svldltgpct	Multivariable MR	0.333910044030965	0.224108790361327	0.137632633665175
-svldltgpct	non_endometrioid_cancer	WHR_svldltgpct	WHR	Multivariable MR	-0.0365787862357954	0.465412326071931	0.937424812761767
-WHR	Endometrial cancer	WHR_tgbypg	tgbypg	Multivariable MR	0.0495359331009491	0.0885167625044403	0.576286598224329
-tgbypg	Endometrial cancer	WHR_tgbypg	WHR	Multivariable MR	0.17347138713438	0.187560434608307	0.35600481264305
-WHR	endometrioid_cancer	WHR_tgbypg	tgbypg	Multivariable MR	0.0455012505124018	0.099453123110419	0.647736914471643
-tgbypg	endometrioid_cancer	WHR_tgbypg	WHR	Multivariable MR	0.269714769482655	0.210647015070108	0.201701672615303
-WHR	non_endometrioid_cancer	WHR_tgbypg	tgbypg	Multivariable MR	0.352399558662429	0.218319715534588	0.107922954851645
-tgbypg	non_endometrioid_cancer	WHR_tgbypg	WHR	Multivariable MR	-0.298578737878564	0.458804130949852	0.51586708839387
-WHR	Endometrial cancer	WHR_totaltg	totaltg	Multivariable MR	0.0559103555030917	0.0866357744946157	0.519330284631985
-totaltg	Endometrial cancer	WHR_totaltg	WHR	Multivariable MR	0.235684709999017	0.177813993083305	0.186306909470843
-WHR	endometrioid_cancer	WHR_totaltg	totaltg	Multivariable MR	0.0634517756935373	0.0973245763417912	0.515063814410252
-totaltg	endometrioid_cancer	WHR_totaltg	WHR	Multivariable MR	0.278357043528516	0.199579787344813	0.164418560231819
-WHR	non_endometrioid_cancer	WHR_totaltg	totaltg	Multivariable MR	0.305574585659198	0.220211480814563	0.166600919886292
-totaltg	non_endometrioid_cancer	WHR_totaltg	WHR	Multivariable MR	0.036361284362374	0.447554818655063	0.935318930671245
-WHR	Endometrial cancer	WHR_xlhdltg	xlhdltg	Multivariable MR	0.087476739886487	0.0874929356285449	0.318441757959732
-xlhdltg	Endometrial cancer	WHR_xlhdltg	WHR	Multivariable MR	0.190150087601709	0.179065825296072	0.289385003377309
-WHR	endometrioid_cancer	WHR_xlhdltg	xlhdltg	Multivariable MR	0.0917060366513028	0.0985410439239286	0.353008235687278
-xlhdltg	endometrioid_cancer	WHR_xlhdltg	WHR	Multivariable MR	0.232714262342551	0.201484134290807	0.249278472055653
-WHR	non_endometrioid_cancer	WHR_xlhdltg	xlhdltg	Multivariable MR	0.247620328518935	0.230826461126747	0.284535224776812
-xlhdltg	non_endometrioid_cancer	WHR_xlhdltg	WHR	Multivariable MR	0.0654462574086561	0.469848867190174	0.889344449106308
-WHR	Endometrial cancer	WHR_xsvldltg	xsvldltg	Multivariable MR	0.0365121805054068	0.086687448323052	0.673997208961296
-xsvldltg	Endometrial cancer	WHR_xsvldltg	WHR	Multivariable MR	0.30491770695098	0.177873008709462	0.0877968398836641
-WHR	endometrioid_cancer	WHR_xsvldltg	xsvldltg	Multivariable MR	0.0420981349673335	0.0971162251225236	0.665060600954273
-xsvldltg	endometrioid_cancer	WHR_xsvldltg	WHR	Multivariable MR	0.335357427181855	0.199161841737123	0.0935340227838603
-WHR	non_endometrioid_cancer	WHR_xsvldltg	xsvldltg	Multivariable MR	0.216672004059128	0.225442818452663	0.337522454808406
-xsvldltg	non_endometrioid_cancer	WHR_xsvldltg	WHR	Multivariable MR	0.46764800551158	0.457844564426677	0.308141750125098
-WHR	Endometrial cancer	WHR_xsvldltgpct	xsvldltgpct	Multivariable MR	0.055367592225014	0.0886567310896245	0.532918383845721
-xsvldltgpct	Endometrial cancer	WHR_xsvldltgpct	WHR	Multivariable MR	0.259121039255023	0.184117840639169	0.160692967022806
-WHR	endometrioid_cancer	WHR_xsvldltgpct	xsvldltgpct	Multivariable MR	0.0490620498848339	0.0989412950411146	0.620467787355697
-xsvldltgpct	endometrioid_cancer	WHR_xsvldltgpct	WHR	Multivariable MR	0.319606767334738	0.205388179556118	0.121080973118811
-WHR	non_endometrioid_cancer	WHR_xsvldltgpct	xsvldltgpct	Multivariable MR	0.3439210280473	0.223803962036956	0.125815281974596
-xsvldltgpct	non_endometrioid_cancer	WHR_xsvldltgpct	WHR	Multivariable MR	0.0479860652932177	0.46035540601134	0.917077109778295
+WHR	Endometrial cancer	WHR_ala	ala	Multivariable MR	0.0760626850151095	0.0830288825190658	0.360566166527797
+ala	Endometrial cancer	WHR_ala	WHR	Multivariable MR	0.0851863507589588	0.124611819582314	0.494901296397354
+WHR	endometrioid_cancer	WHR_ala	ala	Multivariable MR	0.0775607572939346	0.0917574435419429	0.398825265728293
+ala	endometrioid_cancer	WHR_ala	WHR	Multivariable MR	0.104016430669066	0.137734262354599	0.450897082337216
+WHR	non_endometrioid_cancer	WHR_ala	ala	Multivariable MR	0.339580810446841	0.210106112320242	0.107444778804119
+ala	non_endometrioid_cancer	WHR_ala	WHR	Multivariable MR	0.134165717699626	0.311344121628675	0.666936023475023
+WHR	Endometrial cancer	WHR_apobbyapoa1	apobbyapoa1	Multivariable MR	0.0558562860261971	0.0917484491326842	0.543266987237587
+apobbyapoa1	Endometrial cancer	WHR_apobbyapoa1	WHR	Multivariable MR	0.089885435095833	0.110940784133054	0.418667508843374
+WHR	endometrioid_cancer	WHR_apobbyapoa1	apobbyapoa1	Multivariable MR	0.0592760568960303	0.102539691764205	0.563783708296946
+apobbyapoa1	endometrioid_cancer	WHR_apobbyapoa1	WHR	Multivariable MR	0.0417146960570749	0.12407027249688	0.737016837290827
+WHR	non_endometrioid_cancer	WHR_apobbyapoa1	apobbyapoa1	Multivariable MR	0.327416670586854	0.23258735944067	0.160626923183336
+apobbyapoa1	non_endometrioid_cancer	WHR_apobbyapoa1	WHR	Multivariable MR	0.172470648385392	0.277456405940021	0.534839639295634
+WHR	Endometrial cancer	WHR_clinicalldlc	clinicalldlc	Multivariable MR	0.09676664779038	0.0828142783517027	0.243839751214999
+clinicalldlc	Endometrial cancer	WHR_clinicalldlc	WHR	Multivariable MR	-0.0497175349020318	0.124118577326193	0.689117292401807
+WHR	endometrioid_cancer	WHR_clinicalldlc	clinicalldlc	Multivariable MR	0.108936530206376	0.091558081946615	0.23536482672088
+clinicalldlc	endometrioid_cancer	WHR_clinicalldlc	WHR	Multivariable MR	-0.211150524271216	0.137684363815193	0.126524566844522
+WHR	non_endometrioid_cancer	WHR_clinicalldlc	clinicalldlc	Multivariable MR	0.338481586534682	0.211455771064985	0.110873808604552
+clinicalldlc	non_endometrioid_cancer	WHR_clinicalldlc	WHR	Multivariable MR	0.120335070570552	0.312313164977586	0.700385514255314
+WHR	Endometrial cancer	WHR_creatinine	creatinine	Multivariable MR	0.119598815047253	0.0775441007650443	0.124338215137768
+creatinine	Endometrial cancer	WHR_creatinine	WHR	Multivariable MR	-0.196304605403485	0.0970831526090725	0.0443069902749007
+WHR	endometrioid_cancer	WHR_creatinine	creatinine	Multivariable MR	0.10586134382656	0.0869117954755653	0.22443333641436
+creatinine	endometrioid_cancer	WHR_creatinine	WHR	Multivariable MR	-0.170267367980054	0.108803477563287	0.118950203890179
+WHR	non_endometrioid_cancer	WHR_creatinine	creatinine	Multivariable MR	0.330709685744339	0.196984277389463	0.0945486006947818
+creatinine	non_endometrioid_cancer	WHR_creatinine	WHR	Multivariable MR	-0.274183291480522	0.243206439963103	0.260771716297554
+WHR	Endometrial cancer	WHR_glucose	glucose	Multivariable MR	0.0697562515610055	0.0826533255295748	0.399587134341796
+glucose	Endometrial cancer	WHR_glucose	WHR	Multivariable MR	-0.0385931318548689	0.164906689176471	0.8151744021712
+WHR	endometrioid_cancer	WHR_glucose	glucose	Multivariable MR	0.0646538787833735	0.0919575067994372	0.482730062590971
+glucose	endometrioid_cancer	WHR_glucose	WHR	Multivariable MR	0.0534801260772812	0.183400222520263	0.770858549426809
+WHR	non_endometrioid_cancer	WHR_glucose	glucose	Multivariable MR	0.336110311332351	0.206797138202346	0.105540438206104
+glucose	non_endometrioid_cancer	WHR_glucose	WHR	Multivariable MR	-0.0594827297795501	0.409084415767146	0.884525834826642
+WHR	Endometrial cancer	WHR_glyca	glyca	Multivariable MR	0.0467825417225454	0.0952169114884429	0.623681298996442
+glyca	Endometrial cancer	WHR_glyca	WHR	Multivariable MR	0.0858206058441714	0.121499159007075	0.480712816702257
+WHR	endometrioid_cancer	WHR_glyca	glyca	Multivariable MR	0.04499809859846	0.104248850551284	0.666421106950696
+glyca	endometrioid_cancer	WHR_glyca	WHR	Multivariable MR	0.182774221422185	0.133044403817726	0.170894445656694
+WHR	non_endometrioid_cancer	WHR_glyca	glyca	Multivariable MR	0.124755974818382	0.231379551640918	0.590320931941317
+glyca	non_endometrioid_cancer	WHR_glyca	WHR	Multivariable MR	0.397961503162176	0.296378466717774	0.180776176735675
+WHR	Endometrial cancer	WHR_hdlce	hdlce	Multivariable MR	0.0507219310696575	0.0957024121045559	0.59661483666164
+hdlce	Endometrial cancer	WHR_hdlce	WHR	Multivariable MR	-0.0833064681239214	0.0896060806134289	0.353482201936834
+WHR	endometrioid_cancer	WHR_hdlce	hdlce	Multivariable MR	0.057120246606499	0.106784071071808	0.593215406707185
+hdlce	endometrioid_cancer	WHR_hdlce	WHR	Multivariable MR	-0.0837098483374959	0.100165912017933	0.404165865850691
+WHR	non_endometrioid_cancer	WHR_hdlce	hdlce	Multivariable MR	0.0356866779988254	0.2438097424742	0.883758989764562
+hdlce	non_endometrioid_cancer	WHR_hdlce	WHR	Multivariable MR	-0.609194064434037	0.234260930726008	0.0099229629145351
+WHR	Endometrial cancer	WHR_hdltg	hdltg	Multivariable MR	0.106325231066622	0.0918262394421093	0.248134121941549
+hdltg	Endometrial cancer	WHR_hdltg	WHR	Multivariable MR	-0.00279498269340486	0.102523781031855	0.97827508975054
+WHR	endometrioid_cancer	WHR_hdltg	hdltg	Multivariable MR	0.133287155469634	0.103060558562035	0.197237118896265
+hdltg	endometrioid_cancer	WHR_hdltg	WHR	Multivariable MR	-0.0732461704453412	0.115288618878153	0.52585964224652
+WHR	non_endometrioid_cancer	WHR_hdltg	hdltg	Multivariable MR	0.163961722590512	0.231745606790403	0.480010388234238
+hdltg	non_endometrioid_cancer	WHR_hdltg	WHR	Multivariable MR	0.478429805462319	0.260523769781344	0.0676642875993894
+WHR	Endometrial cancer	WHR_idlc	idlc	Multivariable MR	0.125829500081648	0.0827721091277261	0.129860508078808
+idlc	Endometrial cancer	WHR_idlc	WHR	Multivariable MR	-0.0364069541218085	0.112342014958449	0.746182891183162
+WHR	endometrioid_cancer	WHR_idlc	idlc	Multivariable MR	0.119587795092132	0.0917265137824737	0.193647679707494
+idlc	endometrioid_cancer	WHR_idlc	WHR	Multivariable MR	-0.10203115814647	0.12439601864376	0.412959259858017
+WHR	non_endometrioid_cancer	WHR_idlc	idlc	Multivariable MR	0.400643325636542	0.212781345271185	0.0610473264864405
+idlc	non_endometrioid_cancer	WHR_idlc	WHR	Multivariable MR	-0.128351898673384	0.303280538146704	0.672557954711397
+WHR	Endometrial cancer	WHR_idlfc	idlfc	Multivariable MR	0.120136572209947	0.0841058577159273	0.154582938266389
+idlfc	Endometrial cancer	WHR_idlfc	WHR	Multivariable MR	-0.0514182933328877	0.122705039512001	0.675592216182594
+WHR	endometrioid_cancer	WHR_idlfc	idlfc	Multivariable MR	0.124261440679891	0.0937173855052078	0.186229955960266
+idlfc	endometrioid_cancer	WHR_idlfc	WHR	Multivariable MR	-0.0968586316983081	0.137207614981406	0.480973344019584
+WHR	non_endometrioid_cancer	WHR_idlfc	idlfc	Multivariable MR	0.342422468523014	0.215349620943845	0.113293657258969
+idlfc	non_endometrioid_cancer	WHR_idlfc	WHR	Multivariable MR	-0.241298580329307	0.329735040987083	0.465094087522649
+WHR	Endometrial cancer	WHR_idlfcpct	idlfcpct	Multivariable MR	0.0844845689577838	0.0866325148076531	0.330509934228332
+idlfcpct	Endometrial cancer	WHR_idlfcpct	WHR	Multivariable MR	0.08825859723704	0.120154602277114	0.463386738851932
+WHR	endometrioid_cancer	WHR_idlfcpct	idlfcpct	Multivariable MR	0.0769557846257137	0.0973904940935321	0.430259782635654
+idlfcpct	endometrioid_cancer	WHR_idlfcpct	WHR	Multivariable MR	0.022648891174168	0.135800355249223	0.867692984942589
+WHR	non_endometrioid_cancer	WHR_idlfcpct	idlfcpct	Multivariable MR	0.188454288157924	0.21902586550622	0.390511453218859
+idlfcpct	non_endometrioid_cancer	WHR_idlfcpct	WHR	Multivariable MR	-0.531294969701174	0.306468991672865	0.0844158394598731
+WHR	Endometrial cancer	WHR_idlp	idlp	Multivariable MR	0.115465959990725	0.0824121024153213	0.162586441175351
+idlp	Endometrial cancer	WHR_idlp	WHR	Multivariable MR	0.0833143864020425	0.129313733310982	0.520058330565565
+WHR	endometrioid_cancer	WHR_idlp	idlp	Multivariable MR	0.123028957850984	0.0923419364654382	0.184121246078626
+idlp	endometrioid_cancer	WHR_idlp	WHR	Multivariable MR	-0.0511229092192154	0.145175264618938	0.72506272274767
+WHR	non_endometrioid_cancer	WHR_idlp	idlp	Multivariable MR	0.379421721396785	0.211059103250078	0.0736270750021824
+idlp	non_endometrioid_cancer	WHR_idlp	WHR	Multivariable MR	0.161041754715084	0.333900624302524	0.630080339388469
+WHR	Endometrial cancer	WHR_idltgpct	idltgpct	Multivariable MR	0.0936782116222332	0.0890814116946776	0.294076177684336
+idltgpct	Endometrial cancer	WHR_idltgpct	WHR	Multivariable MR	-0.0364617933805767	0.0937320284867987	0.697632666602758
+WHR	endometrioid_cancer	WHR_idltgpct	idltgpct	Multivariable MR	0.0927230212223098	0.0992129100641071	0.350973286730709
+idltgpct	endometrioid_cancer	WHR_idltgpct	WHR	Multivariable MR	-0.0298957816086538	0.104944539042354	0.77599618638445
+WHR	non_endometrioid_cancer	WHR_idltgpct	idltgpct	Multivariable MR	0.241115566292569	0.22647041425641	0.288172968234891
+idltgpct	non_endometrioid_cancer	WHR_idltgpct	WHR	Multivariable MR	0.420901818815841	0.244335572138614	0.0863341234947164
+WHR	Endometrial cancer	WHR_lhdlcpct	lhdlcpct	Multivariable MR	0.0525090584338481	0.100216103759088	0.600818742296823
+lhdlcpct	Endometrial cancer	WHR_lhdlcpct	WHR	Multivariable MR	-0.0549935052229367	0.0978935087926642	0.574827873937464
+WHR	endometrioid_cancer	WHR_lhdlcpct	lhdlcpct	Multivariable MR	0.073394729618852	0.111229351572279	0.510018777587908
+lhdlcpct	endometrioid_cancer	WHR_lhdlcpct	WHR	Multivariable MR	-0.0237462591721463	0.109115118805481	0.827916213954199
+WHR	non_endometrioid_cancer	WHR_lhdlcpct	lhdlcpct	Multivariable MR	0.118921242715419	0.259067396247783	0.646665724863966
+lhdlcpct	non_endometrioid_cancer	WHR_lhdlcpct	WHR	Multivariable MR	-0.340268383314968	0.253536338167424	0.180963161822316
+WHR	Endometrial cancer	WHR_lhdlcepct	lhdlcepct	Multivariable MR	0.0123005975450767	0.0991666551788881	0.901393643024237
+lhdlcepct	Endometrial cancer	WHR_lhdlcepct	WHR	Multivariable MR	-0.148487531152754	0.0987695806344114	0.13413279788801
+WHR	endometrioid_cancer	WHR_lhdlcepct	lhdlcepct	Multivariable MR	0.0109796568092849	0.111837888082603	0.921880164706037
+lhdlcepct	endometrioid_cancer	WHR_lhdlcepct	WHR	Multivariable MR	-0.153379321999038	0.111918547484504	0.171898636582367
+WHR	non_endometrioid_cancer	WHR_lhdlcepct	lhdlcepct	Multivariable MR	0.146764449115788	0.252457741750701	0.561612904767812
+lhdlcepct	non_endometrioid_cancer	WHR_lhdlcepct	WHR	Multivariable MR	-0.362774575011015	0.254399289246324	0.15530397666194
+WHR	Endometrial cancer	WHR_lhdltg	lhdltg	Multivariable MR	0.104029138767243	0.081363765534899	0.202337732041062
+lhdltg	Endometrial cancer	WHR_lhdltg	WHR	Multivariable MR	-0.178100908615907	0.103611672898298	0.0869731500105628
+WHR	endometrioid_cancer	WHR_lhdltg	lhdltg	Multivariable MR	0.110413508001999	0.09143426897263	0.228452051252786
+lhdltg	endometrioid_cancer	WHR_lhdltg	WHR	Multivariable MR	-0.235832164947959	0.116427644733061	0.043964016231543
+WHR	non_endometrioid_cancer	WHR_lhdltg	lhdltg	Multivariable MR	0.308860638569949	0.210545510140217	0.143803666266869
+lhdltg	non_endometrioid_cancer	WHR_lhdltg	WHR	Multivariable MR	0.111697762446566	0.272304084766262	0.682058522632456
+WHR	Endometrial cancer	WHR_lldlcpct	lldlcpct	Multivariable MR	0.0634712221865656	0.0905345156633528	0.483976066252068
+lldlcpct	Endometrial cancer	WHR_lldlcpct	WHR	Multivariable MR	-0.0672152372555592	0.105793014027887	0.525842285901647
+WHR	endometrioid_cancer	WHR_lldlcpct	lldlcpct	Multivariable MR	0.0459504902207106	0.100064614610816	0.64652409753535
+lldlcpct	endometrioid_cancer	WHR_lldlcpct	WHR	Multivariable MR	-0.12420850283815	0.117312945071135	0.290825697563463
+WHR	non_endometrioid_cancer	WHR_lldlcpct	lldlcpct	Multivariable MR	0.336619752347822	0.230946233176631	0.146398772221688
+lldlcpct	non_endometrioid_cancer	WHR_lldlcpct	WHR	Multivariable MR	-0.123080866944436	0.277134822201151	0.657397014279866
+WHR	Endometrial cancer	WHR_lldlfc	lldlfc	Multivariable MR	0.0860515804263225	0.0828397014034056	0.300025685718258
+lldlfc	Endometrial cancer	WHR_lldlfc	WHR	Multivariable MR	-0.0929074661817058	0.121573610131044	0.445544269349136
+WHR	endometrioid_cancer	WHR_lldlfc	lldlfc	Multivariable MR	0.0851149492968987	0.0916891382043689	0.354247181983546
+lldlfc	endometrioid_cancer	WHR_lldlfc	WHR	Multivariable MR	-0.249333790446025	0.13500712221247	0.0660864418328859
+WHR	non_endometrioid_cancer	WHR_lldlfc	lldlfc	Multivariable MR	0.357614919915108	0.2103500552992	0.0905459594572295
+lldlfc	non_endometrioid_cancer	WHR_lldlfc	WHR	Multivariable MR	0.11413157623568	0.317130782193191	0.719280867740901
+WHR	Endometrial cancer	WHR_lldlfcpct	lldlfcpct	Multivariable MR	0.0509291605538659	0.0917647665214159	0.579445662906206
+lldlfcpct	Endometrial cancer	WHR_lldlfcpct	WHR	Multivariable MR	-0.0629296611999722	0.0880519721516446	0.47553961231674
+WHR	endometrioid_cancer	WHR_lldlfcpct	lldlfcpct	Multivariable MR	0.0452704935184634	0.103781235213849	0.663100212368131
+lldlfcpct	endometrioid_cancer	WHR_lldlfcpct	WHR	Multivariable MR	-0.102001537813571	0.100034317734815	0.308977437873435
+WHR	non_endometrioid_cancer	WHR_lldlfcpct	lldlfcpct	Multivariable MR	0.0699752113498632	0.239929963865196	0.770834006379096
+lldlfcpct	non_endometrioid_cancer	WHR_lldlfcpct	WHR	Multivariable MR	-0.492806944222789	0.235884849682379	0.0378567489666103
+WHR	Endometrial cancer	WHR_lldlp	lldlp	Multivariable MR	0.0960337299671433	0.0868161827847027	0.269827675992821
+lldlp	Endometrial cancer	WHR_lldlp	WHR	Multivariable MR	-0.0376721010257883	0.112819814073489	0.738754178927279
+WHR	endometrioid_cancer	WHR_lldlp	lldlp	Multivariable MR	0.112054108631912	0.0969089073680338	0.248786301739244
+lldlp	endometrioid_cancer	WHR_lldlp	WHR	Multivariable MR	-0.125392360201592	0.126416686699542	0.322308452560043
+WHR	non_endometrioid_cancer	WHR_lldlp	lldlp	Multivariable MR	0.370301555760185	0.214645429664865	0.0859125960755058
+lldlp	non_endometrioid_cancer	WHR_lldlp	WHR	Multivariable MR	0.232388734130181	0.277631944580727	0.403487359812627
+WHR	Endometrial cancer	WHR_lldlpl	lldlpl	Multivariable MR	0.13341011322973	0.0826133786126254	0.107752173607093
+lldlpl	Endometrial cancer	WHR_lldlpl	WHR	Multivariable MR	-0.0358540612983442	0.119544571269983	0.764515941572934
+WHR	endometrioid_cancer	WHR_lldlpl	lldlpl	Multivariable MR	0.129375419835417	0.0929540697310832	0.165363265119023
+lldlpl	endometrioid_cancer	WHR_lldlpl	WHR	Multivariable MR	-0.201315509013113	0.134810485150109	0.136766331696684
+WHR	non_endometrioid_cancer	WHR_lldlpl	lldlpl	Multivariable MR	0.382713368952965	0.210237636394124	0.0700843495622864
+lldlpl	non_endometrioid_cancer	WHR_lldlpl	WHR	Multivariable MR	0.126360446590343	0.309886004740652	0.68385060201104
+WHR	Endometrial cancer	WHR_lvldlce	lvldlce	Multivariable MR	0.0922471779090069	0.0931371230898295	0.322988621911375
+lvldlce	Endometrial cancer	WHR_lvldlce	WHR	Multivariable MR	-0.0402335314938726	0.0933568636636924	0.666894034485717
+WHR	endometrioid_cancer	WHR_lvldlce	lvldlce	Multivariable MR	0.121586108012364	0.104937518725577	0.247789150999837
+lvldlce	endometrioid_cancer	WHR_lvldlce	WHR	Multivariable MR	-0.0943551926242842	0.105471771864728	0.37192736876552
+WHR	non_endometrioid_cancer	WHR_lvldlce	lvldlce	Multivariable MR	0.110765442057808	0.242285729695024	0.647992882426792
+lvldlce	non_endometrioid_cancer	WHR_lvldlce	WHR	Multivariable MR	0.33833526174817	0.240976970216268	0.161699329259502
+WHR	Endometrial cancer	WHR_lvldlplpct	lvldlplpct	Multivariable MR	0.0395774709049025	0.092324972170454	0.668558725340586
+lvldlplpct	Endometrial cancer	WHR_lvldlplpct	WHR	Multivariable MR	0.112460700004485	0.0891423937071958	0.208370628701821
+WHR	endometrioid_cancer	WHR_lvldlplpct	lvldlplpct	Multivariable MR	0.0648890231327369	0.104431730784318	0.534979724200236
+lvldlplpct	endometrioid_cancer	WHR_lvldlplpct	WHR	Multivariable MR	0.0743603008467953	0.101331170015244	0.463793807017434
+WHR	non_endometrioid_cancer	WHR_lvldlplpct	lvldlplpct	Multivariable MR	0.0730203096589803	0.232337872372458	0.753597103146003
+lvldlplpct	non_endometrioid_cancer	WHR_lvldlplpct	WHR	Multivariable MR	0.629212397171268	0.222861859208395	0.00518079774748482
+WHR	Endometrial cancer	WHR_ldlc	ldlc	Multivariable MR	0.0944010530139051	0.0838254609943897	0.261291347800731
+ldlc	Endometrial cancer	WHR_ldlc	WHR	Multivariable MR	-0.0380493781506824	0.120438199479198	0.752351380724836
+WHR	endometrioid_cancer	WHR_ldlc	ldlc	Multivariable MR	0.106941423333107	0.0932790433263115	0.252814008782467
+ldlc	endometrioid_cancer	WHR_ldlc	WHR	Multivariable MR	-0.17009151807694	0.134586789636909	0.207601881541642
+WHR	non_endometrioid_cancer	WHR_ldlc	ldlc	Multivariable MR	0.317429993053285	0.212970882004255	0.13754210587785
+ldlc	non_endometrioid_cancer	WHR_ldlc	WHR	Multivariable MR	0.328349911022653	0.313169374064656	0.295581327239407
+WHR	Endometrial cancer	WHR_ldlce	ldlce	Multivariable MR	0.123980815037488	0.0843130502971645	0.142809953946176
+ldlce	Endometrial cancer	WHR_ldlce	WHR	Multivariable MR	-0.155785672913621	0.116500691181994	0.182487245394811
+WHR	endometrioid_cancer	WHR_ldlce	ldlce	Multivariable MR	0.144987592215947	0.0942125768554876	0.125205363480294
+ldlce	endometrioid_cancer	WHR_ldlce	WHR	Multivariable MR	-0.29614557062074	0.130531381378812	0.0242181541248748
+WHR	non_endometrioid_cancer	WHR_ldlce	ldlce	Multivariable MR	0.351590398646951	0.211100781271504	0.0972344147270886
+ldlce	non_endometrioid_cancer	WHR_ldlce	WHR	Multivariable MR	0.19281859234522	0.295453234154113	0.514682847232062
+WHR	Endometrial cancer	WHR_ldll	ldll	Multivariable MR	0.110201445055365	0.0839252964933223	0.190461253180519
+ldll	Endometrial cancer	WHR_ldll	WHR	Multivariable MR	-0.129650500342637	0.118918735204949	0.276746334781154
+WHR	endometrioid_cancer	WHR_ldll	ldll	Multivariable MR	0.127884243788081	0.0932480047260417	0.171573632761033
+ldll	endometrioid_cancer	WHR_ldll	WHR	Multivariable MR	-0.287286947545519	0.132489604388176	0.0311561321543665
+WHR	non_endometrioid_cancer	WHR_ldll	ldll	Multivariable MR	0.335638187307109	0.210462339855865	0.112187201771944
+ldll	non_endometrioid_cancer	WHR_ldll	WHR	Multivariable MR	0.239515301437426	0.302532136079554	0.429379543021343
+WHR	Endometrial cancer	WHR_ldlp	ldlp	Multivariable MR	0.116558714845497	0.087548797540549	0.184395346191915
+ldlp	Endometrial cancer	WHR_ldlp	WHR	Multivariable MR	-0.101176065285702	0.108583159215955	0.352429401603541
+WHR	endometrioid_cancer	WHR_ldlp	ldlp	Multivariable MR	0.145057482049771	0.0977885786280021	0.139348830538119
+ldlp	endometrioid_cancer	WHR_ldlp	WHR	Multivariable MR	-0.249699917436689	0.121523582975492	0.0410386768212558
+WHR	non_endometrioid_cancer	WHR_ldlp	ldlp	Multivariable MR	0.373296185699223	0.215384980007848	0.0844561602884455
+ldlp	non_endometrioid_cancer	WHR_ldlp	WHR	Multivariable MR	0.0499324084227024	0.261548250761962	0.848769887804609
+WHR	Endometrial cancer	WHR_ldlpl	ldlpl	Multivariable MR	0.0928056350976002	0.0837732632203786	0.269092040674635
+ldlpl	Endometrial cancer	WHR_ldlpl	WHR	Multivariable MR	-0.0304569597892208	0.117329400370743	0.795415059458064
+WHR	endometrioid_cancer	WHR_ldlpl	ldlpl	Multivariable MR	0.109964532073627	0.0934519397290958	0.240527928111636
+ldlpl	endometrioid_cancer	WHR_ldlpl	WHR	Multivariable MR	-0.148714872126754	0.131266513877131	0.258421044667353
+WHR	non_endometrioid_cancer	WHR_ldlpl	ldlpl	Multivariable MR	0.348844904675251	0.210660571888223	0.0991306477407333
+ldlpl	non_endometrioid_cancer	WHR_ldlpl	WHR	Multivariable MR	0.146903714032241	0.290673199786367	0.613780925118144
+WHR	Endometrial cancer	WHR_mhdlcpct	mhdlcpct	Multivariable MR	-0.00626341571071655	0.0948107336954113	0.947384387033488
+mhdlcpct	Endometrial cancer	WHR_mhdlcpct	WHR	Multivariable MR	-0.20096617278772	0.0877997374393971	0.0229723623871547
+WHR	endometrioid_cancer	WHR_mhdlcpct	mhdlcpct	Multivariable MR	-0.00456944857346441	0.106473987521123	0.9658048542922
+mhdlcpct	endometrioid_cancer	WHR_mhdlcpct	WHR	Multivariable MR	-0.202712895956352	0.098967604349562	0.0416444619256797
+WHR	non_endometrioid_cancer	WHR_mhdlcpct	mhdlcpct	Multivariable MR	0.0268361763527823	0.246557504148077	0.913423214747817
+mhdlcpct	non_endometrioid_cancer	WHR_mhdlcpct	WHR	Multivariable MR	-0.562442821044842	0.227104394204696	0.0139982410269598
+WHR	Endometrial cancer	WHR_mhdlcepct	mhdlcepct	Multivariable MR	-0.00553766265081002	0.0952108868787994	0.95367047224003
+mhdlcepct	Endometrial cancer	WHR_mhdlcepct	WHR	Multivariable MR	-0.188261758326571	0.0997240176667612	0.0603190712643558
+WHR	endometrioid_cancer	WHR_mhdlcepct	mhdlcepct	Multivariable MR	-0.00618144782272451	0.107154954382661	0.954048473837079
+mhdlcepct	endometrioid_cancer	WHR_mhdlcepct	WHR	Multivariable MR	-0.207518987736826	0.112498041363715	0.0663862927048109
+WHR	non_endometrioid_cancer	WHR_mhdlcepct	mhdlcepct	Multivariable MR	0.0411682782579034	0.241445296176266	0.864766887609687
+mhdlcepct	non_endometrioid_cancer	WHR_mhdlcepct	WHR	Multivariable MR	-0.535360156301268	0.249433840706751	0.032938569757613
+WHR	Endometrial cancer	WHR_mhdltgpct	mhdltgpct	Multivariable MR	0.0351592189206959	0.0972549228387411	0.718041293021153
+mhdltgpct	Endometrial cancer	WHR_mhdltgpct	WHR	Multivariable MR	0.0842702731919487	0.0930864469033658	0.366246669895345
+WHR	endometrioid_cancer	WHR_mhdltgpct	mhdltgpct	Multivariable MR	0.0482792976977037	0.109742571187288	0.660393966099913
+mhdltgpct	endometrioid_cancer	WHR_mhdltgpct	WHR	Multivariable MR	0.0518496307772129	0.105736232711077	0.624335197261952
+WHR	non_endometrioid_cancer	WHR_mhdltgpct	mhdltgpct	Multivariable MR	0.158299091793714	0.249677559308116	0.526715654489803
+mhdltgpct	non_endometrioid_cancer	WHR_mhdltgpct	WHR	Multivariable MR	0.412455490289113	0.236876825570285	0.0830112417737655
+WHR	Endometrial cancer	WHR_mldlc	mldlc	Multivariable MR	0.108295770799995	0.0890847410389774	0.225381421443628
+mldlc	Endometrial cancer	WHR_mldlc	WHR	Multivariable MR	-0.0400150675775293	0.110945987701595	0.718680352849741
+WHR	endometrioid_cancer	WHR_mldlc	mldlc	Multivariable MR	0.116909048658704	0.100431473406675	0.245618524971833
+mldlc	endometrioid_cancer	WHR_mldlc	WHR	Multivariable MR	-0.101973841951097	0.125355035716086	0.416795217056208
+WHR	non_endometrioid_cancer	WHR_mldlc	mldlc	Multivariable MR	0.346402511400483	0.219212167751727	0.11549412280322
+mldlc	non_endometrioid_cancer	WHR_mldlc	WHR	Multivariable MR	-0.00370884871658781	0.268208126578529	0.98897953729336
+WHR	Endometrial cancer	WHR_mldlce	mldlce	Multivariable MR	0.084932721361658	0.0911680609385496	0.352534249690632
+mldlce	Endometrial cancer	WHR_mldlce	WHR	Multivariable MR	0.0289788473593673	0.117543562024152	0.805490282753072
+WHR	endometrioid_cancer	WHR_mldlce	mldlce	Multivariable MR	0.117324482857251	0.10214815609241	0.251946831189767
+mldlce	endometrioid_cancer	WHR_mldlce	WHR	Multivariable MR	-0.0774385698355547	0.131831980068749	0.557519127556192
+WHR	non_endometrioid_cancer	WHR_mldlce	mldlce	Multivariable MR	0.285626893331234	0.224794043552374	0.205213434995111
+mldlce	non_endometrioid_cancer	WHR_mldlce	WHR	Multivariable MR	0.254383510093696	0.285178790928211	0.373364401566927
+WHR	Endometrial cancer	WHR_mldlcepct	mldlcepct	Multivariable MR	0.127966061320744	0.0922878273620223	0.166955398960874
+mldlcepct	Endometrial cancer	WHR_mldlcepct	WHR	Multivariable MR	-0.100177398917592	0.114765786965079	0.383668601875246
+WHR	endometrioid_cancer	WHR_mldlcepct	mldlcepct	Multivariable MR	0.157210688069532	0.103688282172385	0.130895007330575
+mldlcepct	endometrioid_cancer	WHR_mldlcepct	WHR	Multivariable MR	-0.159182214455472	0.129233365688835	0.219348447692745
+WHR	non_endometrioid_cancer	WHR_mldlcepct	mldlcepct	Multivariable MR	0.281103136554368	0.235245548681894	0.233428896872943
+mldlcepct	non_endometrioid_cancer	WHR_mldlcepct	WHR	Multivariable MR	0.293269921126666	0.289387842660703	0.312001176777654
+WHR	Endometrial cancer	WHR_mldlfc	mldlfc	Multivariable MR	0.0912402855014117	0.0824543381838544	0.269652379687765
+mldlfc	Endometrial cancer	WHR_mldlfc	WHR	Multivariable MR	-0.0446227039434942	0.126200799368483	0.723976680134303
+WHR	endometrioid_cancer	WHR_mldlfc	mldlfc	Multivariable MR	0.105613652443863	0.0916984672566148	0.250630358983909
+mldlfc	endometrioid_cancer	WHR_mldlfc	WHR	Multivariable MR	-0.186522319897968	0.140836662372722	0.186700404251036
+WHR	non_endometrioid_cancer	WHR_mldlfc	mldlfc	Multivariable MR	0.327109848993826	0.208474553387314	0.118063752074368
+mldlfc	non_endometrioid_cancer	WHR_mldlfc	WHR	Multivariable MR	0.13238747391562	0.315991595234656	0.675653112955606
+WHR	Endometrial cancer	WHR_mldlfcpct	mldlfcpct	Multivariable MR	0.0597892446100097	0.0956016008756074	0.532328568916328
+mldlfcpct	Endometrial cancer	WHR_mldlfcpct	WHR	Multivariable MR	-0.042734920760404	0.094842708981836	0.652711479331564
+WHR	endometrioid_cancer	WHR_mldlfcpct	mldlfcpct	Multivariable MR	0.074112256510466	0.106527789228642	0.487313945482298
+mldlfcpct	endometrioid_cancer	WHR_mldlfcpct	WHR	Multivariable MR	-0.0396837744294779	0.106038707717487	0.708571615153129
+WHR	non_endometrioid_cancer	WHR_mldlfcpct	mldlfcpct	Multivariable MR	0.164977905707722	0.247957947148868	0.506522791423313
+mldlfcpct	non_endometrioid_cancer	WHR_mldlfcpct	WHR	Multivariable MR	-0.243013162571472	0.245156085730674	0.322643212050918
+WHR	Endometrial cancer	WHR_mldll	mldll	Multivariable MR	0.0934815464060454	0.0895749509894264	0.297765091314361
+mldll	Endometrial cancer	WHR_mldll	WHR	Multivariable MR	0.0124836435400268	0.112623430620645	0.911837053909252
+WHR	endometrioid_cancer	WHR_mldll	mldll	Multivariable MR	0.119545919066769	0.100000522009854	0.233146585952197
+mldll	endometrioid_cancer	WHR_mldll	WHR	Multivariable MR	-0.0874061459618293	0.125859463111938	0.488088855013054
+WHR	non_endometrioid_cancer	WHR_mldll	mldll	Multivariable MR	0.312882123711273	0.221659407769931	0.159484116828609
+mldll	non_endometrioid_cancer	WHR_mldll	WHR	Multivariable MR	0.195279418228209	0.27269571457839	0.474677622986665
+WHR	Endometrial cancer	WHR_mldlp	mldlp	Multivariable MR	0.076536202808479	0.0905408641257333	0.398821076020168
+mldlp	Endometrial cancer	WHR_mldlp	WHR	Multivariable MR	0.0381228291825597	0.117577868168468	0.746058888750872
+WHR	endometrioid_cancer	WHR_mldlp	mldlp	Multivariable MR	0.123015151729585	0.101854970043245	0.228400961636802
+mldlp	endometrioid_cancer	WHR_mldlp	WHR	Multivariable MR	-0.107609044045834	0.132701575316131	0.418266694951266
+WHR	non_endometrioid_cancer	WHR_mldlp	mldlp	Multivariable MR	0.255180045550362	0.225745681688357	0.259543920826865
+mldlp	non_endometrioid_cancer	WHR_mldlp	WHR	Multivariable MR	0.190475345027044	0.290577759981702	0.51282716597159
+WHR	Endometrial cancer	WHR_mvldlc	mvldlc	Multivariable MR	0.126287978515481	0.0856941004717114	0.141970736823912
+mvldlc	Endometrial cancer	WHR_mvldlc	WHR	Multivariable MR	-0.0327322295248566	0.111798813267977	0.769964111244188
+WHR	endometrioid_cancer	WHR_mvldlc	mvldlc	Multivariable MR	0.125041312146104	0.0985108007559973	0.205651590116374
+mvldlc	endometrioid_cancer	WHR_mvldlc	WHR	Multivariable MR	-0.146177180273685	0.128941909151505	0.258151551819132
+WHR	non_endometrioid_cancer	WHR_mvldlc	mvldlc	Multivariable MR	0.410607273941925	0.212810183330166	0.0549847021001483
+mvldlc	non_endometrioid_cancer	WHR_mvldlc	WHR	Multivariable MR	0.192449272710411	0.278753223691952	0.490688251866503
+WHR	Endometrial cancer	WHR_mvldlce	mvldlce	Multivariable MR	0.114414360844723	0.0828780586709871	0.168798185737431
+mvldlce	Endometrial cancer	WHR_mvldlce	WHR	Multivariable MR	-0.0251217242581935	0.117175181847676	0.830433541984659
+WHR	endometrioid_cancer	WHR_mvldlce	mvldlce	Multivariable MR	0.0936619041078642	0.0933738472883596	0.316897395172487
+mvldlce	endometrioid_cancer	WHR_mvldlce	WHR	Multivariable MR	-0.143956433317445	0.132047776360762	0.276798056011809
+WHR	non_endometrioid_cancer	WHR_mvldlce	mvldlce	Multivariable MR	0.39509748613488	0.210804979240396	0.0622421717814778
+mvldlce	non_endometrioid_cancer	WHR_mvldlce	WHR	Multivariable MR	0.193202083972115	0.309710914012529	0.533404769541763
+WHR	Endometrial cancer	WHR_mvldlfcpct	mvldlfcpct	Multivariable MR	0.101795545457694	0.0923183903404425	0.271343669798669
+mvldlfcpct	Endometrial cancer	WHR_mvldlfcpct	WHR	Multivariable MR	0.00469040733332481	0.110204516517737	0.966088948648633
+WHR	endometrioid_cancer	WHR_mvldlfcpct	mvldlfcpct	Multivariable MR	0.0996856405647958	0.10213422353907	0.330090634132435
+mvldlfcpct	endometrioid_cancer	WHR_mvldlfcpct	WHR	Multivariable MR	5.23490853201321e-05	0.122255473848596	0.99965872652369
+WHR	non_endometrioid_cancer	WHR_mvldlfcpct	mvldlfcpct	Multivariable MR	0.283136592835415	0.234447521950452	0.228474608101751
+mvldlfcpct	non_endometrioid_cancer	WHR_mvldlfcpct	WHR	Multivariable MR	-0.104469965682513	0.285905693746118	0.715165440643281
+WHR	Endometrial cancer	WHR_mvldlplpct	mvldlplpct	Multivariable MR	0.145550418934675	0.0902166617662784	0.108077877789302
+mvldlplpct	Endometrial cancer	WHR_mvldlplpct	WHR	Multivariable MR	0.0529813322519399	0.108935372968396	0.627190522227645
+WHR	endometrioid_cancer	WHR_mvldlplpct	mvldlplpct	Multivariable MR	0.134057202260274	0.100592953718966	0.183994157452492
+mvldlplpct	endometrioid_cancer	WHR_mvldlplpct	WHR	Multivariable MR	0.0350957655103453	0.121596993998168	0.773136322771478
+WHR	non_endometrioid_cancer	WHR_mvldlplpct	mvldlplpct	Multivariable MR	0.442415355098463	0.235171107400108	0.0612832668184313
+mvldlplpct	non_endometrioid_cancer	WHR_mvldlplpct	WHR	Multivariable MR	0.0966889701735874	0.2875792846699	0.737033816760106
+WHR	Endometrial cancer	WHR_mvldltgpct	mvldltgpct	Multivariable MR	0.0917899881486787	0.0940485239192843	0.330106064716363
+mvldltgpct	Endometrial cancer	WHR_mvldltgpct	WHR	Multivariable MR	0.0126865071551316	0.10699247199225	0.905717400466151
+WHR	endometrioid_cancer	WHR_mvldltgpct	mvldltgpct	Multivariable MR	0.10833893407194	0.104577055665574	0.301312559684597
+mvldltgpct	endometrioid_cancer	WHR_mvldltgpct	WHR	Multivariable MR	-0.0203092284764581	0.119247172392162	0.864915778589162
+WHR	non_endometrioid_cancer	WHR_mvldltgpct	mvldltgpct	Multivariable MR	0.217430571691117	0.236464244052456	0.358837427181386
+mvldltgpct	non_endometrioid_cancer	WHR_mvldltgpct	WHR	Multivariable MR	0.170601991186546	0.274438716045685	0.534822464831173
+WHR	Endometrial cancer	WHR_nonhdlc	nonhdlc	Multivariable MR	0.137275200647855	0.0837333420380598	0.102533052379678
+nonhdlc	Endometrial cancer	WHR_nonhdlc	WHR	Multivariable MR	-0.00761044053690408	0.116361250138006	0.947911280422855
+WHR	endometrioid_cancer	WHR_nonhdlc	nonhdlc	Multivariable MR	0.147388259031458	0.0952644995147912	0.123245570568376
+nonhdlc	endometrioid_cancer	WHR_nonhdlc	WHR	Multivariable MR	-0.101538124170635	0.133014024095589	0.446053139043827
+WHR	non_endometrioid_cancer	WHR_nonhdlc	nonhdlc	Multivariable MR	0.367152334007809	0.214860289722847	0.088925198678293
+nonhdlc	non_endometrioid_cancer	WHR_nonhdlc	WHR	Multivariable MR	0.130379782814795	0.302865314392832	0.667270161986007
+WHR	Endometrial cancer	WHR_remnantc	remnantc	Multivariable MR	0.121697943101479	0.0850124130859014	0.153659396952119
+remnantc	Endometrial cancer	WHR_remnantc	WHR	Multivariable MR	0.00157443207860288	0.107094335590247	0.988283406441287
+WHR	endometrioid_cancer	WHR_remnantc	remnantc	Multivariable MR	0.124066779127215	0.0956980671173072	0.196146240160132
+remnantc	endometrioid_cancer	WHR_remnantc	WHR	Multivariable MR	-0.0111684287867211	0.120840095823772	0.926443678995341
+WHR	non_endometrioid_cancer	WHR_remnantc	remnantc	Multivariable MR	0.438177082694422	0.214225092405648	0.0420103803796048
+remnantc	non_endometrioid_cancer	WHR_remnantc	WHR	Multivariable MR	-0.118920192240898	0.270917631390429	0.66112812325707
+WHR	Endometrial cancer	WHR_shdlcpct	shdlcpct	Multivariable MR	0.055832090144587	0.0953518197579329	0.558752877976
+shdlcpct	Endometrial cancer	WHR_shdlcpct	WHR	Multivariable MR	0.0906916395267508	0.0930381523241859	0.330680805056963
+WHR	endometrioid_cancer	WHR_shdlcpct	shdlcpct	Multivariable MR	0.0369428199470809	0.108457798125827	0.733697106728236
+shdlcpct	endometrioid_cancer	WHR_shdlcpct	WHR	Multivariable MR	0.144170624148207	0.10620140502971	0.175929123230266
+WHR	non_endometrioid_cancer	WHR_shdlcpct	shdlcpct	Multivariable MR	0.155739398745502	0.243703616315684	0.523441724132212
+shdlcpct	non_endometrioid_cancer	WHR_shdlcpct	WHR	Multivariable MR	0.377488466780448	0.23533341224062	0.110110246173784
+WHR	Endometrial cancer	WHR_shdltgpct	shdltgpct	Multivariable MR	0.0554670198866347	0.0959839194897958	0.563916593645395
+shdltgpct	Endometrial cancer	WHR_shdltgpct	WHR	Multivariable MR	0.0404611462702478	0.0902516439816501	0.654351767923155
+WHR	endometrioid_cancer	WHR_shdltgpct	shdltgpct	Multivariable MR	0.0501634572043686	0.107782204806297	0.642078514911718
+shdltgpct	endometrioid_cancer	WHR_shdltgpct	WHR	Multivariable MR	0.0621247238302492	0.10180576077267	0.542318541122772
+WHR	non_endometrioid_cancer	WHR_shdltgpct	shdltgpct	Multivariable MR	0.157083998713384	0.246438699280859	0.524513632965471
+shdltgpct	non_endometrioid_cancer	WHR_shdltgpct	WHR	Multivariable MR	0.356444873764645	0.22884267154086	0.120759444960233
+WHR	Endometrial cancer	WHR_sldlc	sldlc	Multivariable MR	0.089531641053515	0.0866542705747179	0.302574528760373
+sldlc	Endometrial cancer	WHR_sldlc	WHR	Multivariable MR	-0.064789528522728	0.11158953268325	0.562064895623231
+WHR	endometrioid_cancer	WHR_sldlc	sldlc	Multivariable MR	0.116639818421343	0.0963379653139796	0.227218142255186
+sldlc	endometrioid_cancer	WHR_sldlc	WHR	Multivariable MR	-0.192883023081374	0.124271218706977	0.121986507839927
+WHR	non_endometrioid_cancer	WHR_sldlc	sldlc	Multivariable MR	0.310276007205251	0.217296775364101	0.154697673672009
+sldlc	non_endometrioid_cancer	WHR_sldlc	WHR	Multivariable MR	0.0305316803932835	0.273535587387722	0.911224395008704
+WHR	Endometrial cancer	WHR_sldlcepct	sldlcepct	Multivariable MR	0.0567962491862364	0.0933827536187075	0.543673291836062
+sldlcepct	Endometrial cancer	WHR_sldlcepct	WHR	Multivariable MR	0.077861687275176	0.10463990741373	0.457611409328486
+WHR	endometrioid_cancer	WHR_sldlcepct	sldlcepct	Multivariable MR	0.0981589201089624	0.104874629920536	0.350313138959682
+sldlcepct	endometrioid_cancer	WHR_sldlcepct	WHR	Multivariable MR	-0.00963281617062033	0.118268463521549	0.935158811595067
+WHR	non_endometrioid_cancer	WHR_sldlcepct	sldlcepct	Multivariable MR	0.0574172761610369	0.235066521995098	0.807264823270402
+sldlcepct	non_endometrioid_cancer	WHR_sldlcepct	WHR	Multivariable MR	0.570078551219325	0.264102684694201	0.0320033741561758
+WHR	Endometrial cancer	WHR_sldlfc	sldlfc	Multivariable MR	0.0843645098398069	0.0809783186474316	0.298625126923797
+sldlfc	Endometrial cancer	WHR_sldlfc	WHR	Multivariable MR	0.085398979007284	0.123853082279639	0.491213961165097
+WHR	endometrioid_cancer	WHR_sldlfc	sldlfc	Multivariable MR	0.0853413621374959	0.0898138705544331	0.343038047533065
+sldlfc	endometrioid_cancer	WHR_sldlfc	WHR	Multivariable MR	0.0743100778658437	0.138511748911899	0.592155180927801
+WHR	non_endometrioid_cancer	WHR_sldlfc	sldlfc	Multivariable MR	0.334261503592606	0.213266459915373	0.118498540978797
+sldlfc	non_endometrioid_cancer	WHR_sldlfc	WHR	Multivariable MR	-0.250479854297358	0.311683901869187	0.422491739566858
+WHR	Endometrial cancer	WHR_sldll	sldll	Multivariable MR	0.10094859904527	0.0868288202049747	0.246179739054263
+sldll	Endometrial cancer	WHR_sldll	WHR	Multivariable MR	-0.0560963670529096	0.108550110353078	0.605803039772394
+WHR	endometrioid_cancer	WHR_sldll	sldll	Multivariable MR	0.134676680315183	0.0971038236220493	0.166792697865899
+sldll	endometrioid_cancer	WHR_sldll	WHR	Multivariable MR	-0.199189367653474	0.121441261565249	0.102316289344834
+WHR	non_endometrioid_cancer	WHR_sldll	sldll	Multivariable MR	0.314250676589572	0.215374541140248	0.145935177800279
+sldll	non_endometrioid_cancer	WHR_sldll	WHR	Multivariable MR	0.156872330116469	0.263744358159423	0.552581964941967
+WHR	Endometrial cancer	WHR_svldlc	svldlc	Multivariable MR	0.113848038165973	0.092747190740456	0.220897078605515
+svldlc	Endometrial cancer	WHR_svldlc	WHR	Multivariable MR	-0.0244597895321788	0.104663952282288	0.815428888201375
+WHR	endometrioid_cancer	WHR_svldlc	svldlc	Multivariable MR	0.149957408192774	0.102664200609985	0.145485637351283
+svldlc	endometrioid_cancer	WHR_svldlc	WHR	Multivariable MR	-0.138823283633371	0.115956742425342	0.232472288802217
+WHR	non_endometrioid_cancer	WHR_svldlc	svldlc	Multivariable MR	0.298870435819575	0.225381324709485	0.186186831238824
+svldlc	non_endometrioid_cancer	WHR_svldlc	WHR	Multivariable MR	0.354761786729093	0.250378742285207	0.157920111608393
+WHR	Endometrial cancer	WHR_svldlcpct	svldlcpct	Multivariable MR	0.106325600574458	0.087106568473428	0.223467572154906
+svldlcpct	Endometrial cancer	WHR_svldlcpct	WHR	Multivariable MR	0.102323210784845	0.105576411761382	0.33346591330238
+WHR	endometrioid_cancer	WHR_svldlcpct	svldlcpct	Multivariable MR	0.107584132688522	0.0972117305416658	0.269575197494656
+svldlcpct	endometrioid_cancer	WHR_svldlcpct	WHR	Multivariable MR	0.0853653209098018	0.118210190399385	0.470933530525874
+WHR	non_endometrioid_cancer	WHR_svldlcpct	svldlcpct	Multivariable MR	0.385258400765876	0.219731645387611	0.0809222336945945
+svldlcpct	non_endometrioid_cancer	WHR_svldlcpct	WHR	Multivariable MR	0.0533221196258134	0.266236973471725	0.841443607952423
+WHR	Endometrial cancer	WHR_svldlcepct	svldlcepct	Multivariable MR	0.110177761031741	0.0840924429010247	0.191464797362945
+svldlcepct	Endometrial cancer	WHR_svldlcepct	WHR	Multivariable MR	0.0842984177949388	0.100182847888124	0.400991746980915
+WHR	endometrioid_cancer	WHR_svldlcepct	svldlcepct	Multivariable MR	0.119212949014681	0.0948550728575002	0.210132678076188
+svldlcepct	endometrioid_cancer	WHR_svldlcepct	WHR	Multivariable MR	0.0778517140835626	0.113437459473839	0.493232869109985
+WHR	non_endometrioid_cancer	WHR_svldlcepct	svldlcepct	Multivariable MR	0.360373957412711	0.215300769365752	0.0956074538871847
+svldlcepct	non_endometrioid_cancer	WHR_svldlcepct	WHR	Multivariable MR	-0.0950012407921467	0.257014655386173	0.712016009178065
+WHR	Endometrial cancer	WHR_svldlfc	svldlfc	Multivariable MR	0.0948689748953888	0.0901613625341019	0.293830462628945
+svldlfc	Endometrial cancer	WHR_svldlfc	WHR	Multivariable MR	0.00370701627173458	0.104543572256748	0.971745133227511
+WHR	endometrioid_cancer	WHR_svldlfc	svldlfc	Multivariable MR	0.119907687225495	0.100237620558801	0.232864158005083
+svldlfc	endometrioid_cancer	WHR_svldlfc	WHR	Multivariable MR	-0.10898405259599	0.116280919946399	0.349635968458513
+WHR	non_endometrioid_cancer	WHR_svldlfc	svldlfc	Multivariable MR	0.327041723105654	0.221331760479144	0.140955804559539
+svldlfc	non_endometrioid_cancer	WHR_svldlfc	WHR	Multivariable MR	0.324343469664594	0.251890989185627	0.199238559105266
+WHR	Endometrial cancer	WHR_svldlplpct	svldlplpct	Multivariable MR	0.111766625581981	0.0917714659608837	0.224556650828067
+svldlplpct	Endometrial cancer	WHR_svldlplpct	WHR	Multivariable MR	0.0391128637525778	0.113040698114293	0.729663729244078
+WHR	endometrioid_cancer	WHR_svldlplpct	svldlplpct	Multivariable MR	0.0939043653719614	0.102073000947001	0.358581154040409
+svldlplpct	endometrioid_cancer	WHR_svldlplpct	WHR	Multivariable MR	-0.040182751675191	0.12638069286996	0.750820339340909
+WHR	non_endometrioid_cancer	WHR_svldlplpct	svldlplpct	Multivariable MR	0.3412631876485	0.233298417522322	0.144982372017722
+svldlplpct	non_endometrioid_cancer	WHR_svldlplpct	WHR	Multivariable MR	-0.0968380380034068	0.285879082382712	0.735136355138749
+WHR	Endometrial cancer	WHR_svldltg	svldltg	Multivariable MR	0.056161780243672	0.0935508022784414	0.548876922906516
+svldltg	Endometrial cancer	WHR_svldltg	WHR	Multivariable MR	0.0761414784979594	0.0916670588833459	0.407047408186853
+WHR	endometrioid_cancer	WHR_svldltg	svldltg	Multivariable MR	0.0786151463642192	0.105764403186247	0.458059297029305
+svldltg	endometrioid_cancer	WHR_svldltg	WHR	Multivariable MR	0.0562118415843646	0.104049152431843	0.589554369896096
+WHR	non_endometrioid_cancer	WHR_svldltg	svldltg	Multivariable MR	-0.01621329674997	0.235723807955163	0.945225929402665
+svldltg	non_endometrioid_cancer	WHR_svldltg	WHR	Multivariable MR	0.707085691876402	0.228522886759925	0.00222729128112752
+WHR	Endometrial cancer	WHR_svldltgpct	svldltgpct	Multivariable MR	0.0928045560533701	0.0874630110634475	0.289755768401483
+svldltgpct	Endometrial cancer	WHR_svldltgpct	WHR	Multivariable MR	-0.0161270078478779	0.107130921748499	0.880472375179769
+WHR	endometrioid_cancer	WHR_svldltgpct	svldltgpct	Multivariable MR	0.106400176896665	0.0971794227222057	0.274698043696261
+svldltgpct	endometrioid_cancer	WHR_svldltgpct	WHR	Multivariable MR	-0.0737808750891031	0.119380330537947	0.537157807412198
+WHR	non_endometrioid_cancer	WHR_svldltgpct	svldltgpct	Multivariable MR	0.30280009434999	0.220333916003517	0.170722664142795
+svldltgpct	non_endometrioid_cancer	WHR_svldltgpct	WHR	Multivariable MR	0.218981484656969	0.268617712028621	0.415810706167678
+WHR	Endometrial cancer	WHR_sfapct	sfapct	Multivariable MR	0.102174537443047	0.0855889643682993	0.233820496263674
+sfapct	Endometrial cancer	WHR_sfapct	WHR	Multivariable MR	-0.176446256850783	0.159800475730637	0.27070055370898
+WHR	endometrioid_cancer	WHR_sfapct	sfapct	Multivariable MR	0.122401766337111	0.0954642967475589	0.201101370290665
+sfapct	endometrioid_cancer	WHR_sfapct	WHR	Multivariable MR	-0.240212958474059	0.17886007387941	0.180618111700284
+WHR	non_endometrioid_cancer	WHR_sfapct	sfapct	Multivariable MR	0.36664487711502	0.217227050937762	0.092871712925555
+sfapct	non_endometrioid_cancer	WHR_sfapct	WHR	Multivariable MR	-0.647722336757679	0.39919353185068	0.106125047013333
+WHR	Endometrial cancer	WHR_tgbypg	tgbypg	Multivariable MR	0.0494644537959515	0.0962210387925433	0.607700170627127
+tgbypg	Endometrial cancer	WHR_tgbypg	WHR	Multivariable MR	0.0536521615883823	0.0921372581282377	0.560935353657365
+WHR	endometrioid_cancer	WHR_tgbypg	tgbypg	Multivariable MR	0.0508325392888379	0.108309605852884	0.639284961171836
+tgbypg	endometrioid_cancer	WHR_tgbypg	WHR	Multivariable MR	0.0691807611739079	0.104198870928002	0.507405902570276
+WHR	non_endometrioid_cancer	WHR_tgbypg	tgbypg	Multivariable MR	0.138109180588592	0.236814747567802	0.560356671218024
+tgbypg	non_endometrioid_cancer	WHR_tgbypg	WHR	Multivariable MR	0.349839472017257	0.224935414467092	0.121308228016322
+WHR	Endometrial cancer	WHR_totaltg	totaltg	Multivariable MR	0.0719260270956613	0.0921401932157538	0.435814498302946
+totaltg	Endometrial cancer	WHR_totaltg	WHR	Multivariable MR	0.0479013388636593	0.0879544119660707	0.58653439104638
+WHR	endometrioid_cancer	WHR_totaltg	totaltg	Multivariable MR	0.0811476687739789	0.103608445183538	0.43428957640395
+totaltg	endometrioid_cancer	WHR_totaltg	WHR	Multivariable MR	0.0538589681308925	0.0994236595018134	0.588530297105356
+WHR	non_endometrioid_cancer	WHR_totaltg	totaltg	Multivariable MR	0.123868880975469	0.232267218468632	0.594343092052231
+totaltg	non_endometrioid_cancer	WHR_totaltg	WHR	Multivariable MR	0.430176433137416	0.219615137430914	0.0513583836898532
+WHR	Endometrial cancer	WHR_val	val	Multivariable MR	0.0544145419502515	0.0884783617533862	0.539168124718482
+val	Endometrial cancer	WHR_val	WHR	Multivariable MR	0.129383143056508	0.140120186907274	0.35679349955333
+WHR	endometrioid_cancer	WHR_val	val	Multivariable MR	0.0459718583868085	0.0980520871539945	0.63962580527181
+val	endometrioid_cancer	WHR_val	WHR	Multivariable MR	0.193901246507449	0.155203942605939	0.212830360423014
+WHR	non_endometrioid_cancer	WHR_val	val	Multivariable MR	0.385284741308356	0.222371960823456	0.0845657218072333
+val	non_endometrioid_cancer	WHR_val	WHR	Multivariable MR	-0.104165432478374	0.347974069243107	0.764956940477921
+WHR	Endometrial cancer	WHR_xlhdltg	xlhdltg	Multivariable MR	0.0617443628125227	0.0929999870292795	0.507402059818542
+xlhdltg	Endometrial cancer	WHR_xlhdltg	WHR	Multivariable MR	0.115219246353281	0.0887571099373973	0.195527905852474
+WHR	endometrioid_cancer	WHR_xlhdltg	xlhdltg	Multivariable MR	0.116923612980712	0.105095733674699	0.267055848122797
+xlhdltg	endometrioid_cancer	WHR_xlhdltg	WHR	Multivariable MR	0.0219836030586362	0.100400401613118	0.826874245089837
+WHR	non_endometrioid_cancer	WHR_xlhdltg	xlhdltg	Multivariable MR	0.00771159115638257	0.245032615152082	0.97492139048691
+xlhdltg	non_endometrioid_cancer	WHR_xlhdltg	WHR	Multivariable MR	0.557487453907245	0.238807259058076	0.0204564863691754
+WHR	Endometrial cancer	WHR_xsvldlcpct	xsvldlcpct	Multivariable MR	0.0538874206081493	0.101255226322938	0.595107617202356
+xsvldlcpct	Endometrial cancer	WHR_xsvldlcpct	WHR	Multivariable MR	0.101253765264657	0.110055452815515	0.358527830689863
+WHR	endometrioid_cancer	WHR_xsvldlcpct	xsvldlcpct	Multivariable MR	0.0695691982690425	0.112504374793443	0.536946790124617
+xsvldlcpct	endometrioid_cancer	WHR_xsvldlcpct	WHR	Multivariable MR	0.0680527128810972	0.122506583568117	0.579093271222611
+WHR	non_endometrioid_cancer	WHR_xsvldlcpct	xsvldlcpct	Multivariable MR	0.00355078609602355	0.256200042647737	0.988954690412748
+xsvldlcpct	non_endometrioid_cancer	WHR_xsvldlcpct	WHR	Multivariable MR	0.573639385644534	0.275057089539106	0.0381744699737222
+WHR	Endometrial cancer	WHR_xsvldlcepct	xsvldlcepct	Multivariable MR	0.0655883945321019	0.0986316302824963	0.506724468127528
+xsvldlcepct	Endometrial cancer	WHR_xsvldlcepct	WHR	Multivariable MR	0.0517944105106272	0.103411924249021	0.616949857252879
+WHR	endometrioid_cancer	WHR_xsvldlcepct	xsvldlcepct	Multivariable MR	0.104083999542084	0.109159409593466	0.341331146840728
+xsvldlcepct	endometrioid_cancer	WHR_xsvldlcepct	WHR	Multivariable MR	-0.015890650350385	0.11487285625526	0.890098146335333
+WHR	non_endometrioid_cancer	WHR_xsvldlcepct	xsvldlcepct	Multivariable MR	-0.024831985733903	0.251032330099835	0.921291469480436
+xsvldlcepct	non_endometrioid_cancer	WHR_xsvldlcepct	WHR	Multivariable MR	0.632245453255499	0.261769985410345	0.0165330194472078
+WHR	Endometrial cancer	WHR_xsvldltg	xsvldltg	Multivariable MR	0.0321358282376353	0.0882119624380767	0.715958413060772
+xsvldltg	Endometrial cancer	WHR_xsvldltg	WHR	Multivariable MR	0.141972116421611	0.0878547158555746	0.107433007915619
+WHR	endometrioid_cancer	WHR_xsvldltg	xsvldltg	Multivariable MR	0.0520467764132347	0.0990313687149224	0.599688452835817
+xsvldltg	endometrioid_cancer	WHR_xsvldltg	WHR	Multivariable MR	0.11162914468242	0.098783867919152	0.259609023893936
+WHR	non_endometrioid_cancer	WHR_xsvldltg	xsvldltg	Multivariable MR	0.110569843484684	0.227154647155252	0.62689586179561
+xsvldltg	non_endometrioid_cancer	WHR_xsvldltg	WHR	Multivariable MR	0.545675053399995	0.223907569925191	0.0155736711640315
+WHR	Endometrial cancer	WHR_xsvldltgpct	xsvldltgpct	Multivariable MR	0.0828973943376009	0.091379154868636	0.365281857843382
+xsvldltgpct	Endometrial cancer	WHR_xsvldltgpct	WHR	Multivariable MR	0.0420376402190426	0.101721017042791	0.67980674517616
+WHR	endometrioid_cancer	WHR_xsvldltgpct	xsvldltgpct	Multivariable MR	0.0784612945838371	0.101606694847872	0.440802791902178
+xsvldltgpct	endometrioid_cancer	WHR_xsvldltgpct	WHR	Multivariable MR	0.0595541796909902	0.113485690384701	0.600257947507705
+WHR	non_endometrioid_cancer	WHR_xsvldltgpct	xsvldltgpct	Multivariable MR	0.260559031793909	0.230878237582223	0.260331293053805
+xsvldltgpct	non_endometrioid_cancer	WHR_xsvldltgpct	WHR	Multivariable MR	0.331400238311445	0.261234510186516	0.205945485948824

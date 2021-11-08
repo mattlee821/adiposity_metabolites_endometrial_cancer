@@ -1,97 +1,403 @@
 exposure	outcome	group	adjusted	method	b	se	pval
-BMI	Endometrial cancer	BMI_ala	ala	Multivariable MR	0.561323248195003	0.0695103758194925	2.12276658835069e-14
-ala	Endometrial cancer	BMI_ala	BMI	Multivariable MR	0.0384920487930625	0.11978628666109	0.748197321976434
-BMI	endometrioid_cancer	BMI_ala	ala	Multivariable MR	0.523386283283177	0.0818986668779284	7.03886759577859e-10
-ala	endometrioid_cancer	BMI_ala	BMI	Multivariable MR	0.0509400212390371	0.141443073437752	0.719015115459291
-BMI	non_endometrioid_cancer	BMI_ala	ala	Multivariable MR	0.743325847871834	0.177015209112268	3.62886424116509e-05
-ala	non_endometrioid_cancer	BMI_ala	BMI	Multivariable MR	0.182791759368588	0.302329324778556	0.545939392972028
-BMI	Endometrial cancer	BMI_glyca	glyca	Multivariable MR	0.62220081409253	0.0727562874574412	8.9227227161691e-16
-glyca	Endometrial cancer	BMI_glyca	BMI	Multivariable MR	-0.163703956358384	0.161384271578414	0.31130593549043
-BMI	endometrioid_cancer	BMI_glyca	glyca	Multivariable MR	0.57981327812362	0.0849461899157328	5.68594020591513e-11
-glyca	endometrioid_cancer	BMI_glyca	BMI	Multivariable MR	-0.0996379090296636	0.188202142241104	0.596946199217167
-BMI	non_endometrioid_cancer	BMI_glyca	glyca	Multivariable MR	0.846275038156984	0.18204986507047	5.23328431423078e-06
-glyca	non_endometrioid_cancer	BMI_glyca	BMI	Multivariable MR	-0.130596857534434	0.400849110829574	0.744827623660517
-BMI	Endometrial cancer	BMI_hdltg	hdltg	Multivariable MR	0.501890788576919	0.0672247538835184	1.1059313151761e-12
-hdltg	Endometrial cancer	BMI_hdltg	BMI	Multivariable MR	0.0048609516540291	0.156590404408923	0.975258275648781
-BMI	endometrioid_cancer	BMI_hdltg	hdltg	Multivariable MR	0.477299508164559	0.080479789525655	9.06559536685931e-09
-hdltg	endometrioid_cancer	BMI_hdltg	BMI	Multivariable MR	0.0825843160362947	0.187470459828871	0.659908523769411
-BMI	non_endometrioid_cancer	BMI_hdltg	hdltg	Multivariable MR	0.688477308971004	0.170257141593141	6.85582864728314e-05
-hdltg	non_endometrioid_cancer	BMI_hdltg	BMI	Multivariable MR	-0.21601798596689	0.394914013550563	0.584827179549027
-BMI	Endometrial cancer	BMI_idltgpct	idltgpct	Multivariable MR	0.48974305841715	0.066048539597745	1.40838726155934e-12
-idltgpct	Endometrial cancer	BMI_idltgpct	BMI	Multivariable MR	-0.206491083441218	0.148922329499337	0.166660688125961
-BMI	endometrioid_cancer	BMI_idltgpct	idltgpct	Multivariable MR	0.463214609881365	0.0787636517051698	1.14338763883095e-08
-idltgpct	endometrioid_cancer	BMI_idltgpct	BMI	Multivariable MR	-0.129015073263399	0.177499191065174	0.467917270961506
-BMI	non_endometrioid_cancer	BMI_idltgpct	idltgpct	Multivariable MR	0.664188465911448	0.171041063352876	0.000128569557009018
-idltgpct	non_endometrioid_cancer	BMI_idltgpct	BMI	Multivariable MR	-0.425127054269777	0.385952009976906	0.271620670916744
-BMI	Endometrial cancer	BMI_lvldlplpct	lvldlplpct	Multivariable MR	0.552291293872139	0.0702700797189363	7.96269668915193e-14
-lvldlplpct	Endometrial cancer	BMI_lvldlplpct	BMI	Multivariable MR	-0.0677695721892294	0.144029622703092	0.638339697687347
-BMI	endometrioid_cancer	BMI_lvldlplpct	lvldlplpct	Multivariable MR	0.531018451937227	0.084621108479255	1.29455758136247e-09
-lvldlplpct	endometrioid_cancer	BMI_lvldlplpct	BMI	Multivariable MR	-0.072187858145324	0.173265838059998	0.677262196881386
-BMI	non_endometrioid_cancer	BMI_lvldlplpct	lvldlplpct	Multivariable MR	0.600472022307564	0.187581499004198	0.00152543103065532
-lvldlplpct	non_endometrioid_cancer	BMI_lvldlplpct	BMI	Multivariable MR	-0.311669404407937	0.382762496837092	0.416181257874069
-BMI	Endometrial cancer	BMI_mhdltgpct	mhdltgpct	Multivariable MR	0.568486232621313	0.0727374849576524	1.12305144873658e-13
-mhdltgpct	Endometrial cancer	BMI_mhdltgpct	BMI	Multivariable MR	0.0431560028006888	0.159854264511591	0.787382203945706
-BMI	endometrioid_cancer	BMI_mhdltgpct	mhdltgpct	Multivariable MR	0.540859557715316	0.0863965686553224	1.44584686045473e-09
-mhdltgpct	endometrioid_cancer	BMI_mhdltgpct	BMI	Multivariable MR	0.100088939888328	0.189761179071127	0.598302477720016
-BMI	non_endometrioid_cancer	BMI_mhdltgpct	mhdltgpct	Multivariable MR	0.654256477603024	0.1904262848114	0.000682207063720516
-mhdltgpct	non_endometrioid_cancer	BMI_mhdltgpct	BMI	Multivariable MR	-0.0861704838082324	0.41698859096572	0.836436519510902
-BMI	Endometrial cancer	BMI_mvldltgpct	mvldltgpct	Multivariable MR	0.571313266582365	0.0734053441245753	1.47012903351961e-13
-mvldltgpct	Endometrial cancer	BMI_mvldltgpct	BMI	Multivariable MR	-0.0868692920228863	0.156946602179567	0.580376937469232
-BMI	endometrioid_cancer	BMI_mvldltgpct	mvldltgpct	Multivariable MR	0.545195888190237	0.0883196082787021	2.41549079405945e-09
-mvldltgpct	endometrioid_cancer	BMI_mvldltgpct	BMI	Multivariable MR	-0.0345288439305031	0.188577052754409	0.854853860265269
-BMI	non_endometrioid_cancer	BMI_mvldltgpct	mvldltgpct	Multivariable MR	0.597474158481632	0.190466505266468	0.00189636775647475
-mvldltgpct	non_endometrioid_cancer	BMI_mvldltgpct	BMI	Multivariable MR	-0.160796782098174	0.406483827807521	0.692727436098035
-BMI	Endometrial cancer	BMI_shdltgpct	shdltgpct	Multivariable MR	0.595922984189998	0.0710352206519749	2.38392636235228e-15
-shdltgpct	Endometrial cancer	BMI_shdltgpct	BMI	Multivariable MR	-0.0502631096648929	0.155109522574136	0.746141032578515
-BMI	endometrioid_cancer	BMI_shdltgpct	shdltgpct	Multivariable MR	0.568598401386146	0.0842603823721244	8.49739113574386e-11
-shdltgpct	endometrioid_cancer	BMI_shdltgpct	BMI	Multivariable MR	0.0373433481140167	0.183795265199025	0.839141609876296
-BMI	non_endometrioid_cancer	BMI_shdltgpct	shdltgpct	Multivariable MR	0.684863531751038	0.18050170307579	0.000181521290289326
-shdltgpct	non_endometrioid_cancer	BMI_shdltgpct	BMI	Multivariable MR	-0.442702568530443	0.391896247047698	0.259593796021917
-BMI	Endometrial cancer	BMI_sldlcepct	sldlcepct	Multivariable MR	0.561589109886404	0.0724507033200118	1.8214411324974e-13
-sldlcepct	Endometrial cancer	BMI_sldlcepct	BMI	Multivariable MR	-0.032966684637236	0.159533190638697	0.836441968504772
-BMI	endometrioid_cancer	BMI_sldlcepct	sldlcepct	Multivariable MR	0.537563237285217	0.0859918315929332	1.56762942562614e-09
-sldlcepct	endometrioid_cancer	BMI_sldlcepct	BMI	Multivariable MR	0.0301222469967531	0.189375155004017	0.873738665158165
-BMI	non_endometrioid_cancer	BMI_sldlcepct	sldlcepct	Multivariable MR	0.744847343922036	0.186337201198219	8.27256034657017e-05
-sldlcepct	non_endometrioid_cancer	BMI_sldlcepct	BMI	Multivariable MR	-0.346094250175276	0.407778421260007	0.396782746559931
-BMI	Endometrial cancer	BMI_svldltg	svldltg	Multivariable MR	0.57190523028578	0.0721526774382269	5.23278675498932e-14
-svldltg	Endometrial cancer	BMI_svldltg	BMI	Multivariable MR	0.0525966999089127	0.15223307507561	0.729974334180856
-BMI	endometrioid_cancer	BMI_svldltg	svldltg	Multivariable MR	0.549137724710064	0.0849469640733685	4.43879591081931e-10
-svldltg	endometrioid_cancer	BMI_svldltg	BMI	Multivariable MR	0.102137598118048	0.179078938669852	0.568893156183762
-BMI	non_endometrioid_cancer	BMI_svldltg	svldltg	Multivariable MR	0.690638007858352	0.187285680072031	0.000271677584292737
-svldltg	non_endometrioid_cancer	BMI_svldltg	BMI	Multivariable MR	-0.187939770261047	0.39258470433134	0.63250718140835
-BMI	Endometrial cancer	BMI_svldltgpct	svldltgpct	Multivariable MR	0.588310103988732	0.0725785226893465	1.85580032051412e-14
-svldltgpct	Endometrial cancer	BMI_svldltgpct	BMI	Multivariable MR	-0.159003622694736	0.155204957213	0.306531286708403
-BMI	endometrioid_cancer	BMI_svldltgpct	svldltgpct	Multivariable MR	0.558463864438211	0.0872004219883523	6.70589898156441e-10
-svldltgpct	endometrioid_cancer	BMI_svldltgpct	BMI	Multivariable MR	-0.116952555278892	0.186163082017122	0.530388667537855
-BMI	non_endometrioid_cancer	BMI_svldltgpct	svldltgpct	Multivariable MR	0.691685445416273	0.188101247005486	0.000285477973017487
-svldltgpct	non_endometrioid_cancer	BMI_svldltgpct	BMI	Multivariable MR	-0.480147532008484	0.403649096747087	0.235300898289569
-BMI	Endometrial cancer	BMI_tgbypg	tgbypg	Multivariable MR	0.578885566044783	0.070856295119115	1.07141520263938e-14
-tgbypg	Endometrial cancer	BMI_tgbypg	BMI	Multivariable MR	-0.0822960041290395	0.148252184798407	0.579263840426002
-BMI	endometrioid_cancer	BMI_tgbypg	tgbypg	Multivariable MR	0.537186820099066	0.0832014170222142	4.71563019137386e-10
-tgbypg	endometrioid_cancer	BMI_tgbypg	BMI	Multivariable MR	0.0259666309880508	0.1739193222728	0.881422234593604
-BMI	non_endometrioid_cancer	BMI_tgbypg	tgbypg	Multivariable MR	0.697375868059948	0.182654297475371	0.000165911046327303
-tgbypg	non_endometrioid_cancer	BMI_tgbypg	BMI	Multivariable MR	-0.505782614994991	0.379658462475606	0.183884130504923
-BMI	Endometrial cancer	BMI_totaltg	totaltg	Multivariable MR	0.573966836218078	0.0699144696167012	7.68763019111812e-15
-totaltg	Endometrial cancer	BMI_totaltg	BMI	Multivariable MR	0.0392625872168159	0.142306130788117	0.782822366232842
-BMI	endometrioid_cancer	BMI_totaltg	totaltg	Multivariable MR	0.539607161895297	0.0833247567686575	4.09600687174878e-10
-totaltg	endometrioid_cancer	BMI_totaltg	BMI	Multivariable MR	0.0901707792045751	0.169469097619273	0.595085050490602
-BMI	non_endometrioid_cancer	BMI_totaltg	totaltg	Multivariable MR	0.725420197820528	0.186860177267329	0.000128809599517733
-totaltg	non_endometrioid_cancer	BMI_totaltg	BMI	Multivariable MR	-0.028725166745957	0.378111210485247	0.939496331720189
-BMI	Endometrial cancer	BMI_xlhdltg	xlhdltg	Multivariable MR	0.594778602572638	0.0722301555476871	6.49755760583264e-15
-xlhdltg	Endometrial cancer	BMI_xlhdltg	BMI	Multivariable MR	-0.0372000716305439	0.152001494445019	0.806837193903
-BMI	endometrioid_cancer	BMI_xlhdltg	xlhdltg	Multivariable MR	0.549312834316225	0.0850821780191995	4.58880937746388e-10
-xlhdltg	endometrioid_cancer	BMI_xlhdltg	BMI	Multivariable MR	0.0463442090246605	0.178845398783324	0.795721347366699
-BMI	non_endometrioid_cancer	BMI_xlhdltg	xlhdltg	Multivariable MR	0.72662057304802	0.189722637377118	0.000157900069038841
-xlhdltg	non_endometrioid_cancer	BMI_xlhdltg	BMI	Multivariable MR	-0.239393050532009	0.397568631062921	0.547561274348593
-BMI	Endometrial cancer	BMI_xsvldltg	xsvldltg	Multivariable MR	0.505447302991188	0.0685981604657466	1.8903966603695e-12
-xsvldltg	Endometrial cancer	BMI_xsvldltg	BMI	Multivariable MR	-0.0359930043397287	0.15641180888246	0.818166575668655
-BMI	endometrioid_cancer	BMI_xsvldltg	xsvldltg	Multivariable MR	0.482682237355082	0.0801008870717176	5.20407021272407e-09
-xsvldltg	endometrioid_cancer	BMI_xsvldltg	BMI	Multivariable MR	0.0208995455234341	0.182696768271145	0.909005731047875
-BMI	non_endometrioid_cancer	BMI_xsvldltg	xsvldltg	Multivariable MR	0.681954967075928	0.176014314400412	0.000133049205529133
-xsvldltg	non_endometrioid_cancer	BMI_xsvldltg	BMI	Multivariable MR	0.0626756246025832	0.399902591351487	0.875572372319351
-BMI	Endometrial cancer	BMI_xsvldltgpct	xsvldltgpct	Multivariable MR	0.557710705694823	0.0724996130202916	2.5610458450235e-13
-xsvldltgpct	Endometrial cancer	BMI_xsvldltgpct	BMI	Multivariable MR	-0.143803616349657	0.152077091461713	0.345181345207028
-BMI	endometrioid_cancer	BMI_xsvldltgpct	xsvldltgpct	Multivariable MR	0.531436779169762	0.0868947725039181	3.27263004839513e-09
-xsvldltgpct	endometrioid_cancer	BMI_xsvldltgpct	BMI	Multivariable MR	-0.0562653472037956	0.182069506478201	0.757530154174603
-BMI	non_endometrioid_cancer	BMI_xsvldltgpct	xsvldltgpct	Multivariable MR	0.638640900486804	0.188854240398772	0.000825870598233202
-xsvldltgpct	non_endometrioid_cancer	BMI_xsvldltgpct	BMI	Multivariable MR	-0.271081993845644	0.395007001369255	0.493124440327373
+BMI	Endometrial cancer	BMI_ala	ala	Multivariable MR	0.569012485260157	0.0697288754313327	1.23478149369254e-14
+ala	Endometrial cancer	BMI_ala	BMI	Multivariable MR	0.0444274456305041	0.119774919723975	0.710981472693412
+BMI	endometrioid_cancer	BMI_ala	ala	Multivariable MR	0.536038976202468	0.0820213032428627	3.10047439776622e-10
+ala	endometrioid_cancer	BMI_ala	BMI	Multivariable MR	0.0566888355200457	0.141195889475172	0.688372988459491
+BMI	non_endometrioid_cancer	BMI_ala	ala	Multivariable MR	0.745448486937216	0.178321501502484	3.93179667723884e-05
+ala	non_endometrioid_cancer	BMI_ala	BMI	Multivariable MR	0.187536898726738	0.303625811795171	0.537319498774258
+BMI	Endometrial cancer	BMI_apobbyapoa1	apobbyapoa1	Multivariable MR	0.566890923161431	0.0731665424992815	1.74261157339608e-13
+apobbyapoa1	Endometrial cancer	BMI_apobbyapoa1	BMI	Multivariable MR	-0.191059512852421	0.0724005528127433	0.00878444265427431
+BMI	endometrioid_cancer	BMI_apobbyapoa1	apobbyapoa1	Multivariable MR	0.525744606416183	0.0860599996174106	3.35732859287833e-09
+apobbyapoa1	endometrioid_cancer	BMI_apobbyapoa1	BMI	Multivariable MR	-0.22362815497628	0.0853653473152388	0.00928348262528731
+BMI	non_endometrioid_cancer	BMI_apobbyapoa1	apobbyapoa1	Multivariable MR	0.80283335572229	0.182287531296051	1.51826393091099e-05
+apobbyapoa1	non_endometrioid_cancer	BMI_apobbyapoa1	BMI	Multivariable MR	-0.621633451984758	0.181361291645397	0.000701439546426477
+BMI	Endometrial cancer	BMI_clinicalldlc	clinicalldlc	Multivariable MR	0.553116886347407	0.070982924836789	1.37117689229605e-13
+clinicalldlc	Endometrial cancer	BMI_clinicalldlc	BMI	Multivariable MR	-0.0176788526479928	0.0756488644314301	0.815395338099322
+BMI	endometrioid_cancer	BMI_clinicalldlc	clinicalldlc	Multivariable MR	0.520246433985289	0.0847332504518029	2.89071057882492e-09
+clinicalldlc	endometrioid_cancer	BMI_clinicalldlc	BMI	Multivariable MR	-0.0274489401392376	0.0904229678481126	0.76169229078904
+BMI	non_endometrioid_cancer	BMI_clinicalldlc	clinicalldlc	Multivariable MR	0.644027307928197	0.181305720641773	0.000450471974961115
+clinicalldlc	non_endometrioid_cancer	BMI_clinicalldlc	BMI	Multivariable MR	-0.552196493607998	0.195215454769519	0.00502359372953591
+BMI	Endometrial cancer	BMI_creatinine	creatinine	Multivariable MR	0.613850718833829	0.0720630984006934	1.02432720797418e-15
+creatinine	Endometrial cancer	BMI_creatinine	BMI	Multivariable MR	-0.249468211239062	0.0916689295476458	0.00690932563267014
+BMI	endometrioid_cancer	BMI_creatinine	creatinine	Multivariable MR	0.575854640328395	0.0855022848527292	9.34160571708034e-11
+creatinine	endometrioid_cancer	BMI_creatinine	BMI	Multivariable MR	-0.203609386001334	0.109106372880263	0.0630688319149155
+BMI	non_endometrioid_cancer	BMI_creatinine	creatinine	Multivariable MR	0.759133686786159	0.1827934945661	4.37486938907117e-05
+creatinine	non_endometrioid_cancer	BMI_creatinine	BMI	Multivariable MR	-0.291767843466094	0.233608815063692	0.21273449631353
+BMI	Endometrial cancer	BMI_glucose	glucose	Multivariable MR	0.582931133108388	0.0701956646157365	4.76986195699958e-15
+glucose	Endometrial cancer	BMI_glucose	BMI	Multivariable MR	-0.0792418698220659	0.12378567152332	0.522611472007602
+BMI	endometrioid_cancer	BMI_glucose	glucose	Multivariable MR	0.549645918245846	0.082310298225613	1.3616285835394e-10
+glucose	endometrioid_cancer	BMI_glucose	BMI	Multivariable MR	-0.143069389220839	0.144867009052998	0.324230568746353
+BMI	non_endometrioid_cancer	BMI_glucose	glucose	Multivariable MR	0.752597201245554	0.176494404024323	2.7773334247889e-05
+glucose	non_endometrioid_cancer	BMI_glucose	BMI	Multivariable MR	0.183320187683815	0.309930310348685	0.554688104311209
+BMI	Endometrial cancer	BMI_glyca	glyca	Multivariable MR	0.614636473275456	0.0798301104788179	2.57017785866024e-13
+glyca	Endometrial cancer	BMI_glyca	BMI	Multivariable MR	0.00954201423019967	0.107267642526814	0.929183219725713
+BMI	endometrioid_cancer	BMI_glyca	glyca	Multivariable MR	0.586397998474781	0.0929543452959681	1.14274722381465e-09
+glyca	endometrioid_cancer	BMI_glyca	BMI	Multivariable MR	-0.00883355864142673	0.124762290663466	0.943606674630205
+BMI	non_endometrioid_cancer	BMI_glyca	glyca	Multivariable MR	0.635437285972102	0.198710436733183	0.0015503452447689
+glyca	non_endometrioid_cancer	BMI_glyca	BMI	Multivariable MR	0.605334190058695	0.266950957852506	0.0241479498746734
+BMI	Endometrial cancer	BMI_hdlce	hdlce	Multivariable MR	0.50786165814328	0.0723741926651491	1.71903966381005e-11
+hdlce	Endometrial cancer	BMI_hdlce	BMI	Multivariable MR	-0.0142919483547112	0.0759932287571224	0.850959502824136
+BMI	endometrioid_cancer	BMI_hdlce	hdlce	Multivariable MR	0.476157301913321	0.0857856031675644	6.62495764343083e-08
+hdlce	endometrioid_cancer	BMI_hdlce	BMI	Multivariable MR	-0.0475995036348728	0.090295943812566	0.598508353418646
+BMI	non_endometrioid_cancer	BMI_hdlce	hdlce	Multivariable MR	0.674559575458413	0.185979240305893	0.000341581265504966
+hdlce	non_endometrioid_cancer	BMI_hdlce	BMI	Multivariable MR	-0.0114308890213768	0.199203988017849	0.954281910266943
+BMI	Endometrial cancer	BMI_hdltg	hdltg	Multivariable MR	0.517141520477914	0.0674281473468427	3.05370586500211e-13
+hdltg	Endometrial cancer	BMI_hdltg	BMI	Multivariable MR	-0.0661429105993346	0.0766496755537125	0.388936212309488
+BMI	endometrioid_cancer	BMI_hdltg	hdltg	Multivariable MR	0.50367679532006	0.0806673809917384	1.62708934771029e-09
+hdltg	endometrioid_cancer	BMI_hdltg	BMI	Multivariable MR	-0.0867680404471681	0.0922271860335076	0.347635164543398
+BMI	non_endometrioid_cancer	BMI_hdltg	hdltg	Multivariable MR	0.61085184003641	0.170898094706633	0.000415508085159221
+hdltg	non_endometrioid_cancer	BMI_hdltg	BMI	Multivariable MR	0.392520400763486	0.194444037646841	0.0445052412045837
+BMI	Endometrial cancer	BMI_idlc	idlc	Multivariable MR	0.56390253938874	0.0721851819594853	1.21916199599067e-13
+idlc	Endometrial cancer	BMI_idlc	BMI	Multivariable MR	-0.0437601863594498	0.0745016103410644	0.557439133835591
+BMI	endometrioid_cancer	BMI_idlc	idlc	Multivariable MR	0.524148601995585	0.0857595367868755	3.38776646155824e-09
+idlc	endometrioid_cancer	BMI_idlc	BMI	Multivariable MR	-0.023571877140894	0.0884074921607729	0.789957185814422
+BMI	non_endometrioid_cancer	BMI_idlc	idlc	Multivariable MR	0.625518791461982	0.187445379964256	0.000966053779325891
+idlc	non_endometrioid_cancer	BMI_idlc	BMI	Multivariable MR	-0.489847367724975	0.199289866066013	0.0146036333213235
+BMI	Endometrial cancer	BMI_idlfc	idlfc	Multivariable MR	0.539350611689799	0.072795978157879	1.60742690925391e-12
+idlfc	Endometrial cancer	BMI_idlfc	BMI	Multivariable MR	-0.0349399155426479	0.0779482835087782	0.654333348934824
+BMI	endometrioid_cancer	BMI_idlfc	idlfc	Multivariable MR	0.510674480718474	0.0871260456378482	1.32542637607818e-08
+idlfc	endometrioid_cancer	BMI_idlfc	BMI	Multivariable MR	-0.00155096582372197	0.0933460618075692	0.986755759234099
+BMI	non_endometrioid_cancer	BMI_idlfc	idlfc	Multivariable MR	0.593335894175041	0.188846578895651	0.00186688230831417
+idlfc	non_endometrioid_cancer	BMI_idlfc	BMI	Multivariable MR	-0.534627866000613	0.209013029944703	0.0110822500999866
+BMI	Endometrial cancer	BMI_idlfcpct	idlfcpct	Multivariable MR	0.577453675127355	0.0726364856872818	4.95728146535887e-14
+idlfcpct	Endometrial cancer	BMI_idlfcpct	BMI	Multivariable MR	-0.0910139389202405	0.0966930648694279	0.347400468212992
+BMI	endometrioid_cancer	BMI_idlfcpct	idlfcpct	Multivariable MR	0.544382821205009	0.0850900359125481	6.82711968923254e-10
+idlfcpct	endometrioid_cancer	BMI_idlfcpct	BMI	Multivariable MR	-0.101062817452653	0.113675961150416	0.374762665110319
+BMI	non_endometrioid_cancer	BMI_idlfcpct	idlfcpct	Multivariable MR	0.625484556359203	0.18326343469658	0.000740994139491765
+idlfcpct	non_endometrioid_cancer	BMI_idlfcpct	BMI	Multivariable MR	-0.605784827866061	0.24931046775483	0.0157576816371568
+BMI	Endometrial cancer	BMI_idlp	idlp	Multivariable MR	0.557129785360631	0.0711769244279189	1.13610145549656e-13
+idlp	Endometrial cancer	BMI_idlp	BMI	Multivariable MR	-0.00740935368539218	0.0763092363364539	0.922721858713909
+BMI	endometrioid_cancer	BMI_idlp	idlp	Multivariable MR	0.521242252643352	0.0855349148119735	3.78622104634696e-09
+idlp	endometrioid_cancer	BMI_idlp	BMI	Multivariable MR	0.0077656844390016	0.0917713268245211	0.932626252757566
+BMI	non_endometrioid_cancer	BMI_idlp	idlp	Multivariable MR	0.676704400330715	0.184951260413096	0.000305254174289918
+idlp	non_endometrioid_cancer	BMI_idlp	BMI	Multivariable MR	-0.532441489792987	0.200375940401037	0.00835375405588647
+BMI	Endometrial cancer	BMI_idltgpct	idltgpct	Multivariable MR	0.491574698438463	0.0679678913209976	4.48421858632534e-12
+idltgpct	Endometrial cancer	BMI_idltgpct	BMI	Multivariable MR	-0.0341682042703259	0.0653555561879287	0.601520538146412
+BMI	endometrioid_cancer	BMI_idltgpct	idltgpct	Multivariable MR	0.469610378096142	0.0805063415660585	1.48820016148334e-08
+idltgpct	endometrioid_cancer	BMI_idltgpct	BMI	Multivariable MR	-0.0234773112838065	0.0777500935246703	0.762906175079081
+BMI	non_endometrioid_cancer	BMI_idltgpct	idltgpct	Multivariable MR	0.533160529824151	0.176086685803634	0.00269353446258977
+idltgpct	non_endometrioid_cancer	BMI_idltgpct	BMI	Multivariable MR	0.361217407890073	0.17466482287359	0.0395558570950167
+BMI	Endometrial cancer	BMI_lhdlcpct	lhdlcpct	Multivariable MR	0.483727733932002	0.0731283638579845	1.86396890984334e-10
+lhdlcpct	Endometrial cancer	BMI_lhdlcpct	BMI	Multivariable MR	0.00344993014379523	0.07460896493028	0.963151565218325
+BMI	endometrioid_cancer	BMI_lhdlcpct	lhdlcpct	Multivariable MR	0.492836199907984	0.0854703172758463	2.12693294953319e-08
+lhdlcpct	endometrioid_cancer	BMI_lhdlcpct	BMI	Multivariable MR	0.0584656057306636	0.0873477153719233	0.503824155750663
+BMI	non_endometrioid_cancer	BMI_lhdlcpct	lhdlcpct	Multivariable MR	0.568725789495327	0.190067166608861	0.00301896868949839
+lhdlcpct	non_endometrioid_cancer	BMI_lhdlcpct	BMI	Multivariable MR	-0.246410371822425	0.202157540270515	0.223918126104856
+BMI	Endometrial cancer	BMI_lhdlcepct	lhdlcepct	Multivariable MR	0.458665851022742	0.0719092900751609	7.23879966352127e-10
+lhdlcepct	Endometrial cancer	BMI_lhdlcepct	BMI	Multivariable MR	-0.0280873543445254	0.0737696261041499	0.703677735342898
+BMI	endometrioid_cancer	BMI_lhdlcepct	lhdlcepct	Multivariable MR	0.454866728541537	0.0851003286381542	1.85862556972641e-07
+lhdlcepct	endometrioid_cancer	BMI_lhdlcepct	BMI	Multivariable MR	0.00566395226898986	0.0875233898838603	0.948447573914173
+BMI	non_endometrioid_cancer	BMI_lhdlcepct	lhdlcepct	Multivariable MR	0.446939150495646	0.18715456241697	0.0176022448481421
+lhdlcepct	non_endometrioid_cancer	BMI_lhdlcepct	BMI	Multivariable MR	-0.391026811663182	0.195893289110322	0.0468924945327555
+BMI	Endometrial cancer	BMI_lhdltg	lhdltg	Multivariable MR	0.565998862867756	0.0712356391415063	4.84872659815652e-14
+lhdltg	Endometrial cancer	BMI_lhdltg	BMI	Multivariable MR	-0.0618526629045987	0.0897668567797459	0.49137480733792
+BMI	endometrioid_cancer	BMI_lhdltg	lhdltg	Multivariable MR	0.526399943533932	0.0844806655779467	1.71053335426791e-09
+lhdltg	endometrioid_cancer	BMI_lhdltg	BMI	Multivariable MR	-0.0909799241484557	0.106254448819718	0.392599271243817
+BMI	non_endometrioid_cancer	BMI_lhdltg	lhdltg	Multivariable MR	0.726470382978973	0.18293327038603	9.13616423459957e-05
+lhdltg	non_endometrioid_cancer	BMI_lhdltg	BMI	Multivariable MR	0.154782244869721	0.232481894352047	0.506108556916174
+BMI	Endometrial cancer	BMI_lldlcpct	lldlcpct	Multivariable MR	0.563487673769693	0.0771224763197865	2.95874558409594e-12
+lldlcpct	Endometrial cancer	BMI_lldlcpct	BMI	Multivariable MR	0.00675380286721441	0.0778038400359303	0.930889041555139
+BMI	endometrioid_cancer	BMI_lldlcpct	lldlcpct	Multivariable MR	0.537522515274136	0.0909664835971203	1.01142933326918e-08
+lldlcpct	endometrioid_cancer	BMI_lldlcpct	BMI	Multivariable MR	0.00989480885972064	0.0918122204298326	0.914254663915299
+BMI	non_endometrioid_cancer	BMI_lldlcpct	lldlcpct	Multivariable MR	0.511675323286621	0.1965268364957	0.00973004548586303
+lldlcpct	non_endometrioid_cancer	BMI_lldlcpct	BMI	Multivariable MR	-0.435136075830576	0.201627008926903	0.0317901659797151
+BMI	Endometrial cancer	BMI_lldlfc	lldlfc	Multivariable MR	0.546509188336065	0.0719569288391923	4.87560682110063e-13
+lldlfc	Endometrial cancer	BMI_lldlfc	BMI	Multivariable MR	-0.0148022222240377	0.0772167469306839	0.848121502921283
+BMI	endometrioid_cancer	BMI_lldlfc	lldlfc	Multivariable MR	0.501885687355906	0.0849312579966287	1.0171709019769e-08
+lldlfc	endometrioid_cancer	BMI_lldlfc	BMI	Multivariable MR	-0.0766496240872926	0.091145734401646	0.401105428987817
+BMI	non_endometrioid_cancer	BMI_lldlfc	lldlfc	Multivariable MR	0.635524683000178	0.188524816450828	0.000858289326145471
+lldlfc	non_endometrioid_cancer	BMI_lldlfc	BMI	Multivariable MR	-0.317456890990537	0.210160146414112	0.132073183551228
+BMI	Endometrial cancer	BMI_lldlfcpct	lldlfcpct	Multivariable MR	0.488239440452471	0.0690357914082683	1.15857016796774e-11
+lldlfcpct	Endometrial cancer	BMI_lldlfcpct	BMI	Multivariable MR	-0.0488519661642501	0.0662238096622519	0.461309657783278
+BMI	endometrioid_cancer	BMI_lldlfcpct	lldlfcpct	Multivariable MR	0.48361944599739	0.0799371275996935	4.49328471770912e-09
+lldlfcpct	endometrioid_cancer	BMI_lldlfcpct	BMI	Multivariable MR	-0.0510214125631175	0.0767940204067868	0.506970373888204
+BMI	non_endometrioid_cancer	BMI_lldlfcpct	lldlfcpct	Multivariable MR	0.55263282696835	0.183121594931703	0.00277668837724689
+lldlfcpct	non_endometrioid_cancer	BMI_lldlfcpct	BMI	Multivariable MR	-0.337146462261729	0.180628046914625	0.0629986413245516
+BMI	Endometrial cancer	BMI_lldlp	lldlp	Multivariable MR	0.555509041908756	0.0731970008201387	5.19421652548448e-13
+lldlp	Endometrial cancer	BMI_lldlp	BMI	Multivariable MR	-0.116552364150762	0.0691713379644268	0.0931434731777232
+BMI	endometrioid_cancer	BMI_lldlp	lldlp	Multivariable MR	0.521395194493645	0.0853509223264889	3.4731533354211e-09
+lldlp	endometrioid_cancer	BMI_lldlp	BMI	Multivariable MR	-0.148992886694176	0.08061216799836	0.0656529761655975
+BMI	non_endometrioid_cancer	BMI_lldlp	lldlp	Multivariable MR	0.695403668711322	0.187959181029303	0.000261844098117714
+lldlp	non_endometrioid_cancer	BMI_lldlp	BMI	Multivariable MR	-0.564969181577132	0.211102516282066	0.00790318203251007
+BMI	Endometrial cancer	BMI_lldlpl	lldlpl	Multivariable MR	0.55437050395687	0.0709632953194469	1.20578609224112e-13
+lldlpl	Endometrial cancer	BMI_lldlpl	BMI	Multivariable MR	-0.0488671127624316	0.0804748250955927	0.544197991368816
+BMI	endometrioid_cancer	BMI_lldlpl	lldlpl	Multivariable MR	0.517809608646802	0.0846811874559987	3.31889105983748e-09
+lldlpl	endometrioid_cancer	BMI_lldlpl	BMI	Multivariable MR	-0.0792641849681767	0.0960173653633559	0.409795014661198
+BMI	non_endometrioid_cancer	BMI_lldlpl	lldlpl	Multivariable MR	0.664213146362194	0.181196101987445	0.000296937639954483
+lldlpl	non_endometrioid_cancer	BMI_lldlpl	BMI	Multivariable MR	-0.440603293923646	0.213179011323468	0.0397040667690103
+BMI	Endometrial cancer	BMI_lvldlce	lvldlce	Multivariable MR	0.574142505123826	0.0713644285669574	2.38296040884543e-14
+lvldlce	Endometrial cancer	BMI_lvldlce	BMI	Multivariable MR	-0.0718100767084264	0.0635118919056679	0.259157364618449
+BMI	endometrioid_cancer	BMI_lvldlce	lvldlce	Multivariable MR	0.522831031083908	0.0843509218409264	2.011650325413e-09
+lvldlce	endometrioid_cancer	BMI_lvldlce	BMI	Multivariable MR	-0.0729467696934247	0.0749527751614193	0.331266939403841
+BMI	non_endometrioid_cancer	BMI_lvldlce	lvldlce	Multivariable MR	0.701292009261317	0.190444796897549	0.00027722175987594
+lvldlce	non_endometrioid_cancer	BMI_lvldlce	BMI	Multivariable MR	-0.130148824956057	0.169353114957102	0.442834526690631
+BMI	Endometrial cancer	BMI_lvldlplpct	lvldlplpct	Multivariable MR	0.564436012309294	0.0716752258215047	7.26718346655702e-14
+lvldlplpct	Endometrial cancer	BMI_lvldlplpct	BMI	Multivariable MR	-0.0379938490553957	0.0626947473690393	0.544989979717176
+BMI	endometrioid_cancer	BMI_lvldlplpct	lvldlplpct	Multivariable MR	0.561319078007364	0.0860718512987414	3.17680779897551e-10
+lvldlplpct	endometrioid_cancer	BMI_lvldlplpct	BMI	Multivariable MR	-0.0887236321909508	0.0754890070497548	0.240851687153086
+BMI	non_endometrioid_cancer	BMI_lvldlplpct	lvldlplpct	Multivariable MR	0.480504276396499	0.191784962368284	0.0127960503437109
+lvldlplpct	non_endometrioid_cancer	BMI_lvldlplpct	BMI	Multivariable MR	0.298434778350499	0.168424033593375	0.0774906247909353
+BMI	Endometrial cancer	BMI_ldlc	ldlc	Multivariable MR	0.561408064108135	0.0713232165581669	8.4550674971059e-14
+ldlc	Endometrial cancer	BMI_ldlc	BMI	Multivariable MR	-0.0202694745595518	0.0824213335923294	0.80592636881466
+BMI	endometrioid_cancer	BMI_ldlc	ldlc	Multivariable MR	0.526039985892677	0.0849077466507335	2.15103063133528e-09
+ldlc	endometrioid_cancer	BMI_ldlc	BMI	Multivariable MR	-0.0480790402620156	0.098078545795781	0.624382257132542
+BMI	non_endometrioid_cancer	BMI_ldlc	ldlc	Multivariable MR	0.672901068547997	0.183808209791772	0.000302925701700878
+ldlc	non_endometrioid_cancer	BMI_ldlc	BMI	Multivariable MR	-0.479416634200624	0.220482288590019	0.030553344020339
+BMI	Endometrial cancer	BMI_ldlce	ldlce	Multivariable MR	0.546338312436501	0.0717606796658124	4.37473565076334e-13
+ldlce	Endometrial cancer	BMI_ldlce	BMI	Multivariable MR	-0.0707998065615017	0.0806541720447268	0.380813545232401
+BMI	endometrioid_cancer	BMI_ldlce	ldlce	Multivariable MR	0.50513357256462	0.0856353943856868	1.08115791763942e-08
+ldlce	endometrioid_cancer	BMI_ldlce	BMI	Multivariable MR	-0.120835854332795	0.0962115994009848	0.21021203824477
+BMI	non_endometrioid_cancer	BMI_ldlce	ldlce	Multivariable MR	0.688140820538869	0.183601934904919	0.000218173346820071
+ldlce	non_endometrioid_cancer	BMI_ldlce	BMI	Multivariable MR	-0.371007310537111	0.212773994508842	0.0823593256419869
+BMI	Endometrial cancer	BMI_ldll	ldll	Multivariable MR	0.554960449908298	0.0720293918004453	2.41439732431573e-13
+ldll	Endometrial cancer	BMI_ldll	BMI	Multivariable MR	-0.0455100509042	0.079553273626156	0.567743508207212
+BMI	endometrioid_cancer	BMI_ldll	ldll	Multivariable MR	0.514374650854436	0.0853699231498663	5.42581482335597e-09
+ldll	endometrioid_cancer	BMI_ldll	BMI	Multivariable MR	-0.0934900710266015	0.0942784227980132	0.322249017459985
+BMI	non_endometrioid_cancer	BMI_ldll	ldll	Multivariable MR	0.686154327566989	0.184445300352036	0.000242246130006145
+ldll	non_endometrioid_cancer	BMI_ldll	BMI	Multivariable MR	-0.331463866172941	0.2107194691094	0.116887510956117
+BMI	Endometrial cancer	BMI_ldlp	ldlp	Multivariable MR	0.549338102694866	0.0706035566935892	1.43682741794524e-13
+ldlp	Endometrial cancer	BMI_ldlp	BMI	Multivariable MR	-0.0544201276321295	0.0695029553537878	0.434301807777429
+BMI	endometrioid_cancer	BMI_ldlp	ldlp	Multivariable MR	0.506167525628453	0.0840572909307295	5.46790476776625e-09
+ldlp	endometrioid_cancer	BMI_ldlp	BMI	Multivariable MR	-0.111050236334699	0.082874735606261	0.18135099361417
+BMI	non_endometrioid_cancer	BMI_ldlp	ldlp	Multivariable MR	0.707757752681841	0.184769175090462	0.000158469271899446
+ldlp	non_endometrioid_cancer	BMI_ldlp	BMI	Multivariable MR	-0.260914059195714	0.180292966181377	0.148989059342987
+BMI	Endometrial cancer	BMI_ldlpl	ldlpl	Multivariable MR	0.546004512733635	0.0711758641641454	2.99317028675865e-13
+ldlpl	Endometrial cancer	BMI_ldlpl	BMI	Multivariable MR	-0.00181710103734756	0.0747220603899553	0.980616549632935
+BMI	endometrioid_cancer	BMI_ldlpl	ldlpl	Multivariable MR	0.514956038496065	0.0852193525497198	4.93184906720149e-09
+ldlpl	endometrioid_cancer	BMI_ldlpl	BMI	Multivariable MR	0.00143410735982002	0.0895161748769886	0.987229576153692
+BMI	non_endometrioid_cancer	BMI_ldlpl	ldlpl	Multivariable MR	0.663334989572059	0.182038054654031	0.000321734878358529
+ldlpl	non_endometrioid_cancer	BMI_ldlpl	BMI	Multivariable MR	-0.518074054356621	0.192739715228477	0.00763432700308561
+BMI	Endometrial cancer	BMI_mhdlcpct	mhdlcpct	Multivariable MR	0.452103151212437	0.0715593690146675	1.01704816989008e-09
+mhdlcpct	Endometrial cancer	BMI_mhdlcpct	BMI	Multivariable MR	-0.075003922205528	0.0716012252797447	0.295746028662879
+BMI	endometrioid_cancer	BMI_mhdlcpct	mhdlcpct	Multivariable MR	0.448871469880967	0.0843433190967868	2.08173445936192e-07
+mhdlcpct	endometrioid_cancer	BMI_mhdlcpct	BMI	Multivariable MR	-0.0432517437984062	0.0846395336559228	0.609738887299446
+BMI	non_endometrioid_cancer	BMI_mhdlcpct	mhdlcpct	Multivariable MR	0.494418146828324	0.187549497807281	0.00885178154507062
+mhdlcpct	non_endometrioid_cancer	BMI_mhdlcpct	BMI	Multivariable MR	-0.382823289510332	0.190752043960203	0.045719727295087
+BMI	Endometrial cancer	BMI_mhdlcepct	mhdlcepct	Multivariable MR	0.588650983735061	0.0741878608737173	5.25977682987654e-14
+mhdlcepct	Endometrial cancer	BMI_mhdlcepct	BMI	Multivariable MR	-0.0321336387660469	0.0743475384354014	0.665926138145618
+BMI	endometrioid_cancer	BMI_mhdlcepct	mhdlcepct	Multivariable MR	0.572800765688879	0.0881469828826002	3.7627125683097e-10
+mhdlcepct	endometrioid_cancer	BMI_mhdlcepct	BMI	Multivariable MR	-0.00369286994053572	0.0884330512295014	0.966720956093096
+BMI	non_endometrioid_cancer	BMI_mhdlcepct	mhdlcepct	Multivariable MR	0.61579550538406	0.194241225891196	0.00169520426096305
+mhdlcepct	non_endometrioid_cancer	BMI_mhdlcepct	BMI	Multivariable MR	-0.336017132700633	0.193960493304095	0.0843235826786752
+BMI	Endometrial cancer	BMI_mhdltgpct	mhdltgpct	Multivariable MR	0.554765673079155	0.0741138008091898	9.45938624099773e-13
+mhdltgpct	Endometrial cancer	BMI_mhdltgpct	BMI	Multivariable MR	0.0976752704113426	0.0730021721931933	0.181997150321831
+BMI	endometrioid_cancer	BMI_mhdltgpct	mhdltgpct	Multivariable MR	0.547319803325826	0.0882284388948761	1.99568303398811e-09
+mhdltgpct	endometrioid_cancer	BMI_mhdltgpct	BMI	Multivariable MR	0.0400299296772659	0.0872416683520716	0.64670790346374
+BMI	non_endometrioid_cancer	BMI_mhdltgpct	mhdltgpct	Multivariable MR	0.545170872331634	0.194429439195215	0.00540897040268222
+mhdltgpct	non_endometrioid_cancer	BMI_mhdltgpct	BMI	Multivariable MR	0.406405291322874	0.193713690989623	0.0368237416060833
+BMI	Endometrial cancer	BMI_mldlc	mldlc	Multivariable MR	0.551188376161911	0.0727591330575998	5.51828264693144e-13
+mldlc	Endometrial cancer	BMI_mldlc	BMI	Multivariable MR	-0.0670428895002792	0.0791359725756983	0.397630812492992
+BMI	endometrioid_cancer	BMI_mldlc	mldlc	Multivariable MR	0.512096721892104	0.0872774248461114	1.27349179648605e-08
+mldlc	endometrioid_cancer	BMI_mldlc	BMI	Multivariable MR	-0.0773681800413944	0.0948336108325895	0.41530556010398
+BMI	non_endometrioid_cancer	BMI_mldlc	mldlc	Multivariable MR	0.706565761993259	0.182226647250893	0.000132550378358798
+mldlc	non_endometrioid_cancer	BMI_mldlc	BMI	Multivariable MR	-0.381095966920953	0.201178301098572	0.0592472602121274
+BMI	Endometrial cancer	BMI_mldlce	mldlce	Multivariable MR	0.549481384685479	0.0732135918697898	8.6255170454543e-13
+mldlce	Endometrial cancer	BMI_mldlce	BMI	Multivariable MR	-0.000919964925952219	0.0822103667626991	0.991079701333855
+BMI	endometrioid_cancer	BMI_mldlce	mldlce	Multivariable MR	0.514121264304809	0.0872322515082657	1.10624797325254e-08
+mldlce	endometrioid_cancer	BMI_mldlce	BMI	Multivariable MR	-0.0227037410765086	0.0978349472671627	0.816663342014805
+BMI	non_endometrioid_cancer	BMI_mldlce	mldlce	Multivariable MR	0.715820941042731	0.181278126578527	0.000100213157125262
+mldlce	non_endometrioid_cancer	BMI_mldlce	BMI	Multivariable MR	-0.273372055934466	0.206169460773813	0.185970109710342
+BMI	Endometrial cancer	BMI_mldlcepct	mldlcepct	Multivariable MR	0.604940729998974	0.0710200246349027	1.06720858371254e-15
+mldlcepct	Endometrial cancer	BMI_mldlcepct	BMI	Multivariable MR	-0.117239339946236	0.0841658908605883	0.164754195513132
+BMI	endometrioid_cancer	BMI_mldlcepct	mldlcepct	Multivariable MR	0.582929557271976	0.0843577387522678	3.34521227362561e-11
+mldlcepct	endometrioid_cancer	BMI_mldlcepct	BMI	Multivariable MR	-0.0970743179748702	0.100127606051583	0.333141598945305
+BMI	non_endometrioid_cancer	BMI_mldlcepct	mldlcepct	Multivariable MR	0.721073932420845	0.18963938026313	0.000176721402125265
+mldlcepct	non_endometrioid_cancer	BMI_mldlcepct	BMI	Multivariable MR	0.0788212294876684	0.223051156281974	0.724077283378144
+BMI	Endometrial cancer	BMI_mldlfc	mldlfc	Multivariable MR	0.53909741846892	0.0717434971092739	8.28652562705136e-13
+mldlfc	Endometrial cancer	BMI_mldlfc	BMI	Multivariable MR	-0.0367619876102656	0.0751298303833042	0.62501461140496
+BMI	endometrioid_cancer	BMI_mldlfc	mldlfc	Multivariable MR	0.507986943853561	0.0854412608090862	8.43338981503348e-09
+mldlfc	endometrioid_cancer	BMI_mldlfc	BMI	Multivariable MR	-0.0706562099408836	0.0895334109836463	0.430705679277838
+BMI	non_endometrioid_cancer	BMI_mldlfc	mldlfc	Multivariable MR	0.613879941313361	0.183157375314908	0.000918531736384506
+mldlfc	non_endometrioid_cancer	BMI_mldlfc	BMI	Multivariable MR	-0.582182618860193	0.193781281865572	0.00291260189436737
+BMI	Endometrial cancer	BMI_mldlfcpct	mldlfcpct	Multivariable MR	0.499039963404359	0.0706091198138586	1.22284718973145e-11
+mldlfcpct	Endometrial cancer	BMI_mldlfcpct	BMI	Multivariable MR	0.00539964015370326	0.0698109617708306	0.938402287815134
+BMI	endometrioid_cancer	BMI_mldlfcpct	mldlfcpct	Multivariable MR	0.505463500541038	0.0825570365627547	3.05397431876293e-09
+mldlfcpct	endometrioid_cancer	BMI_mldlfcpct	BMI	Multivariable MR	0.0286984281766498	0.0819350212463201	0.726404424049285
+BMI	non_endometrioid_cancer	BMI_mldlfcpct	mldlfcpct	Multivariable MR	0.591926580355975	0.18216478452974	0.00129706028554361
+mldlfcpct	non_endometrioid_cancer	BMI_mldlfcpct	BMI	Multivariable MR	-0.202314691443374	0.18048063122475	0.263254601338542
+BMI	Endometrial cancer	BMI_mldll	mldll	Multivariable MR	0.545020984642598	0.0713824600251172	3.76944450826599e-13
+mldll	Endometrial cancer	BMI_mldll	BMI	Multivariable MR	-0.0457907446239035	0.0725070832229569	0.528217428585815
+BMI	endometrioid_cancer	BMI_mldll	mldll	Multivariable MR	0.508629923902583	0.0849684959506896	6.71505084139007e-09
+mldll	endometrioid_cancer	BMI_mldll	BMI	Multivariable MR	-0.0893972718316806	0.0863898453494278	0.301669028215653
+BMI	non_endometrioid_cancer	BMI_mldll	mldll	Multivariable MR	0.691032689657707	0.184949138695401	0.000227528580087085
+mldll	non_endometrioid_cancer	BMI_mldll	BMI	Multivariable MR	-0.289731528294775	0.185494542143643	0.119464589936529
+BMI	Endometrial cancer	BMI_mldlp	mldlp	Multivariable MR	0.544416966029792	0.0717284091886203	4.81786008040703e-13
+mldlp	Endometrial cancer	BMI_mldlp	BMI	Multivariable MR	-0.0132967048978604	0.0789316513657969	0.866344672319433
+BMI	endometrioid_cancer	BMI_mldlp	mldlp	Multivariable MR	0.503959210803202	0.0857994950008378	1.21020891698132e-08
+mldlp	endometrioid_cancer	BMI_mldlp	BMI	Multivariable MR	-0.0713837846077297	0.0944376691606479	0.450357336739309
+BMI	non_endometrioid_cancer	BMI_mldlp	mldlp	Multivariable MR	0.742344897768128	0.18131260399783	5.56713480890973e-05
+mldlp	non_endometrioid_cancer	BMI_mldlp	BMI	Multivariable MR	-0.420732660103697	0.202894156329967	0.0390387025316484
+BMI	Endometrial cancer	BMI_mvldlc	mvldlc	Multivariable MR	0.561389914375266	0.07245806043883	1.82809582473505e-13
+mvldlc	Endometrial cancer	BMI_mvldlc	BMI	Multivariable MR	0.0211646549401612	0.0821013999840176	0.796764978668608
+BMI	endometrioid_cancer	BMI_mvldlc	mvldlc	Multivariable MR	0.518813763861241	0.0871648979657681	8.07468235206492e-09
+mvldlc	endometrioid_cancer	BMI_mvldlc	BMI	Multivariable MR	0.0171044372106158	0.0988687834007307	0.862778060449185
+BMI	non_endometrioid_cancer	BMI_mvldlc	mvldlc	Multivariable MR	0.728119029619056	0.18288027559444	8.80543736081202e-05
+mvldlc	non_endometrioid_cancer	BMI_mvldlc	BMI	Multivariable MR	-0.300394649934533	0.2110995851142	0.155886372257934
+BMI	Endometrial cancer	BMI_mvldlce	mvldlce	Multivariable MR	0.556380331894804	0.0721440298941955	2.25906320690386e-13
+mvldlce	Endometrial cancer	BMI_mvldlce	BMI	Multivariable MR	-0.0449357992360754	0.079458581838238	0.572176295826704
+BMI	endometrioid_cancer	BMI_mvldlce	mvldlce	Multivariable MR	0.519556510178048	0.0859176270315318	4.77574456024131e-09
+mvldlce	endometrioid_cancer	BMI_mvldlce	BMI	Multivariable MR	-0.0245203652093461	0.094532313715859	0.795530743056189
+BMI	non_endometrioid_cancer	BMI_mvldlce	mvldlce	Multivariable MR	0.676278317748388	0.182041880959371	0.000246631492427924
+mvldlce	non_endometrioid_cancer	BMI_mvldlce	BMI	Multivariable MR	-0.47756923422377	0.20834748831523	0.0226593776356557
+BMI	Endometrial cancer	BMI_mvldlfcpct	mvldlfcpct	Multivariable MR	0.584760505383236	0.0747706228409202	1.1983204044216e-13
+mvldlfcpct	Endometrial cancer	BMI_mvldlfcpct	BMI	Multivariable MR	0.00142020825959709	0.0749658549031181	0.984899236536845
+BMI	endometrioid_cancer	BMI_mvldlfcpct	mvldlfcpct	Multivariable MR	0.566977660972624	0.0891553625211885	8.65265825711341e-10
+mvldlfcpct	endometrioid_cancer	BMI_mvldlfcpct	BMI	Multivariable MR	0.0185342141733281	0.0892969665372498	0.835731893029036
+BMI	non_endometrioid_cancer	BMI_mvldlfcpct	mvldlfcpct	Multivariable MR	0.562902812647811	0.198244778200025	0.00486827668144473
+mvldlfcpct	non_endometrioid_cancer	BMI_mvldlfcpct	BMI	Multivariable MR	-0.274128556219598	0.203400416909559	0.178892407330462
+BMI	Endometrial cancer	BMI_mvldlplpct	mvldlplpct	Multivariable MR	0.558191865405082	0.0747953795632222	1.16549357129894e-12
+mvldlplpct	Endometrial cancer	BMI_mvldlplpct	BMI	Multivariable MR	-0.0597348100086519	0.0792345457104997	0.451567087129845
+BMI	endometrioid_cancer	BMI_mvldlplpct	mvldlplpct	Multivariable MR	0.536242619105056	0.0885890784584278	4.7340765789749e-09
+mvldlplpct	endometrioid_cancer	BMI_mvldlplpct	BMI	Multivariable MR	-0.0348350019882209	0.0938429329499636	0.710775666286229
+BMI	non_endometrioid_cancer	BMI_mvldlplpct	mvldlplpct	Multivariable MR	0.604289715957698	0.194238185015592	0.00206779207198732
+mvldlplpct	non_endometrioid_cancer	BMI_mvldlplpct	BMI	Multivariable MR	-0.493624348307588	0.212729028078216	0.0210768641922537
+BMI	Endometrial cancer	BMI_mvldltgpct	mvldltgpct	Multivariable MR	0.564075674710422	0.0754021415281118	1.03178482939965e-12
+mvldltgpct	Endometrial cancer	BMI_mvldltgpct	BMI	Multivariable MR	0.0299026941581042	0.0743845404421031	0.687999814569773
+BMI	endometrioid_cancer	BMI_mvldltgpct	mvldltgpct	Multivariable MR	0.562684921144775	0.0902452462971449	1.72469947765619e-09
+mvldltgpct	endometrioid_cancer	BMI_mvldltgpct	BMI	Multivariable MR	-0.0370943744256801	0.0890602247086654	0.677367362643433
+BMI	non_endometrioid_cancer	BMI_mvldltgpct	mvldltgpct	Multivariable MR	0.469058795479288	0.195924519486608	0.0173498620836845
+mvldltgpct	non_endometrioid_cancer	BMI_mvldltgpct	BMI	Multivariable MR	0.395745305215207	0.198187331918725	0.0468555244017587
+BMI	Endometrial cancer	BMI_nonhdlc	nonhdlc	Multivariable MR	0.568713590337262	0.0711075116482817	3.54057694326487e-14
+nonhdlc	Endometrial cancer	BMI_nonhdlc	BMI	Multivariable MR	-0.00848986881586596	0.0769911926433569	0.912275163217142
+BMI	endometrioid_cancer	BMI_nonhdlc	nonhdlc	Multivariable MR	0.531247670599819	0.0857205628206551	2.09029975925018e-09
+nonhdlc	endometrioid_cancer	BMI_nonhdlc	BMI	Multivariable MR	-0.0205958695600362	0.0928821946623226	0.824679423212036
+BMI	non_endometrioid_cancer	BMI_nonhdlc	nonhdlc	Multivariable MR	0.711614202118171	0.183891748018512	0.000136555709659259
+nonhdlc	non_endometrioid_cancer	BMI_nonhdlc	BMI	Multivariable MR	-0.345993704762557	0.204578792367135	0.0919388452613482
+BMI	Endometrial cancer	BMI_remnantc	remnantc	Multivariable MR	0.566538337727704	0.071469803092876	5.643768215337e-14
+remnantc	Endometrial cancer	BMI_remnantc	BMI	Multivariable MR	0.0164129569207516	0.0771087870240144	0.831598105880548
+BMI	endometrioid_cancer	BMI_remnantc	remnantc	Multivariable MR	0.52959345272171	0.0858240565480316	2.4257017553166e-09
+remnantc	endometrioid_cancer	BMI_remnantc	BMI	Multivariable MR	0.0481805311133521	0.0926669048463157	0.603528928391725
+BMI	non_endometrioid_cancer	BMI_remnantc	remnantc	Multivariable MR	0.694542791157133	0.182090619590745	0.000169067104537942
+remnantc	non_endometrioid_cancer	BMI_remnantc	BMI	Multivariable MR	-0.323958736196196	0.19934973103273	0.105304188800874
+BMI	Endometrial cancer	BMI_shdlcpct	shdlcpct	Multivariable MR	0.605044803784661	0.0736294365481599	8.05724485224027e-15
+shdlcpct	Endometrial cancer	BMI_shdlcpct	BMI	Multivariable MR	-0.0440388826942478	0.0739192029178609	0.551815006228487
+BMI	endometrioid_cancer	BMI_shdlcpct	shdlcpct	Multivariable MR	0.56956359899306	0.089405613737023	7.81706398430085e-10
+shdlcpct	endometrioid_cancer	BMI_shdlcpct	BMI	Multivariable MR	-0.00556226558005156	0.0898898846188288	0.950704086390336
+BMI	non_endometrioid_cancer	BMI_shdlcpct	shdlcpct	Multivariable MR	0.689111550237952	0.189788842826577	0.000336942814659397
+shdlcpct	non_endometrioid_cancer	BMI_shdlcpct	BMI	Multivariable MR	0.103405281342989	0.189654774542456	0.586039573386866
+BMI	Endometrial cancer	BMI_shdltgpct	shdltgpct	Multivariable MR	0.603269489205914	0.0725771959725325	4.06759316775598e-15
+shdltgpct	Endometrial cancer	BMI_shdltgpct	BMI	Multivariable MR	-0.0129221245005627	0.0702663286015021	0.854222903639305
+BMI	endometrioid_cancer	BMI_shdltgpct	shdltgpct	Multivariable MR	0.58180708005014	0.0859723014274727	7.62179415379182e-11
+shdltgpct	endometrioid_cancer	BMI_shdltgpct	BMI	Multivariable MR	-0.00239355455808508	0.0832819837580413	0.977092064526971
+BMI	non_endometrioid_cancer	BMI_shdltgpct	shdltgpct	Multivariable MR	0.650794334160349	0.185955657186669	0.000541950475536515
+shdltgpct	non_endometrioid_cancer	BMI_shdltgpct	BMI	Multivariable MR	0.0124470550153021	0.179964987880297	0.944908814404472
+BMI	Endometrial cancer	BMI_sldlc	sldlc	Multivariable MR	0.547777210093147	0.0704783060467497	1.50227059975672e-13
+sldlc	Endometrial cancer	BMI_sldlc	BMI	Multivariable MR	-0.107226820018382	0.0617438914335885	0.0835587345164754
+BMI	endometrioid_cancer	BMI_sldlc	sldlc	Multivariable MR	0.51148506370558	0.0834819924233131	3.05415246204836e-09
+sldlc	endometrioid_cancer	BMI_sldlc	BMI	Multivariable MR	-0.135934075163259	0.0729810385942471	0.063574087106511
+BMI	non_endometrioid_cancer	BMI_sldlc	sldlc	Multivariable MR	0.718354099289078	0.182325694672914	0.000103399744014726
+sldlc	non_endometrioid_cancer	BMI_sldlc	BMI	Multivariable MR	-0.595842118857033	0.191371622971369	0.00204367700388478
+BMI	Endometrial cancer	BMI_sldlcepct	sldlcepct	Multivariable MR	0.56093126210409	0.0721087984234492	1.53881489336123e-13
+sldlcepct	Endometrial cancer	BMI_sldlcepct	BMI	Multivariable MR	0.0513928260454069	0.085774966887519	0.54956753863921
+BMI	endometrioid_cancer	BMI_sldlcepct	sldlcepct	Multivariable MR	0.548792284418888	0.0855465791526927	6.24450212467564e-10
+sldlcepct	endometrioid_cancer	BMI_sldlcepct	BMI	Multivariable MR	0.0160726017507277	0.102054772688213	0.874975999508929
+BMI	non_endometrioid_cancer	BMI_sldlcepct	sldlcepct	Multivariable MR	0.682443272100156	0.186235560690986	0.000298582555173662
+sldlcepct	non_endometrioid_cancer	BMI_sldlcepct	BMI	Multivariable MR	0.307948184019889	0.219166159216556	0.16114827589657
+BMI	Endometrial cancer	BMI_sldlfc	sldlfc	Multivariable MR	0.547226823540292	0.0695319804818939	8.43352479979133e-14
+sldlfc	Endometrial cancer	BMI_sldlfc	BMI	Multivariable MR	-0.0813031530049204	0.0757085003117024	0.283820477889257
+BMI	endometrioid_cancer	BMI_sldlfc	sldlfc	Multivariable MR	0.520296526851599	0.0825467928705803	1.17252602113659e-09
+sldlfc	endometrioid_cancer	BMI_sldlfc	BMI	Multivariable MR	-0.0886251358726951	0.090082954538381	0.326079824960187
+BMI	non_endometrioid_cancer	BMI_sldlfc	sldlfc	Multivariable MR	0.566444536499168	0.1895384710557	0.00306115654811663
+sldlfc	non_endometrioid_cancer	BMI_sldlfc	BMI	Multivariable MR	-0.688576938234825	0.202718920287337	0.000784696032446228
+BMI	Endometrial cancer	BMI_sldll	sldll	Multivariable MR	0.55728483655775	0.0705884367882435	6.82536338594096e-14
+sldll	Endometrial cancer	BMI_sldll	BMI	Multivariable MR	-0.0866365507017225	0.0788539228497647	0.272854391922656
+BMI	endometrioid_cancer	BMI_sldll	sldll	Multivariable MR	0.523938772970375	0.084020312622938	1.67193773360169e-09
+sldll	endometrioid_cancer	BMI_sldll	BMI	Multivariable MR	-0.10618003577482	0.0938867581127607	0.259059699561504
+BMI	non_endometrioid_cancer	BMI_sldll	sldll	Multivariable MR	0.702152311728825	0.182018210198453	0.000142700856392378
+sldll	non_endometrioid_cancer	BMI_sldll	BMI	Multivariable MR	-0.52012892704842	0.202486040702341	0.0107356387110384
+BMI	Endometrial cancer	BMI_svldlc	svldlc	Multivariable MR	0.5485224633347	0.0714216921811201	2.70219380693079e-13
+svldlc	Endometrial cancer	BMI_svldlc	BMI	Multivariable MR	-0.105858433188371	0.0691708491157146	0.127053026715662
+BMI	endometrioid_cancer	BMI_svldlc	svldlc	Multivariable MR	0.513819300717705	0.0845522085609613	4.00747757623611e-09
+svldlc	endometrioid_cancer	BMI_svldlc	BMI	Multivariable MR	-0.130910124120523	0.0819989437344555	0.111512445884336
+BMI	non_endometrioid_cancer	BMI_svldlc	svldlc	Multivariable MR	0.740660331606781	0.181991245500687	6.14389142670914e-05
+svldlc	non_endometrioid_cancer	BMI_svldlc	BMI	Multivariable MR	-0.433896324398604	0.174083577341144	0.0132707209518316
+BMI	Endometrial cancer	BMI_svldlcpct	svldlcpct	Multivariable MR	0.561899735149633	0.0726878243506668	2.25608642628607e-13
+svldlcpct	Endometrial cancer	BMI_svldlcpct	BMI	Multivariable MR	-0.00358960440035675	0.0778989060241123	0.963281090672095
+BMI	endometrioid_cancer	BMI_svldlcpct	svldlcpct	Multivariable MR	0.532897913371177	0.0876786173210073	4.2417756853409e-09
+svldlcpct	endometrioid_cancer	BMI_svldlcpct	BMI	Multivariable MR	0.0220197791556391	0.0940110287274168	0.814991470348584
+BMI	non_endometrioid_cancer	BMI_svldlcpct	svldlcpct	Multivariable MR	0.620919966274689	0.192992262150217	0.00145793311663794
+svldlcpct	non_endometrioid_cancer	BMI_svldlcpct	BMI	Multivariable MR	-0.450926716461401	0.211066421903312	0.0335789823539247
+BMI	Endometrial cancer	BMI_svldlcepct	svldlcepct	Multivariable MR	0.557246373465025	0.0734985838370747	5.81117500683026e-13
+svldlcepct	Endometrial cancer	BMI_svldlcepct	BMI	Multivariable MR	-0.0893177101698573	0.0860709084115705	0.300348834387629
+BMI	endometrioid_cancer	BMI_svldlcepct	svldlcepct	Multivariable MR	0.524202517558521	0.0881304503535902	8.58070178265228e-09
+svldlcepct	endometrioid_cancer	BMI_svldlcepct	BMI	Multivariable MR	-0.0532331929482357	0.103100491975397	0.606060780758334
+BMI	non_endometrioid_cancer	BMI_svldlcepct	svldlcepct	Multivariable MR	0.674121305438528	0.185228128796273	0.000329592812620326
+svldlcepct	non_endometrioid_cancer	BMI_svldlcepct	BMI	Multivariable MR	-0.624522588805955	0.224440488653281	0.00578830133685639
+BMI	Endometrial cancer	BMI_svldlfc	svldlfc	Multivariable MR	0.560994907179614	0.0719099104566849	1.26779700461294e-13
+svldlfc	Endometrial cancer	BMI_svldlfc	BMI	Multivariable MR	-0.0737808689302791	0.0720588290174797	0.30678017179892
+BMI	endometrioid_cancer	BMI_svldlfc	svldlfc	Multivariable MR	0.523433639053094	0.0849457069629109	2.53517864325619e-09
+svldlfc	endometrioid_cancer	BMI_svldlfc	BMI	Multivariable MR	-0.110737937590003	0.085195582516902	0.194751150638544
+BMI	non_endometrioid_cancer	BMI_svldlfc	svldlfc	Multivariable MR	0.743336847759209	0.181705741131616	5.65543429794217e-05
+svldlfc	non_endometrioid_cancer	BMI_svldlfc	BMI	Multivariable MR	-0.402669252801847	0.181560677145112	0.0273872514545572
+BMI	Endometrial cancer	BMI_svldlplpct	svldlplpct	Multivariable MR	0.577930289173894	0.0736963545321121	9.92412400584541e-14
+svldlplpct	Endometrial cancer	BMI_svldlplpct	BMI	Multivariable MR	0.00147897693317397	0.0705436335538117	0.983288499257029
+BMI	endometrioid_cancer	BMI_svldlplpct	svldlplpct	Multivariable MR	0.574446836801563	0.0876058303808936	2.71846872318361e-10
+svldlplpct	endometrioid_cancer	BMI_svldlplpct	BMI	Multivariable MR	0.0126794225655874	0.0840114539229078	0.880145987938318
+BMI	non_endometrioid_cancer	BMI_svldlplpct	svldlplpct	Multivariable MR	0.479341996958584	0.190354265747345	0.0123714635246102
+svldlplpct	non_endometrioid_cancer	BMI_svldlplpct	BMI	Multivariable MR	-0.387349580196141	0.182895597996754	0.0350930088179723
+BMI	Endometrial cancer	BMI_svldltg	svldltg	Multivariable MR	0.559597647354856	0.0719870284108212	1.48956923382055e-13
+svldltg	Endometrial cancer	BMI_svldltg	BMI	Multivariable MR	0.141221914407641	0.0744418333376545	0.0588540069477318
+BMI	endometrioid_cancer	BMI_svldltg	svldltg	Multivariable MR	0.549717397247589	0.0854261118911002	5.38537344436393e-10
+svldltg	endometrioid_cancer	BMI_svldltg	BMI	Multivariable MR	0.10669450397619	0.0884600487901429	0.228792028180463
+BMI	non_endometrioid_cancer	BMI_svldltg	svldltg	Multivariable MR	0.59769382436056	0.187807816039078	0.00162712989586205
+svldltg	non_endometrioid_cancer	BMI_svldltg	BMI	Multivariable MR	0.394451390875375	0.193386220144235	0.0423315554987005
+BMI	Endometrial cancer	BMI_svldltgpct	svldltgpct	Multivariable MR	0.573116109831895	0.073468733346364	1.39088354645514e-13
+svldltgpct	Endometrial cancer	BMI_svldltgpct	BMI	Multivariable MR	0.0751848859523251	0.0766844917736527	0.327754312318097
+BMI	endometrioid_cancer	BMI_svldltgpct	svldltgpct	Multivariable MR	0.56110851816998	0.087896881314699	7.61681741224825e-10
+svldltgpct	endometrioid_cancer	BMI_svldltgpct	BMI	Multivariable MR	0.00658572014615345	0.0917638232634214	0.942840146274317
+BMI	non_endometrioid_cancer	BMI_svldltgpct	svldltgpct	Multivariable MR	0.557166710265772	0.189429597514393	0.00355966925888252
+svldltgpct	non_endometrioid_cancer	BMI_svldltgpct	BMI	Multivariable MR	0.566170547436039	0.200561269332766	0.00512237970225211
+BMI	Endometrial cancer	BMI_sfapct	sfapct	Multivariable MR	0.576206003611183	0.0711468395456498	1.87887883017756e-14
+sfapct	Endometrial cancer	BMI_sfapct	BMI	Multivariable MR	-0.167627793179085	0.109941567754776	0.128496048197975
+BMI	endometrioid_cancer	BMI_sfapct	sfapct	Multivariable MR	0.55967463142416	0.0841017257520955	1.5577968878002e-10
+sfapct	endometrioid_cancer	BMI_sfapct	BMI	Multivariable MR	-0.301973515106906	0.130317570415595	0.0212348583024399
+BMI	non_endometrioid_cancer	BMI_sfapct	sfapct	Multivariable MR	0.734173386054633	0.183250742270506	7.97831875778297e-05
+sfapct	non_endometrioid_cancer	BMI_sfapct	BMI	Multivariable MR	-0.0938139827516899	0.283016148871472	0.740539645829592
+BMI	Endometrial cancer	BMI_tgbypg	tgbypg	Multivariable MR	0.572613186161832	0.0726545445836269	7.311741819647e-14
+tgbypg	Endometrial cancer	BMI_tgbypg	BMI	Multivariable MR	0.0323918082490372	0.0732131307627219	0.658519648291385
+BMI	endometrioid_cancer	BMI_tgbypg	tgbypg	Multivariable MR	0.534653998300978	0.0851338103167586	1.29218517891741e-09
+tgbypg	endometrioid_cancer	BMI_tgbypg	BMI	Multivariable MR	0.059640417174108	0.0860789872926155	0.488975698754358
+BMI	non_endometrioid_cancer	BMI_tgbypg	tgbypg	Multivariable MR	0.611772554587261	0.188772325022508	0.00133752603220353
+tgbypg	non_endometrioid_cancer	BMI_tgbypg	BMI	Multivariable MR	0.182929744377709	0.189712267337549	0.3357624567317
+BMI	Endometrial cancer	BMI_totaltg	totaltg	Multivariable MR	0.56527756582881	0.0712188437251177	4.77738416140511e-14
+totaltg	Endometrial cancer	BMI_totaltg	BMI	Multivariable MR	0.0606197823106351	0.0576513565885783	0.293924665666453
+BMI	endometrioid_cancer	BMI_totaltg	totaltg	Multivariable MR	0.539349798066035	0.0848861836704422	8.29174403115285e-10
+totaltg	endometrioid_cancer	BMI_totaltg	BMI	Multivariable MR	0.0573424411771896	0.0687343281457907	0.404832044183534
+BMI	non_endometrioid_cancer	BMI_totaltg	totaltg	Multivariable MR	0.671446013568059	0.191560954434035	0.000530417812794125
+totaltg	non_endometrioid_cancer	BMI_totaltg	BMI	Multivariable MR	0.142071592412134	0.153951898330756	0.356881356446831
+BMI	Endometrial cancer	BMI_val	val	Multivariable MR	0.615627245767087	0.077265615299389	4.50685791538107e-14
+val	Endometrial cancer	BMI_val	BMI	Multivariable MR	-0.183002362853443	0.136931475853162	0.182522526963075
+BMI	endometrioid_cancer	BMI_val	val	Multivariable MR	0.548418304966525	0.0912867211479026	6.04303518615082e-09
+val	endometrioid_cancer	BMI_val	BMI	Multivariable MR	-0.0747153697554288	0.161825700841745	0.644664899592452
+BMI	non_endometrioid_cancer	BMI_val	val	Multivariable MR	0.917006744294363	0.194048633427944	3.70141775709028e-06
+val	non_endometrioid_cancer	BMI_val	BMI	Multivariable MR	-0.590436760066598	0.342845883671367	0.0861893046130068
+BMI	Endometrial cancer	BMI_xlhdltg	xlhdltg	Multivariable MR	0.577639032970206	0.0739455583391963	1.08941659401201e-13
+xlhdltg	Endometrial cancer	BMI_xlhdltg	BMI	Multivariable MR	0.0820194374224266	0.074280292077534	0.270442794235896
+BMI	endometrioid_cancer	BMI_xlhdltg	xlhdltg	Multivariable MR	0.546264898806109	0.0870964816020088	1.31887589042627e-09
+xlhdltg	endometrioid_cancer	BMI_xlhdltg	BMI	Multivariable MR	0.0657037819766791	0.0875246812234325	0.453459411854492
+BMI	non_endometrioid_cancer	BMI_xlhdltg	xlhdltg	Multivariable MR	0.649464520517516	0.195745610118273	0.0010260486901116
+xlhdltg	non_endometrioid_cancer	BMI_xlhdltg	BMI	Multivariable MR	0.198799944966251	0.202398229406882	0.326832536810294
+BMI	Endometrial cancer	BMI_xsvldlcpct	xsvldlcpct	Multivariable MR	0.571039604628415	0.0742835967337189	2.55608857008136e-13
+xsvldlcpct	Endometrial cancer	BMI_xsvldlcpct	BMI	Multivariable MR	0.0397930607023546	0.0802118186422561	0.620213251313936
+BMI	endometrioid_cancer	BMI_xsvldlcpct	xsvldlcpct	Multivariable MR	0.557051698062013	0.088594506549266	1.23328321061487e-09
+xsvldlcpct	endometrioid_cancer	BMI_xsvldlcpct	BMI	Multivariable MR	0.0145596502517499	0.0957317426476556	0.879227049254442
+BMI	non_endometrioid_cancer	BMI_xsvldlcpct	xsvldlcpct	Multivariable MR	0.550986963902778	0.190801580245821	0.00418615356765116
+xsvldlcpct	non_endometrioid_cancer	BMI_xsvldlcpct	BMI	Multivariable MR	0.297413206017816	0.205422332183245	0.148800104448134
+BMI	Endometrial cancer	BMI_xsvldlcepct	xsvldlcepct	Multivariable MR	0.486862284637457	0.0695977196739291	1.93727180148858e-11
+xsvldlcepct	Endometrial cancer	BMI_xsvldlcepct	BMI	Multivariable MR	0.0330484925725546	0.0794333811915351	0.67768883205127
+BMI	endometrioid_cancer	BMI_xsvldlcepct	xsvldlcepct	Multivariable MR	0.483289069902639	0.0822190815216419	1.17394051549471e-08
+xsvldlcepct	endometrioid_cancer	BMI_xsvldlcepct	BMI	Multivariable MR	-0.0161882985184287	0.0940230400771333	0.863424876061581
+BMI	non_endometrioid_cancer	BMI_xsvldlcepct	xsvldlcepct	Multivariable MR	0.561557303441266	0.180966698346764	0.00211236634064912
+xsvldlcepct	non_endometrioid_cancer	BMI_xsvldlcepct	BMI	Multivariable MR	0.238255009282946	0.206892211489023	0.250479001313107
+BMI	Endometrial cancer	BMI_xsvldltg	xsvldltg	Multivariable MR	0.499321003480545	0.0692907865223089	5.24186558173471e-12
+xsvldltg	Endometrial cancer	BMI_xsvldltg	BMI	Multivariable MR	0.0479172487512546	0.069114776594237	0.488690137826963
+BMI	endometrioid_cancer	BMI_xsvldltg	xsvldltg	Multivariable MR	0.484513621376722	0.0808485113480498	6.25879398306811e-09
+xsvldltg	endometrioid_cancer	BMI_xsvldltg	BMI	Multivariable MR	0.0425961138193374	0.0807574225868149	0.598289137613282
+BMI	non_endometrioid_cancer	BMI_xsvldltg	xsvldltg	Multivariable MR	0.609614025262585	0.177760664248319	0.000695934656663381
+xsvldltg	non_endometrioid_cancer	BMI_xsvldltg	BMI	Multivariable MR	0.343550913722393	0.177690967425269	0.0541926619213323
+BMI	Endometrial cancer	BMI_xsvldltgpct	xsvldltgpct	Multivariable MR	0.538216528241737	0.0743318000712858	4.51680416412693e-12
+xsvldltgpct	Endometrial cancer	BMI_xsvldltgpct	BMI	Multivariable MR	0.065506042639946	0.0715753919528835	0.360889573634647
+BMI	endometrioid_cancer	BMI_xsvldltgpct	xsvldltgpct	Multivariable MR	0.531781247722706	0.0886641142579816	6.30442321268555e-09
+xsvldltgpct	endometrioid_cancer	BMI_xsvldltgpct	BMI	Multivariable MR	0.0227914824686801	0.0855495632892016	0.790121828635445
+BMI	non_endometrioid_cancer	BMI_xsvldltgpct	xsvldltgpct	Multivariable MR	0.451088037140347	0.191832453935356	0.0194157322132176
+xsvldltgpct	non_endometrioid_cancer	BMI_xsvldltgpct	BMI	Multivariable MR	0.610089798442672	0.189332930391535	0.00142698224212919
