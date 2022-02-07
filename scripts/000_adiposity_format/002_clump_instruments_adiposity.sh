@@ -14,7 +14,7 @@ source ../../environment/environment.sh
 cd ${directory_1}adiposity_metabolites_endometrial_cancer/scripts
 
 # script
-module add languages/R-4.0.3-gcc9.1.0
+module add lang/r/4.0.3-bioconductor-gcc
 
 VAR1=002_clump_instruments_adiposity.R
 
