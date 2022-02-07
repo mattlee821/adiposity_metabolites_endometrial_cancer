@@ -1,11 +1,16 @@
-###########################
 #!/bin/bash
-#PBS -l nodes=1:ppn=1
-#PBS -l walltime=004:00:00
 
-export WORK_DIR=/newhome/ml16847/001_projects/adiposity_metabolites_endometrial_cancer/data
+#SBATCH --job-name=extract_metab_instruments
+#SBATCH --nodes=1
+#SBATCH --ntasks-per-node=1
+#SBATCH --time=0-10:0:00
+#SBATCH --mem=100M
 
-cd $WORK_DIR
+# set environment arguments 
+source ../../environment/environment.sh
 
-#loop through files in linux to extract GWAS significant SNPs
-ls *.txt | while read f; do awk -F" " 'NR==1{print;next}$9<5e-09' ${f} > /newhome/ml16847/001_projects/adiposity_metabolites_endometrial_cancer/data/${f}_snps.txt; done;
+# unzip files
+gzip -d ${directory_1}adiposity_metabolites_endometrial_cancer/adiposity_GWAS/*.txt.gz
+
+#loop through files to extract GWAS significant SNPs
+ls ${directory_1}adiposity_metabolites_endometrial_cancer/adiposity_GWAS/*.txt | while read f; do awk -F" " 'NR==1{print;next}$9<5e-09' ${f} > ${directory_1}adiposity_metabolites_endometrial_cancer/data/adiposity/${f}_snps.txt; done;
