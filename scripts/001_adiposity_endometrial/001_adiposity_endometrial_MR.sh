@@ -1,13 +1,13 @@
-###########################
 #!/bin/bash
-#PBS -l nodes=1:ppn=1
-#PBS -l walltime=300:00:00
-#PBS -e log/
-#PBS -o log/
+
+#SBATCH --job-name=extract_metab_instruments
+#SBATCH --nodes=1
+#SBATCH --ntasks-per-node=1
+#SBATCH --time=0-10:0:00
+#SBATCH --mem=100M
 
 # set environment arguments 
 source ../../environment/environment.sh
-# must also set a .Renviron file in the same location as the script
 
 # working directory
 cd ${directory_1}adiposity_metabolites_endometrial_cancer/scripts

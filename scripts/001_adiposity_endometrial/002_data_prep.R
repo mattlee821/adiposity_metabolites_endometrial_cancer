@@ -14,8 +14,8 @@ data <- read.table("adiposity_metabolites_endometrial_cancer/analysis/001_adipos
 
 # OR and CI
 data$OR <- exp(data$b)
-data$lower_ci <- data$OR - (1.96 * data$se)
-data$upper_ci <- data$OR + (1.96 * data$se)
+data$lower_ci <- exp(data$b - (1.96 * data$se))
+data$upper_ci <- exp(data$b + (1.96 * data$se))
 
 # save
 write.table(data, "adiposity_metabolites_endometrial_cancer/analysis/001_adiposity_endometrial/001_MR_results.txt", 
