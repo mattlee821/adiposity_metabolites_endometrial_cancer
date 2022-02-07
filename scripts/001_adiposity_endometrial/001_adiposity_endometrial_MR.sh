@@ -12,8 +12,11 @@ source ../../environment/environment.sh
 # working directory
 cd ${directory_1}adiposity_metabolites_endometrial_cancer/scripts
 
-module add languages/R-4.0.3-gcc9.1.0
+module add lang/r/4.0.3-bioconductor-gcc
 
-VAR1=001_adiposity_endometrial_MR.R
+VAR1=001_adiposity_endometrial_MR_female.R
+VAR2=001_adiposity_endometrial_MR_combined.R
 
 Rscript ${directory_1}adiposity_metabolites_endometrial_cancer/scripts/001_adiposity_endometrial/${VAR1}
+
+Rscript ${directory_1}adiposity_metabolites_endometrial_cancer/scripts/001_adiposity_endometrial/${VAR2}
