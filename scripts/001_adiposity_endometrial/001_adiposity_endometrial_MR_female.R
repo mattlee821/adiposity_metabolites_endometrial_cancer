@@ -30,7 +30,7 @@ discrete_wes_pal <- c(d1, d2, d3, d4)
 rm(d1,d2,d3,d4)
 
 ## extract exposure instruments ====
-a <- read_exposure_data("adiposity_metabolites_endometrial_cancer/data/bmi_snps_female.txt",
+a <- read_exposure_data("adiposity_metabolites_endometrial_cancer/data/adiposity/bmi_snps_female.txt",
                                   clump = F,
                                   sep = "\t",
                                   snp_col = "SNP",
@@ -48,7 +48,7 @@ a$id.exposure <- "BMI"
 a$f_stats <- (a$b / a$se)^2 
 a$mean_fstat <- mean(a$f_stats)
 
-a1 <- read_exposure_data("adiposity_metabolites_endometrial_cancer/data/whr_snps_female.txt",
+a1 <- read_exposure_data("adiposity_metabolites_endometrial_cancer/adiposity/data/whr_snps_female.txt",
                                   clump = F,
                                   sep = "\t",
                                   snp_col = "SNP",
@@ -66,7 +66,7 @@ a1$id.exposure <- "WHR"
 a1$f_stats <- (a1$b / a1$se)^2 
 a1$mean_fstat <- mean(a1$f_stats)
 
-a2 <- read_exposure_data("adiposity_metabolites_endometrial_cancer/data/whradjbmi_snps_female.txt",
+a2 <- read_exposure_data("adiposity_metabolites_endometrial_cancer/data/adiposity/whradjbmi_snps_female.txt",
                                   clump = F,
                                   sep = "\t",
                                   snp_col = "SNP",
