@@ -1,10 +1,10 @@
 #!/bin/bash
 
-#SBATCH --job-name=extract_metab_instruments
+#SBATCH --job-name=MR-analysis
 #SBATCH --nodes=1
 #SBATCH --ntasks-per-node=1
 #SBATCH --time=0-10:0:00
-#SBATCH --mem=100M
+#SBATCH --mem=1000M
 
 # set environment arguments 
 source ../../environment/environment.sh
