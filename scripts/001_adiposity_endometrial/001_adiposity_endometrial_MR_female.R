@@ -48,7 +48,7 @@ a$id.exposure <- "BMI"
 a$f_stats <- (a$b / a$se)^2 
 a$mean_fstat <- mean(a$f_stats)
 
-a1 <- read_exposure_data("adiposity_metabolites_endometrial_cancer/adiposity/data/whr_snps_female.txt",
+a1 <- read_exposure_data("adiposity_metabolites_endometrial_cancer/data/adiposity/whr_snps_female.txt",
                                   clump = F,
                                   sep = "\t",
                                   snp_col = "SNP",
