@@ -6,8 +6,7 @@ rm(list=ls())
 #remotes::install_github("MRCIEU/TwoSampleMR")
 library(TwoSampleMR)
 
-cd /user/work/ml16847/001_projects/adiposity_metabolites_endometrial_cancer/data/adiposity
-
+setwd("/user/work/ml16847/001_projects/adiposity_metabolites_endometrial_cancer/data/adiposity")
 
 # format SNP column ====
 data <- read.table("bmi.giant-ukbb.meta-analysis.females.23May2018.txt_snps.txt", header = T, sep = " ")
