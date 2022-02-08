@@ -4,7 +4,7 @@
 #SBATCH --nodes=1
 #SBATCH --ntasks-per-node=1
 #SBATCH --time=0-10:0:00
-#SBATCH --mem=1000M
+#SBATCH --mem=10000M
 
 # set environment arguments 
 source ../../environment/environment.sh
