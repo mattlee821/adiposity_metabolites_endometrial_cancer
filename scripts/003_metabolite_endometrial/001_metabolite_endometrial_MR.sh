@@ -1,19 +1,23 @@
-###########################
 #!/bin/bash
-#PBS -l nodes=1:ppn=1
-#PBS -l walltime=300:00:00
-#PBS -e log/
-#PBS -o log/
+
+#SBATCH --job-name=MR-analysis
+#SBATCH --nodes=1
+#SBATCH --ntasks-per-node=1
+#SBATCH --time=0-10:0:00
+#SBATCH --mem=1000M
 
 # set environment arguments 
 source ../../environment/environment.sh
-# must also set a .Renviron file in the same location as the script
 
 # working directory
 cd ${directory_1}adiposity_metabolites_endometrial_cancer/scripts
 
-module add languages/R-4.0.3-gcc9.1.0
+module add lang/r/4.0.3-bioconductor-gcc
 
-VAR1=001_metabolite_endometrial_MR.R
+VAR1=001_metabolite_endometrial_MR_female.R
+VAR2=001_metabolite_endometrial_MR_combined.R
 
 Rscript ${directory_1}adiposity_metabolites_endometrial_cancer/scripts/003_metabolite_endometrial/${VAR1}
+
+Rscript ${directory_1}adiposity_metabolites_endometrial_cancer/scripts/003_metabolite_endometrial/${VAR2}
+
