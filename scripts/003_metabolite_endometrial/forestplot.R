@@ -12,10 +12,11 @@ library(tidyr)
 library(purrr)
 library(ggforestplot)
 library(wesanderson)
+source("scripts/my_forestplot.R")
 colours <- names(wes_palettes)
 discrete_palette <- wes_palette(colours[8], type = "discrete")
 
-# data ====
+# main plot ====
 plot_data <- read.table("adiposity_metabolites_endometrial_cancer/analysis/003_metabolite_endometrial/mr_results_formatted_associated_metabolites.txt", header = T, sep = "\t")
 plot_data$outcome_label[plot_data$outcome == "Endometrial cancer (endometrioid histology) || id:ebi-a-GCST006465"] <- "Endometrioid"
 plot_data$outcome_label[plot_data$outcome == "Endometrial cancer (Non-endometrioid histology) || id:ebi-a-GCST006466"] <- "Non-endometroid"
@@ -47,3 +48,56 @@ forestplot(df = plot_data,
   theme(axis.title.x = element_blank()) +
   theme(legend.title = element_blank())
 dev.off()
+
+
+# plot: BMI associated metabolites that are associated with EC at 0.05 ====
+
+# bmi associated metabolites
+data <- read.table("analysis/002_adiposity_metabolite/combined/001_mr_results.txt", header = T, sep = "\t")
+data <- subset(data, exposure == "BMI")
+data <- subset(data, pval < 0.05/249)
+metabolites <- unique(data$metabolite)
+bmi_direction <- data[,c("metabolite", "direction")]
+colnames(bmi_direction)[2] <- "bmi_direction"
+
+# metabolites associated endo
+data2 <- read.table("analysis/003_metabolite_endometrial/associated_metabolites.txt", header = T, sep = "\t")
+metabolites2 <- unique(data2$metabolite)
+
+# shared metabolites
+associated_metabolites <- Reduce(intersect, list(metabolites,metabolites2))
+
+# data for plot
+data <- read.table("analysis/003_metabolite_endometrial/associated_metabolites.txt", header = T, sep = "\t")
+data <- data[data$metabolite %in% associated_metabolites,]
+data <- left_join(data, bmi_direction, by = "metabolite")
+data$outcome[data$outcome == "Endometrial cancer || id:ebi-a-GCST006464"] <- "Endometrial cancer"
+data$outcome[data$outcome == "Endometrial cancer (endometrioid histology) || id:ebi-a-GCST006465"] <- "Endometrioid cancer"
+data$outcome[data$outcome == "Endometrial cancer (Non-endometrioid histology) || id:ebi-a-GCST006466"] <- "Non-endometrioid cancer"
+plot_data <- data[,c("metabolite", "outcome", "b", "OR", "se", "pval", "UKB_name2", "UKB_subclass", "bmi_direction")]
+
+# plot
+ci <- 0.95
+psignif <- 0.05
+
+p1 <- my_forestplot(df = plot_data,
+                    name = UKB_name2,
+                    estimate = b,
+                    pvalue = pval,
+                    psignif = psignif,
+                    ci = ci,
+                    se = se,
+                    colour = outcome,
+                    shape = bmi_direction,
+                    logodds = T) +
+  theme(axis.title.x = element_blank()) +
+  theme(legend.position = "right") +
+  ggforce::facet_col(facets = ~UKB_subclass,
+                     scales = "free_y",
+                     space = "free") 
+pdf("analysis/figures/forestplot_bmi_associated_and_endo_associated.pdf",
+    width = 9, height = 16, pointsize = 10)
+p1
+dev.off()
+
+

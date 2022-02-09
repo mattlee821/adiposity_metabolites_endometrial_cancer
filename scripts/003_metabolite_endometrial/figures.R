@@ -26,8 +26,8 @@ data$outcome[data$outcome == "Endometrial cancer || id:ebi-a-GCST006464"] <- "En
 data$outcome[data$outcome == "Endometrial cancer (endometrioid histology) || id:ebi-a-GCST006465"] <- "Endometroid"
 data$outcome[data$outcome == "Endometrial cancer (Non-endometrioid histology) || id:ebi-a-GCST006466"] <- "Non-endometroid"
 data$OR <- exp(data$b)
-data$lower_ci <- data$OR - (1.96 * data$se)
-data$upper_ci <- data$OR + (1.96 * data$se)
+data$lower_ci <- exp(data$b - (1.96 * data$se))
+data$upper_ci <- exp(data$b + (1.96 * data$se))
 data <- data[,c("exposure", "UKB_label", "outcome", "b", "se", "pval", "OR", "lower_ci", "upper_ci", "ng_anno_raw.label", "ng_anno_subclass")]
 data$ng_anno_subclass <- as.factor(data$ng_anno_subclass)
 plot_data <- data

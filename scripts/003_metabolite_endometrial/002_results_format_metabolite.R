@@ -19,10 +19,8 @@ data <- left_join(data, metab, by = "UKB_label")
 
 # OR and CI
 data$OR <- exp(data$b)
-data$lower_ci <- data$b - (1.96 * data$se)
-data$lower_ci <- exp(data$lower_ci)
-data$upper_ci <- data$b + (1.96 * data$se)
-data$upper_ci <- exp(data$upper_ci)
+data$lower_ci <- exp(data$b - (1.96 * data$se))
+data$upper_ci <- exp(data$b + (1.96 * data$se))
 
 # save
 write.table(data, "adiposity_metabolites_endometrial_cancer/analysis/003_metabolite_endometrial/mr_results_formatted.txt", 

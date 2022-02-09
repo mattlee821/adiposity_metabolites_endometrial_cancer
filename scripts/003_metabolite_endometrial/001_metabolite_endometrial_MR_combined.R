@@ -32,22 +32,7 @@ discrete_wes_pal <- c(d1, d2, d3, d4)
 rm(d1,d2,d3,d4)
 
 ## extract exposure instruments ====
-exposure_data <- read_exposure_data("adiposity_metabolites_endometrial_cancer/data/metabolites/exposure_data_all.txt",
-                                    clump = F,
-                                    sep = " ",
-                                    snp_col = "SNP",
-                                    beta_col = "BETA",
-                                    se_col = "SE",
-                                    eaf_col = "A1FREQ",
-                                    effect_allele_col = "ALLELE1",
-                                    other_allele_col = "ALLELE0",
-                                    pval_col = "P_BOLT_LMM_INF",
-                                    phenotype = "phenotype",
-                                    min_pval = 5e-8)
-
-exposure_data <- clump_data(exposure_data,
-                                  clump_kb = 10000,
-                                  clump_r2 = 0.001)
+exposure_data <- read.table("adiposity_metabolites_endometrial_cancer/data/metabolites/exposure_data_clumped_combined.txt", header = T, sep = "\t")
 
 ## extract outcome data ====
 outcome_data <- extract_outcome_data(exposure_data$SNP, c('ebi-a-GCST006464', 'ebi-a-GCST006465', 'ebi-a-GCST006466'), proxies = 1, rsq = 0.8, align_alleles = 1, palindromes = 1, maf_threshold = 0.3)
