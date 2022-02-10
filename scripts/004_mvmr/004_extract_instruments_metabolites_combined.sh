@@ -16,25 +16,25 @@ export BMI_INSTRUMENTS_SNP_DIR=/user/work/ml16847/001_projects/adiposity_metabol
 export WHR_INSTRUMENTS_SNP_DIR=/user/work/ml16847/001_projects/adiposity_metabolites_endometrial_cancer/analysis/004_mvmr/combined/metabolite_instruments/whr
 export WHRadjBMI_INSTRUMENTS_SNP_DIR=/user/work/ml16847/001_projects/adiposity_metabolites_endometrial_cancer/analysis/004_mvmr/combined/metabolite_instruments/whradjbmi
 
-export metabolite1=Ala_int_imputed.txt
-export metabolite2=HDL_TG_int_imputed.txt
-export metabolite3=IDL_PL_pct_int_imputed.txt
-export metabolite4=L_HDL_CE_pct_int_imputed.txt
-export metabolite5=L_HDL_L_int_imputed.txt
-export metabolite6=L_LDL_C_int_imputed.txt
-export metabolite7=LA_int_imputed.txt
-export metabolite8=LDL_C_int_imputed.txt
-export metabolite9=LDL_CE_int_imputed.txt
-export metabolite10=LDL_P_int_imputed.txt
-export metabolite11=M_HDL_CE_pct_int_imputed.txt
-export metabolite12=M_LDL_FC_pct_int_imputed.txt
-export metabolite13=S_HDL_TG_pct_int_imputed.txt
-export metabolite14=S_VLDL_C_pct_int_imputed.txt
-export metabolite15=S_VLDL_TG_int_imputed.txt
-export metabolite16=S_VLDL_TG_pct_int_imputed.txt
-export metabolite17=XS_VLDL_C_int_imputed.txt
-export metabolite18=XS_VLDL_CE_pct_int_imputed.txt
-export metabolite19=XS_VLDL_PL_pct_int_imputed.txt
+export metabolite1=Ala_int.imputed.txt
+export metabolite2=HDL_TG_int.imputed.txt
+export metabolite3=IDL_PL_pct_int.imputed.txt
+export metabolite4=L_HDL_CE_pct_int.imputed.txt
+export metabolite5=L_HDL_L_int.imputed.txt
+export metabolite6=L_LDL_C_int.imputed.txt
+export metabolite7=LA_int.imputed.txt
+export metabolite8=LDL_C_int.imputed.txt
+export metabolite9=LDL_CE_int.imputed.txt
+export metabolite10=LDL_P_int.imputed.txt
+export metabolite11=M_HDL_CE_pct_int.imputed.txt
+export metabolite12=M_LDL_FC_pct_int.imputed.txt
+export metabolite13=S_HDL_TG_pct_int.imputed.txt
+export metabolite14=S_VLDL_C_pct_int.imputed.txt
+export metabolite15=S_VLDL_TG_int.imputed.txt
+export metabolite16=S_VLDL_TG_pct_int.imputed.txt
+export metabolite17=XS_VLDL_C_int.imputed.txt
+export metabolite18=XS_VLDL_CE_pct_int.imputed.txt
+export metabolite19=XS_VLDL_PL_pct_int.imputed.txt
 
 # grep instruments from each GWAS file for BMI adjusted metabolites
 grep -w -F -f ${BMI_SNP_DIR}/${metabolite1} ${METABOLITE_DIR}/${metabolite1} > ${BMI_INSTRUMENTS_SNP_DIR}/${metabolite1}
