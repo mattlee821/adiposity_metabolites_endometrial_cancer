@@ -6,7 +6,7 @@
 #SBATCH --time=0-10:0:00
 #SBATCH --mem=100000M
 
-export METABOLITE_DIR=/user/work/ml16847/001_projects/UKB_NMR_GWAS/nmr_dat_all
+export METABOLITE_DIR=/user/work/ml16847/UKB_NMR_GWAS/nmr_dat_all
 
 export BMI_SNP_DIR=/user/work/ml16847/001_projects/adiposity_metabolites_endometrial_cancer/analysis/004_mvmr/combined/snp_lists/bmi
 export WHR_SNP_DIR=/user/work/ml16847/001_projects/adiposity_metabolites_endometrial_cancer/analysis/004_mvmr/combined/snp_lists/whr
