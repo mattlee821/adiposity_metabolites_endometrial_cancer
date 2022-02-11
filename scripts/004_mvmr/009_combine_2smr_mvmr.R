@@ -60,10 +60,8 @@ data$adjusted <- factor(data$adjusted, levels = c("BMI", "WHR", "WHRadjBMI", my_
 data$method <- factor(data$method, levels = c("Two Sample MR", "Multivariable MR", "Negative control MVMR"))
 
 data$OR <- exp(data$b)
-data$lower_ci <- data$b - (1.96 * data$se)
-data$lower_ci <- exp(data$lower_ci)
-data$upper_ci <- data$b + (1.96 * data$se)
-data$upper_ci <- exp(data$upper_ci)
+data$lower_ci <- exp(data$b - (1.96 * data$se))
+data$upper_ci <- exp(data$b + (1.96 * data$se))
 
 ## save ====
 write.table(data, "adiposity_metabolites_endometrial_cancer/analysis/004_mvmr/results/combined/2smr_mvmr_formatted_results.txt", 
