@@ -1,0 +1,997 @@
+id.exposure	id.outcome	outcome	exposure	method	Q	Q_df	Q_pval
+WHR	0IwcAv	S_HDL_PL_int_imputed.txt_adiposity_instruments.txt	WHR	Maximum likelihood	493.183676772193	222	1.19489433185628e-22
+WHR	0IwcAv	S_HDL_PL_int_imputed.txt_adiposity_instruments.txt	WHR	MR Egger	494.62043214725	221	5.32526097438521e-23
+WHR	0IwcAv	S_HDL_PL_int_imputed.txt_adiposity_instruments.txt	WHR	Inverse variance weighted	495.642800149427	222	6.01535172607132e-23
+WHR	0IwcAv	S_HDL_PL_int_imputed.txt_adiposity_instruments.txt	WHR	Unweighted regression	0.0380628526209948	222	1
+WHR	0RYCRO	M_VLDL_CE_int_imputed.txt_adiposity_instruments.txt	WHR	Maximum likelihood	585.50306058153	222	1.50262853874171e-34
+WHR	0RYCRO	M_VLDL_CE_int_imputed.txt_adiposity_instruments.txt	WHR	MR Egger	581.493345617612	221	3.23062320248079e-34
+WHR	0RYCRO	M_VLDL_CE_int_imputed.txt_adiposity_instruments.txt	WHR	Inverse variance weighted	585.895504767941	222	1.32883472779943e-34
+WHR	0RYCRO	M_VLDL_CE_int_imputed.txt_adiposity_instruments.txt	WHR	Unweighted regression	0.0460695748363815	222	1
+WHR	0YZCA6	XS_VLDL_PL_pct_int_imputed.txt_adiposity_instruments.txt	WHR	Maximum likelihood	618.560536264175	222	4.06271902422829e-39
+WHR	0YZCA6	XS_VLDL_PL_pct_int_imputed.txt_adiposity_instruments.txt	WHR	MR Egger	620.817969196346	221	1.1639733118693e-39
+WHR	0YZCA6	XS_VLDL_PL_pct_int_imputed.txt_adiposity_instruments.txt	WHR	Inverse variance weighted	621.686888924814	222	1.47773703593365e-39
+WHR	0YZCA6	XS_VLDL_PL_pct_int_imputed.txt_adiposity_instruments.txt	WHR	Unweighted regression	0.0387113133770599	222	1
+WHR	18GgQl	Sphingomyelins_int_imputed.txt_adiposity_instruments.txt	WHR	Maximum likelihood	564.671933141155	222	9.53294027171301e-32
+WHR	18GgQl	Sphingomyelins_int_imputed.txt_adiposity_instruments.txt	WHR	MR Egger	559.9844331182	221	2.49757664111023e-31
+WHR	18GgQl	Sphingomyelins_int_imputed.txt_adiposity_instruments.txt	WHR	Inverse variance weighted	566.300392874031	222	5.78631715012573e-32
+WHR	18GgQl	Sphingomyelins_int_imputed.txt_adiposity_instruments.txt	WHR	Unweighted regression	0.0376381381992578	222	1
+WHR	1CsbcX	M_VLDL_PL_pct_int_imputed.txt_adiposity_instruments.txt	WHR	Maximum likelihood	792.791200585827	222	3.81432128128438e-65
+WHR	1CsbcX	M_VLDL_PL_pct_int_imputed.txt_adiposity_instruments.txt	WHR	MR Egger	792.968478531494	221	1.88317378190782e-65
+WHR	1CsbcX	M_VLDL_PL_pct_int_imputed.txt_adiposity_instruments.txt	WHR	Inverse variance weighted	798.580453566851	222	4.68473285855137e-66
+WHR	1CsbcX	M_VLDL_PL_pct_int_imputed.txt_adiposity_instruments.txt	WHR	Unweighted regression	0.0602376086299508	222	1
+WHR	1nxcp5	L_HDL_C_int_imputed.txt_adiposity_instruments.txt	WHR	Maximum likelihood	654.121331469266	222	3.50431313240132e-44
+WHR	1nxcp5	L_HDL_C_int_imputed.txt_adiposity_instruments.txt	WHR	MR Egger	676.200805856005	221	1.21536545738873e-47
+WHR	1nxcp5	L_HDL_C_int_imputed.txt_adiposity_instruments.txt	WHR	Inverse variance weighted	682.336229519894	222	2.66894255980851e-48
+WHR	1nxcp5	L_HDL_C_int_imputed.txt_adiposity_instruments.txt	WHR	Unweighted regression	0.0471098797825078	222	1
+WHR	1PBBs0	S_HDL_TG_int_imputed.txt_adiposity_instruments.txt	WHR	Maximum likelihood	816.561829761452	222	6.70246452133828e-69
+WHR	1PBBs0	S_HDL_TG_int_imputed.txt_adiposity_instruments.txt	WHR	MR Egger	848.950998129231	221	2.24837529092106e-74
+WHR	1PBBs0	S_HDL_TG_int_imputed.txt_adiposity_instruments.txt	WHR	Inverse variance weighted	849.805796211402	222	3.21810518845549e-74
+WHR	1PBBs0	S_HDL_TG_int_imputed.txt_adiposity_instruments.txt	WHR	Unweighted regression	0.0646026691749148	222	1
+WHR	1Rtfih	XL_VLDL_TG_pct_int_imputed.txt_adiposity_instruments.txt	WHR	Maximum likelihood	774.312738078939	222	2.95977553161288e-62
+WHR	1Rtfih	XL_VLDL_TG_pct_int_imputed.txt_adiposity_instruments.txt	WHR	MR Egger	781.684820115735	221	1.1115433317764e-63
+WHR	1Rtfih	XL_VLDL_TG_pct_int_imputed.txt_adiposity_instruments.txt	WHR	Inverse variance weighted	783.718685778679	222	1.00822481513521e-63
+WHR	1Rtfih	XL_VLDL_TG_pct_int_imputed.txt_adiposity_instruments.txt	WHR	Unweighted regression	0.053716705235694	222	1
+WHR	1SOXrs	LA_pct_int_imputed.txt_adiposity_instruments.txt	WHR	Maximum likelihood	455.540943195616	222	3.07238431338163e-18
+WHR	1SOXrs	LA_pct_int_imputed.txt_adiposity_instruments.txt	WHR	MR Egger	456.197023540971	221	1.79280663921056e-18
+WHR	1SOXrs	LA_pct_int_imputed.txt_adiposity_instruments.txt	WHR	Inverse variance weighted	460.541117115328	222	8.29778765402205e-19
+WHR	1SOXrs	LA_pct_int_imputed.txt_adiposity_instruments.txt	WHR	Unweighted regression	0.0304966129783679	222	1
+WHR	1zxovk	non_HDL_C_int_imputed.txt_adiposity_instruments.txt	WHR	Maximum likelihood	567.410909256821	222	4.11449823799997e-32
+WHR	1zxovk	non_HDL_C_int_imputed.txt_adiposity_instruments.txt	WHR	MR Egger	565.232012141122	221	5.00091345396714e-32
+WHR	1zxovk	non_HDL_C_int_imputed.txt_adiposity_instruments.txt	WHR	Inverse variance weighted	569.858066206644	222	1.93801640459608e-32
+WHR	1zxovk	non_HDL_C_int_imputed.txt_adiposity_instruments.txt	WHR	Unweighted regression	0.0454781713972421	222	1
+WHR	2BlmRK	Ile_int_imputed.txt_adiposity_instruments.txt	WHR	Maximum likelihood	319.741809970529	222	1.86931782117136e-05
+WHR	2BlmRK	Ile_int_imputed.txt_adiposity_instruments.txt	WHR	MR Egger	321.639810754323	221	1.1255200294645e-05
+WHR	2BlmRK	Ile_int_imputed.txt_adiposity_instruments.txt	WHR	Inverse variance weighted	321.748238032172	222	1.34741631407013e-05
+WHR	2BlmRK	Ile_int_imputed.txt_adiposity_instruments.txt	WHR	Unweighted regression	0.0231052773952414	222	1
+WHR	2Gv15f	LDL_CE_int_imputed.txt_adiposity_instruments.txt	WHR	Maximum likelihood	561.52417303455	222	2.49591805928251e-31
+WHR	2Gv15f	LDL_CE_int_imputed.txt_adiposity_instruments.txt	WHR	MR Egger	560.593494083877	221	2.07329185355228e-31
+WHR	2Gv15f	LDL_CE_int_imputed.txt_adiposity_instruments.txt	WHR	Inverse variance weighted	564.241081562125	222	1.0877475253055e-31
+WHR	2Gv15f	LDL_CE_int_imputed.txt_adiposity_instruments.txt	WHR	Unweighted regression	0.0441676101948629	222	1
+WHR	2W5YUg	IDL_FC_int_imputed.txt_adiposity_instruments.txt	WHR	Maximum likelihood	731.183277682351	222	1.2851859206292e-55
+WHR	2W5YUg	IDL_FC_int_imputed.txt_adiposity_instruments.txt	WHR	MR Egger	723.596960916063	221	1.00256012193586e-54
+WHR	2W5YUg	IDL_FC_int_imputed.txt_adiposity_instruments.txt	WHR	Inverse variance weighted	731.353672563501	222	1.21074780545419e-55
+WHR	2W5YUg	IDL_FC_int_imputed.txt_adiposity_instruments.txt	WHR	Unweighted regression	0.0514847115276567	222	1
+WHR	379dxZ	M_VLDL_PL_int_imputed.txt_adiposity_instruments.txt	WHR	Maximum likelihood	503.355708557037	222	6.86998092908886e-24
+WHR	379dxZ	M_VLDL_PL_int_imputed.txt_adiposity_instruments.txt	WHR	MR Egger	508.810928605144	221	9.56670798899219e-25
+WHR	379dxZ	M_VLDL_PL_int_imputed.txt_adiposity_instruments.txt	WHR	Inverse variance weighted	510.868751560434	222	8.09993677305318e-25
+WHR	379dxZ	M_VLDL_PL_int_imputed.txt_adiposity_instruments.txt	WHR	Unweighted regression	0.0453192675680915	222	1
+WHR	3e5QuJ	IDL_TG_int_imputed.txt_adiposity_instruments.txt	WHR	Maximum likelihood	548.364122953916	222	1.34461952440602e-29
+WHR	3e5QuJ	IDL_TG_int_imputed.txt_adiposity_instruments.txt	WHR	MR Egger	555.144830052685	221	1.09154279505833e-30
+WHR	3e5QuJ	IDL_TG_int_imputed.txt_adiposity_instruments.txt	WHR	Inverse variance weighted	556.174622660916	222	1.27120986979419e-30
+WHR	3e5QuJ	IDL_TG_int_imputed.txt_adiposity_instruments.txt	WHR	Unweighted regression	0.0468164197866322	222	1
+WHR	3lJMPq	S_LDL_TG_int_imputed.txt_adiposity_instruments.txt	WHR	Maximum likelihood	752.100192025628	222	8.11415099044332e-59
+WHR	3lJMPq	S_LDL_TG_int_imputed.txt_adiposity_instruments.txt	WHR	MR Egger	770.755207699541	221	5.64970738710839e-62
+WHR	3lJMPq	S_LDL_TG_int_imputed.txt_adiposity_instruments.txt	WHR	Inverse variance weighted	771.406521875862	222	8.38181910322538e-62
+WHR	3lJMPq	S_LDL_TG_int_imputed.txt_adiposity_instruments.txt	WHR	Unweighted regression	0.0582748071849784	222	1
+WHR	41WFJM	L_HDL_CE_pct_int_imputed.txt_adiposity_instruments.txt	WHR	Maximum likelihood	639.855892518524	222	3.92459485165378e-42
+WHR	41WFJM	L_HDL_CE_pct_int_imputed.txt_adiposity_instruments.txt	WHR	MR Egger	660.269511676474	221	2.60204962515395e-45
+WHR	41WFJM	L_HDL_CE_pct_int_imputed.txt_adiposity_instruments.txt	WHR	Inverse variance weighted	663.570172254251	222	1.49579499856141e-45
+WHR	41WFJM	L_HDL_CE_pct_int_imputed.txt_adiposity_instruments.txt	WHR	Unweighted regression	0.0471738991998492	222	1
+WHR	48QMQW	L_LDL_FC_int_imputed.txt_adiposity_instruments.txt	WHR	Maximum likelihood	741.104105249828	222	3.94497563069279e-57
+WHR	48QMQW	L_LDL_FC_int_imputed.txt_adiposity_instruments.txt	WHR	MR Egger	734.949895929221	221	1.87633868609881e-56
+WHR	48QMQW	L_LDL_FC_int_imputed.txt_adiposity_instruments.txt	WHR	Inverse variance weighted	741.108562762586	222	3.93878823983478e-57
+WHR	48QMQW	L_LDL_FC_int_imputed.txt_adiposity_instruments.txt	WHR	Unweighted regression	0.0518344668429143	222	1
+WHR	4IKpYf	M_LDL_C_pct_int_imputed.txt_adiposity_instruments.txt	WHR	Maximum likelihood	492.888899964372	222	1.29712322547335e-22
+WHR	4IKpYf	M_LDL_C_pct_int_imputed.txt_adiposity_instruments.txt	WHR	MR Egger	492.884337673005	221	8.65576709543232e-23
+WHR	4IKpYf	M_LDL_C_pct_int_imputed.txt_adiposity_instruments.txt	WHR	Inverse variance weighted	493.011792449952	222	1.2534876469075e-22
+WHR	4IKpYf	M_LDL_C_pct_int_imputed.txt_adiposity_instruments.txt	WHR	Unweighted regression	0.0339617712631216	222	1
+WHR	4MFbQ4	MUFA_int_imputed.txt_adiposity_instruments.txt	WHR	Maximum likelihood	562.378380402446	222	1.92283616100468e-31
+WHR	4MFbQ4	MUFA_int_imputed.txt_adiposity_instruments.txt	WHR	MR Egger	571.851270526607	221	6.49013539710533e-33
+WHR	4MFbQ4	MUFA_int_imputed.txt_adiposity_instruments.txt	WHR	Inverse variance weighted	571.939860417064	222	1.01983435236943e-32
+WHR	4MFbQ4	MUFA_int_imputed.txt_adiposity_instruments.txt	WHR	Unweighted regression	0.0462608673991733	222	1
+WHR	4u2ddF	M_LDL_PL_pct_int_imputed.txt_adiposity_instruments.txt	WHR	Maximum likelihood	470.333732770946	222	6.16195585830276e-20
+WHR	4u2ddF	M_LDL_PL_pct_int_imputed.txt_adiposity_instruments.txt	WHR	MR Egger	470.02779197987	221	4.56304762375784e-20
+WHR	4u2ddF	M_LDL_PL_pct_int_imputed.txt_adiposity_instruments.txt	WHR	Inverse variance weighted	472.250670888258	222	3.68356260620968e-20
+WHR	4u2ddF	M_LDL_PL_pct_int_imputed.txt_adiposity_instruments.txt	WHR	Unweighted regression	0.0350828320344996	222	1
+WHR	4vwYs4	XL_HDL_TG_pct_int_imputed.txt_adiposity_instruments.txt	WHR	Maximum likelihood	832.079947963633	222	2.2538534001875e-71
+WHR	4vwYs4	XL_HDL_TG_pct_int_imputed.txt_adiposity_instruments.txt	WHR	MR Egger	869.862311516211	221	9.21794901278212e-78
+WHR	4vwYs4	XL_HDL_TG_pct_int_imputed.txt_adiposity_instruments.txt	WHR	Inverse variance weighted	870.821426462697	222	1.28095659312433e-77
+WHR	4vwYs4	XL_HDL_TG_pct_int_imputed.txt_adiposity_instruments.txt	WHR	Unweighted regression	0.0626011838937274	222	1
+WHR	5NESGg	GlycA_int_imputed.txt_adiposity_instruments.txt	WHR	Maximum likelihood	588.308461350967	222	6.23439955358991e-35
+WHR	5NESGg	GlycA_int_imputed.txt_adiposity_instruments.txt	WHR	MR Egger	595.790774314907	221	3.57775487013969e-36
+WHR	5NESGg	GlycA_int_imputed.txt_adiposity_instruments.txt	WHR	Inverse variance weighted	598.595337444477	222	2.42533429128828e-36
+WHR	5NESGg	GlycA_int_imputed.txt_adiposity_instruments.txt	WHR	Unweighted regression	0.0403861735389946	222	1
+WHR	5s0PdZ	S_HDL_CE_int_imputed.txt_adiposity_instruments.txt	WHR	Maximum likelihood	424.311922270453	222	8.05385617539119e-15
+WHR	5s0PdZ	S_HDL_CE_int_imputed.txt_adiposity_instruments.txt	WHR	MR Egger	423.304540273869	221	7.38892288306397e-15
+WHR	5s0PdZ	S_HDL_CE_int_imputed.txt_adiposity_instruments.txt	WHR	Inverse variance weighted	425.383522150874	222	6.2040274220004e-15
+WHR	5s0PdZ	S_HDL_CE_int_imputed.txt_adiposity_instruments.txt	WHR	Unweighted regression	0.0328877654986353	222	1
+WHR	6BPlfw	XL_VLDL_C_int_imputed.txt_adiposity_instruments.txt	WHR	Maximum likelihood	611.742798445977	222	3.6512439509324e-38
+WHR	6BPlfw	XL_VLDL_C_int_imputed.txt_adiposity_instruments.txt	WHR	MR Egger	632.57047274672	221	2.52026247981415e-41
+WHR	6BPlfw	XL_VLDL_C_int_imputed.txt_adiposity_instruments.txt	WHR	Inverse variance weighted	632.614256728361	222	4.21812691345143e-41
+WHR	6BPlfw	XL_VLDL_C_int_imputed.txt_adiposity_instruments.txt	WHR	Unweighted regression	0.0527965372493222	222	1
+WHR	6BPZwg	M_HDL_P_int_imputed.txt_adiposity_instruments.txt	WHR	Maximum likelihood	528.298986407787	222	5.19799234277379e-27
+WHR	6BPZwg	M_HDL_P_int_imputed.txt_adiposity_instruments.txt	WHR	MR Egger	533.753489093914	221	6.69412347203632e-28
+WHR	6BPZwg	M_HDL_P_int_imputed.txt_adiposity_instruments.txt	WHR	Inverse variance weighted	534.275789388745	222	8.95442864859999e-28
+WHR	6BPZwg	M_HDL_P_int_imputed.txt_adiposity_instruments.txt	WHR	Unweighted regression	0.0377489006630319	222	1
+WHR	6onQK5	XXL_VLDL_TG_int_imputed.txt_adiposity_instruments.txt	WHR	Maximum likelihood	769.559809404346	222	1.62276855453266e-61
+WHR	6onQK5	XXL_VLDL_TG_int_imputed.txt_adiposity_instruments.txt	WHR	MR Egger	789.495672945672	221	6.62212748209779e-65
+WHR	6onQK5	XXL_VLDL_TG_int_imputed.txt_adiposity_instruments.txt	WHR	Inverse variance weighted	789.529132644894	222	1.24015709993039e-64
+WHR	6onQK5	XXL_VLDL_TG_int_imputed.txt_adiposity_instruments.txt	WHR	Unweighted regression	0.0520531662470183	222	1
+WHR	7b6Y7c	Ala_int_imputed.txt_adiposity_instruments.txt	WHR	Maximum likelihood	369.70139099326	222	1.79652982560602e-09
+WHR	7b6Y7c	Ala_int_imputed.txt_adiposity_instruments.txt	WHR	MR Egger	370.895415359369	221	1.07549446568116e-09
+WHR	7b6Y7c	Ala_int_imputed.txt_adiposity_instruments.txt	WHR	Inverse variance weighted	371.153766047043	222	1.33050267341063e-09
+WHR	7b6Y7c	Ala_int_imputed.txt_adiposity_instruments.txt	WHR	Unweighted regression	0.0307087380841605	222	1
+WHR	7b7EtK	VLDL_TG_int_imputed.txt_adiposity_instruments.txt	WHR	Maximum likelihood	771.672564381562	222	7.62046793918965e-62
+WHR	7b7EtK	VLDL_TG_int_imputed.txt_adiposity_instruments.txt	WHR	MR Egger	798.921505591965	221	2.17101178772407e-66
+WHR	7b7EtK	VLDL_TG_int_imputed.txt_adiposity_instruments.txt	WHR	Inverse variance weighted	798.961148162485	222	4.08045373615908e-66
+WHR	7b7EtK	VLDL_TG_int_imputed.txt_adiposity_instruments.txt	WHR	Unweighted regression	0.0614312421583414	222	1
+WHR	7biF08	Total_P_int_imputed.txt_adiposity_instruments.txt	WHR	Maximum likelihood	479.911751839425	222	4.6303525270691e-21
+WHR	7biF08	Total_P_int_imputed.txt_adiposity_instruments.txt	WHR	MR Egger	480.261918779016	221	2.84114107570009e-21
+WHR	7biF08	Total_P_int_imputed.txt_adiposity_instruments.txt	WHR	Inverse variance weighted	481.486384246485	222	3.01305784551556e-21
+WHR	7biF08	Total_P_int_imputed.txt_adiposity_instruments.txt	WHR	Unweighted regression	0.0332567781561557	222	1
+WHR	7FPYEN	XL_VLDL_L_int_imputed.txt_adiposity_instruments.txt	WHR	Maximum likelihood	722.182786202343	222	2.97854831809142e-54
+WHR	7FPYEN	XL_VLDL_L_int_imputed.txt_adiposity_instruments.txt	WHR	MR Egger	751.163372704345	221	6.11471461690996e-59
+WHR	7FPYEN	XL_VLDL_L_int_imputed.txt_adiposity_instruments.txt	WHR	Inverse variance weighted	751.314439941461	222	1.07180764016663e-58
+WHR	7FPYEN	XL_VLDL_L_int_imputed.txt_adiposity_instruments.txt	WHR	Unweighted regression	0.0586030725567248	222	1
+WHR	7iLgOX	M_HDL_CE_int_imputed.txt_adiposity_instruments.txt	WHR	Maximum likelihood	548.920273638176	222	1.1375489153082e-29
+WHR	7iLgOX	M_HDL_CE_int_imputed.txt_adiposity_instruments.txt	WHR	MR Egger	558.198985309408	221	4.30758142019929e-31
+WHR	7iLgOX	M_HDL_CE_int_imputed.txt_adiposity_instruments.txt	WHR	Inverse variance weighted	558.443868160549	222	6.380352190536e-31
+WHR	7iLgOX	M_HDL_CE_int_imputed.txt_adiposity_instruments.txt	WHR	Unweighted regression	0.0397773557304296	222	1
+WHR	7KPecZ	bOHbutyrate_int_imputed.txt_adiposity_instruments.txt	WHR	Maximum likelihood	269.051459844827	222	0.0168620210593061
+WHR	7KPecZ	bOHbutyrate_int_imputed.txt_adiposity_instruments.txt	WHR	MR Egger	268.029623637607	221	0.0167238471002965
+WHR	7KPecZ	bOHbutyrate_int_imputed.txt_adiposity_instruments.txt	WHR	Inverse variance weighted	269.281269837584	222	0.0164642056456348
+WHR	7KPecZ	bOHbutyrate_int_imputed.txt_adiposity_instruments.txt	WHR	Unweighted regression	0.0211206440211232	222	1
+WHR	7mBkxK	L_LDL_TG_int_imputed.txt_adiposity_instruments.txt	WHR	Maximum likelihood	509.905304854797	222	1.06688887439692e-24
+WHR	7mBkxK	L_LDL_TG_int_imputed.txt_adiposity_instruments.txt	WHR	MR Egger	515.586504966891	221	1.3625761998347e-25
+WHR	7mBkxK	L_LDL_TG_int_imputed.txt_adiposity_instruments.txt	WHR	Inverse variance weighted	516.880973460944	222	1.4393273252976e-25
+WHR	7mBkxK	L_LDL_TG_int_imputed.txt_adiposity_instruments.txt	WHR	Unweighted regression	0.0447871681059615	222	1
+WHR	7OzYje	XS_VLDL_P_int_imputed.txt_adiposity_instruments.txt	WHR	Maximum likelihood	441.707714535217	222	1.07308227686014e-16
+WHR	7OzYje	XS_VLDL_P_int_imputed.txt_adiposity_instruments.txt	WHR	MR Egger	440.395350356176	221	1.0533452664034e-16
+WHR	7OzYje	XS_VLDL_P_int_imputed.txt_adiposity_instruments.txt	WHR	Inverse variance weighted	444.572858790213	222	5.18411076587281e-17
+WHR	7OzYje	XS_VLDL_P_int_imputed.txt_adiposity_instruments.txt	WHR	Unweighted regression	0.0409752836636504	222	1
+WHR	7PTxVj	Acetoacetate_int_imputed.txt_adiposity_instruments.txt	WHR	Maximum likelihood	251.711002263153	222	0.0833444386232161
+WHR	7PTxVj	Acetoacetate_int_imputed.txt_adiposity_instruments.txt	WHR	MR Egger	251.734410563015	221	0.0762867597151728
+WHR	7PTxVj	Acetoacetate_int_imputed.txt_adiposity_instruments.txt	WHR	Inverse variance weighted	251.767410601853	222	0.0829675468753034
+WHR	7PTxVj	Acetoacetate_int_imputed.txt_adiposity_instruments.txt	WHR	Unweighted regression	0.0219543333425044	222	1
+WHR	7X4Bll	XS_VLDL_PL_int_imputed.txt_adiposity_instruments.txt	WHR	Maximum likelihood	418.651524795942	222	3.15999765686366e-14
+WHR	7X4Bll	XS_VLDL_PL_int_imputed.txt_adiposity_instruments.txt	WHR	MR Egger	417.982769510591	221	2.68086822195536e-14
+WHR	7X4Bll	XS_VLDL_PL_int_imputed.txt_adiposity_instruments.txt	WHR	Inverse variance weighted	421.445427370157	222	1.61323833178397e-14
+WHR	7X4Bll	XS_VLDL_PL_int_imputed.txt_adiposity_instruments.txt	WHR	Unweighted regression	0.0392783570766671	222	1
+WHR	7Yrxvu	XL_VLDL_PL_pct_int_imputed.txt_adiposity_instruments.txt	WHR	Maximum likelihood	344.810688640464	222	2.3719381900404e-07
+WHR	7Yrxvu	XL_VLDL_PL_pct_int_imputed.txt_adiposity_instruments.txt	WHR	MR Egger	345.213714558911	221	1.74575833816364e-07
+WHR	7Yrxvu	XL_VLDL_PL_pct_int_imputed.txt_adiposity_instruments.txt	WHR	Inverse variance weighted	346.036024456252	222	1.88794840971609e-07
+WHR	7Yrxvu	XL_VLDL_PL_pct_int_imputed.txt_adiposity_instruments.txt	WHR	Unweighted regression	0.0370015002527078	222	1
+WHR	81EeJg	M_LDL_FC_int_imputed.txt_adiposity_instruments.txt	WHR	Maximum likelihood	692.82810060098	222	7.48092571298782e-50
+WHR	81EeJg	M_LDL_FC_int_imputed.txt_adiposity_instruments.txt	WHR	MR Egger	690.995915495248	221	7.88661763137732e-50
+WHR	81EeJg	M_LDL_FC_int_imputed.txt_adiposity_instruments.txt	WHR	Inverse variance weighted	694.528046623927	222	4.18216132966278e-50
+WHR	81EeJg	M_LDL_FC_int_imputed.txt_adiposity_instruments.txt	WHR	Unweighted regression	0.0504694825460342	222	1
+WHR	8fPa1B	XXL_VLDL_TG_pct_int_imputed.txt_adiposity_instruments.txt	WHR	Maximum likelihood	415.720971958692	222	6.36407766323506e-14
+WHR	8fPa1B	XXL_VLDL_TG_pct_int_imputed.txt_adiposity_instruments.txt	WHR	MR Egger	414.959221326771	221	5.53274303533501e-14
+WHR	8fPa1B	XXL_VLDL_TG_pct_int_imputed.txt_adiposity_instruments.txt	WHR	Inverse variance weighted	415.747232467757	222	6.32442567495371e-14
+WHR	8fPa1B	XXL_VLDL_TG_pct_int_imputed.txt_adiposity_instruments.txt	WHR	Unweighted regression	0.0240328298238044	222	1
+WHR	8IvBXS	Citrate_int_imputed.txt_adiposity_instruments.txt	WHR	Maximum likelihood	367.533472546156	222	2.80407472718151e-09
+WHR	8IvBXS	Citrate_int_imputed.txt_adiposity_instruments.txt	WHR	MR Egger	367.060813536224	221	2.37830629783923e-09
+WHR	8IvBXS	Citrate_int_imputed.txt_adiposity_instruments.txt	WHR	Inverse variance weighted	367.560337719553	222	2.78870906249269e-09
+WHR	8IvBXS	Citrate_int_imputed.txt_adiposity_instruments.txt	WHR	Unweighted regression	0.0247257734042267	222	1
+WHR	8Pm4yR	Clinical_LDL_C_int_imputed.txt_adiposity_instruments.txt	WHR	Maximum likelihood	680.588122100442	222	4.82962215143229e-48
+WHR	8Pm4yR	Clinical_LDL_C_int_imputed.txt_adiposity_instruments.txt	WHR	MR Egger	677.862028200044	221	6.92085331717335e-48
+WHR	8Pm4yR	Clinical_LDL_C_int_imputed.txt_adiposity_instruments.txt	WHR	Inverse variance weighted	681.997158565573	222	2.99449611634758e-48
+WHR	8Pm4yR	Clinical_LDL_C_int_imputed.txt_adiposity_instruments.txt	WHR	Unweighted regression	0.0504375298333636	222	1
+WHR	8UPlZw	XL_HDL_C_pct_int_imputed.txt_adiposity_instruments.txt	WHR	Maximum likelihood	489.775870673369	222	3.079354027572e-22
+WHR	8UPlZw	XL_HDL_C_pct_int_imputed.txt_adiposity_instruments.txt	WHR	MR Egger	489.409484880563	221	2.27938043611282e-22
+WHR	8UPlZw	XL_HDL_C_pct_int_imputed.txt_adiposity_instruments.txt	WHR	Inverse variance weighted	493.500127729945	222	1.09405150251781e-22
+WHR	8UPlZw	XL_HDL_C_pct_int_imputed.txt_adiposity_instruments.txt	WHR	Unweighted regression	0.0392794301852283	222	1
+WHR	9AqjUL	ApoA1_int_imputed.txt_adiposity_instruments.txt	WHR	Maximum likelihood	534.728078765281	222	7.83424611662759e-28
+WHR	9AqjUL	ApoA1_int_imputed.txt_adiposity_instruments.txt	WHR	MR Egger	539.619524544874	221	1.17080179306449e-28
+WHR	9AqjUL	ApoA1_int_imputed.txt_adiposity_instruments.txt	WHR	Inverse variance weighted	541.045052742641	222	1.20191688830011e-28
+WHR	9AqjUL	ApoA1_int_imputed.txt_adiposity_instruments.txt	WHR	Unweighted regression	0.0378316489604394	222	1
+WHR	9eIwca	XL_VLDL_C_pct_int_imputed.txt_adiposity_instruments.txt	WHR	Maximum likelihood	884.047976506555	222	8.98239853100885e-80
+WHR	9eIwca	XL_VLDL_C_pct_int_imputed.txt_adiposity_instruments.txt	WHR	MR Egger	900.969929871692	221	7.51052139007577e-83
+WHR	9eIwca	XL_VLDL_C_pct_int_imputed.txt_adiposity_instruments.txt	WHR	Inverse variance weighted	902.797046122875	222	7.6155505738071e-83
+WHR	9eIwca	XL_VLDL_C_pct_int_imputed.txt_adiposity_instruments.txt	WHR	Unweighted regression	0.061754651436193	222	1
+WHR	9oAicF	M_VLDL_C_int_imputed.txt_adiposity_instruments.txt	WHR	Maximum likelihood	526.365017443556	222	9.15595937847569e-27
+WHR	9oAicF	M_VLDL_C_int_imputed.txt_adiposity_instruments.txt	WHR	MR Egger	524.900947333534	221	9.07147222220144e-27
+WHR	9oAicF	M_VLDL_C_int_imputed.txt_adiposity_instruments.txt	WHR	Inverse variance weighted	528.602394291739	222	4.7556045027333e-27
+WHR	9oAicF	M_VLDL_C_int_imputed.txt_adiposity_instruments.txt	WHR	Unweighted regression	0.0437820322052245	222	1
+WHR	AanZNL	XL_HDL_CE_int_imputed.txt_adiposity_instruments.txt	WHR	Maximum likelihood	676.629628774472	222	1.84510062065772e-47
+WHR	AanZNL	XL_HDL_CE_int_imputed.txt_adiposity_instruments.txt	WHR	MR Egger	692.499182513894	221	4.71382030781037e-50
+WHR	AanZNL	XL_HDL_CE_int_imputed.txt_adiposity_instruments.txt	WHR	Inverse variance weighted	703.744326243828	222	1.76716279950953e-51
+WHR	AanZNL	XL_HDL_CE_int_imputed.txt_adiposity_instruments.txt	WHR	Unweighted regression	0.047115506446634	222	1
+WHR	Ad9qKt	XXL_VLDL_FC_pct_int_imputed.txt_adiposity_instruments.txt	WHR	Maximum likelihood	385.850352016428	222	5.8301329921421e-11
+WHR	Ad9qKt	XXL_VLDL_FC_pct_int_imputed.txt_adiposity_instruments.txt	WHR	MR Egger	383.576998959	221	7.20318462036803e-11
+WHR	Ad9qKt	XXL_VLDL_FC_pct_int_imputed.txt_adiposity_instruments.txt	WHR	Inverse variance weighted	387.712991375502	222	3.87838278455022e-11
+WHR	Ad9qKt	XXL_VLDL_FC_pct_int_imputed.txt_adiposity_instruments.txt	WHR	Unweighted regression	0.0204724998503	222	1
+WHR	aDq1Kk	XS_VLDL_C_int_imputed.txt_adiposity_instruments.txt	WHR	Maximum likelihood	509.399066012116	222	1.23286393402383e-24
+WHR	aDq1Kk	XS_VLDL_C_int_imputed.txt_adiposity_instruments.txt	WHR	MR Egger	504.063996830572	221	3.70533309446697e-24
+WHR	aDq1Kk	XS_VLDL_C_int_imputed.txt_adiposity_instruments.txt	WHR	Inverse variance weighted	509.989209645285	222	1.04161402808594e-24
+WHR	aDq1Kk	XS_VLDL_C_int_imputed.txt_adiposity_instruments.txt	WHR	Unweighted regression	0.0423135133363847	222	1
+WHR	aICPj9	S_VLDL_TG_int_imputed.txt_adiposity_instruments.txt	WHR	Maximum likelihood	867.916855419812	222	3.79431507828965e-77
+WHR	aICPj9	S_VLDL_TG_int_imputed.txt_adiposity_instruments.txt	WHR	MR Egger	897.609168966125	221	2.68070014235549e-82
+WHR	aICPj9	S_VLDL_TG_int_imputed.txt_adiposity_instruments.txt	WHR	Inverse variance weighted	897.611630100593	222	5.41153622164721e-82
+WHR	aICPj9	S_VLDL_TG_int_imputed.txt_adiposity_instruments.txt	WHR	Unweighted regression	0.0697778558589568	222	1
+WHR	amQnWd	S_HDL_C_pct_int_imputed.txt_adiposity_instruments.txt	WHR	Maximum likelihood	631.423083136358	222	6.22548454214973e-41
+WHR	amQnWd	S_HDL_C_pct_int_imputed.txt_adiposity_instruments.txt	WHR	MR Egger	636.468014631303	221	7.01179151285192e-42
+WHR	amQnWd	S_HDL_C_pct_int_imputed.txt_adiposity_instruments.txt	WHR	Inverse variance weighted	636.68213015483	222	1.11311962989193e-41
+WHR	amQnWd	S_HDL_C_pct_int_imputed.txt_adiposity_instruments.txt	WHR	Unweighted regression	0.0460304752479385	222	1
+WHR	ao37C9	M_VLDL_TG_pct_int_imputed.txt_adiposity_instruments.txt	WHR	Maximum likelihood	978.562077932238	222	1.85659428108087e-95
+WHR	ao37C9	M_VLDL_TG_pct_int_imputed.txt_adiposity_instruments.txt	WHR	MR Egger	994.22786692839	221	1.97743059054992e-98
+WHR	ao37C9	M_VLDL_TG_pct_int_imputed.txt_adiposity_instruments.txt	WHR	Inverse variance weighted	998.481846190425	222	8.00575660666875e-99
+WHR	ao37C9	M_VLDL_TG_pct_int_imputed.txt_adiposity_instruments.txt	WHR	Unweighted regression	0.0699222715772438	222	1
+WHR	aooR4r	XL_HDL_CE_pct_int_imputed.txt_adiposity_instruments.txt	WHR	Maximum likelihood	444.782989852478	222	4.9138879975432e-17
+WHR	aooR4r	XL_HDL_CE_pct_int_imputed.txt_adiposity_instruments.txt	WHR	MR Egger	445.338148077304	221	2.98838260428418e-17
+WHR	aooR4r	XL_HDL_CE_pct_int_imputed.txt_adiposity_instruments.txt	WHR	Inverse variance weighted	445.989990818628	222	3.6114439716647e-17
+WHR	aooR4r	XL_HDL_CE_pct_int_imputed.txt_adiposity_instruments.txt	WHR	Unweighted regression	0.0341844638881354	222	1
+WHR	aT5HgY	S_VLDL_TG_pct_int_imputed.txt_adiposity_instruments.txt	WHR	Maximum likelihood	1065.60679092279	222	2.67940847862213e-110
+WHR	aT5HgY	S_VLDL_TG_pct_int_imputed.txt_adiposity_instruments.txt	WHR	MR Egger	1073.55758932971	221	5.14777696061138e-112
+WHR	aT5HgY	S_VLDL_TG_pct_int_imputed.txt_adiposity_instruments.txt	WHR	Inverse variance weighted	1075.40066426422	222	5.46222862515797e-112
+WHR	aT5HgY	S_VLDL_TG_pct_int_imputed.txt_adiposity_instruments.txt	WHR	Unweighted regression	0.0757226169313907	222	1
+WHR	AVEWsS	S_HDL_CE_pct_int_imputed.txt_adiposity_instruments.txt	WHR	Maximum likelihood	540.501717978431	222	1.41303404844715e-28
+WHR	AVEWsS	S_HDL_CE_pct_int_imputed.txt_adiposity_instruments.txt	WHR	MR Egger	541.058145174895	221	7.61959444492097e-29
+WHR	AVEWsS	S_HDL_CE_pct_int_imputed.txt_adiposity_instruments.txt	WHR	Inverse variance weighted	541.927477273116	222	9.23922132593656e-29
+WHR	AVEWsS	S_HDL_CE_pct_int_imputed.txt_adiposity_instruments.txt	WHR	Unweighted regression	0.0416844824802963	222	1
+WHR	B4DSMt	L_LDL_FC_pct_int_imputed.txt_adiposity_instruments.txt	WHR	Maximum likelihood	1129.16637013348	222	2.44162267356085e-121
+WHR	B4DSMt	L_LDL_FC_pct_int_imputed.txt_adiposity_instruments.txt	WHR	MR Egger	1163.86031062732	221	8.60790975803381e-128
+WHR	B4DSMt	L_LDL_FC_pct_int_imputed.txt_adiposity_instruments.txt	WHR	Inverse variance weighted	1167.24148042478	222	5.01975385451144e-128
+WHR	B4DSMt	L_LDL_FC_pct_int_imputed.txt_adiposity_instruments.txt	WHR	Unweighted regression	0.0768165733009905	222	1
+WHR	B9Oe5E	M_LDL_L_int_imputed.txt_adiposity_instruments.txt	WHR	Maximum likelihood	556.584450568585	222	1.1225560687302e-30
+WHR	B9Oe5E	M_LDL_L_int_imputed.txt_adiposity_instruments.txt	WHR	MR Egger	560.381482867623	221	2.21214269808281e-31
+WHR	B9Oe5E	M_LDL_L_int_imputed.txt_adiposity_instruments.txt	WHR	Inverse variance weighted	562.413047504665	222	1.90257730004032e-31
+WHR	B9Oe5E	M_LDL_L_int_imputed.txt_adiposity_instruments.txt	WHR	Unweighted regression	0.0457637520938187	222	1
+WHR	BAKm5l	M_HDL_FC_int_imputed.txt_adiposity_instruments.txt	WHR	Maximum likelihood	515.795954476084	222	1.96808171553735e-25
+WHR	BAKm5l	M_HDL_FC_int_imputed.txt_adiposity_instruments.txt	WHR	MR Egger	521.499433714215	221	2.44974443888818e-26
+WHR	BAKm5l	M_HDL_FC_int_imputed.txt_adiposity_instruments.txt	WHR	Inverse variance weighted	522.853364246003	222	2.54989050349661e-26
+WHR	BAKm5l	M_HDL_FC_int_imputed.txt_adiposity_instruments.txt	WHR	Unweighted regression	0.0367431824633054	222	1
+WHR	BDebVO	S_HDL_TG_pct_int_imputed.txt_adiposity_instruments.txt	WHR	Maximum likelihood	812.182201403506	222	3.32046283989162e-68
+WHR	BDebVO	S_HDL_TG_pct_int_imputed.txt_adiposity_instruments.txt	WHR	MR Egger	843.490990826722	221	1.70461494137307e-73
+WHR	BDebVO	S_HDL_TG_pct_int_imputed.txt_adiposity_instruments.txt	WHR	Inverse variance weighted	843.874021678315	222	2.89800723745939e-73
+WHR	BDebVO	S_HDL_TG_pct_int_imputed.txt_adiposity_instruments.txt	WHR	Unweighted regression	0.0620926579155481	222	1
+WHR	BEKDfR	HDL_C_int_imputed.txt_adiposity_instruments.txt	WHR	Maximum likelihood	600.910758586997	222	1.16267980975105e-36
+WHR	BEKDfR	HDL_C_int_imputed.txt_adiposity_instruments.txt	WHR	MR Egger	616.005082531174	221	5.53051104313595e-39
+WHR	BEKDfR	HDL_C_int_imputed.txt_adiposity_instruments.txt	WHR	Inverse variance weighted	618.874662269785	222	3.6706219270167e-39
+WHR	BEKDfR	HDL_C_int_imputed.txt_adiposity_instruments.txt	WHR	Unweighted regression	0.0422422460572336	222	1
+WHR	bhvvHt	M_HDL_PL_int_imputed.txt_adiposity_instruments.txt	WHR	Maximum likelihood	481.758506435241	222	2.79710007224667e-21
+WHR	bhvvHt	M_HDL_PL_int_imputed.txt_adiposity_instruments.txt	WHR	MR Egger	484.201170372863	221	9.63147671616274e-22
+WHR	bhvvHt	M_HDL_PL_int_imputed.txt_adiposity_instruments.txt	WHR	Inverse variance weighted	484.269080211542	222	1.40609321537438e-21
+WHR	bhvvHt	M_HDL_PL_int_imputed.txt_adiposity_instruments.txt	WHR	Unweighted regression	0.0355928616314481	222	1
+WHR	BJ5s86	S_VLDL_C_pct_int_imputed.txt_adiposity_instruments.txt	WHR	Maximum likelihood	993.298244780982	222	6.03932396438603e-98
+WHR	BJ5s86	S_VLDL_C_pct_int_imputed.txt_adiposity_instruments.txt	WHR	MR Egger	997.566120149565	221	5.37287488217725e-99
+WHR	BJ5s86	S_VLDL_C_pct_int_imputed.txt_adiposity_instruments.txt	WHR	Inverse variance weighted	999.145897874223	222	6.17853301916563e-99
+WHR	BJ5s86	S_VLDL_C_pct_int_imputed.txt_adiposity_instruments.txt	WHR	Unweighted regression	0.0721898029471744	222	1
+WHR	bmAl0i	IDL_PL_int_imputed.txt_adiposity_instruments.txt	WHR	Maximum likelihood	628.035020145968	222	1.87971816783059e-40
+WHR	bmAl0i	IDL_PL_int_imputed.txt_adiposity_instruments.txt	WHR	MR Egger	620.975034852667	221	1.10613347430466e-39
+WHR	bmAl0i	IDL_PL_int_imputed.txt_adiposity_instruments.txt	WHR	Inverse variance weighted	628.046675701101	222	1.87259592516914e-40
+WHR	bmAl0i	IDL_PL_int_imputed.txt_adiposity_instruments.txt	WHR	Unweighted regression	0.046804904016205	222	1
+WHR	c8TBSL	M_LDL_C_int_imputed.txt_adiposity_instruments.txt	WHR	Maximum likelihood	559.192845636011	222	5.08000543648852e-31
+WHR	c8TBSL	M_LDL_C_int_imputed.txt_adiposity_instruments.txt	WHR	MR Egger	562.841858143774	221	1.04157789402946e-31
+WHR	c8TBSL	M_LDL_C_int_imputed.txt_adiposity_instruments.txt	WHR	Inverse variance weighted	564.65289691311	222	9.58868782222674e-32
+WHR	c8TBSL	M_LDL_C_int_imputed.txt_adiposity_instruments.txt	WHR	Unweighted regression	0.0452076669387496	222	1
+WHR	cCuPpF	S_LDL_C_pct_int_imputed.txt_adiposity_instruments.txt	WHR	Maximum likelihood	369.160030457448	222	2.00847424921307e-09
+WHR	cCuPpF	S_LDL_C_pct_int_imputed.txt_adiposity_instruments.txt	WHR	MR Egger	369.380015858428	221	1.47367894486916e-09
+WHR	cCuPpF	S_LDL_C_pct_int_imputed.txt_adiposity_instruments.txt	WHR	Inverse variance weighted	369.423197987845	222	1.90254418151163e-09
+WHR	cCuPpF	S_LDL_C_pct_int_imputed.txt_adiposity_instruments.txt	WHR	Unweighted regression	0.0302775363237399	222	1
+WHR	cdhuzy	M_VLDL_FC_pct_int_imputed.txt_adiposity_instruments.txt	WHR	Maximum likelihood	921.3420431549	222	6.65738407214686e-86
+WHR	cdhuzy	M_VLDL_FC_pct_int_imputed.txt_adiposity_instruments.txt	WHR	MR Egger	929.858223993431	221	1.25670319461242e-87
+WHR	cdhuzy	M_VLDL_FC_pct_int_imputed.txt_adiposity_instruments.txt	WHR	Inverse variance weighted	934.746694350146	222	3.98676774310131e-88
+WHR	cdhuzy	M_VLDL_FC_pct_int_imputed.txt_adiposity_instruments.txt	WHR	Unweighted regression	0.0658017406214497	222	1
+WHR	CgmlKs	LDL_TG_int_imputed.txt_adiposity_instruments.txt	WHR	Maximum likelihood	563.616143208394	222	1.31702246397582e-31
+WHR	CgmlKs	LDL_TG_int_imputed.txt_adiposity_instruments.txt	WHR	MR Egger	572.453333116026	221	5.38617481080946e-33
+WHR	CgmlKs	LDL_TG_int_imputed.txt_adiposity_instruments.txt	WHR	Inverse variance weighted	573.598836496284	222	6.107812337723e-33
+WHR	CgmlKs	LDL_TG_int_imputed.txt_adiposity_instruments.txt	WHR	Unweighted regression	0.0480150007570445	222	1
+WHR	cl9Z0b	Omega_3_int_imputed.txt_adiposity_instruments.txt	WHR	Maximum likelihood	456.766423494545	222	2.23180086271292e-18
+WHR	cl9Z0b	Omega_3_int_imputed.txt_adiposity_instruments.txt	WHR	MR Egger	450.32481512046	221	8.27284983711792e-18
+WHR	cl9Z0b	Omega_3_int_imputed.txt_adiposity_instruments.txt	WHR	Inverse variance weighted	457.736493958512	222	1.73192642953028e-18
+WHR	cl9Z0b	Omega_3_int_imputed.txt_adiposity_instruments.txt	WHR	Unweighted regression	0.0373521060808159	222	1
+WHR	csq370	XS_VLDL_FC_int_imputed.txt_adiposity_instruments.txt	WHR	Maximum likelihood	434.559756448891	222	6.4608692090067e-16
+WHR	csq370	XS_VLDL_FC_int_imputed.txt_adiposity_instruments.txt	WHR	MR Egger	432.207932638044	221	8.24049981586105e-16
+WHR	csq370	XS_VLDL_FC_int_imputed.txt_adiposity_instruments.txt	WHR	Inverse variance weighted	436.497244570817	222	3.98279329905871e-16
+WHR	csq370	XS_VLDL_FC_int_imputed.txt_adiposity_instruments.txt	WHR	Unweighted regression	0.0394375213132597	222	1
+WHR	CsWWnp	XL_VLDL_PL_int_imputed.txt_adiposity_instruments.txt	WHR	Maximum likelihood	694.552820923372	222	4.14684745883612e-50
+WHR	CsWWnp	XL_VLDL_PL_int_imputed.txt_adiposity_instruments.txt	WHR	MR Egger	720.824801832839	221	2.63788945629594e-54
+WHR	CsWWnp	XL_VLDL_PL_int_imputed.txt_adiposity_instruments.txt	WHR	Inverse variance weighted	720.877333436118	222	4.69231407501999e-54
+WHR	CsWWnp	XL_VLDL_PL_int_imputed.txt_adiposity_instruments.txt	WHR	Unweighted regression	0.0571079546059115	222	1
+WHR	cVgThb	XS_VLDL_FC_pct_int_imputed.txt_adiposity_instruments.txt	WHR	Maximum likelihood	809.459935081522	222	8.96348969996062e-68
+WHR	cVgThb	XS_VLDL_FC_pct_int_imputed.txt_adiposity_instruments.txt	WHR	MR Egger	809.740464735469	221	4.21559612224907e-68
+WHR	cVgThb	XS_VLDL_FC_pct_int_imputed.txt_adiposity_instruments.txt	WHR	Inverse variance weighted	811.211428173723	222	4.7321213694961e-68
+WHR	cVgThb	XS_VLDL_FC_pct_int_imputed.txt_adiposity_instruments.txt	WHR	Unweighted regression	0.0544399250385514	222	1
+WHR	d2iHvE	Total_PL_int_imputed.txt_adiposity_instruments.txt	WHR	Maximum likelihood	419.348635847494	222	2.67315865739651e-14
+WHR	d2iHvE	Total_PL_int_imputed.txt_adiposity_instruments.txt	WHR	MR Egger	413.925717208301	221	7.0784549283022e-14
+WHR	d2iHvE	Total_PL_int_imputed.txt_adiposity_instruments.txt	WHR	Inverse variance weighted	419.348635847494	222	2.67315865739651e-14
+WHR	d2iHvE	Total_PL_int_imputed.txt_adiposity_instruments.txt	WHR	Unweighted regression	0.0319925193795357	222	1
+WHR	D313lf	XL_HDL_C_int_imputed.txt_adiposity_instruments.txt	WHR	Maximum likelihood	687.665324399059	222	4.35731140581351e-49
+WHR	D313lf	XL_HDL_C_int_imputed.txt_adiposity_instruments.txt	WHR	MR Egger	702.829206343704	221	1.35354668757337e-51
+WHR	D313lf	XL_HDL_C_int_imputed.txt_adiposity_instruments.txt	WHR	Inverse variance weighted	714.692475113869	222	4.02169800075165e-53
+WHR	D313lf	XL_HDL_C_int_imputed.txt_adiposity_instruments.txt	WHR	Unweighted regression	0.0482130261923442	222	1
+WHR	dDQyfs	S_LDL_PL_int_imputed.txt_adiposity_instruments.txt	WHR	Maximum likelihood	784.315558140799	222	8.13185475503877e-64
+WHR	dDQyfs	S_LDL_PL_int_imputed.txt_adiposity_instruments.txt	WHR	MR Egger	782.809213936821	221	7.41109616175639e-64
+WHR	dDQyfs	S_LDL_PL_int_imputed.txt_adiposity_instruments.txt	WHR	Inverse variance weighted	787.393228336048	222	2.68114391782303e-64
+WHR	dDQyfs	S_LDL_PL_int_imputed.txt_adiposity_instruments.txt	WHR	Unweighted regression	0.0540863350072363	222	1
+WHR	dEHgdU	L_LDL_P_int_imputed.txt_adiposity_instruments.txt	WHR	Maximum likelihood	561.85319012171	222	2.2573961224114e-31
+WHR	dEHgdU	L_LDL_P_int_imputed.txt_adiposity_instruments.txt	WHR	MR Egger	559.023461922543	221	3.34952908920707e-31
+WHR	dEHgdU	L_LDL_P_int_imputed.txt_adiposity_instruments.txt	WHR	Inverse variance weighted	564.039184177768	222	1.15709779366797e-31
+WHR	dEHgdU	L_LDL_P_int_imputed.txt_adiposity_instruments.txt	WHR	Unweighted regression	0.0444704190325464	222	1
+WHR	dEWbhE	Total_TG_int_imputed.txt_adiposity_instruments.txt	WHR	Maximum likelihood	761.687828076303	222	2.69294837201788e-60
+WHR	dEWbhE	Total_TG_int_imputed.txt_adiposity_instruments.txt	WHR	MR Egger	787.565280924464	221	1.3309516251962e-64
+WHR	dEWbhE	Total_TG_int_imputed.txt_adiposity_instruments.txt	WHR	Inverse variance weighted	787.56891752404	222	2.51646360846578e-64
+WHR	dEWbhE	Total_TG_int_imputed.txt_adiposity_instruments.txt	WHR	Unweighted regression	0.0601703882026841	222	1
+WHR	djetJY	IDL_TG_pct_int_imputed.txt_adiposity_instruments.txt	WHR	Maximum likelihood	1112.51425177759	222	1.97446126917078e-118
+WHR	djetJY	IDL_TG_pct_int_imputed.txt_adiposity_instruments.txt	WHR	MR Egger	1129.15735612846	221	1.08170073761493e-121
+WHR	djetJY	IDL_TG_pct_int_imputed.txt_adiposity_instruments.txt	WHR	Inverse variance weighted	1131.45982958587	222	9.69127352389947e-122
+WHR	djetJY	IDL_TG_pct_int_imputed.txt_adiposity_instruments.txt	WHR	Unweighted regression	0.0709926766412205	222	1
+WHR	dQccM1	XXL_VLDL_CE_pct_int_imputed.txt_adiposity_instruments.txt	WHR	Maximum likelihood	440.245367458058	222	1.55289546737132e-16
+WHR	dQccM1	XXL_VLDL_CE_pct_int_imputed.txt_adiposity_instruments.txt	WHR	MR Egger	439.972018879663	221	1.17263005251392e-16
+WHR	dQccM1	XXL_VLDL_CE_pct_int_imputed.txt_adiposity_instruments.txt	WHR	Inverse variance weighted	440.352128677935	222	1.51161540128696e-16
+WHR	dQccM1	XXL_VLDL_CE_pct_int_imputed.txt_adiposity_instruments.txt	WHR	Unweighted regression	0.0272699753997276	222	1
+WHR	DrhyGl	M_VLDL_TG_int_imputed.txt_adiposity_instruments.txt	WHR	Maximum likelihood	706.325509192682	222	7.26048125805222e-52
+WHR	DrhyGl	M_VLDL_TG_int_imputed.txt_adiposity_instruments.txt	WHR	MR Egger	730.28976646659	221	9.63640108035689e-56
+WHR	DrhyGl	M_VLDL_TG_int_imputed.txt_adiposity_instruments.txt	WHR	Inverse variance weighted	730.289876246952	222	1.75705394246067e-55
+WHR	DrhyGl	M_VLDL_TG_int_imputed.txt_adiposity_instruments.txt	WHR	Unweighted regression	0.0591347873658433	222	1
+WHR	dRKXVM	M_HDL_TG_pct_int_imputed.txt_adiposity_instruments.txt	WHR	Maximum likelihood	738.731278486238	222	9.09242393210665e-57
+WHR	dRKXVM	M_HDL_TG_pct_int_imputed.txt_adiposity_instruments.txt	WHR	MR Egger	765.480606127938	221	3.73258281303367e-61
+WHR	dRKXVM	M_HDL_TG_pct_int_imputed.txt_adiposity_instruments.txt	WHR	Inverse variance weighted	765.603331063297	222	6.66873153519653e-61
+WHR	dRKXVM	M_HDL_TG_pct_int_imputed.txt_adiposity_instruments.txt	WHR	Unweighted regression	0.0574027399211079	222	1
+WHR	DSWTn4	S_VLDL_CE_pct_int_imputed.txt_adiposity_instruments.txt	WHR	Maximum likelihood	739.859241318562	222	6.11442484258108e-57
+WHR	DSWTn4	S_VLDL_CE_pct_int_imputed.txt_adiposity_instruments.txt	WHR	MR Egger	739.55916574731	221	3.70338972781004e-57
+WHR	DSWTn4	S_VLDL_CE_pct_int_imputed.txt_adiposity_instruments.txt	WHR	Inverse variance weighted	740.159379233134	222	5.50153165611147e-57
+WHR	DSWTn4	S_VLDL_CE_pct_int_imputed.txt_adiposity_instruments.txt	WHR	Unweighted regression	0.0580508642386184	222	1
+WHR	e2PIg2	S_HDL_C_int_imputed.txt_adiposity_instruments.txt	WHR	Maximum likelihood	434.091519665343	222	7.25986568878916e-16
+WHR	e2PIg2	S_HDL_C_int_imputed.txt_adiposity_instruments.txt	WHR	MR Egger	434.324980036775	221	4.85866602899285e-16
+WHR	e2PIg2	S_HDL_C_int_imputed.txt_adiposity_instruments.txt	WHR	Inverse variance weighted	435.180679266124	222	5.5342369755039e-16
+WHR	e2PIg2	S_HDL_C_int_imputed.txt_adiposity_instruments.txt	WHR	Unweighted regression	0.0335298761021483	222	1
+WHR	EUOGDD	Omega_6_by_Omega_3_int_imputed.txt_adiposity_instruments.txt	WHR	Maximum likelihood	425.246498284406	222	6.41477653181095e-15
+WHR	EUOGDD	Omega_6_by_Omega_3_int_imputed.txt_adiposity_instruments.txt	WHR	MR Egger	420.989870459684	221	1.29695517077455e-14
+WHR	EUOGDD	Omega_6_by_Omega_3_int_imputed.txt_adiposity_instruments.txt	WHR	Inverse variance weighted	425.76054617953	222	5.65887715429408e-15
+WHR	EUOGDD	Omega_6_by_Omega_3_int_imputed.txt_adiposity_instruments.txt	WHR	Unweighted regression	0.0320021421455083	222	1
+WHR	EwuF8I	L_VLDL_CE_pct_int_imputed.txt_adiposity_instruments.txt	WHR	Maximum likelihood	721.497322039732	222	3.781508459031e-54
+WHR	EwuF8I	L_VLDL_CE_pct_int_imputed.txt_adiposity_instruments.txt	WHR	MR Egger	726.779779181541	221	3.29513198337991e-55
+WHR	EwuF8I	L_VLDL_CE_pct_int_imputed.txt_adiposity_instruments.txt	WHR	Inverse variance weighted	728.810242160555	222	2.94829023594255e-55
+WHR	EwuF8I	L_VLDL_CE_pct_int_imputed.txt_adiposity_instruments.txt	WHR	Unweighted regression	0.0504377270840956	222	1
+WHR	F7QccM	M_VLDL_L_int_imputed.txt_adiposity_instruments.txt	WHR	Maximum likelihood	547.689265712504	222	1.64689539069602e-29
+WHR	F7QccM	M_VLDL_L_int_imputed.txt_adiposity_instruments.txt	WHR	MR Egger	558.157816781552	221	4.36200318097777e-31
+WHR	F7QccM	M_VLDL_L_int_imputed.txt_adiposity_instruments.txt	WHR	Inverse variance weighted	559.156096640738	222	5.13715512277899e-31
+WHR	F7QccM	M_VLDL_L_int_imputed.txt_adiposity_instruments.txt	WHR	Unweighted regression	0.0484075113192743	222	1
+WHR	fajStL	XXL_VLDL_P_int_imputed.txt_adiposity_instruments.txt	WHR	Maximum likelihood	816.262937740747	222	7.47664131293717e-69
+WHR	fajStL	XXL_VLDL_P_int_imputed.txt_adiposity_instruments.txt	WHR	MR Egger	842.475186864923	221	2.48360668541716e-73
+WHR	fajStL	XXL_VLDL_P_int_imputed.txt_adiposity_instruments.txt	WHR	Inverse variance weighted	842.842648928908	222	4.24446050950925e-73
+WHR	fajStL	XXL_VLDL_P_int_imputed.txt_adiposity_instruments.txt	WHR	Unweighted regression	0.059275812137385	222	1
+WHR	fGicJi	XL_HDL_PL_pct_int_imputed.txt_adiposity_instruments.txt	WHR	Maximum likelihood	506.911658963101	222	2.50489053460442e-24
+WHR	fGicJi	XL_HDL_PL_pct_int_imputed.txt_adiposity_instruments.txt	WHR	MR Egger	518.795181136621	221	5.37906475133262e-26
+WHR	fGicJi	XL_HDL_PL_pct_int_imputed.txt_adiposity_instruments.txt	WHR	Inverse variance weighted	522.690041847277	222	2.6739796497554e-26
+WHR	fGicJi	XL_HDL_PL_pct_int_imputed.txt_adiposity_instruments.txt	WHR	Unweighted regression	0.0411509748189143	222	1
+WHR	FgzYpb	XXL_VLDL_FC_int_imputed.txt_adiposity_instruments.txt	WHR	Maximum likelihood	846.615396880895	222	1.05018535079721e-73
+WHR	FgzYpb	XXL_VLDL_FC_int_imputed.txt_adiposity_instruments.txt	WHR	MR Egger	875.541665446492	221	1.09627439876925e-78
+WHR	FgzYpb	XXL_VLDL_FC_int_imputed.txt_adiposity_instruments.txt	WHR	Inverse variance weighted	875.883731368048	222	1.92458431118865e-78
+WHR	FgzYpb	XXL_VLDL_FC_int_imputed.txt_adiposity_instruments.txt	WHR	Unweighted regression	0.0611673911378433	222	1
+WHR	FiFkbb	L_HDL_FC_pct_int_imputed.txt_adiposity_instruments.txt	WHR	Maximum likelihood	735.948085206357	222	2.4177317561367e-56
+WHR	FiFkbb	L_HDL_FC_pct_int_imputed.txt_adiposity_instruments.txt	WHR	MR Egger	738.983267638424	221	4.5367941426377e-57
+WHR	FiFkbb	L_HDL_FC_pct_int_imputed.txt_adiposity_instruments.txt	WHR	Inverse variance weighted	751.331649259095	222	1.06529542069483e-58
+WHR	FiFkbb	L_HDL_FC_pct_int_imputed.txt_adiposity_instruments.txt	WHR	Unweighted regression	0.0489973699125696	222	1
+WHR	FMf0yI	L_HDL_P_int_imputed.txt_adiposity_instruments.txt	WHR	Maximum likelihood	623.980720089821	222	7.02390216845151e-40
+WHR	FMf0yI	L_HDL_P_int_imputed.txt_adiposity_instruments.txt	WHR	MR Egger	641.565585568052	221	1.30762966285037e-42
+WHR	FMf0yI	L_HDL_P_int_imputed.txt_adiposity_instruments.txt	WHR	Inverse variance weighted	648.184179467196	222	2.51330221923545e-43
+WHR	FMf0yI	L_HDL_P_int_imputed.txt_adiposity_instruments.txt	WHR	Unweighted regression	0.0443420021580066	222	1
+WHR	FmtESg	XXL_VLDL_PL_int_imputed.txt_adiposity_instruments.txt	WHR	Maximum likelihood	875.450848046282	222	2.26355831932276e-78
+WHR	FmtESg	XXL_VLDL_PL_int_imputed.txt_adiposity_instruments.txt	WHR	MR Egger	906.585899517195	221	8.92945434074959e-84
+WHR	FmtESg	XXL_VLDL_PL_int_imputed.txt_adiposity_instruments.txt	WHR	Inverse variance weighted	906.972196334802	222	1.5662570994732e-83
+WHR	FmtESg	XXL_VLDL_PL_int_imputed.txt_adiposity_instruments.txt	WHR	Unweighted regression	0.0632736350798135	222	1
+WHR	foqZWZ	S_LDL_CE_pct_int_imputed.txt_adiposity_instruments.txt	WHR	Maximum likelihood	670.016699236018	222	1.71731823529249e-46
+WHR	foqZWZ	S_LDL_CE_pct_int_imputed.txt_adiposity_instruments.txt	WHR	MR Egger	681.325204218923	221	2.13521272754501e-48
+WHR	foqZWZ	S_LDL_CE_pct_int_imputed.txt_adiposity_instruments.txt	WHR	Inverse variance weighted	681.622993720878	222	3.39991551135634e-48
+WHR	foqZWZ	S_LDL_CE_pct_int_imputed.txt_adiposity_instruments.txt	WHR	Unweighted regression	0.0516870062709193	222	1
+WHR	FpL9kf	SFA_int_imputed.txt_adiposity_instruments.txt	WHR	Maximum likelihood	440.833701794251	222	1.33852787946578e-16
+WHR	FpL9kf	SFA_int_imputed.txt_adiposity_instruments.txt	WHR	MR Egger	444.122275279414	221	4.07905789298595e-17
+WHR	FpL9kf	SFA_int_imputed.txt_adiposity_instruments.txt	WHR	Inverse variance weighted	445.188167477459	222	4.43166401326069e-17
+WHR	FpL9kf	SFA_int_imputed.txt_adiposity_instruments.txt	WHR	Unweighted regression	0.0365713251647811	222	1
+WHR	FS9Zhh	L_VLDL_C_pct_int_imputed.txt_adiposity_instruments.txt	WHR	Maximum likelihood	575.707979977136	222	3.17876422828102e-33
+WHR	FS9Zhh	L_VLDL_C_pct_int_imputed.txt_adiposity_instruments.txt	WHR	MR Egger	576.357154502338	221	1.60320783100318e-33
+WHR	FS9Zhh	L_VLDL_C_pct_int_imputed.txt_adiposity_instruments.txt	WHR	Inverse variance weighted	577.108866945302	222	2.0583737737781e-33
+WHR	FS9Zhh	L_VLDL_C_pct_int_imputed.txt_adiposity_instruments.txt	WHR	Unweighted regression	0.0420521437879763	222	1
+WHR	FtA9Jk	M_HDL_FC_pct_int_imputed.txt_adiposity_instruments.txt	WHR	Maximum likelihood	668.371547553785	222	2.98650337967539e-46
+WHR	FtA9Jk	M_HDL_FC_pct_int_imputed.txt_adiposity_instruments.txt	WHR	MR Egger	677.852301274834	221	6.94372258554375e-48
+WHR	FtA9Jk	M_HDL_FC_pct_int_imputed.txt_adiposity_instruments.txt	WHR	Inverse variance weighted	685.805572386813	222	8.20792537374169e-49
+WHR	FtA9Jk	M_HDL_FC_pct_int_imputed.txt_adiposity_instruments.txt	WHR	Unweighted regression	0.0433035806710686	222	1
+WHR	fXOKr9	M_VLDL_CE_pct_int_imputed.txt_adiposity_instruments.txt	WHR	Maximum likelihood	1010.44484354774	222	7.46788295988567e-101
+WHR	fXOKr9	M_VLDL_CE_pct_int_imputed.txt_adiposity_instruments.txt	WHR	MR Egger	1035.20661505604	221	2.05888160205671e-105
+WHR	fXOKr9	M_VLDL_CE_pct_int_imputed.txt_adiposity_instruments.txt	WHR	Inverse variance weighted	1038.30379987904	222	1.31762717436212e-105
+WHR	fXOKr9	M_VLDL_CE_pct_int_imputed.txt_adiposity_instruments.txt	WHR	Unweighted regression	0.0718151266572077	222	1
+WHR	fZN5ZA	PUFA_by_MUFA_int_imputed.txt_adiposity_instruments.txt	WHR	Maximum likelihood	616.523759145131	222	7.83997981361056e-39
+WHR	fZN5ZA	PUFA_by_MUFA_int_imputed.txt_adiposity_instruments.txt	WHR	MR Egger	622.754493555344	221	6.20606571667925e-40
+WHR	fZN5ZA	PUFA_by_MUFA_int_imputed.txt_adiposity_instruments.txt	WHR	Inverse variance weighted	630.080469425198	222	9.64979161370171e-41
+WHR	fZN5ZA	PUFA_by_MUFA_int_imputed.txt_adiposity_instruments.txt	WHR	Unweighted regression	0.0441432664992513	222	1
+WHR	g1a6If	L_LDL_PL_int_imputed.txt_adiposity_instruments.txt	WHR	Maximum likelihood	659.04115987273	222	6.80178434998486e-45
+WHR	g1a6If	L_LDL_PL_int_imputed.txt_adiposity_instruments.txt	WHR	MR Egger	656.404652613533	221	9.47616479910705e-45
+WHR	g1a6If	L_LDL_PL_int_imputed.txt_adiposity_instruments.txt	WHR	Inverse variance weighted	660.543762657414	222	4.11760715112917e-45
+WHR	g1a6If	L_LDL_PL_int_imputed.txt_adiposity_instruments.txt	WHR	Unweighted regression	0.0494885585565445	222	1
+WHR	g4NgXe	XL_HDL_FC_int_imputed.txt_adiposity_instruments.txt	WHR	Maximum likelihood	721.612970236628	222	3.63227718949624e-54
+WHR	g4NgXe	XL_HDL_FC_int_imputed.txt_adiposity_instruments.txt	WHR	MR Egger	731.026512402529	221	7.44215332844376e-56
+WHR	g4NgXe	XL_HDL_FC_int_imputed.txt_adiposity_instruments.txt	WHR	Inverse variance weighted	743.9240585448	222	1.46030829425005e-57
+WHR	g4NgXe	XL_HDL_FC_int_imputed.txt_adiposity_instruments.txt	WHR	Unweighted regression	0.0517630927625126	222	1
+WHR	geXzsJ	M_HDL_CE_pct_int_imputed.txt_adiposity_instruments.txt	WHR	Maximum likelihood	648.662968816848	222	2.14481172090231e-43
+WHR	geXzsJ	M_HDL_CE_pct_int_imputed.txt_adiposity_instruments.txt	WHR	MR Egger	668.755182799589	221	1.50405151386256e-46
+WHR	geXzsJ	M_HDL_CE_pct_int_imputed.txt_adiposity_instruments.txt	WHR	Inverse variance weighted	669.056699836335	222	2.37200431388197e-46
+WHR	geXzsJ	M_HDL_CE_pct_int_imputed.txt_adiposity_instruments.txt	WHR	Unweighted regression	0.0490915502541407	222	1
+WHR	gHbNO0	M_LDL_CE_int_imputed.txt_adiposity_instruments.txt	WHR	Maximum likelihood	528.146983519973	222	5.43479074275471e-27
+WHR	gHbNO0	M_LDL_CE_int_imputed.txt_adiposity_instruments.txt	WHR	MR Egger	533.50782682876	221	7.19916857083674e-28
+WHR	gHbNO0	M_LDL_CE_int_imputed.txt_adiposity_instruments.txt	WHR	Inverse variance weighted	534.715319738367	222	7.86384585623037e-28
+WHR	gHbNO0	M_LDL_CE_int_imputed.txt_adiposity_instruments.txt	WHR	Unweighted regression	0.0442479896328679	222	1
+WHR	Gk5Nku	S_HDL_FC_pct_int_imputed.txt_adiposity_instruments.txt	WHR	Maximum likelihood	592.594432451819	222	1.61822464647118e-35
+WHR	Gk5Nku	S_HDL_FC_pct_int_imputed.txt_adiposity_instruments.txt	WHR	MR Egger	585.145674591526	221	1.02883142476444e-34
+WHR	Gk5Nku	S_HDL_FC_pct_int_imputed.txt_adiposity_instruments.txt	WHR	Inverse variance weighted	598.985018975763	222	2.14329145668315e-36
+WHR	Gk5Nku	S_HDL_FC_pct_int_imputed.txt_adiposity_instruments.txt	WHR	Unweighted regression	0.0398215231200723	222	1
+WHR	Goiv9j	XS_VLDL_TG_pct_int_imputed.txt_adiposity_instruments.txt	WHR	Maximum likelihood	1250.26831505026	222	8.86535794788444e-143
+WHR	Goiv9j	XS_VLDL_TG_pct_int_imputed.txt_adiposity_instruments.txt	WHR	MR Egger	1273.42902028484	221	2.58470413271019e-147
+WHR	Goiv9j	XS_VLDL_TG_pct_int_imputed.txt_adiposity_instruments.txt	WHR	Inverse variance weighted	1276.92000201338	222	1.46583366444084e-147
+WHR	Goiv9j	XS_VLDL_TG_pct_int_imputed.txt_adiposity_instruments.txt	WHR	Unweighted regression	0.0834658646798764	222	1
+WHR	GvF3eA	S_VLDL_FC_int_imputed.txt_adiposity_instruments.txt	WHR	Maximum likelihood	502.889917042704	222	7.83750968235584e-24
+WHR	GvF3eA	S_VLDL_FC_int_imputed.txt_adiposity_instruments.txt	WHR	MR Egger	505.986430758187	221	2.14370279091215e-24
+WHR	GvF3eA	S_VLDL_FC_int_imputed.txt_adiposity_instruments.txt	WHR	Inverse variance weighted	508.331372670728	222	1.67187680425366e-24
+WHR	GvF3eA	S_VLDL_FC_int_imputed.txt_adiposity_instruments.txt	WHR	Unweighted regression	0.0452347169248799	222	1
+WHR	gZbxtm	L_HDL_C_pct_int_imputed.txt_adiposity_instruments.txt	WHR	Maximum likelihood	708.579977210582	222	3.3345319351702e-52
+WHR	gZbxtm	L_HDL_C_pct_int_imputed.txt_adiposity_instruments.txt	WHR	MR Egger	730.934455145024	221	7.68639647686745e-56
+WHR	gZbxtm	L_HDL_C_pct_int_imputed.txt_adiposity_instruments.txt	WHR	Inverse variance weighted	737.034084619215	222	1.65104812378529e-56
+WHR	gZbxtm	L_HDL_C_pct_int_imputed.txt_adiposity_instruments.txt	WHR	Unweighted regression	0.0505407319949169	222	1
+WHR	hbCMke	Glucose_int_imputed.txt_adiposity_instruments.txt	WHR	Maximum likelihood	307.465851427773	222	0.000126661273204458
+WHR	hbCMke	Glucose_int_imputed.txt_adiposity_instruments.txt	WHR	MR Egger	307.763312751969	221	0.000101509264560796
+WHR	hbCMke	Glucose_int_imputed.txt_adiposity_instruments.txt	WHR	Inverse variance weighted	307.769287206256	222	0.000121040837104047
+WHR	hbCMke	Glucose_int_imputed.txt_adiposity_instruments.txt	WHR	Unweighted regression	0.0261470461647797	222	1
+WHR	hjZGdB	XL_HDL_TG_int_imputed.txt_adiposity_instruments.txt	WHR	Maximum likelihood	586.569225372356	222	1.0759238131809e-34
+WHR	hjZGdB	XL_HDL_TG_int_imputed.txt_adiposity_instruments.txt	WHR	MR Egger	580.359546631899	221	4.60444946301999e-34
+WHR	hjZGdB	XL_HDL_TG_int_imputed.txt_adiposity_instruments.txt	WHR	Inverse variance weighted	587.787071811714	222	7.34314461600882e-35
+WHR	hjZGdB	XL_HDL_TG_int_imputed.txt_adiposity_instruments.txt	WHR	Unweighted regression	0.0452986125693507	222	1
+WHR	Hl7zoE	S_HDL_P_int_imputed.txt_adiposity_instruments.txt	WHR	Maximum likelihood	450.638736592965	222	1.09494891968999e-17
+WHR	Hl7zoE	S_HDL_P_int_imputed.txt_adiposity_instruments.txt	WHR	MR Egger	451.925208431774	221	5.46300484425326e-18
+WHR	Hl7zoE	S_HDL_P_int_imputed.txt_adiposity_instruments.txt	WHR	Inverse variance weighted	452.906044711975	222	6.09264958585453e-18
+WHR	Hl7zoE	S_HDL_P_int_imputed.txt_adiposity_instruments.txt	WHR	Unweighted regression	0.0358729285034803	222	1
+WHR	HmfCof	XL_VLDL_CE_int_imputed.txt_adiposity_instruments.txt	WHR	Maximum likelihood	566.220977989022	222	5.9290503524493e-32
+WHR	HmfCof	XL_VLDL_CE_int_imputed.txt_adiposity_instruments.txt	WHR	MR Egger	583.667960505601	221	1.6354070865073e-34
+WHR	HmfCof	XL_VLDL_CE_int_imputed.txt_adiposity_instruments.txt	WHR	Inverse variance weighted	583.824733703706	222	2.54038901573119e-34
+WHR	HmfCof	XL_VLDL_CE_int_imputed.txt_adiposity_instruments.txt	WHR	Unweighted regression	0.0505205224042314	222	1
+WHR	hNwmTd	Acetate_int_imputed.txt_adiposity_instruments.txt	WHR	Maximum likelihood	280.662441597212	222	0.00463701261963009
+WHR	hNwmTd	Acetate_int_imputed.txt_adiposity_instruments.txt	WHR	MR Egger	279.364680894991	221	0.0047337829466388
+WHR	hNwmTd	Acetate_int_imputed.txt_adiposity_instruments.txt	WHR	Inverse variance weighted	281.249008738899	222	0.00432473410730812
+WHR	hNwmTd	Acetate_int_imputed.txt_adiposity_instruments.txt	WHR	Unweighted regression	0.0237871023516572	222	1
+WHR	HWfQkq	Cholines_int_imputed.txt_adiposity_instruments.txt	WHR	Maximum likelihood	421.769836364917	222	1.49163362078007e-14
+WHR	HWfQkq	Cholines_int_imputed.txt_adiposity_instruments.txt	WHR	MR Egger	417.321674633884	221	3.14256433969155e-14
+WHR	HWfQkq	Cholines_int_imputed.txt_adiposity_instruments.txt	WHR	Inverse variance weighted	421.92860064389	222	1.43547260696953e-14
+WHR	HWfQkq	Cholines_int_imputed.txt_adiposity_instruments.txt	WHR	Unweighted regression	0.0310239105977926	222	1
+WHR	i9OT50	S_LDL_PL_pct_int_imputed.txt_adiposity_instruments.txt	WHR	Maximum likelihood	696.010208621573	222	2.51750503531611e-50
+WHR	i9OT50	S_LDL_PL_pct_int_imputed.txt_adiposity_instruments.txt	WHR	MR Egger	709.993746111548	221	1.1378217744115e-52
+WHR	i9OT50	S_LDL_PL_pct_int_imputed.txt_adiposity_instruments.txt	WHR	Inverse variance weighted	710.087416282195	222	1.98066923905744e-52
+WHR	i9OT50	S_LDL_PL_pct_int_imputed.txt_adiposity_instruments.txt	WHR	Unweighted regression	0.0533734173699364	222	1
+WHR	IdpKhC	IDL_CE_pct_int_imputed.txt_adiposity_instruments.txt	WHR	Maximum likelihood	1007.12151922988	222	2.74071391659863e-100
+WHR	IdpKhC	IDL_CE_pct_int_imputed.txt_adiposity_instruments.txt	WHR	MR Egger	1014.42758786326	221	7.30908053759413e-102
+WHR	IdpKhC	IDL_CE_pct_int_imputed.txt_adiposity_instruments.txt	WHR	Inverse variance weighted	1015.43865685419	222	1.05616880228299e-101
+WHR	IdpKhC	IDL_CE_pct_int_imputed.txt_adiposity_instruments.txt	WHR	Unweighted regression	0.0610688335683775	222	1
+WHR	IoDQtX	L_VLDL_L_int_imputed.txt_adiposity_instruments.txt	WHR	Maximum likelihood	685.524398529641	222	9.03196768889118e-49
+WHR	IoDQtX	L_VLDL_L_int_imputed.txt_adiposity_instruments.txt	WHR	MR Egger	712.203097406601	221	5.29027528139007e-53
+WHR	IoDQtX	L_VLDL_L_int_imputed.txt_adiposity_instruments.txt	WHR	Inverse variance weighted	712.232957081313	222	9.4288997947878e-53
+WHR	IoDQtX	L_VLDL_L_int_imputed.txt_adiposity_instruments.txt	WHR	Unweighted regression	0.0577474027027404	222	1
+WHR	iUNfz3	M_HDL_C_pct_int_imputed.txt_adiposity_instruments.txt	WHR	Maximum likelihood	707.330341220172	222	5.13341971033039e-52
+WHR	iUNfz3	M_HDL_C_pct_int_imputed.txt_adiposity_instruments.txt	WHR	MR Egger	731.930180943784	221	5.41991506552151e-56
+WHR	iUNfz3	M_HDL_C_pct_int_imputed.txt_adiposity_instruments.txt	WHR	Inverse variance weighted	733.344765342937	222	6.02662814850168e-56
+WHR	iUNfz3	M_HDL_C_pct_int_imputed.txt_adiposity_instruments.txt	WHR	Unweighted regression	0.0520099039475748	222	1
+WHR	J7IIqz	ApoB_by_ApoA1_int_imputed.txt_adiposity_instruments.txt	WHR	Maximum likelihood	607.489055435266	222	1.42714818159048e-37
+WHR	J7IIqz	ApoB_by_ApoA1_int_imputed.txt_adiposity_instruments.txt	WHR	MR Egger	617.716020378281	221	3.18043979287261e-39
+WHR	J7IIqz	ApoB_by_ApoA1_int_imputed.txt_adiposity_instruments.txt	WHR	Inverse variance weighted	618.737286932565	222	3.83722449861863e-39
+WHR	J7IIqz	ApoB_by_ApoA1_int_imputed.txt_adiposity_instruments.txt	WHR	Unweighted regression	0.0507797627981279	222	1
+WHR	j7tFTa	XL_HDL_PL_int_imputed.txt_adiposity_instruments.txt	WHR	Maximum likelihood	619.937769602838	222	2.60302182302137e-39
+WHR	j7tFTa	XL_HDL_PL_int_imputed.txt_adiposity_instruments.txt	WHR	MR Egger	632.064642355014	221	2.97457180963001e-41
+WHR	j7tFTa	XL_HDL_PL_int_imputed.txt_adiposity_instruments.txt	WHR	Inverse variance weighted	642.628917809928	222	1.57493623395575e-42
+WHR	j7tFTa	XL_HDL_PL_int_imputed.txt_adiposity_instruments.txt	WHR	Unweighted regression	0.045354718620524	222	1
+WHR	jAwUOm	M_LDL_TG_pct_int_imputed.txt_adiposity_instruments.txt	WHR	Maximum likelihood	1003.29800181002	222	1.22145563300546e-99
+WHR	jAwUOm	M_LDL_TG_pct_int_imputed.txt_adiposity_instruments.txt	WHR	MR Egger	1006.40671055976	221	1.69440712452449e-100
+WHR	jAwUOm	M_LDL_TG_pct_int_imputed.txt_adiposity_instruments.txt	WHR	Inverse variance weighted	1006.52712782833	222	3.45781975490018e-100
+WHR	jAwUOm	M_LDL_TG_pct_int_imputed.txt_adiposity_instruments.txt	WHR	Unweighted regression	0.0648885963254481	222	1
+WHR	JcQhnY	L_VLDL_C_int_imputed.txt_adiposity_instruments.txt	WHR	Maximum likelihood	614.473303179215	222	1.51778557022864e-38
+WHR	JcQhnY	L_VLDL_C_int_imputed.txt_adiposity_instruments.txt	WHR	MR Egger	635.521734963995	221	9.56950240327671e-42
+WHR	JcQhnY	L_VLDL_C_int_imputed.txt_adiposity_instruments.txt	WHR	Inverse variance weighted	635.573998094264	222	1.60082775348068e-41
+WHR	JcQhnY	L_VLDL_C_int_imputed.txt_adiposity_instruments.txt	WHR	Unweighted regression	0.0539269086310286	222	1
+WHR	Jo1A3J	XS_VLDL_CE_pct_int_imputed.txt_adiposity_instruments.txt	WHR	Maximum likelihood	1210.69461077397	222	1.01741137807199e-135
+WHR	Jo1A3J	XS_VLDL_CE_pct_int_imputed.txt_adiposity_instruments.txt	WHR	MR Egger	1235.27945367486	221	1.7898749327691e-140
+WHR	Jo1A3J	XS_VLDL_CE_pct_int_imputed.txt_adiposity_instruments.txt	WHR	Inverse variance weighted	1239.0006486191	222	9.17895225866569e-141
+WHR	Jo1A3J	XS_VLDL_CE_pct_int_imputed.txt_adiposity_instruments.txt	WHR	Unweighted regression	0.079841990701596	222	1
+WHR	jRldOM	XL_HDL_P_int_imputed.txt_adiposity_instruments.txt	WHR	Maximum likelihood	606.949619038772	222	1.6958299808715e-37
+WHR	jRldOM	XL_HDL_P_int_imputed.txt_adiposity_instruments.txt	WHR	MR Egger	610.662162246733	221	3.09574353939625e-38
+WHR	jRldOM	XL_HDL_P_int_imputed.txt_adiposity_instruments.txt	WHR	Inverse variance weighted	624.443830149546	222	6.04345781840241e-40
+WHR	jRldOM	XL_HDL_P_int_imputed.txt_adiposity_instruments.txt	WHR	Unweighted regression	0.042152050021884	222	1
+WHR	Jtaq33	S_LDL_TG_pct_int_imputed.txt_adiposity_instruments.txt	WHR	Maximum likelihood	1199.20837735286	222	1.11487338942781e-133
+WHR	Jtaq33	S_LDL_TG_pct_int_imputed.txt_adiposity_instruments.txt	WHR	MR Egger	1218.61489875261	221	1.68596650018903e-137
+WHR	Jtaq33	S_LDL_TG_pct_int_imputed.txt_adiposity_instruments.txt	WHR	Inverse variance weighted	1219.02744088797	222	3.3501633300992e-137
+WHR	Jtaq33	S_LDL_TG_pct_int_imputed.txt_adiposity_instruments.txt	WHR	Unweighted regression	0.0773744887003242	222	1
+WHR	Jv1hb1	DHA_int_imputed.txt_adiposity_instruments.txt	WHR	Maximum likelihood	400.948209076799	222	1.99843532773038e-12
+WHR	Jv1hb1	DHA_int_imputed.txt_adiposity_instruments.txt	WHR	MR Egger	391.884935678122	221	1.15080066811198e-11
+WHR	Jv1hb1	DHA_int_imputed.txt_adiposity_instruments.txt	WHR	Inverse variance weighted	401.06045147228	222	1.94781392735697e-12
+WHR	Jv1hb1	DHA_int_imputed.txt_adiposity_instruments.txt	WHR	Unweighted regression	0.0298667756542221	222	1
+WHR	JXicCk	L_LDL_C_pct_int_imputed.txt_adiposity_instruments.txt	WHR	Maximum likelihood	659.046262128026	222	6.79020842316973e-45
+WHR	JXicCk	L_LDL_C_pct_int_imputed.txt_adiposity_instruments.txt	WHR	MR Egger	664.148591467168	221	7.08456014170295e-46
+WHR	JXicCk	L_LDL_C_pct_int_imputed.txt_adiposity_instruments.txt	WHR	Inverse variance weighted	667.903390188003	222	3.49539202881272e-46
+WHR	JXicCk	L_LDL_C_pct_int_imputed.txt_adiposity_instruments.txt	WHR	Unweighted regression	0.0403449013281405	222	1
+WHR	k7MQt1	L_VLDL_TG_int_imputed.txt_adiposity_instruments.txt	WHR	Maximum likelihood	711.37823140875	222	1.26744330213813e-52
+WHR	k7MQt1	L_VLDL_TG_int_imputed.txt_adiposity_instruments.txt	WHR	MR Egger	736.617144833551	221	1.04380188695265e-56
+WHR	k7MQt1	L_VLDL_TG_int_imputed.txt_adiposity_instruments.txt	WHR	Inverse variance weighted	736.731923540016	222	1.83594193268754e-56
+WHR	k7MQt1	L_VLDL_TG_int_imputed.txt_adiposity_instruments.txt	WHR	Unweighted regression	0.0577411288683732	222	1
+WHR	kfo0kf	S_VLDL_CE_int_imputed.txt_adiposity_instruments.txt	WHR	Maximum likelihood	497.937625481152	222	3.16276215950146e-23
+WHR	kfo0kf	S_VLDL_CE_int_imputed.txt_adiposity_instruments.txt	WHR	MR Egger	505.863623501523	221	2.22007136796943e-24
+WHR	kfo0kf	S_VLDL_CE_int_imputed.txt_adiposity_instruments.txt	WHR	Inverse variance weighted	507.012571538959	222	2.43399907875772e-24
+WHR	kfo0kf	S_VLDL_CE_int_imputed.txt_adiposity_instruments.txt	WHR	Unweighted regression	0.0472854122947423	222	1
+WHR	Kg2C5y	Total_FA_int_imputed.txt_adiposity_instruments.txt	WHR	Maximum likelihood	483.524093631003	222	1.7249647657686e-21
+WHR	Kg2C5y	Total_FA_int_imputed.txt_adiposity_instruments.txt	WHR	MR Egger	486.829364114531	221	4.66158028767535e-22
+WHR	Kg2C5y	Total_FA_int_imputed.txt_adiposity_instruments.txt	WHR	Inverse variance weighted	488.252797469465	222	4.69329197225372e-22
+WHR	Kg2C5y	Total_FA_int_imputed.txt_adiposity_instruments.txt	WHR	Unweighted regression	0.0406854125332235	222	1
+WHR	KL67pP	M_HDL_C_int_imputed.txt_adiposity_instruments.txt	WHR	Maximum likelihood	543.706883893633	222	5.43117719704401e-29
+WHR	KL67pP	M_HDL_C_int_imputed.txt_adiposity_instruments.txt	WHR	MR Egger	552.355891107244	221	2.54416046525572e-30
+WHR	KL67pP	M_HDL_C_int_imputed.txt_adiposity_instruments.txt	WHR	Inverse variance weighted	552.76142548334	222	3.57297533267814e-30
+WHR	KL67pP	M_HDL_C_int_imputed.txt_adiposity_instruments.txt	WHR	Unweighted regression	0.0392327796088494	222	1
+WHR	KLpXEn	L_VLDL_CE_int_imputed.txt_adiposity_instruments.txt	WHR	Maximum likelihood	563.600144016334	222	1.32348490381918e-31
+WHR	KLpXEn	L_VLDL_CE_int_imputed.txt_adiposity_instruments.txt	WHR	MR Egger	579.133148913297	221	6.75205705640405e-34
+WHR	KLpXEn	L_VLDL_CE_int_imputed.txt_adiposity_instruments.txt	WHR	Inverse variance weighted	579.46153928813	222	9.90689317287887e-34
+WHR	KLpXEn	L_VLDL_CE_int_imputed.txt_adiposity_instruments.txt	WHR	Unweighted regression	0.0508801757130624	222	1
+WHR	KpsWy1	L_HDL_FC_int_imputed.txt_adiposity_instruments.txt	WHR	Maximum likelihood	632.516698625716	222	4.35483360488817e-41
+WHR	KpsWy1	L_HDL_FC_int_imputed.txt_adiposity_instruments.txt	WHR	MR Egger	649.343388909444	221	9.95311634050049e-44
+WHR	KpsWy1	L_HDL_FC_int_imputed.txt_adiposity_instruments.txt	WHR	Inverse variance weighted	656.489400203163	222	1.5930724606839e-44
+WHR	KpsWy1	L_HDL_FC_int_imputed.txt_adiposity_instruments.txt	WHR	Unweighted regression	0.0450756372998645	222	1
+WHR	kqNH4V	LDL_PL_int_imputed.txt_adiposity_instruments.txt	WHR	Maximum likelihood	658.581774972986	222	7.92894569704938e-45
+WHR	kqNH4V	LDL_PL_int_imputed.txt_adiposity_instruments.txt	WHR	MR Egger	657.742741149597	221	6.06006657324635e-45
+WHR	kqNH4V	LDL_PL_int_imputed.txt_adiposity_instruments.txt	WHR	Inverse variance weighted	661.546191085839	222	2.94502980777281e-45
+WHR	kqNH4V	LDL_PL_int_imputed.txt_adiposity_instruments.txt	WHR	Unweighted regression	0.0500540762884068	222	1
+WHR	KuDy0A	Gly_int_imputed.txt_adiposity_instruments.txt	WHR	Maximum likelihood	289.284022127686	222	0.00159545416021501
+WHR	KuDy0A	Gly_int_imputed.txt_adiposity_instruments.txt	WHR	MR Egger	290.903579848845	221	0.00111205754775953
+WHR	KuDy0A	Gly_int_imputed.txt_adiposity_instruments.txt	WHR	Inverse variance weighted	291.139697342973	222	0.0012534374966213
+WHR	KuDy0A	Gly_int_imputed.txt_adiposity_instruments.txt	WHR	Unweighted regression	0.0208476949918625	222	1
+WHR	KZ2kaN	Total_L_int_imputed.txt_adiposity_instruments.txt	WHR	Maximum likelihood	436.386198348871	222	4.09500629927344e-16
+WHR	KZ2kaN	Total_L_int_imputed.txt_adiposity_instruments.txt	WHR	MR Egger	432.553389687255	221	7.56118676045351e-16
+WHR	KZ2kaN	Total_L_int_imputed.txt_adiposity_instruments.txt	WHR	Inverse variance weighted	437.648256158642	222	2.98494483710014e-16
+WHR	KZ2kaN	Total_L_int_imputed.txt_adiposity_instruments.txt	WHR	Unweighted regression	0.0358024122017514	222	1
+WHR	kzl9Fw	Total_CE_int_imputed.txt_adiposity_instruments.txt	WHR	Maximum likelihood	569.076875163123	222	2.46504816975076e-32
+WHR	kzl9Fw	Total_CE_int_imputed.txt_adiposity_instruments.txt	WHR	MR Egger	562.219955534677	221	1.26026599898822e-31
+WHR	kzl9Fw	Total_CE_int_imputed.txt_adiposity_instruments.txt	WHR	Inverse variance weighted	569.150600261255	222	2.40973900735604e-32
+WHR	kzl9Fw	Total_CE_int_imputed.txt_adiposity_instruments.txt	WHR	Unweighted regression	0.0402997467453393	222	1
+WHR	kZss2E	S_VLDL_C_int_imputed.txt_adiposity_instruments.txt	WHR	Maximum likelihood	493.679331122383	222	1.04074648297329e-22
+WHR	kZss2E	S_VLDL_C_int_imputed.txt_adiposity_instruments.txt	WHR	MR Egger	499.521183357465	221	1.34193042200317e-23
+WHR	kZss2E	S_VLDL_C_int_imputed.txt_adiposity_instruments.txt	WHR	Inverse variance weighted	501.068741067895	222	1.31075992096269e-23
+WHR	kZss2E	S_VLDL_C_int_imputed.txt_adiposity_instruments.txt	WHR	Unweighted regression	0.0465002576591404	222	1
+WHR	l1mt1y	HDL_TG_int_imputed.txt_adiposity_instruments.txt	WHR	Maximum likelihood	733.47310857348	222	5.7614627442021e-56
+WHR	l1mt1y	HDL_TG_int_imputed.txt_adiposity_instruments.txt	WHR	MR Egger	746.939919115951	221	2.73119296380122e-58
+WHR	l1mt1y	HDL_TG_int_imputed.txt_adiposity_instruments.txt	WHR	Inverse variance weighted	747.063486594271	222	4.82112665562932e-58
+WHR	l1mt1y	HDL_TG_int_imputed.txt_adiposity_instruments.txt	WHR	Unweighted regression	0.0573736589559139	222	1
+WHR	l9U2CS	L_HDL_TG_int_imputed.txt_adiposity_instruments.txt	WHR	Maximum likelihood	609.384737525682	222	7.77884631363926e-38
+WHR	l9U2CS	L_HDL_TG_int_imputed.txt_adiposity_instruments.txt	WHR	MR Egger	604.720452225298	221	2.08147092799141e-37
+WHR	l9U2CS	L_HDL_TG_int_imputed.txt_adiposity_instruments.txt	WHR	Inverse variance weighted	609.389330666824	222	7.76740693098425e-38
+WHR	l9U2CS	L_HDL_TG_int_imputed.txt_adiposity_instruments.txt	WHR	Unweighted regression	0.0471677291241415	222	1
+WHR	LB9IGU	LA_int_imputed.txt_adiposity_instruments.txt	WHR	Maximum likelihood	436.458845441075	222	4.02124689973945e-16
+WHR	LB9IGU	LA_int_imputed.txt_adiposity_instruments.txt	WHR	MR Egger	431.394535190605	221	1.00881439377305e-15
+WHR	LB9IGU	LA_int_imputed.txt_adiposity_instruments.txt	WHR	Inverse variance weighted	436.855733647583	222	3.64092813680563e-16
+WHR	LB9IGU	LA_int_imputed.txt_adiposity_instruments.txt	WHR	Unweighted regression	0.0327021256614398	222	1
+WHR	ld4bqh	S_HDL_PL_pct_int_imputed.txt_adiposity_instruments.txt	WHR	Maximum likelihood	424.135063407222	222	8.4077473970917e-15
+WHR	ld4bqh	S_HDL_PL_pct_int_imputed.txt_adiposity_instruments.txt	WHR	MR Egger	426.241383968197	221	3.60222620601109e-15
+WHR	ld4bqh	S_HDL_PL_pct_int_imputed.txt_adiposity_instruments.txt	WHR	Inverse variance weighted	426.283465524165	222	4.98046399886632e-15
+WHR	ld4bqh	S_HDL_PL_pct_int_imputed.txt_adiposity_instruments.txt	WHR	Unweighted regression	0.0370413713074589	222	1
+WHR	lFzOaH	XL_HDL_FC_pct_int_imputed.txt_adiposity_instruments.txt	WHR	Maximum likelihood	532.909914615227	222	1.3400193661954e-27
+WHR	lFzOaH	XL_HDL_FC_pct_int_imputed.txt_adiposity_instruments.txt	WHR	MR Egger	545.434076530288	221	2.05334302600376e-29
+WHR	lFzOaH	XL_HDL_FC_pct_int_imputed.txt_adiposity_instruments.txt	WHR	Inverse variance weighted	550.011048907184	222	8.19185921038025e-30
+WHR	lFzOaH	XL_HDL_FC_pct_int_imputed.txt_adiposity_instruments.txt	WHR	Unweighted regression	0.037527155817496	222	1
+WHR	lPbcVj	His_int_imputed.txt_adiposity_instruments.txt	WHR	Maximum likelihood	316.899364099015	222	2.95187162255331e-05
+WHR	lPbcVj	His_int_imputed.txt_adiposity_instruments.txt	WHR	MR Egger	314.846185614033	221	3.38623717578531e-05
+WHR	lPbcVj	His_int_imputed.txt_adiposity_instruments.txt	WHR	Inverse variance weighted	316.974496222296	222	2.91674681032283e-05
+WHR	lPbcVj	His_int_imputed.txt_adiposity_instruments.txt	WHR	Unweighted regression	0.0262865808650371	222	1
+WHR	lpWW8S	S_VLDL_PL_pct_int_imputed.txt_adiposity_instruments.txt	WHR	Maximum likelihood	1147.24203969611	222	1.65819633491661e-124
+WHR	lpWW8S	S_VLDL_PL_pct_int_imputed.txt_adiposity_instruments.txt	WHR	MR Egger	1166.41970830278	221	3.04350392135145e-128
+WHR	lpWW8S	S_VLDL_PL_pct_int_imputed.txt_adiposity_instruments.txt	WHR	Inverse variance weighted	1168.71942197772	222	2.75470408173379e-128
+WHR	lpWW8S	S_VLDL_PL_pct_int_imputed.txt_adiposity_instruments.txt	WHR	Unweighted regression	0.0779686980593563	222	1
+WHR	LQlDBJ	L_HDL_TG_pct_int_imputed.txt_adiposity_instruments.txt	WHR	Maximum likelihood	764.398347436583	222	1.02500790565914e-60
+WHR	LQlDBJ	L_HDL_TG_pct_int_imputed.txt_adiposity_instruments.txt	WHR	MR Egger	795.749462539657	221	6.8694381949561e-66
+WHR	LQlDBJ	L_HDL_TG_pct_int_imputed.txt_adiposity_instruments.txt	WHR	Inverse variance weighted	795.804906521021	222	1.28124189979743e-65
+WHR	LQlDBJ	L_HDL_TG_pct_int_imputed.txt_adiposity_instruments.txt	WHR	Unweighted regression	0.0584633354844984	222	1
+WHR	lTEhFs	IDL_FC_pct_int_imputed.txt_adiposity_instruments.txt	WHR	Maximum likelihood	495.179801872201	222	6.84650860783142e-23
+WHR	lTEhFs	IDL_FC_pct_int_imputed.txt_adiposity_instruments.txt	WHR	MR Egger	497.194255636644	221	2.58536543820048e-23
+WHR	lTEhFs	IDL_FC_pct_int_imputed.txt_adiposity_instruments.txt	WHR	Inverse variance weighted	497.998428396444	222	3.10924910189774e-23
+WHR	lTEhFs	IDL_FC_pct_int_imputed.txt_adiposity_instruments.txt	WHR	Unweighted regression	0.0347383218436999	222	1
+WHR	LUsEjF	L_VLDL_PL_int_imputed.txt_adiposity_instruments.txt	WHR	Maximum likelihood	708.684186440029	222	3.21664381532204e-52
+WHR	LUsEjF	L_VLDL_PL_int_imputed.txt_adiposity_instruments.txt	WHR	MR Egger	737.506486754841	221	7.63240081220739e-57
+WHR	LUsEjF	L_VLDL_PL_int_imputed.txt_adiposity_instruments.txt	WHR	Inverse variance weighted	737.594781379963	222	1.35580100110171e-56
+WHR	LUsEjF	L_VLDL_PL_int_imputed.txt_adiposity_instruments.txt	WHR	Unweighted regression	0.0591211804630627	222	1
+WHR	M1fYSd	Total_BCAA_int_imputed.txt_adiposity_instruments.txt	WHR	Maximum likelihood	361.871555804267	222	8.81484402700903e-09
+WHR	M1fYSd	Total_BCAA_int_imputed.txt_adiposity_instruments.txt	WHR	MR Egger	365.476893454159	221	3.28992849716469e-09
+WHR	M1fYSd	Total_BCAA_int_imputed.txt_adiposity_instruments.txt	WHR	Inverse variance weighted	365.481191521406	222	4.25954974878586e-09
+WHR	M1fYSd	Total_BCAA_int_imputed.txt_adiposity_instruments.txt	WHR	Unweighted regression	0.0270969685658662	222	1
+WHR	mBivky	S_HDL_FC_int_imputed.txt_adiposity_instruments.txt	WHR	Maximum likelihood	463.221540860813	222	4.09193392818623e-19
+WHR	mBivky	S_HDL_FC_int_imputed.txt_adiposity_instruments.txt	WHR	MR Egger	463.57316698352	221	2.56117684503267e-19
+WHR	mBivky	S_HDL_FC_int_imputed.txt_adiposity_instruments.txt	WHR	Inverse variance weighted	463.963050013141	222	3.36290296224018e-19
+WHR	mBivky	S_HDL_FC_int_imputed.txt_adiposity_instruments.txt	WHR	Unweighted regression	0.0362297415982449	222	1
+WHR	MgM4H0	L_LDL_TG_pct_int_imputed.txt_adiposity_instruments.txt	WHR	Maximum likelihood	896.976506750071	222	6.8789260603415e-82
+WHR	MgM4H0	L_LDL_TG_pct_int_imputed.txt_adiposity_instruments.txt	WHR	MR Egger	904.39697097849	221	2.0488837865485e-83
+WHR	MgM4H0	L_LDL_TG_pct_int_imputed.txt_adiposity_instruments.txt	WHR	Inverse variance weighted	905.605819688071	222	2.62876450959096e-83
+WHR	MgM4H0	L_LDL_TG_pct_int_imputed.txt_adiposity_instruments.txt	WHR	Unweighted regression	0.057599274028336	222	1
+WHR	mhZyOG	Remnant_C_int_imputed.txt_adiposity_instruments.txt	WHR	Maximum likelihood	519.601397591356	222	6.554761858373e-26
+WHR	mhZyOG	Remnant_C_int_imputed.txt_adiposity_instruments.txt	WHR	MR Egger	517.468201871748	221	7.90423438503903e-26
+WHR	mhZyOG	Remnant_C_int_imputed.txt_adiposity_instruments.txt	WHR	Inverse variance weighted	522.391527259008	222	2.91652025282422e-26
+WHR	mhZyOG	Remnant_C_int_imputed.txt_adiposity_instruments.txt	WHR	Unweighted regression	0.0441586708765298	222	1
+WHR	Mjc6Pz	Phosphatidylc_int_imputed.txt_adiposity_instruments.txt	WHR	Maximum likelihood	425.996060518771	222	5.34269573733595e-15
+WHR	Mjc6Pz	Phosphatidylc_int_imputed.txt_adiposity_instruments.txt	WHR	MR Egger	422.05756763884	221	1.00089419408642e-14
+WHR	Mjc6Pz	Phosphatidylc_int_imputed.txt_adiposity_instruments.txt	WHR	Inverse variance weighted	426.117719540061	222	5.18628386325698e-15
+WHR	Mjc6Pz	Phosphatidylc_int_imputed.txt_adiposity_instruments.txt	WHR	Unweighted regression	0.031302285250541	222	1
+WHR	MssHY7	XS_VLDL_TG_int_imputed.txt_adiposity_instruments.txt	WHR	Maximum likelihood	726.455689733155	222	6.7122784319911e-55
+WHR	MssHY7	XS_VLDL_TG_int_imputed.txt_adiposity_instruments.txt	WHR	MR Egger	742.444808234877	221	1.33807389399427e-57
+WHR	MssHY7	XS_VLDL_TG_int_imputed.txt_adiposity_instruments.txt	WHR	Inverse variance weighted	742.637707680262	222	2.2983064478902e-57
+WHR	MssHY7	XS_VLDL_TG_int_imputed.txt_adiposity_instruments.txt	WHR	Unweighted regression	0.0586291303375509	222	1
+WHR	mWKMZv	VLDL_P_int_imputed.txt_adiposity_instruments.txt	WHR	Maximum likelihood	519.775600863592	222	6.23215583936618e-26
+WHR	mWKMZv	VLDL_P_int_imputed.txt_adiposity_instruments.txt	WHR	MR Egger	528.738023928576	221	2.94193915953853e-27
+WHR	mWKMZv	VLDL_P_int_imputed.txt_adiposity_instruments.txt	WHR	Inverse variance weighted	530.180293384287	222	2.99266744770206e-27
+WHR	mWKMZv	VLDL_P_int_imputed.txt_adiposity_instruments.txt	WHR	Unweighted regression	0.0476242153112256	222	1
+WHR	my7DLu	LDL_size_int_imputed.txt_adiposity_instruments.txt	WHR	Maximum likelihood	355.941161339568	222	2.8459580446678e-08
+WHR	my7DLu	LDL_size_int_imputed.txt_adiposity_instruments.txt	WHR	MR Egger	357.972460397322	221	1.48968034798424e-08
+WHR	my7DLu	LDL_size_int_imputed.txt_adiposity_instruments.txt	WHR	Inverse variance weighted	359.801113568591	222	1.33148665142919e-08
+WHR	my7DLu	LDL_size_int_imputed.txt_adiposity_instruments.txt	WHR	Unweighted regression	0.0237749519722556	222	1
+WHR	N3T1AK	S_VLDL_PL_int_imputed.txt_adiposity_instruments.txt	WHR	Maximum likelihood	518.591104263419	222	8.78152551634783e-26
+WHR	N3T1AK	S_VLDL_PL_int_imputed.txt_adiposity_instruments.txt	WHR	MR Egger	525.706791526056	221	7.16435553888587e-27
+WHR	N3T1AK	S_VLDL_PL_int_imputed.txt_adiposity_instruments.txt	WHR	Inverse variance weighted	527.338885910208	222	6.8861031971198e-27
+WHR	N3T1AK	S_VLDL_PL_int_imputed.txt_adiposity_instruments.txt	WHR	Unweighted regression	0.0479229205895229	222	1
+WHR	n4DED0	LDL_FC_int_imputed.txt_adiposity_instruments.txt	WHR	Maximum likelihood	747.342792935309	222	4.36805749970536e-58
+WHR	n4DED0	LDL_FC_int_imputed.txt_adiposity_instruments.txt	WHR	MR Egger	742.237657627356	221	1.43960101817172e-57
+WHR	n4DED0	LDL_FC_int_imputed.txt_adiposity_instruments.txt	WHR	Inverse variance weighted	747.49439783891	222	4.14020132262956e-58
+WHR	n4DED0	LDL_FC_int_imputed.txt_adiposity_instruments.txt	WHR	Unweighted regression	0.0525392830395021	222	1
+WHR	NCZSnA	XL_VLDL_CE_pct_int_imputed.txt_adiposity_instruments.txt	WHR	Maximum likelihood	915.806543075555	222	5.47336044788353e-85
+WHR	NCZSnA	XL_VLDL_CE_pct_int_imputed.txt_adiposity_instruments.txt	WHR	MR Egger	934.628103560435	221	2.02352721280126e-88
+WHR	NCZSnA	XL_VLDL_CE_pct_int_imputed.txt_adiposity_instruments.txt	WHR	Inverse variance weighted	936.244941576655	222	2.24687262723087e-88
+WHR	NCZSnA	XL_VLDL_CE_pct_int_imputed.txt_adiposity_instruments.txt	WHR	Unweighted regression	0.063679303239538	222	1
+WHR	nHGKMS	XL_VLDL_FC_pct_int_imputed.txt_adiposity_instruments.txt	WHR	Maximum likelihood	652.483911557831	222	6.03912191163187e-44
+WHR	nHGKMS	XL_VLDL_FC_pct_int_imputed.txt_adiposity_instruments.txt	WHR	MR Egger	659.118324650411	221	3.82541742367404e-45
+WHR	nHGKMS	XL_VLDL_FC_pct_int_imputed.txt_adiposity_instruments.txt	WHR	Inverse variance weighted	661.270577401578	222	3.22938887484057e-45
+WHR	nHGKMS	XL_VLDL_FC_pct_int_imputed.txt_adiposity_instruments.txt	WHR	Unweighted regression	0.0475724124470299	222	1
+WHR	nOEpw0	MUFA_pct_int_imputed.txt_adiposity_instruments.txt	WHR	Maximum likelihood	669.858742527718	222	1.81107475400198e-46
+WHR	nOEpw0	MUFA_pct_int_imputed.txt_adiposity_instruments.txt	WHR	MR Egger	677.120153703858	221	8.90031572840078e-48
+WHR	nOEpw0	MUFA_pct_int_imputed.txt_adiposity_instruments.txt	WHR	Inverse variance weighted	685.130389210714	222	1.03274150405911e-48
+WHR	nOEpw0	MUFA_pct_int_imputed.txt_adiposity_instruments.txt	WHR	Unweighted regression	0.0497066460551871	222	1
+WHR	nuuy8e	SFA_pct_int_imputed.txt_adiposity_instruments.txt	WHR	Maximum likelihood	291.150657630624	222	0.00125163755298096
+WHR	nuuy8e	SFA_pct_int_imputed.txt_adiposity_instruments.txt	WHR	MR Egger	292.399869380449	221	0.000910986187678011
+WHR	nuuy8e	SFA_pct_int_imputed.txt_adiposity_instruments.txt	WHR	Inverse variance weighted	292.405277824399	222	0.0010608047975124
+WHR	nuuy8e	SFA_pct_int_imputed.txt_adiposity_instruments.txt	WHR	Unweighted regression	0.0211400217325016	222	1
+WHR	NyF14k	LDL_C_int_imputed.txt_adiposity_instruments.txt	WHR	Maximum likelihood	602.565550424372	222	6.86790834005924e-37
+WHR	NyF14k	LDL_C_int_imputed.txt_adiposity_instruments.txt	WHR	MR Egger	600.303085688522	221	8.52553686639321e-37
+WHR	NyF14k	LDL_C_int_imputed.txt_adiposity_instruments.txt	WHR	Inverse variance weighted	604.448992811226	222	3.7684659377305e-37
+WHR	NyF14k	LDL_C_int_imputed.txt_adiposity_instruments.txt	WHR	Unweighted regression	0.0458100438796388	222	1
+WHR	odywSQ	HDL_L_int_imputed.txt_adiposity_instruments.txt	WHR	Maximum likelihood	541.707502544115	222	9.8656356633498e-29
+WHR	odywSQ	HDL_L_int_imputed.txt_adiposity_instruments.txt	WHR	MR Egger	549.415325179266	221	6.19063654242402e-30
+WHR	odywSQ	HDL_L_int_imputed.txt_adiposity_instruments.txt	WHR	Inverse variance weighted	551.832868540928	222	4.7295485972658e-30
+WHR	odywSQ	HDL_L_int_imputed.txt_adiposity_instruments.txt	WHR	Unweighted regression	0.0387016334552244	222	1
+WHR	ohOFa4	M_VLDL_P_int_imputed.txt_adiposity_instruments.txt	WHR	Maximum likelihood	503.863533989075	222	5.95008763297159e-24
+WHR	ohOFa4	M_VLDL_P_int_imputed.txt_adiposity_instruments.txt	WHR	MR Egger	510.512558386922	221	5.87443248949032e-25
+WHR	ohOFa4	M_VLDL_P_int_imputed.txt_adiposity_instruments.txt	WHR	Inverse variance weighted	512.111039375908	222	5.67508503223085e-25
+WHR	ohOFa4	M_VLDL_P_int_imputed.txt_adiposity_instruments.txt	WHR	Unweighted regression	0.0453924119960387	222	1
+WHR	OoxS23	IDL_L_int_imputed.txt_adiposity_instruments.txt	WHR	Maximum likelihood	703.116421005408	222	2.19359056096757e-51
+WHR	OoxS23	IDL_L_int_imputed.txt_adiposity_instruments.txt	WHR	MR Egger	695.612150351226	221	1.62109284472e-50
+WHR	OoxS23	IDL_L_int_imputed.txt_adiposity_instruments.txt	WHR	Inverse variance weighted	703.123859639831	222	2.18798141377842e-51
+WHR	OoxS23	IDL_L_int_imputed.txt_adiposity_instruments.txt	WHR	Unweighted regression	0.0510128768819681	222	1
+WHR	OStTP6	Total_FC_int_imputed.txt_adiposity_instruments.txt	WHR	Maximum likelihood	514.045188172975	222	3.25734744435219e-25
+WHR	OStTP6	Total_FC_int_imputed.txt_adiposity_instruments.txt	WHR	MR Egger	507.301851472116	221	1.47284104963281e-24
+WHR	OStTP6	Total_FC_int_imputed.txt_adiposity_instruments.txt	WHR	Inverse variance weighted	514.356783221942	222	2.97823408587341e-25
+WHR	OStTP6	Total_FC_int_imputed.txt_adiposity_instruments.txt	WHR	Unweighted regression	0.039513180637997	222	1
+WHR	OteyBF	LDL_P_int_imputed.txt_adiposity_instruments.txt	WHR	Maximum likelihood	552.584755139717	222	3.76888048445155e-30
+WHR	OteyBF	LDL_P_int_imputed.txt_adiposity_instruments.txt	WHR	MR Egger	552.178426764403	221	2.68465843352549e-30
+WHR	OteyBF	LDL_P_int_imputed.txt_adiposity_instruments.txt	WHR	Inverse variance weighted	556.291312431423	222	1.22699242597149e-30
+WHR	OteyBF	LDL_P_int_imputed.txt_adiposity_instruments.txt	WHR	Unweighted regression	0.0448124608894243	222	1
+WHR	ouW3I2	S_LDL_C_int_imputed.txt_adiposity_instruments.txt	WHR	Maximum likelihood	591.57524872347	222	2.23127716709459e-35
+WHR	ouW3I2	S_LDL_C_int_imputed.txt_adiposity_instruments.txt	WHR	MR Egger	592.747225451138	221	9.38060548851003e-36
+WHR	ouW3I2	S_LDL_C_int_imputed.txt_adiposity_instruments.txt	WHR	Inverse variance weighted	595.95869877632	222	5.59141671806865e-36
+WHR	ouW3I2	S_LDL_C_int_imputed.txt_adiposity_instruments.txt	WHR	Unweighted regression	0.0464980250732011	222	1
+WHR	OvMViI	Omega_3_pct_int_imputed.txt_adiposity_instruments.txt	WHR	Maximum likelihood	373.109796254748	222	8.85649969695568e-10
+WHR	OvMViI	Omega_3_pct_int_imputed.txt_adiposity_instruments.txt	WHR	MR Egger	366.833927794344	221	2.49175689988142e-09
+WHR	OvMViI	Omega_3_pct_int_imputed.txt_adiposity_instruments.txt	WHR	Inverse variance weighted	373.10979748729	222	8.85649741754025e-10
+WHR	OvMViI	Omega_3_pct_int_imputed.txt_adiposity_instruments.txt	WHR	Unweighted regression	0.0271203501095985	222	1
+WHR	oZwJDz	LDL_L_int_imputed.txt_adiposity_instruments.txt	WHR	Maximum likelihood	592.920432863618	222	1.46010335277386e-35
+WHR	oZwJDz	LDL_L_int_imputed.txt_adiposity_instruments.txt	WHR	MR Egger	591.38010308604	221	1.44499978180779e-35
+WHR	oZwJDz	LDL_L_int_imputed.txt_adiposity_instruments.txt	WHR	Inverse variance weighted	595.443720325281	222	6.58059926665346e-36
+WHR	oZwJDz	LDL_L_int_imputed.txt_adiposity_instruments.txt	WHR	Unweighted regression	0.0461043870117882	222	1
+WHR	P8pTi3	Omega_6_pct_int_imputed.txt_adiposity_instruments.txt	WHR	Maximum likelihood	579.658632602586	222	9.31743905610639e-34
+WHR	P8pTi3	Omega_6_pct_int_imputed.txt_adiposity_instruments.txt	WHR	MR Egger	589.986397183979	221	2.24334043244005e-35
+WHR	P8pTi3	Omega_6_pct_int_imputed.txt_adiposity_instruments.txt	WHR	Inverse variance weighted	590.98259877706	222	2.68915787789378e-35
+WHR	P8pTi3	Omega_6_pct_int_imputed.txt_adiposity_instruments.txt	WHR	Unweighted regression	0.0420564712116141	222	1
+WHR	PJXHGu	VLDL_C_int_imputed.txt_adiposity_instruments.txt	WHR	Maximum likelihood	478.648138555243	222	6.53128010924935e-21
+WHR	PJXHGu	VLDL_C_int_imputed.txt_adiposity_instruments.txt	WHR	MR Egger	484.824068030077	221	8.11188367931376e-22
+WHR	PJXHGu	VLDL_C_int_imputed.txt_adiposity_instruments.txt	WHR	Inverse variance weighted	486.602517666209	222	7.40059783826161e-22
+WHR	PJXHGu	VLDL_C_int_imputed.txt_adiposity_instruments.txt	WHR	Unweighted regression	0.0443273794117765	222	1
+WHR	pu3XT5	M_HDL_PL_pct_int_imputed.txt_adiposity_instruments.txt	WHR	Maximum likelihood	673.731495592823	222	4.91104043263541e-47
+WHR	pu3XT5	M_HDL_PL_pct_int_imputed.txt_adiposity_instruments.txt	WHR	MR Egger	690.117790351314	221	1.06501185672414e-49
+WHR	pu3XT5	M_HDL_PL_pct_int_imputed.txt_adiposity_instruments.txt	WHR	Inverse variance weighted	695.452063252741	222	3.04792440705494e-50
+WHR	pu3XT5	M_HDL_PL_pct_int_imputed.txt_adiposity_instruments.txt	WHR	Unweighted regression	0.0459757156031909	222	1
+WHR	QAltZo	TG_by_PG_int_imputed.txt_adiposity_instruments.txt	WHR	Maximum likelihood	837.729086660757	222	2.80819853915977e-72
+WHR	QAltZo	TG_by_PG_int_imputed.txt_adiposity_instruments.txt	WHR	MR Egger	873.198071381657	221	2.6408674264041e-78
+WHR	QAltZo	TG_by_PG_int_imputed.txt_adiposity_instruments.txt	WHR	Inverse variance weighted	873.839944050525	222	4.13880960126905e-78
+WHR	QAltZo	TG_by_PG_int_imputed.txt_adiposity_instruments.txt	WHR	Unweighted regression	0.0624986810723093	222	1
+WHR	QbONKz	L_LDL_L_int_imputed.txt_adiposity_instruments.txt	WHR	Maximum likelihood	609.843632236635	222	6.71501551618287e-38
+WHR	QbONKz	L_LDL_L_int_imputed.txt_adiposity_instruments.txt	WHR	MR Egger	605.895546693123	221	1.42906247293945e-37
+WHR	QbONKz	L_LDL_L_int_imputed.txt_adiposity_instruments.txt	WHR	Inverse variance weighted	610.941303540016	222	4.72244351428404e-38
+WHR	QbONKz	L_LDL_L_int_imputed.txt_adiposity_instruments.txt	WHR	Unweighted regression	0.0460838808679021	222	1
+WHR	QdAQN1	S_LDL_CE_int_imputed.txt_adiposity_instruments.txt	WHR	Maximum likelihood	519.076132067097	222	7.63158865598168e-26
+WHR	QdAQN1	S_LDL_CE_int_imputed.txt_adiposity_instruments.txt	WHR	MR Egger	521.709811307442	221	2.30406228941786e-26
+WHR	QdAQN1	S_LDL_CE_int_imputed.txt_adiposity_instruments.txt	WHR	Inverse variance weighted	524.33392507488	222	1.65667358300851e-26
+WHR	QdAQN1	S_LDL_CE_int_imputed.txt_adiposity_instruments.txt	WHR	Unweighted regression	0.0437217011764972	222	1
+WHR	QJFWvT	XXL_VLDL_L_int_imputed.txt_adiposity_instruments.txt	WHR	Maximum likelihood	813.57007851431	222	2.00040197204265e-68
+WHR	QJFWvT	XXL_VLDL_L_int_imputed.txt_adiposity_instruments.txt	WHR	MR Egger	838.387102644281	221	1.12775590132594e-72
+WHR	QJFWvT	XXL_VLDL_L_int_imputed.txt_adiposity_instruments.txt	WHR	Inverse variance weighted	838.54768861749	222	2.07577294190606e-72
+WHR	QJFWvT	XXL_VLDL_L_int_imputed.txt_adiposity_instruments.txt	WHR	Unweighted regression	0.0577838474131186	222	1
+WHR	QP4DWk	PUFA_int_imputed.txt_adiposity_instruments.txt	WHR	Maximum likelihood	461.523326097968	222	6.40672569691092e-19
+WHR	QP4DWk	PUFA_int_imputed.txt_adiposity_instruments.txt	WHR	MR Egger	456.101905055252	221	1.83803084885884e-18
+WHR	QP4DWk	PUFA_int_imputed.txt_adiposity_instruments.txt	WHR	Inverse variance weighted	462.454867900919	222	5.01082107958539e-19
+WHR	QP4DWk	PUFA_int_imputed.txt_adiposity_instruments.txt	WHR	Unweighted regression	0.0374236836432781	222	1
+WHR	QRA7s1	L_LDL_PL_pct_int_imputed.txt_adiposity_instruments.txt	WHR	Maximum likelihood	493.843325055527	222	9.94232268276801e-23
+WHR	QRA7s1	L_LDL_PL_pct_int_imputed.txt_adiposity_instruments.txt	WHR	MR Egger	490.554571947908	221	1.65768294961877e-22
+WHR	QRA7s1	L_LDL_PL_pct_int_imputed.txt_adiposity_instruments.txt	WHR	Inverse variance weighted	494.059245304955	222	9.3612838862796e-23
+WHR	QRA7s1	L_LDL_PL_pct_int_imputed.txt_adiposity_instruments.txt	WHR	Unweighted regression	0.0360291348125109	222	1
+WHR	qW9FwX	Acetone_int_imputed.txt_adiposity_instruments.txt	WHR	Maximum likelihood	264.143917485007	222	0.027614556354888
+WHR	qW9FwX	Acetone_int_imputed.txt_adiposity_instruments.txt	WHR	MR Egger	262.666155088339	221	0.0286720116885485
+WHR	qW9FwX	Acetone_int_imputed.txt_adiposity_instruments.txt	WHR	Inverse variance weighted	265.218597983335	222	0.0248546504170478
+WHR	qW9FwX	Acetone_int_imputed.txt_adiposity_instruments.txt	WHR	Unweighted regression	0.0281354560835244	222	1
+WHR	QXGR0x	Creatinine_int_imputed.txt_adiposity_instruments.txt	WHR	Maximum likelihood	410.344321550303	222	2.26754325025922e-13
+WHR	QXGR0x	Creatinine_int_imputed.txt_adiposity_instruments.txt	WHR	MR Egger	407.503670236889	221	3.22333734437064e-13
+WHR	QXGR0x	Creatinine_int_imputed.txt_adiposity_instruments.txt	WHR	Inverse variance weighted	411.334816984272	222	1.79675979295534e-13
+WHR	QXGR0x	Creatinine_int_imputed.txt_adiposity_instruments.txt	WHR	Unweighted regression	0.0330504170749273	222	1
+WHR	Rlimkn	S_LDL_FC_int_imputed.txt_adiposity_instruments.txt	WHR	Maximum likelihood	860.927251535545	222	5.15005877464739e-76
+WHR	Rlimkn	S_LDL_FC_int_imputed.txt_adiposity_instruments.txt	WHR	MR Egger	857.7947134336	221	8.37087525397482e-76
+WHR	Rlimkn	S_LDL_FC_int_imputed.txt_adiposity_instruments.txt	WHR	Inverse variance weighted	861.774458000093	222	3.75565974274339e-76
+WHR	Rlimkn	S_LDL_FC_int_imputed.txt_adiposity_instruments.txt	WHR	Unweighted regression	0.0584721306200577	222	1
+WHR	rOuAe2	DHA_pct_int_imputed.txt_adiposity_instruments.txt	WHR	Maximum likelihood	363.776156140331	222	6.01338651717787e-09
+WHR	rOuAe2	DHA_pct_int_imputed.txt_adiposity_instruments.txt	WHR	MR Egger	360.496292631653	221	9.00935504963318e-09
+WHR	rOuAe2	DHA_pct_int_imputed.txt_adiposity_instruments.txt	WHR	Inverse variance weighted	366.12632068642	222	3.73629438453542e-09
+WHR	rOuAe2	DHA_pct_int_imputed.txt_adiposity_instruments.txt	WHR	Unweighted regression	0.0230735635832392	222	1
+WHR	RRGVsJ	IDL_PL_pct_int_imputed.txt_adiposity_instruments.txt	WHR	Maximum likelihood	666.345284971422	222	5.89863657570788e-46
+WHR	RRGVsJ	IDL_PL_pct_int_imputed.txt_adiposity_instruments.txt	WHR	MR Egger	666.039639023823	221	3.75224957491888e-46
+WHR	RRGVsJ	IDL_PL_pct_int_imputed.txt_adiposity_instruments.txt	WHR	Inverse variance weighted	666.408028877435	222	5.77570734348562e-46
+WHR	RRGVsJ	IDL_PL_pct_int_imputed.txt_adiposity_instruments.txt	WHR	Unweighted regression	0.0433468278902623	222	1
+WHR	rWwo1F	S_LDL_L_int_imputed.txt_adiposity_instruments.txt	WHR	Maximum likelihood	615.102680632488	222	1.23938136198819e-38
+WHR	rWwo1F	S_LDL_L_int_imputed.txt_adiposity_instruments.txt	WHR	MR Egger	616.47263648018	221	4.75487958388546e-39
+WHR	rWwo1F	S_LDL_L_int_imputed.txt_adiposity_instruments.txt	WHR	Inverse variance weighted	620.08967418378	222	2.47821419979672e-39
+WHR	rWwo1F	S_LDL_L_int_imputed.txt_adiposity_instruments.txt	WHR	Unweighted regression	0.0474304004379766	222	1
+WHR	rY40t6	S_LDL_FC_pct_int_imputed.txt_adiposity_instruments.txt	WHR	Maximum likelihood	1106.62576871475	222	2.09485920000764e-117
+WHR	rY40t6	S_LDL_FC_pct_int_imputed.txt_adiposity_instruments.txt	WHR	MR Egger	1125.90991280656	221	4.00511490937351e-121
+WHR	rY40t6	S_LDL_FC_pct_int_imputed.txt_adiposity_instruments.txt	WHR	Inverse variance weighted	1126.6519748953	222	6.72061559298202e-121
+WHR	rY40t6	S_LDL_FC_pct_int_imputed.txt_adiposity_instruments.txt	WHR	Unweighted regression	0.0709473598034225	222	1
+WHR	rZdx5h	Phosphoglyc_int_imputed.txt_adiposity_instruments.txt	WHR	Maximum likelihood	411.520361116242	222	1.71999841870364e-13
+WHR	rZdx5h	Phosphoglyc_int_imputed.txt_adiposity_instruments.txt	WHR	MR Egger	407.883145609756	221	2.94929390723275e-13
+WHR	rZdx5h	Phosphoglyc_int_imputed.txt_adiposity_instruments.txt	WHR	Inverse variance weighted	411.524552589762	222	1.71830235228927e-13
+WHR	rZdx5h	Phosphoglyc_int_imputed.txt_adiposity_instruments.txt	WHR	Unweighted regression	0.0314479805052783	222	1
+WHR	s2ReCd	IDL_C_int_imputed.txt_adiposity_instruments.txt	WHR	Maximum likelihood	800.832921545236	222	2.06854227165319e-66
+WHR	s2ReCd	IDL_C_int_imputed.txt_adiposity_instruments.txt	WHR	MR Egger	793.308144258111	221	1.66505444980591e-65
+WHR	s2ReCd	IDL_C_int_imputed.txt_adiposity_instruments.txt	WHR	Inverse variance weighted	800.966772651333	222	1.97040624061626e-66
+WHR	s2ReCd	IDL_C_int_imputed.txt_adiposity_instruments.txt	WHR	Unweighted regression	0.0554563383569818	222	1
+WHR	scKJFX	L_VLDL_PL_pct_int_imputed.txt_adiposity_instruments.txt	WHR	Maximum likelihood	673.272360383232	222	5.7338742564632e-47
+WHR	scKJFX	L_VLDL_PL_pct_int_imputed.txt_adiposity_instruments.txt	WHR	MR Egger	691.818915438977	221	5.95042665065973e-50
+WHR	scKJFX	L_VLDL_PL_pct_int_imputed.txt_adiposity_instruments.txt	WHR	Inverse variance weighted	692.33007353243	222	8.86934377672893e-50
+WHR	scKJFX	L_VLDL_PL_pct_int_imputed.txt_adiposity_instruments.txt	WHR	Unweighted regression	0.0528751125377992	222	1
+WHR	sp9LOe	L_HDL_PL_pct_int_imputed.txt_adiposity_instruments.txt	WHR	Maximum likelihood	535.777560411794	222	5.74369816749319e-28
+WHR	sp9LOe	L_HDL_PL_pct_int_imputed.txt_adiposity_instruments.txt	WHR	MR Egger	532.730904273907	221	9.05978853931714e-28
+WHR	sp9LOe	L_HDL_PL_pct_int_imputed.txt_adiposity_instruments.txt	WHR	Inverse variance weighted	547.055301575805	222	1.99219190382287e-29
+WHR	sp9LOe	L_HDL_PL_pct_int_imputed.txt_adiposity_instruments.txt	WHR	Unweighted regression	0.0387342422837058	222	1
+WHR	SPrCXz	M_LDL_TG_int_imputed.txt_adiposity_instruments.txt	WHR	Maximum likelihood	628.480990216904	222	1.62554575914133e-40
+WHR	SPrCXz	M_LDL_TG_int_imputed.txt_adiposity_instruments.txt	WHR	MR Egger	640.320064253273	221	1.97226708482768e-42
+WHR	SPrCXz	M_LDL_TG_int_imputed.txt_adiposity_instruments.txt	WHR	Inverse variance weighted	641.295273452209	222	2.4438758846262e-42
+WHR	SPrCXz	M_LDL_TG_int_imputed.txt_adiposity_instruments.txt	WHR	Unweighted regression	0.0520352287288152	222	1
+WHR	SUeO6H	VLDL_FC_int_imputed.txt_adiposity_instruments.txt	WHR	Maximum likelihood	522.751395431832	222	2.6266748527672e-26
+WHR	SUeO6H	VLDL_FC_int_imputed.txt_adiposity_instruments.txt	WHR	MR Egger	533.491466616477	221	7.23411949163086e-28
+WHR	SUeO6H	VLDL_FC_int_imputed.txt_adiposity_instruments.txt	WHR	Inverse variance weighted	534.470054046189	222	8.45498258049589e-28
+WHR	SUeO6H	VLDL_FC_int_imputed.txt_adiposity_instruments.txt	WHR	Unweighted regression	0.0471860792308851	222	1
+WHR	SvyDEJ	Gln_int_imputed.txt_adiposity_instruments.txt	WHR	Maximum likelihood	383.799492823311	222	9.10653824748198e-11
+WHR	SvyDEJ	Gln_int_imputed.txt_adiposity_instruments.txt	WHR	MR Egger	375.222333008803	221	4.3335535905255e-10
+WHR	SvyDEJ	Gln_int_imputed.txt_adiposity_instruments.txt	WHR	Inverse variance weighted	384.444398657946	222	7.91757219185752e-11
+WHR	SvyDEJ	Gln_int_imputed.txt_adiposity_instruments.txt	WHR	Unweighted regression	0.0369127191647594	222	1
+WHR	SWJopZ	L_VLDL_FC_pct_int_imputed.txt_adiposity_instruments.txt	WHR	Maximum likelihood	380.643327409516	222	1.79819520917775e-10
+WHR	SWJopZ	L_VLDL_FC_pct_int_imputed.txt_adiposity_instruments.txt	WHR	MR Egger	382.885603509319	221	8.3725002455709e-11
+WHR	SWJopZ	L_VLDL_FC_pct_int_imputed.txt_adiposity_instruments.txt	WHR	Inverse variance weighted	383.231828507928	222	1.02974477872835e-10
+WHR	SWJopZ	L_VLDL_FC_pct_int_imputed.txt_adiposity_instruments.txt	WHR	Unweighted regression	0.0335152907845046	222	1
+WHR	Swmxab	XS_VLDL_CE_int_imputed.txt_adiposity_instruments.txt	WHR	Maximum likelihood	559.197656460645	222	5.07257098932152e-31
+WHR	Swmxab	XS_VLDL_CE_int_imputed.txt_adiposity_instruments.txt	WHR	MR Egger	552.829724570408	221	2.20389259169349e-30
+WHR	Swmxab	XS_VLDL_CE_int_imputed.txt_adiposity_instruments.txt	WHR	Inverse variance weighted	559.385307077791	222	4.79088735331709e-31
+WHR	Swmxab	XS_VLDL_CE_int_imputed.txt_adiposity_instruments.txt	WHR	Unweighted regression	0.0444100620461876	222	1
+WHR	sxs9AJ	XL_HDL_L_int_imputed.txt_adiposity_instruments.txt	WHR	Maximum likelihood	634.419478780013	222	2.33668661459562e-41
+WHR	sxs9AJ	XL_HDL_L_int_imputed.txt_adiposity_instruments.txt	WHR	MR Egger	644.983940054258	221	4.22408319711763e-43
+WHR	sxs9AJ	XL_HDL_L_int_imputed.txt_adiposity_instruments.txt	WHR	Inverse variance weighted	656.79942018495	222	1.43670728471913e-44
+WHR	sxs9AJ	XL_HDL_L_int_imputed.txt_adiposity_instruments.txt	WHR	Unweighted regression	0.0453903030850047	222	1
+WHR	tbzeRM	S_HDL_L_int_imputed.txt_adiposity_instruments.txt	WHR	Maximum likelihood	490.921790862048	222	2.24110954289659e-22
+WHR	tbzeRM	S_HDL_L_int_imputed.txt_adiposity_instruments.txt	WHR	MR Egger	493.228934193033	221	7.86098890322168e-23
+WHR	tbzeRM	S_HDL_L_int_imputed.txt_adiposity_instruments.txt	WHR	Inverse variance weighted	494.223453376105	222	8.94211826051932e-23
+WHR	tbzeRM	S_HDL_L_int_imputed.txt_adiposity_instruments.txt	WHR	Unweighted regression	0.0384273861911688	222	1
+WHR	tfKwNM	M_HDL_L_int_imputed.txt_adiposity_instruments.txt	WHR	Maximum likelihood	505.691689745424	222	3.54303854652505e-24
+WHR	tfKwNM	M_HDL_L_int_imputed.txt_adiposity_instruments.txt	WHR	MR Egger	509.642585570405	221	7.53900057145368e-25
+WHR	tfKwNM	M_HDL_L_int_imputed.txt_adiposity_instruments.txt	WHR	Inverse variance weighted	509.881396325939	222	1.07420195891237e-24
+WHR	tfKwNM	M_HDL_L_int_imputed.txt_adiposity_instruments.txt	WHR	Unweighted regression	0.0367730577431939	222	1
+WHR	tjLPm5	XXL_VLDL_C_int_imputed.txt_adiposity_instruments.txt	WHR	Maximum likelihood	807.1655511066	222	2.06800548999183e-67
+WHR	tjLPm5	XXL_VLDL_C_int_imputed.txt_adiposity_instruments.txt	WHR	MR Egger	835.707069375026	221	3.03671654653508e-72
+WHR	tjLPm5	XXL_VLDL_C_int_imputed.txt_adiposity_instruments.txt	WHR	Inverse variance weighted	835.811799305365	222	5.69708475984529e-72
+WHR	tjLPm5	XXL_VLDL_C_int_imputed.txt_adiposity_instruments.txt	WHR	Unweighted regression	0.0598178989058665	222	1
+WHR	U6ZZGN	L_LDL_CE_int_imputed.txt_adiposity_instruments.txt	WHR	Maximum likelihood	589.799150268596	222	3.90253429220133e-35
+WHR	U6ZZGN	L_LDL_CE_int_imputed.txt_adiposity_instruments.txt	WHR	MR Egger	586.002103377101	221	7.86233893107946e-35
+WHR	U6ZZGN	L_LDL_CE_int_imputed.txt_adiposity_instruments.txt	WHR	Inverse variance weighted	590.924709558081	222	2.73862053227405e-35
+WHR	U6ZZGN	L_LDL_CE_int_imputed.txt_adiposity_instruments.txt	WHR	Unweighted regression	0.0443147373759783	222	1
+WHR	uhGHf5	VLDL_size_int_imputed.txt_adiposity_instruments.txt	WHR	Maximum likelihood	773.554598125296	222	3.88379735719154e-62
+WHR	uhGHf5	VLDL_size_int_imputed.txt_adiposity_instruments.txt	WHR	MR Egger	803.187037778396	221	4.60022457072242e-67
+WHR	uhGHf5	VLDL_size_int_imputed.txt_adiposity_instruments.txt	WHR	Inverse variance weighted	804.355979743452	222	5.74950230564823e-67
+WHR	uhGHf5	VLDL_size_int_imputed.txt_adiposity_instruments.txt	WHR	Unweighted regression	0.060488300297006	222	1
+WHR	uJElXO	Omega_6_int_imputed.txt_adiposity_instruments.txt	WHR	Maximum likelihood	440.992433644564	222	1.28589999902968e-16
+WHR	uJElXO	Omega_6_int_imputed.txt_adiposity_instruments.txt	WHR	MR Egger	437.392453711053	221	2.24971715762945e-16
+WHR	uJElXO	Omega_6_int_imputed.txt_adiposity_instruments.txt	WHR	Inverse variance weighted	441.618397254094	222	1.09761814088331e-16
+WHR	uJElXO	Omega_6_int_imputed.txt_adiposity_instruments.txt	WHR	Unweighted regression	0.0340249189355815	222	1
+WHR	ULXKa3	XS_VLDL_C_pct_int_imputed.txt_adiposity_instruments.txt	WHR	Maximum likelihood	1225.51746354152	222	2.33848289185139e-138
+WHR	ULXKa3	XS_VLDL_C_pct_int_imputed.txt_adiposity_instruments.txt	WHR	MR Egger	1248.02403822509	221	9.38734713837098e-143
+WHR	ULXKa3	XS_VLDL_C_pct_int_imputed.txt_adiposity_instruments.txt	WHR	Inverse variance weighted	1251.74441136732	222	4.82419824009905e-143
+WHR	ULXKa3	XS_VLDL_C_pct_int_imputed.txt_adiposity_instruments.txt	WHR	Unweighted regression	0.0809068719117343	222	1
+WHR	uOYShM	VLDL_PL_int_imputed.txt_adiposity_instruments.txt	WHR	Maximum likelihood	564.228370643048	222	1.09198878929347e-31
+WHR	uOYShM	VLDL_PL_int_imputed.txt_adiposity_instruments.txt	WHR	MR Egger	578.493407627822	221	8.24290260538086e-34
+WHR	uOYShM	VLDL_PL_int_imputed.txt_adiposity_instruments.txt	WHR	Inverse variance weighted	579.155871980047	222	1.08954071686548e-33
+WHR	uOYShM	VLDL_PL_int_imputed.txt_adiposity_instruments.txt	WHR	Unweighted regression	0.0500132255404138	222	1
+WHR	UZNw8X	Leu_int_imputed.txt_adiposity_instruments.txt	WHR	Maximum likelihood	319.551870714975	222	1.92775631461549e-05
+WHR	UZNw8X	Leu_int_imputed.txt_adiposity_instruments.txt	WHR	MR Egger	322.174278186606	221	1.03007207678526e-05
+WHR	UZNw8X	Leu_int_imputed.txt_adiposity_instruments.txt	WHR	Inverse variance weighted	322.184288801782	222	1.25421390299102e-05
+WHR	UZNw8X	Leu_int_imputed.txt_adiposity_instruments.txt	WHR	Unweighted regression	0.0233154586114128	222	1
+WHR	vCnS9R	HDL_FC_int_imputed.txt_adiposity_instruments.txt	WHR	Maximum likelihood	558.310536555657	222	6.6444051800163e-31
+WHR	vCnS9R	HDL_FC_int_imputed.txt_adiposity_instruments.txt	WHR	MR Egger	565.581810189469	221	4.49102739155402e-32
+WHR	vCnS9R	HDL_FC_int_imputed.txt_adiposity_instruments.txt	WHR	Inverse variance weighted	570.50402620266	222	1.58820652921402e-32
+WHR	vCnS9R	HDL_FC_int_imputed.txt_adiposity_instruments.txt	WHR	Unweighted regression	0.0387938036135055	222	1
+WHR	vfsnu1	Unsaturation_int_imputed.txt_adiposity_instruments.txt	WHR	Maximum likelihood	405.899832087915	222	6.39308323172647e-13
+WHR	vfsnu1	Unsaturation_int_imputed.txt_adiposity_instruments.txt	WHR	MR Egger	401.95885300734	221	1.16827594767769e-12
+WHR	vfsnu1	Unsaturation_int_imputed.txt_adiposity_instruments.txt	WHR	Inverse variance weighted	409.200039831702	222	2.96467248745521e-13
+WHR	vfsnu1	Unsaturation_int_imputed.txt_adiposity_instruments.txt	WHR	Unweighted regression	0.0257593563963362	222	1
+WHR	Vgz4FE	M_LDL_CE_pct_int_imputed.txt_adiposity_instruments.txt	WHR	Maximum likelihood	459.11948566172	222	1.20549356996603e-18
+WHR	Vgz4FE	M_LDL_CE_pct_int_imputed.txt_adiposity_instruments.txt	WHR	MR Egger	463.929165834656	221	2.32997693252755e-19
+WHR	Vgz4FE	M_LDL_CE_pct_int_imputed.txt_adiposity_instruments.txt	WHR	Inverse variance weighted	467.077476250759	222	1.47063853239118e-19
+WHR	Vgz4FE	M_LDL_CE_pct_int_imputed.txt_adiposity_instruments.txt	WHR	Unweighted regression	0.0389947628405403	222	1
+WHR	VoccYj	M_VLDL_FC_int_imputed.txt_adiposity_instruments.txt	WHR	Maximum likelihood	493.690892919271	222	1.0373974321792e-22
+WHR	VoccYj	M_VLDL_FC_int_imputed.txt_adiposity_instruments.txt	WHR	MR Egger	496.658552866518	221	3.00567544737742e-23
+WHR	VoccYj	M_VLDL_FC_int_imputed.txt_adiposity_instruments.txt	WHR	Inverse variance weighted	499.235242136031	222	2.19661533308201e-23
+WHR	VoccYj	M_VLDL_FC_int_imputed.txt_adiposity_instruments.txt	WHR	Unweighted regression	0.0436349231395124	222	1
+WHR	vqQ1TW	L_LDL_CE_pct_int_imputed.txt_adiposity_instruments.txt	WHR	Maximum likelihood	417.433271020794	222	4.23019150891771e-14
+WHR	vqQ1TW	L_LDL_CE_pct_int_imputed.txt_adiposity_instruments.txt	WHR	MR Egger	417.438594420651	221	3.05553930392348e-14
+WHR	vqQ1TW	L_LDL_CE_pct_int_imputed.txt_adiposity_instruments.txt	WHR	Inverse variance weighted	417.929971691141	222	3.75630610540105e-14
+WHR	vqQ1TW	L_LDL_CE_pct_int_imputed.txt_adiposity_instruments.txt	WHR	Unweighted regression	0.0307945440389058	222	1
+WHR	vUNZWk	IDL_C_pct_int_imputed.txt_adiposity_instruments.txt	WHR	Maximum likelihood	1077.2436465121	222	2.62290116741952e-112
+WHR	vUNZWk	IDL_C_pct_int_imputed.txt_adiposity_instruments.txt	WHR	MR Egger	1086.69356117274	221	2.7302063538878e-114
+WHR	vUNZWk	IDL_C_pct_int_imputed.txt_adiposity_instruments.txt	WHR	Inverse variance weighted	1088.79141928851	222	2.62677898247125e-114
+WHR	vUNZWk	IDL_C_pct_int_imputed.txt_adiposity_instruments.txt	WHR	Unweighted regression	0.0674447238015032	222	1
+WHR	vxgSTD	Lactate_int_imputed.txt_adiposity_instruments.txt	WHR	Maximum likelihood	259.449878732348	222	0.0429541847222701
+WHR	vxgSTD	Lactate_int_imputed.txt_adiposity_instruments.txt	WHR	MR Egger	258.498788376395	221	0.0424455034334459
+WHR	vxgSTD	Lactate_int_imputed.txt_adiposity_instruments.txt	WHR	Inverse variance weighted	259.682778022632	222	0.042052339547615
+WHR	vxgSTD	Lactate_int_imputed.txt_adiposity_instruments.txt	WHR	Unweighted regression	0.0216070052608142	222	1
+WHR	VyJjOQ	L_VLDL_TG_pct_int_imputed.txt_adiposity_instruments.txt	WHR	Maximum likelihood	367.495397593476	222	2.82599428831911e-09
+WHR	VyJjOQ	L_VLDL_TG_pct_int_imputed.txt_adiposity_instruments.txt	WHR	MR Egger	368.224617353013	221	1.8714782768446e-09
+WHR	VyJjOQ	L_VLDL_TG_pct_int_imputed.txt_adiposity_instruments.txt	WHR	Inverse variance weighted	368.224703569288	222	2.43394803924477e-09
+WHR	VyJjOQ	L_VLDL_TG_pct_int_imputed.txt_adiposity_instruments.txt	WHR	Unweighted regression	0.0340833491339479	222	1
+WHR	WAotgt	XL_VLDL_FC_int_imputed.txt_adiposity_instruments.txt	WHR	Maximum likelihood	670.63718643656	222	1.39360691724503e-46
+WHR	WAotgt	XL_VLDL_FC_int_imputed.txt_adiposity_instruments.txt	WHR	MR Egger	695.004701738464	221	1.99682457749418e-50
+WHR	WAotgt	XL_VLDL_FC_int_imputed.txt_adiposity_instruments.txt	WHR	Inverse variance weighted	695.004942011212	222	3.55221539511962e-50
+WHR	WAotgt	XL_VLDL_FC_int_imputed.txt_adiposity_instruments.txt	WHR	Unweighted regression	0.0554866301659092	222	1
+WHR	WAY9sk	L_VLDL_FC_int_imputed.txt_adiposity_instruments.txt	WHR	Maximum likelihood	669.81153196594	222	1.84007598217128e-46
+WHR	WAY9sk	L_VLDL_FC_int_imputed.txt_adiposity_instruments.txt	WHR	MR Egger	696.427131705232	221	1.22543287952327e-50
+WHR	WAY9sk	L_VLDL_FC_int_imputed.txt_adiposity_instruments.txt	WHR	Inverse variance weighted	696.444530721528	222	2.16938348817381e-50
+WHR	WAY9sk	L_VLDL_FC_int_imputed.txt_adiposity_instruments.txt	WHR	Unweighted regression	0.0570059207096105	222	1
+WHR	wgeJLJ	HDL_CE_int_imputed.txt_adiposity_instruments.txt	WHR	Maximum likelihood	609.185755557363	222	8.2908841505978e-38
+WHR	wgeJLJ	HDL_CE_int_imputed.txt_adiposity_instruments.txt	WHR	MR Egger	626.03225026792	221	2.13544926525942e-40
+WHR	wgeJLJ	HDL_CE_int_imputed.txt_adiposity_instruments.txt	WHR	Inverse variance weighted	628.346529519878	222	1.69833948757893e-40
+WHR	wgeJLJ	HDL_CE_int_imputed.txt_adiposity_instruments.txt	WHR	Unweighted regression	0.0431042743146629	222	1
+WHR	WgGg3p	M_LDL_P_int_imputed.txt_adiposity_instruments.txt	WHR	Maximum likelihood	502.037387501039	222	9.97257384123782e-24
+WHR	WgGg3p	M_LDL_P_int_imputed.txt_adiposity_instruments.txt	WHR	MR Egger	505.740636327985	221	2.29926385999054e-24
+WHR	WgGg3p	M_LDL_P_int_imputed.txt_adiposity_instruments.txt	WHR	Inverse variance weighted	507.6400898771	222	2.03584713790402e-24
+WHR	WgGg3p	M_LDL_P_int_imputed.txt_adiposity_instruments.txt	WHR	Unweighted regression	0.0417640099094757	222	1
+WHR	WOgZ4F	VLDL_L_int_imputed.txt_adiposity_instruments.txt	WHR	Maximum likelihood	615.000754834234	222	1.28073870940717e-38
+WHR	WOgZ4F	VLDL_L_int_imputed.txt_adiposity_instruments.txt	WHR	MR Egger	634.153728331008	221	1.49953839921252e-41
+WHR	WOgZ4F	VLDL_L_int_imputed.txt_adiposity_instruments.txt	WHR	Inverse variance weighted	634.430541416911	222	2.32823764639498e-41
+WHR	WOgZ4F	VLDL_L_int_imputed.txt_adiposity_instruments.txt	WHR	Unweighted regression	0.0526857992743109	222	1
+WHR	WPsDfq	XL_VLDL_P_int_imputed.txt_adiposity_instruments.txt	WHR	Maximum likelihood	728.876752071868	222	2.88051584575337e-55
+WHR	WPsDfq	XL_VLDL_P_int_imputed.txt_adiposity_instruments.txt	WHR	MR Egger	759.121910792335	221	3.61032442989001e-60
+WHR	WPsDfq	XL_VLDL_P_int_imputed.txt_adiposity_instruments.txt	WHR	Inverse variance weighted	759.294887485173	222	6.31073054483679e-60
+WHR	WPsDfq	XL_VLDL_P_int_imputed.txt_adiposity_instruments.txt	WHR	Unweighted regression	0.0594624369539435	222	1
+WHR	WQd1iu	L_HDL_L_int_imputed.txt_adiposity_instruments.txt	WHR	Maximum likelihood	620.376469373434	222	2.25862038853491e-39
+WHR	WQd1iu	L_HDL_L_int_imputed.txt_adiposity_instruments.txt	WHR	MR Egger	639.187816497963	221	2.86457700532743e-42
+WHR	WQd1iu	L_HDL_L_int_imputed.txt_adiposity_instruments.txt	WHR	Inverse variance weighted	644.655359043418	222	8.07111088971986e-43
+WHR	WQd1iu	L_HDL_L_int_imputed.txt_adiposity_instruments.txt	WHR	Unweighted regression	0.0450917058453955	222	1
+WHR	wqPmP3	XXL_VLDL_PL_pct_int_imputed.txt_adiposity_instruments.txt	WHR	Maximum likelihood	604.826065273981	222	3.34136855025039e-37
+WHR	wqPmP3	XXL_VLDL_PL_pct_int_imputed.txt_adiposity_instruments.txt	WHR	MR Egger	608.578849261741	221	6.0458125886426e-38
+WHR	wqPmP3	XXL_VLDL_PL_pct_int_imputed.txt_adiposity_instruments.txt	WHR	Inverse variance weighted	611.646011754462	222	3.76649087379743e-38
+WHR	wqPmP3	XXL_VLDL_PL_pct_int_imputed.txt_adiposity_instruments.txt	WHR	Unweighted regression	0.0427401740612448	222	1
+WHR	wqqfY6	S_VLDL_FC_pct_int_imputed.txt_adiposity_instruments.txt	WHR	Maximum likelihood	1158.94945807712	222	1.45013010131372e-126
+WHR	wqqfY6	S_VLDL_FC_pct_int_imputed.txt_adiposity_instruments.txt	WHR	MR Egger	1179.58609035344	221	1.43551214654551e-130
+WHR	wqqfY6	S_VLDL_FC_pct_int_imputed.txt_adiposity_instruments.txt	WHR	Inverse variance weighted	1182.21115948335	222	1.14173862745872e-130
+WHR	wqqfY6	S_VLDL_FC_pct_int_imputed.txt_adiposity_instruments.txt	WHR	Unweighted regression	0.0790993318190012	222	1
+WHR	WYB8sS	Pyruvate_int_imputed.txt_adiposity_instruments.txt	WHR	Maximum likelihood	288.916798233527	222	0.00167267185707715
+WHR	WYB8sS	Pyruvate_int_imputed.txt_adiposity_instruments.txt	WHR	MR Egger	281.763028613046	221	0.0035499695421426
+WHR	WYB8sS	Pyruvate_int_imputed.txt_adiposity_instruments.txt	WHR	Inverse variance weighted	288.966318706005	222	0.00166206034744919
+WHR	WYB8sS	Pyruvate_int_imputed.txt_adiposity_instruments.txt	WHR	Unweighted regression	0.0217295711486382	222	1
+WHR	X1FFF5	S_VLDL_P_int_imputed.txt_adiposity_instruments.txt	WHR	Maximum likelihood	613.519023104461	222	2.0632524922457e-38
+WHR	X1FFF5	S_VLDL_P_int_imputed.txt_adiposity_instruments.txt	WHR	MR Egger	630.102035117755	221	5.65476200420898e-41
+WHR	X1FFF5	S_VLDL_P_int_imputed.txt_adiposity_instruments.txt	WHR	Inverse variance weighted	630.751596580888	222	7.75171424270622e-41
+WHR	X1FFF5	S_VLDL_P_int_imputed.txt_adiposity_instruments.txt	WHR	Unweighted regression	0.0550018052036115	222	1
+WHR	XBazsL	IDL_CE_int_imputed.txt_adiposity_instruments.txt	WHR	Maximum likelihood	818.410455220279	222	3.40786656214612e-69
+WHR	XBazsL	IDL_CE_int_imputed.txt_adiposity_instruments.txt	WHR	MR Egger	811.011254139997	221	2.64992977638083e-68
+WHR	XBazsL	IDL_CE_int_imputed.txt_adiposity_instruments.txt	WHR	Inverse variance weighted	818.5256639005	222	3.26713869394245e-69
+WHR	XBazsL	IDL_CE_int_imputed.txt_adiposity_instruments.txt	WHR	Unweighted regression	0.0562882494966639	222	1
+WHR	xCrNVN	L_HDL_CE_int_imputed.txt_adiposity_instruments.txt	WHR	Maximum likelihood	659.226458407487	222	6.39374665941884e-45
+WHR	xCrNVN	L_HDL_CE_int_imputed.txt_adiposity_instruments.txt	WHR	MR Egger	682.436535234184	221	1.46316611719691e-48
+WHR	xCrNVN	L_HDL_CE_int_imputed.txt_adiposity_instruments.txt	WHR	Inverse variance weighted	688.231679728018	222	3.59251691684195e-49
+WHR	xCrNVN	L_HDL_CE_int_imputed.txt_adiposity_instruments.txt	WHR	Unweighted regression	0.0476770409527901	222	1
+WHR	XeJeeR	HDL_P_int_imputed.txt_adiposity_instruments.txt	WHR	Maximum likelihood	498.03962807231	222	3.07350173059095e-23
+WHR	XeJeeR	HDL_P_int_imputed.txt_adiposity_instruments.txt	WHR	MR Egger	500.134509286571	221	1.1284862252573e-23
+WHR	XeJeeR	HDL_P_int_imputed.txt_adiposity_instruments.txt	WHR	Inverse variance weighted	500.751068474643	222	1.43356877850607e-23
+WHR	XeJeeR	HDL_P_int_imputed.txt_adiposity_instruments.txt	WHR	Unweighted regression	0.0346827823611728	222	1
+WHR	Xi3wPR	Phe_int_imputed.txt_adiposity_instruments.txt	WHR	Maximum likelihood	251.380346247807	222	0.0855807811891836
+WHR	Xi3wPR	Phe_int_imputed.txt_adiposity_instruments.txt	WHR	MR Egger	251.694404581453	221	0.0765373289340086
+WHR	Xi3wPR	Phe_int_imputed.txt_adiposity_instruments.txt	WHR	Inverse variance weighted	251.720232938931	222	0.0832826722227745
+WHR	Xi3wPR	Phe_int_imputed.txt_adiposity_instruments.txt	WHR	Unweighted regression	0.0219172114447468	222	1
+WHR	xPw621	Val_int_imputed.txt_adiposity_instruments.txt	WHR	Maximum likelihood	390.80829753162	222	1.95939265088181e-11
+WHR	xPw621	Val_int_imputed.txt_adiposity_instruments.txt	WHR	MR Egger	394.894123680659	221	5.8527132578366e-12
+WHR	xPw621	Val_int_imputed.txt_adiposity_instruments.txt	WHR	Inverse variance weighted	394.936967453044	222	7.80012582510831e-12
+WHR	xPw621	Val_int_imputed.txt_adiposity_instruments.txt	WHR	Unweighted regression	0.0293440020363758	222	1
+WHR	xqne4J	L_VLDL_P_int_imputed.txt_adiposity_instruments.txt	WHR	Maximum likelihood	695.805588342683	222	2.70031675490954e-50
+WHR	xqne4J	L_VLDL_P_int_imputed.txt_adiposity_instruments.txt	WHR	MR Egger	723.10243121862	221	1.19154860190643e-54
+WHR	xqne4J	L_VLDL_P_int_imputed.txt_adiposity_instruments.txt	WHR	Inverse variance weighted	723.135271554085	222	2.13743421810638e-54
+WHR	xqne4J	L_VLDL_P_int_imputed.txt_adiposity_instruments.txt	WHR	Unweighted regression	0.0585850219973538	222	1
+WHR	Xs6OM9	Total_C_int_imputed.txt_adiposity_instruments.txt	WHR	Maximum likelihood	552.210007571116	222	4.2205603313467e-30
+WHR	Xs6OM9	Total_C_int_imputed.txt_adiposity_instruments.txt	WHR	MR Egger	545.171514168323	221	2.22185650787702e-29
+WHR	Xs6OM9	Total_C_int_imputed.txt_adiposity_instruments.txt	WHR	Inverse variance weighted	552.210318364293	222	4.22016424080619e-30
+WHR	Xs6OM9	Total_C_int_imputed.txt_adiposity_instruments.txt	WHR	Unweighted regression	0.0399657884096472	222	1
+WHR	xx0RDn	Albumin_int_imputed.txt_adiposity_instruments.txt	WHR	Maximum likelihood	445.833548970109	222	3.75867737160727e-17
+WHR	xx0RDn	Albumin_int_imputed.txt_adiposity_instruments.txt	WHR	MR Egger	444.960702562246	221	3.29169790016896e-17
+WHR	xx0RDn	Albumin_int_imputed.txt_adiposity_instruments.txt	WHR	Inverse variance weighted	445.835195724348	222	3.7570969678866e-17
+WHR	xx0RDn	Albumin_int_imputed.txt_adiposity_instruments.txt	WHR	Unweighted regression	0.0424036619087904	222	1
+WHR	y4KJFF	M_HDL_TG_int_imputed.txt_adiposity_instruments.txt	WHR	Maximum likelihood	703.385382247935	222	1.999619686561e-51
+WHR	y4KJFF	M_HDL_TG_int_imputed.txt_adiposity_instruments.txt	WHR	MR Egger	717.189636297869	221	9.3571313646483e-54
+WHR	y4KJFF	M_HDL_TG_int_imputed.txt_adiposity_instruments.txt	WHR	Inverse variance weighted	717.234457302938	222	1.66479914623919e-53
+WHR	y4KJFF	M_HDL_TG_int_imputed.txt_adiposity_instruments.txt	WHR	Unweighted regression	0.0546390000472095	222	1
+WHR	ykX1Yu	PUFA_pct_int_imputed.txt_adiposity_instruments.txt	WHR	Maximum likelihood	495.539118356735	222	6.19229420903814e-23
+WHR	ykX1Yu	PUFA_pct_int_imputed.txt_adiposity_instruments.txt	WHR	MR Egger	499.51781583632	221	1.34320680136149e-23
+WHR	ykX1Yu	PUFA_pct_int_imputed.txt_adiposity_instruments.txt	WHR	Inverse variance weighted	504.669992332271	222	4.73455728285003e-24
+WHR	ykX1Yu	PUFA_pct_int_imputed.txt_adiposity_instruments.txt	WHR	Unweighted regression	0.033415668296289	222	1
+WHR	yRE36i	VLDL_CE_int_imputed.txt_adiposity_instruments.txt	WHR	Maximum likelihood	460.693019006954	222	7.97268407632093e-19
+WHR	yRE36i	VLDL_CE_int_imputed.txt_adiposity_instruments.txt	WHR	MR Egger	463.678845006963	221	2.49026461195465e-19
+WHR	yRE36i	VLDL_CE_int_imputed.txt_adiposity_instruments.txt	WHR	Inverse variance weighted	466.103395421614	222	1.90580271794828e-19
+WHR	yRE36i	VLDL_CE_int_imputed.txt_adiposity_instruments.txt	WHR	Unweighted regression	0.0428582729363167	222	1
+WHR	YvPqDq	XS_VLDL_L_int_imputed.txt_adiposity_instruments.txt	WHR	Maximum likelihood	421.446064433086	222	1.61299016798931e-14
+WHR	YvPqDq	XS_VLDL_L_int_imputed.txt_adiposity_instruments.txt	WHR	MR Egger	419.66888713728	221	1.78544695747194e-14
+WHR	YvPqDq	XS_VLDL_L_int_imputed.txt_adiposity_instruments.txt	WHR	Inverse variance weighted	423.817109718417	222	9.08310503176583e-15
+WHR	YvPqDq	XS_VLDL_L_int_imputed.txt_adiposity_instruments.txt	WHR	Unweighted regression	0.0393150091034029	222	1
+WHR	YWaj0A	M_LDL_PL_int_imputed.txt_adiposity_instruments.txt	WHR	Maximum likelihood	597.739461175357	222	3.18144335849962e-36
+WHR	YWaj0A	M_LDL_PL_int_imputed.txt_adiposity_instruments.txt	WHR	MR Egger	601.042173932793	221	6.73662962611061e-37
+WHR	YWaj0A	M_LDL_PL_int_imputed.txt_adiposity_instruments.txt	WHR	Inverse variance weighted	603.620624398974	222	4.90753713215501e-37
+WHR	YWaj0A	M_LDL_PL_int_imputed.txt_adiposity_instruments.txt	WHR	Unweighted regression	0.0485099765047698	222	1
+WHR	z8iYFT	M_LDL_FC_pct_int_imputed.txt_adiposity_instruments.txt	WHR	Maximum likelihood	942.514646824851	222	2.0328145151082e-89
+WHR	z8iYFT	M_LDL_FC_pct_int_imputed.txt_adiposity_instruments.txt	WHR	MR Egger	971.807037262037	221	1.21017525686667e-94
+WHR	z8iYFT	M_LDL_FC_pct_int_imputed.txt_adiposity_instruments.txt	WHR	Inverse variance weighted	974.590384597262	222	8.65726813928001e-95
+WHR	z8iYFT	M_LDL_FC_pct_int_imputed.txt_adiposity_instruments.txt	WHR	Unweighted regression	0.0654571739225867	222	1
+WHR	z976IT	HDL_size_int_imputed.txt_adiposity_instruments.txt	WHR	Maximum likelihood	603.154967967538	222	5.69247535893779e-37
+WHR	z976IT	HDL_size_int_imputed.txt_adiposity_instruments.txt	WHR	MR Egger	619.921454186652	221	1.55679907353477e-39
+WHR	z976IT	HDL_size_int_imputed.txt_adiposity_instruments.txt	WHR	Inverse variance weighted	626.095533975098	222	3.53349103331971e-40
+WHR	z976IT	HDL_size_int_imputed.txt_adiposity_instruments.txt	WHR	Unweighted regression	0.0456676868705952	222	1
+WHR	zaQVfR	ApoB_int_imputed.txt_adiposity_instruments.txt	WHR	Maximum likelihood	554.858097384208	222	1.89470964321601e-30
+WHR	zaQVfR	ApoB_int_imputed.txt_adiposity_instruments.txt	WHR	MR Egger	554.445289805095	221	1.34999454553194e-30
+WHR	zaQVfR	ApoB_int_imputed.txt_adiposity_instruments.txt	WHR	Inverse variance weighted	558.747217923749	222	5.81789540827482e-31
+WHR	zaQVfR	ApoB_int_imputed.txt_adiposity_instruments.txt	WHR	Unweighted regression	0.046021318860123	222	1
+WHR	zaW2y8	M_VLDL_C_pct_int_imputed.txt_adiposity_instruments.txt	WHR	Maximum likelihood	1003.85685424645	222	9.81882502935574e-100
+WHR	zaW2y8	M_VLDL_C_pct_int_imputed.txt_adiposity_instruments.txt	WHR	MR Egger	1024.7333366894	221	1.27493803817588e-103
+WHR	zaW2y8	M_VLDL_C_pct_int_imputed.txt_adiposity_instruments.txt	WHR	Inverse variance weighted	1028.42149596698	222	6.4559668288799e-104
+WHR	zaW2y8	M_VLDL_C_pct_int_imputed.txt_adiposity_instruments.txt	WHR	Unweighted regression	0.071183824350623	222	1
+WHR	ZbHFnH	HDL_PL_int_imputed.txt_adiposity_instruments.txt	WHR	Maximum likelihood	514.245550182044	222	3.07502878150132e-25
+WHR	ZbHFnH	HDL_PL_int_imputed.txt_adiposity_instruments.txt	WHR	MR Egger	520.330921460371	221	3.44251325270699e-26
+WHR	ZbHFnH	HDL_PL_int_imputed.txt_adiposity_instruments.txt	WHR	Inverse variance weighted	521.971712651313	222	3.29509527191437e-26
+WHR	ZbHFnH	HDL_PL_int_imputed.txt_adiposity_instruments.txt	WHR	Unweighted regression	0.037616449583505	222	1
+WHR	ZcCuFN	Tyr_int_imputed.txt_adiposity_instruments.txt	WHR	Maximum likelihood	330.326994246132	222	3.17855435529595e-06
+WHR	ZcCuFN	Tyr_int_imputed.txt_adiposity_instruments.txt	WHR	MR Egger	330.464387082163	221	2.51449554163749e-06
+WHR	ZcCuFN	Tyr_int_imputed.txt_adiposity_instruments.txt	WHR	Inverse variance weighted	330.854002944523	222	2.9019672524522e-06
+WHR	ZcCuFN	Tyr_int_imputed.txt_adiposity_instruments.txt	WHR	Unweighted regression	0.0252576532389737	222	1
+WHR	ZFiODy	IDL_P_int_imputed.txt_adiposity_instruments.txt	WHR	Maximum likelihood	694.155545153081	222	4.75079404415534e-50
+WHR	ZFiODy	IDL_P_int_imputed.txt_adiposity_instruments.txt	WHR	MR Egger	689.720157414205	221	1.2201296659902e-49
+WHR	ZFiODy	IDL_P_int_imputed.txt_adiposity_instruments.txt	WHR	Inverse variance weighted	695.199894993119	222	3.32283384646983e-50
+WHR	ZFiODy	IDL_P_int_imputed.txt_adiposity_instruments.txt	WHR	Unweighted regression	0.0543443924731876	222	1
+WHR	ziPzpy	XXL_VLDL_C_pct_int_imputed.txt_adiposity_instruments.txt	WHR	Maximum likelihood	444.801682178808	222	4.89053780114196e-17
+WHR	ziPzpy	XXL_VLDL_C_pct_int_imputed.txt_adiposity_instruments.txt	WHR	MR Egger	445.385157403156	221	2.95260230705241e-17
+WHR	ziPzpy	XXL_VLDL_C_pct_int_imputed.txt_adiposity_instruments.txt	WHR	Inverse variance weighted	445.500553296062	222	4.09218546928697e-17
+WHR	ziPzpy	XXL_VLDL_C_pct_int_imputed.txt_adiposity_instruments.txt	WHR	Unweighted regression	0.0248124078773228	222	1
+WHR	zJ9CWP	L_LDL_C_int_imputed.txt_adiposity_instruments.txt	WHR	Maximum likelihood	625.614225818955	222	4.13197953153186e-40
+WHR	zJ9CWP	L_LDL_C_int_imputed.txt_adiposity_instruments.txt	WHR	MR Egger	620.929383571985	221	1.12264267075938e-39
+WHR	zJ9CWP	L_LDL_C_int_imputed.txt_adiposity_instruments.txt	WHR	Inverse variance weighted	626.245808565498	222	3.36497273453258e-40
+WHR	zJ9CWP	L_LDL_C_int_imputed.txt_adiposity_instruments.txt	WHR	Unweighted regression	0.0459412816741293	222	1
+WHR	zN9o97	S_VLDL_L_int_imputed.txt_adiposity_instruments.txt	WHR	Maximum likelihood	602.837832839056	222	6.29753011740251e-37
+WHR	zN9o97	S_VLDL_L_int_imputed.txt_adiposity_instruments.txt	WHR	MR Egger	618.305186868875	221	2.62822908295181e-39
+WHR	zN9o97	S_VLDL_L_int_imputed.txt_adiposity_instruments.txt	WHR	Inverse variance weighted	619.015526014836	222	3.50727780415062e-39
+WHR	zN9o97	S_VLDL_L_int_imputed.txt_adiposity_instruments.txt	WHR	Unweighted regression	0.0542906662509273	222	1
+WHR	ZtnkBz	S_LDL_P_int_imputed.txt_adiposity_instruments.txt	WHR	Maximum likelihood	539.296707481904	222	2.02230346969664e-28
+WHR	ZtnkBz	S_LDL_P_int_imputed.txt_adiposity_instruments.txt	WHR	MR Egger	540.825980345557	221	8.16695198806939e-29
+WHR	ZtnkBz	S_LDL_P_int_imputed.txt_adiposity_instruments.txt	WHR	Inverse variance weighted	544.897803484422	222	3.80348856918884e-29
+WHR	ZtnkBz	S_LDL_P_int_imputed.txt_adiposity_instruments.txt	WHR	Unweighted regression	0.0453101791469582	222	1
+WHR	ZTxtMd	XL_VLDL_TG_int_imputed.txt_adiposity_instruments.txt	WHR	Maximum likelihood	788.404806253923	222	1.86114189164912e-64
+WHR	ZTxtMd	XL_VLDL_TG_int_imputed.txt_adiposity_instruments.txt	WHR	MR Egger	819.313179027323	221	1.2682625232307e-69
+WHR	ZTxtMd	XL_VLDL_TG_int_imputed.txt_adiposity_instruments.txt	WHR	Inverse variance weighted	819.807467381213	222	2.04330314360847e-69
+WHR	ZTxtMd	XL_VLDL_TG_int_imputed.txt_adiposity_instruments.txt	WHR	Unweighted regression	0.0616337304131806	222	1
+WHR	zuk7Tl	L_HDL_PL_int_imputed.txt_adiposity_instruments.txt	WHR	Maximum likelihood	603.684866182932	222	4.80807915518589e-37
+WHR	zuk7Tl	L_HDL_PL_int_imputed.txt_adiposity_instruments.txt	WHR	MR Egger	621.277153176936	221	1.00281569073285e-39
+WHR	zuk7Tl	L_HDL_PL_int_imputed.txt_adiposity_instruments.txt	WHR	Inverse variance weighted	625.595458820116	222	4.1572605212405e-40
+WHR	zuk7Tl	L_HDL_PL_int_imputed.txt_adiposity_instruments.txt	WHR	Unweighted regression	0.0445690564322662	222	1
+WHR	ZYMeGU	XXL_VLDL_CE_int_imputed.txt_adiposity_instruments.txt	WHR	Maximum likelihood	759.469022356508	222	5.93172866750427e-60
+WHR	ZYMeGU	XXL_VLDL_CE_int_imputed.txt_adiposity_instruments.txt	WHR	MR Egger	785.820639972821	221	2.49983529955473e-64
+WHR	ZYMeGU	XXL_VLDL_CE_int_imputed.txt_adiposity_instruments.txt	WHR	Inverse variance weighted	785.824679086439	222	4.72060866928504e-64
+WHR	ZYMeGU	XXL_VLDL_CE_int_imputed.txt_adiposity_instruments.txt	WHR	Unweighted regression	0.057526450264152	222	1

@@ -1,0 +1,748 @@
+exposure	metabolite	nsnp	b	se	pval	direction	UKB_label	UKB_name	UKB_name2	UKB_unit	UKB_class	UKB_subclass	UKB_subclass_unit	UKB_derived
+BMI	sldlfc	517	-0.11329263255708	0.0241126531740464	2.62114754849246e-06	-	sldlfc	S_LDL_FC	Free cholesterol in small LDL	mmol/l	Lipoprotein subclasses	Small LDL	average diameter 18.7 nm	no
+BMI	hdlce	517	-0.30399130507877	0.020352578817994	1.91435990430311e-50	-	hdlce	HDL_CE	Cholesteryl esters in HDL	mmol/l	Cholesteryl esters	Cholesteryl esters		no
+BMI	xlvldll	517	0.231968872971043	0.0225869401346043	9.61606182429526e-25	+	xlvldll	XL_VLDL_L	Total lipids in very large VLDL	mmol/l	Lipoprotein subclasses	Very large VLDL	average diameter 64 nm	no
+BMI	totalce	517	-0.186858074906092	0.0209224953193581	4.22308428839877e-19	-	totalce	Total_CE	Total esterified cholesterol	mmol/l	Cholesteryl esters	Cholesteryl esters		no
+BMI	phosphoglyc	517	-0.124045393705503	0.0192510956614082	1.16710945294328e-10	-	phosphoglyc	Phosphoglyc	Phosphoglycerides	mmol/l	Other lipids	Other lipids		no
+BMI	xxlvldll	517	0.244326529269508	0.0228033944726034	8.70443975481654e-27	+	xxlvldll	XXL_VLDL_L	Total lipids in chylomicrons and extremely large VLDL	mmol/l	Lipoprotein subclasses	Chylomicrons and extremely large VLDL	particle diameters from 75 nm upwards	no
+BMI	xsvldlplpct	517	0.284902742311978	0.0198023021077732	6.21271596477203e-47	+	xsvldlplpct	XS_VLDL_PL_pct	Phospholipids to total lipids ratio in very small VLDL	%	Relative lipoprotein lipid concentrations	Very small VLDL ratios		yes
+BMI	shdlfcpct	517	-0.266132479829484	0.0221672306974209	3.3176192792367e-33	-	shdlfcpct	S_HDL_FC_pct	Free cholesterol to total lipids ratio in small HDL	%	Relative lipoprotein lipid concentrations	Small HDL ratios		yes
+BMI	lvldlfc	517	0.207485918331882	0.0223186040410386	1.45082847637751e-20	+	lvldlfc	L_VLDL_FC	Free cholesterol in large VLDL	mmol/l	Lipoprotein subclasses	Large VLDL	average diameter 53.6 nm	no
+BMI	la	517	-0.125514889629629	0.0207836878553616	1.54970624227204e-09	-	la	LA	Linoleic acid	mmol/l	Fatty acids	Fatty acids		no
+BMI	vldlsize	517	0.239347340512395	0.0225242564528289	2.25089039818359e-26	+	vldlsize	VLDL_size	Average diameter for VLDL particles	nm	Lipoprotein particle sizes	Lipoprotein particle sizes		no
+BMI	lvldlc	517	0.172124468285558	0.0220641413945708	6.137217368914e-15	+	lvldlc	L_VLDL_C	Cholesterol in large VLDL	mmol/l	Lipoprotein subclasses	Large VLDL	average diameter 53.6 nm	no
+BMI	xsvldlfcpct	517	-0.124152180004109	0.0208632201755834	2.66887403707348e-09	-	xsvldlfcpct	XS_VLDL_FC_pct	Free cholesterol to total lipids ratio in very small VLDL	%	Relative lipoprotein lipid concentrations	Very small VLDL ratios		yes
+BMI	xxlvldlfc	517	0.240372961387957	0.0227416810164181	4.11768230924236e-26	+	xxlvldlfc	XXL_VLDL_FC	Free cholesterol in chylomicrons and extremely large VLDL	mmol/l	Lipoprotein subclasses	Chylomicrons and extremely large VLDL	particle diameters from 75 nm upwards	no
+BMI	xxlvldlcpct	517	-0.181738659407643	0.0200944332411341	1.50724800540569e-19	-	xxlvldlcpct	XXL_VLDL_C_pct	Cholesterol to total lipids ratio in chylomicrons and extremely large VLDL	%	Relative lipoprotein lipid concentrations	Chylomicrons and extremely large VLDL ratios		yes
+BMI	idlfc	517	-0.174033215415513	0.0217229968316174	1.13342076635954e-15	-	idlfc	IDL_FC	Free cholesterol in IDL	mmol/l	Lipoprotein subclasses	IDL	average diameter 28.6 nm	no
+BMI	omega6pct	517	-0.272364016620363	0.0206996505395411	1.53279007666636e-39	-	omega6pct	Omega_6_pct	Ratio of omega-6 fatty acids to total fatty acids	%	Fatty acids	Fatty acid ratios		yes
+BMI	sldlc	517	-0.0384334918951009	0.0226955510528945	0.0903722667668745	-	sldlc	S_LDL_C	Cholesterol in small LDL	mmol/l	Lipoprotein subclasses	Small LDL	average diameter 18.7 nm	no
+BMI	mldlcepct	517	0.104409536784706	0.0206827700126685	4.46130130041276e-07	+	mldlcepct	M_LDL_CE_pct	Cholesteryl esters to total lipids ratio in medium LDL	%	Relative lipoprotein lipid concentrations	Medium LDL ratios		yes
+BMI	omega3pct	517	-0.116341428007852	0.0181368613667461	1.41156449578414e-10	-	omega3pct	Omega_3_pct	Ratio of omega-3 fatty acids to total fatty acids	%	Fatty acids	Fatty acid ratios		yes
+BMI	idlcpct	517	-0.243179481709896	0.022084372224269	3.36793438482811e-28	-	idlcpct	IDL_C_pct	Cholesterol to total lipids ratio in IDL	%	Relative lipoprotein lipid concentrations	IDL ratios		yes
+BMI	xlvldlfcpct	517	-0.22078085257357	0.021226124012023	2.44383799286737e-25	-	xlvldlfcpct	XL_VLDL_FC_pct	Free cholesterol to total lipids ratio in very large VLDL	%	Relative lipoprotein lipid concentrations	Very large VLDL ratios		yes
+BMI	totalc	517	-0.173647734922904	0.0209292858704303	1.06882893948022e-16	-	totalc	Total_C	Total cholesterol	mmol/l	Cholesterol	Cholesterol		no
+BMI	hdll	517	-0.2482783362753	0.0197370793774813	2.74504894343786e-36	-	hdll	HDL_L	Total lipids in HDL	mmol/l	Total lipids	Total lipids		no
+BMI	mvldlce	517	-0.130345381156469	0.0220665420751821	3.48555007630974e-09	-	mvldlce	M_VLDL_CE	Cholesteryl esters in medium VLDL	mmol/l	Lipoprotein subclasses	Medium VLDL	average diameter 44.5 nm	no
+BMI	lvldlp	517	0.207250855537256	0.0223956140674922	2.1607856382467e-20	+	lvldlp	L_VLDL_P	Concentration of large VLDL particles	mmol/l	Lipoprotein subclasses	Large VLDL	average diameter 53.6 nm	no
+BMI	lhdlce	517	-0.343051669736343	0.0204485865792291	3.63795223474755e-63	-	lhdlce	L_HDL_CE	Cholesteryl esters in large HDL	mmol/l	Lipoprotein subclasses	Large HDL	average diameter 12.1 nm	no
+BMI	glucose	517	0.116031915095026	0.0180731637397972	1.36165226918221e-10	+	glucose	Glucose	Glucose	mmol/l	Glycolysis related metabolites	Glycolysis related metabolites		no
+BMI	svldlfc	517	-0.00536734004008227	0.0217082286003049	0.804715446286834	-	svldlfc	S_VLDL_FC	Free cholesterol in small VLDL	mmol/l	Lipoprotein subclasses	Small VLDL	average diameter 36.8 nm	no
+BMI	idlcepct	517	-0.218772073220023	0.0208536495782406	9.51894343304602e-26	-	idlcepct	IDL_CE_pct	Cholesteryl esters to total lipids ratio in IDL	%	Relative lipoprotein lipid concentrations	IDL ratios		yes
+BMI	mldlplpct	517	-0.00841505470821967	0.0194411546589974	0.665125580673381	-	mldlplpct	M_LDL_PL_pct	Phospholipids to total lipids ratio in medium LDL	%	Relative lipoprotein lipid concentrations	Medium LDL ratios		yes
+BMI	mvldlpl	517	0.0346325886129869	0.0217358197356362	0.111083550068728	+	mvldlpl	M_VLDL_PL	Phospholipids in medium VLDL	mmol/l	Lipoprotein subclasses	Medium VLDL	average diameter 44.5 nm	no
+BMI	tyr	517	0.180220294788081	0.0188494601168846	1.16588047290272e-21	+	tyr	Tyr	Tyrosine	mmol/l	Amino acids	Aromatic amino acids		no
+BMI	sldlcpct	517	-0.159808186982863	0.0184518195067805	4.68315930089622e-18	-	sldlcpct	S_LDL_C_pct	Cholesterol to total lipids ratio in small LDL	%	Relative lipoprotein lipid concentrations	Small LDL ratios		yes
+BMI	idlce	517	-0.174564527485985	0.0217080756208487	8.87774735785506e-16	-	idlce	IDL_CE	Cholesteryl esters in IDL	mmol/l	Lipoprotein subclasses	IDL	average diameter 28.6 nm	no
+BMI	mhdlplpct	517	0.368636054083865	0.0218365300404936	6.14330814660269e-64	+	mhdlplpct	M_HDL_PL_pct	Phospholipids to total lipids ratio in medium HDL	%	Relative lipoprotein lipid concentrations	Medium HDL ratios		yes
+BMI	creatinine	517	0.114648735369722	0.01808923491091	2.32836599193351e-10	+	creatinine	Creatinine	Creatinine	mmol/l	Fluid balance	Fluid balance		no
+BMI	xlhdlcepct	517	-0.165667854396207	0.0200496915075218	1.42219418677955e-16	-	xlhdlcepct	XL_HDL_CE_pct	Cholesteryl esters to total lipids ratio in very large HDL	%	Relative lipoprotein lipid concentrations	Very large HDL ratios		yes
+BMI	mhdlfc	517	-0.223225946667193	0.0198279842967793	2.11202046665133e-29	-	mhdlfc	M_HDL_FC	Free cholesterol in medium HDL	mmol/l	Lipoprotein subclasses	Medium HDL	average diameter 10.9 nm	no
+BMI	idlfcpct	517	-0.164810446951228	0.0197682756975196	7.61230940496628e-17	-	idlfcpct	IDL_FC_pct	Free cholesterol to total lipids ratio in IDL	%	Relative lipoprotein lipid concentrations	IDL ratios		yes
+BMI	xlhdlfc	517	-0.289836063695	0.0214283921892198	1.1014475620535e-41	-	xlhdlfc	XL_HDL_FC	Free cholesterol in very large HDL	mmol/l	Lipoprotein subclasses	Very large HDL	average diameter 14.3 nm	no
+BMI	lvldlcepct	517	-0.23211156955784	0.0215781677008484	5.50614871330553e-27	-	lvldlcepct	L_VLDL_CE_pct	Cholesteryl esters to total lipids ratio in large VLDL	%	Relative lipoprotein lipid concentrations	Large VLDL ratios		yes
+BMI	xlhdll	517	-0.31831834421485	0.0202669131514672	1.36928048148321e-55	-	xlhdll	XL_HDL_L	Total lipids in very large HDL	mmol/l	Lipoprotein subclasses	Very large HDL	average diameter 14.3 nm	no
+BMI	xlhdlp	517	-0.325333103993132	0.0201037604342584	6.68008095413456e-59	-	xlhdlp	XL_HDL_P	Concentration of very large HDL particles	mmol/l	Lipoprotein subclasses	Very large HDL	average diameter 14.3 nm	no
+BMI	lhdlpl	517	-0.292729462412082	0.0196387723256022	3.02667314968631e-50	-	lhdlpl	L_HDL_PL	Phospholipids in large HDL	mmol/l	Lipoprotein subclasses	Large HDL	average diameter 12.1 nm	no
+BMI	phosphatidylc	517	-0.16166710457083	0.0190075251380421	1.80929498035803e-17	-	phosphatidylc	Phosphatidylc	Phosphatidylcholines	mmol/l	Other lipids	Other lipids		no
+BMI	xsvldlc	517	-0.0937871081921366	0.0201984597728222	3.42920792247903e-06	-	xsvldlc	XS_VLDL_C	Cholesterol in very small VLDL	mmol/l	Lipoprotein subclasses	Very small VLDL	average diameter 31.3 nm	no
+BMI	lldltgpct	517	0.27176117132317	0.0219127989503234	2.5507907741586e-35	+	lldltgpct	L_LDL_TG_pct	Triglycerides to total lipids ratio in large LDL	%	Relative lipoprotein lipid concentrations	Large LDL ratios		yes
+BMI	xsvldlfc	517	-0.0196527990878612	0.0201058229145678	0.328337498359667	-	xsvldlfc	XS_VLDL_FC	Free cholesterol in very small VLDL	mmol/l	Lipoprotein subclasses	Very small VLDL	average diameter 31.3 nm	no
+BMI	leu	517	0.177329872461715	0.0183683268729134	4.72235838345348e-22	+	leu	Leu	Leucine	mmol/l	Amino acids	Branched-chain amino acids		no
+BMI	sfa	517	0.0861928736832301	0.0205918074904787	2.84182564792717e-05	+	sfa	SFA	Saturated fatty acids	mmol/l	Fatty acids	Fatty acids		no
+BMI	pufabymufa	517	-0.337359463397202	0.0214658790429922	1.17364836735035e-55	-	pufabymufa	PUFA_by_MUFA	Ratio of polyunsaturated fatty acids to monounsaturated fatty acids	ratio	Fatty acids	Fatty acid ratios		yes
+BMI	nonhdlc	517	-0.0818198207427256	0.0218729423154345	0.000183518288295698	-	nonhdlc	non_HDL_C	Total cholesterol minus HDL-C	mmol/l	Cholesterol	Cholesterol		no
+BMI	apob	517	-0.0388622515738387	0.0222431528523413	0.0806103315282202	-	apob	ApoB	Apolipoprotein B	g/l	Apolipoproteins	Apolipoproteins		no
+BMI	xlvldlcpct	517	-0.262176409222803	0.0226848580991035	6.7783084179628e-31	-	xlvldlcpct	XL_VLDL_C_pct	Cholesterol to total lipids ratio in very large VLDL	%	Relative lipoprotein lipid concentrations	Very large VLDL ratios		yes
+BMI	xlvldltg	517	0.245539998888768	0.0227433326224559	3.59014623961694e-27	+	xlvldltg	XL_VLDL_TG	Triglycerides in very large VLDL	mmol/l	Lipoprotein subclasses	Very large VLDL	average diameter 64 nm	no
+BMI	lhdlfcpct	517	-0.238417845011117	0.0221505069672492	5.11666755288063e-27	-	lhdlfcpct	L_HDL_FC_pct	Free cholesterol to total lipids ratio in large HDL	%	Relative lipoprotein lipid concentrations	Large HDL ratios		yes
+BMI	xlhdlplpct	517	-0.233127554406739	0.0198260860523158	6.37625961283777e-32	-	xlhdlplpct	XL_HDL_PL_pct	Phospholipids to total lipids ratio in very large HDL	%	Relative lipoprotein lipid concentrations	Very large HDL ratios		yes
+BMI	xsvldlce	517	-0.122423083080793	0.0203267957964421	1.7148479283451e-09	-	xsvldlce	XS_VLDL_CE	Cholesteryl esters in very small VLDL	mmol/l	Lipoprotein subclasses	Very small VLDL	average diameter 31.3 nm	no
+BMI	mldlce	517	-0.000466533563157078	0.0218137343510753	0.982936825699853	-	mldlce	M_LDL_CE	Cholesteryl esters in medium LDL	mmol/l	Lipoprotein subclasses	Medium LDL	average diameter 23 nm	no
+BMI	bohbutyrate	517	0.0418947951623261	0.0179566566343812	0.0196425480737403	+	bohbutyrate	bOHbutyrate	3-Hydroxybutyrate	mmol/l	Ketone bodies	Ketone bodies		no
+BMI	svldlpl	517	0.05287280137895	0.0217608847262406	0.0151105975218218	+	svldlpl	S_VLDL_PL	Phospholipids in small VLDL	mmol/l	Lipoprotein subclasses	Small VLDL	average diameter 36.8 nm	no
+BMI	sfapct	517	0.125224795309724	0.0182562997692376	6.92158100787624e-12	+	sfapct	SFA_pct	Ratio of saturated fatty acids to total fatty acids	%	Fatty acids	Fatty acid ratios		yes
+BMI	his	517	-0.0190818095638474	0.0185661838561026	0.304056947054484	-	his	His	Histidine	mmol/l	Amino acids	Amino acids		no
+BMI	totall	517	-0.0675696228532281	0.0204971765976694	0.000978860498195627	-	totall	Total_L	Total lipids in lipoprotein particles	mmol/l	Total lipids	Total lipids		no
+BMI	lhdlp	517	-0.332527802225651	0.0198978469424317	1.07633754988648e-62	-	lhdlp	L_HDL_P	Concentration of large HDL particles	mmol/l	Lipoprotein subclasses	Large HDL	average diameter 12.1 nm	no
+BMI	hdlpl	517	-0.212836502044173	0.0198322148203819	7.21315019085168e-27	-	hdlpl	HDL_PL	Phospholipids in HDL	mmol/l	Phospholipids	Phospholipids		no
+BMI	xlvldlp	517	0.233682583950823	0.0225619161642236	3.8738510684041e-25	+	xlvldlp	XL_VLDL_P	Concentration of very large VLDL particles	mmol/l	Lipoprotein subclasses	Very large VLDL	average diameter 64 nm	no
+BMI	xxlvldltgpct	517	0.112533702805418	0.0197592336001118	1.2319391899226e-08	+	xxlvldltgpct	XXL_VLDL_TG_pct	Triglycerides to total lipids ratio in chylomicrons and extremely large VLDL	%	Relative lipoprotein lipid concentrations	Chylomicrons and extremely large VLDL ratios		yes
+BMI	mufa	517	0.186074861365083	0.0219235058578983	2.11203866174532e-17	+	mufa	MUFA	Monounsaturated fatty acids	mmol/l	Fatty acids	Fatty acids		no
+BMI	remnantc	517	-0.0560327540520971	0.0212105507357148	0.00824814182077156	-	remnantc	Remnant_C	Remnant cholesterol (non-HDL, non-LDL -cholesterol)	mmol/l	Cholesterol	Cholesterol		no
+BMI	shdlc	517	-0.0328190844711295	0.0207654016247566	0.113999380303305	-	shdlc	S_HDL_C	Cholesterol in small HDL	mmol/l	Lipoprotein subclasses	Small HDL	average diameter 8.7 nm	no
+BMI	ile	517	0.17964233738051	0.0178117124842732	6.39537613187482e-24	+	ile	Ile	Isoleucine	mmol/l	Amino acids	Branched-chain amino acids		no
+BMI	hdlp	517	-0.197675424241167	0.0202735213264668	1.83699823937703e-22	-	hdlp	HDL_P	Concentration of HDL particles	mmol/l	Lipoprotein particle concentrations	Lipoprotein particle concentrations		no
+BMI	mldlc	517	-0.0306598980032858	0.022077753954145	0.164916814235448	-	mldlc	M_LDL_C	Cholesterol in medium LDL	mmol/l	Lipoprotein subclasses	Medium LDL	average diameter 23 nm	no
+BMI	mhdlc	517	-0.229603457418238	0.0205993496639821	7.47713878789726e-29	-	mhdlc	M_HDL_C	Cholesterol in medium HDL	mmol/l	Lipoprotein subclasses	Medium HDL	average diameter 10.9 nm	no
+BMI	citrate	517	-0.0502300321710742	0.0168735789106429	0.00291231029040308	-	citrate	Citrate	Citrate	mmol/l	Glycolysis related metabolites	Glycolysis related metabolites		no
+BMI	vldlpl	517	0.145448766817325	0.0219419388538031	3.38422298593163e-11	+	vldlpl	VLDL_PL	Phospholipids in VLDL	mmol/l	Phospholipids	Phospholipids		no
+BMI	xxlvldlce	517	0.217547229352701	0.0223304007579127	1.99194502661755e-22	+	xxlvldlce	XXL_VLDL_CE	Cholesteryl esters in chylomicrons and extremely large VLDL	mmol/l	Lipoprotein subclasses	Chylomicrons and extremely large VLDL	particle diameters from 75 nm upwards	no
+BMI	ldlc	517	-0.103364054433799	0.0224124153116064	3.98984711312425e-06	-	ldlc	LDL_C	LDL cholesterol	mmol/l	Cholesterol	Cholesterol		no
+BMI	sldll	517	-0.0207822573386866	0.0230923121764372	0.368139231614759	-	sldll	S_LDL_L	Total lipids in small LDL	mmol/l	Lipoprotein subclasses	Small LDL	average diameter 18.7 nm	no
+BMI	ldlpl	517	-0.0767616057861222	0.0226658739379492	0.00070749040733235	-	ldlpl	LDL_PL	Phospholipids in LDL	mmol/l	Phospholipids	Phospholipids		no
+BMI	totalfc	517	-0.137192252699345	0.0209474709018286	5.7789268060516e-11	-	totalfc	Total_FC	Total free cholesterol	mmol/l	Free cholesterol	Free cholesterol		no
+BMI	xlhdlcpct	517	0.101472755598098	0.018778897441476	6.53338721926486e-08	+	xlhdlcpct	XL_HDL_C_pct	Cholesterol to total lipids ratio in very large HDL	%	Relative lipoprotein lipid concentrations	Very large HDL ratios		yes
+BMI	lvldlfcpct	517	0.0819266709194227	0.0189672234651993	1.56467217634176e-05	+	lvldlfcpct	L_VLDL_FC_pct	Free cholesterol to total lipids ratio in large VLDL	%	Relative lipoprotein lipid concentrations	Large VLDL ratios		yes
+BMI	lldlce	517	-0.124385858149177	0.0223447205057821	2.59641936049439e-08	-	lldlce	L_LDL_CE	Cholesteryl esters in large LDL	mmol/l	Lipoprotein subclasses	Large LDL	average diameter 25.5 nm	no
+BMI	mhdlcpct	517	-0.310831885364617	0.0218892447844208	9.13375347424672e-46	-	mhdlcpct	M_HDL_C_pct	Cholesterol to total lipids ratio in medium HDL	%	Relative lipoprotein lipid concentrations	Medium HDL ratios		yes
+BMI	sldlfcpct	517	-0.232819518668356	0.0230912603726771	6.59696035348028e-24	-	sldlfcpct	S_LDL_FC_pct	Free cholesterol to total lipids ratio in small LDL	%	Relative lipoprotein lipid concentrations	Small LDL ratios		yes
+BMI	shdll	517	0.038474541290075	0.0217886396718557	0.0774281656681233	+	shdll	S_HDL_L	Total lipids in small HDL	mmol/l	Lipoprotein subclasses	Small HDL	average diameter 8.7 nm	no
+BMI	xxlvldlfcpct	517	-0.178288036577152	0.0201724598127344	9.72815641601763e-19	-	xxlvldlfcpct	XXL_VLDL_FC_pct	Free cholesterol to total lipids ratio in chylomicrons and extremely large VLDL	%	Relative lipoprotein lipid concentrations	Chylomicrons and extremely large VLDL ratios		yes
+BMI	mvldll	517	0.0801225504700935	0.0219357179398967	0.000259591666812701	+	mvldll	M_VLDL_L	Total lipids in medium VLDL	mmol/l	Lipoprotein subclasses	Medium VLDL	average diameter 44.5 nm	no
+BMI	mldlpl	517	-0.0180331330900916	0.0227754080489686	0.428488440922147	-	mldlpl	M_LDL_PL	Phospholipids in medium LDL	mmol/l	Lipoprotein subclasses	Medium LDL	average diameter 23 nm	no
+BMI	lldlfcpct	517	-0.302080558808909	0.0231824558012886	8.19953488221665e-39	-	lldlfcpct	L_LDL_FC_pct	Free cholesterol to total lipids ratio in large LDL	%	Relative lipoprotein lipid concentrations	Large LDL ratios		yes
+BMI	ldlp	517	-0.0492876723789133	0.0225062186022361	0.0285272864995063	-	ldlp	LDL_P	Concentration of LDL particles	mmol/l	Lipoprotein particle concentrations	Lipoprotein particle concentrations		no
+BMI	lhdltg	517	-0.0803726333205541	0.0186232913458435	1.59094260435297e-05	-	lhdltg	L_HDL_TG	Triglycerides in large HDL	mmol/l	Lipoprotein subclasses	Large HDL	average diameter 12.1 nm	no
+BMI	idll	517	-0.152253829373465	0.0214065555292132	1.13970990000638e-12	-	idll	IDL_L	Total lipids in IDL	mmol/l	Lipoprotein subclasses	IDL	average diameter 28.6 nm	no
+BMI	svldlcpct	517	-0.175764758892023	0.0232114579989781	3.66596182458994e-14	-	svldlcpct	S_VLDL_C_pct	Cholesterol to total lipids ratio in small VLDL	%	Relative lipoprotein lipid concentrations	Small VLDL ratios		yes
+BMI	lvldlplpct	517	0.243503044838624	0.0205717628219908	2.51997507623437e-32	+	lvldlplpct	L_VLDL_PL_pct	Phospholipids to total lipids ratio in large VLDL	%	Relative lipoprotein lipid concentrations	Large VLDL ratios		yes
+BMI	lldlc	517	-0.140772843782305	0.0224281994432707	3.46056136544033e-10	-	lldlc	L_LDL_C	Cholesterol in large LDL	mmol/l	Lipoprotein subclasses	Large LDL	average diameter 25.5 nm	no
+BMI	xxlvldlplpct	517	0.0920291745344875	0.0188467505667818	1.04470047390015e-06	+	xxlvldlplpct	XXL_VLDL_PL_pct	Phospholipids to total lipids ratio in chylomicrons and extremely large VLDL	%	Relative lipoprotein lipid concentrations	Chylomicrons and extremely large VLDL ratios		yes
+BMI	lldlfc	517	-0.180587254457423	0.0227138807438147	1.85724223703515e-15	-	lldlfc	L_LDL_FC	Free cholesterol in large LDL	mmol/l	Lipoprotein subclasses	Large LDL	average diameter 25.5 nm	no
+BMI	pufa	517	-0.0957364021651507	0.020850027647308	4.39717733606612e-06	-	pufa	PUFA	Polyunsaturated fatty acids	mmol/l	Fatty acids	Fatty acids		no
+BMI	acetoacetate	517	0.096474767847953	0.0161997779913943	2.59572654330268e-09	+	acetoacetate	Acetoacetate	Acetoacetate	mmol/l	Ketone bodies	Ketone bodies		no
+BMI	sldlp	517	-0.00855610794513322	0.0221706457972354	0.699555506503984	-	sldlp	S_LDL_P	Concentration of small LDL particles	mmol/l	Lipoprotein subclasses	Small LDL	average diameter 18.7 nm	no
+BMI	xlhdlc	517	-0.335854262774094	0.020958191530778	8.55405415132034e-58	-	xlhdlc	XL_HDL_C	Cholesterol in very large HDL	mmol/l	Lipoprotein subclasses	Very large HDL	average diameter 14.3 nm	no
+BMI	omega3	517	-0.0654414450930812	0.019030611440949	0.000584414593849653	-	omega3	Omega_3	Omega-3 fatty acids	mmol/l	Fatty acids	Fatty acids		no
+BMI	sldlcepct	517	0.059266060769912	0.0210151399327169	0.00479996830904674	+	sldlcepct	S_LDL_CE_pct	Cholesteryl esters to total lipids ratio in small LDL	%	Relative lipoprotein lipid concentrations	Small LDL ratios		yes
+BMI	xxlvldlc	517	0.229655208509634	0.0225782520748298	2.65721135068257e-24	+	xxlvldlc	XXL_VLDL_C	Cholesterol in chylomicrons and extremely large VLDL	mmol/l	Lipoprotein subclasses	Chylomicrons and extremely large VLDL	particle diameters from 75 nm upwards	no
+BMI	shdlplpct	517	0.0170116213661757	0.0226584481015479	0.452782100467393	+	shdlplpct	S_HDL_PL_pct	Phospholipids to total lipids ratio in small HDL	%	Relative lipoprotein lipid concentrations	Small HDL ratios		yes
+BMI	mvldlc	517	-0.0788934683883831	0.02177324088885	0.000290739771160472	-	mvldlc	M_VLDL_C	Cholesterol in medium VLDL	mmol/l	Lipoprotein subclasses	Medium VLDL	average diameter 44.5 nm	no
+BMI	xsvldltgpct	517	0.257700382506194	0.0228526101432186	1.71182484695192e-29	+	xsvldltgpct	XS_VLDL_TG_pct	Triglycerides to total lipids ratio in very small VLDL	%	Relative lipoprotein lipid concentrations	Very small VLDL ratios		yes
+BMI	xlvldlplpct	517	0.0346146612842936	0.0189080013420223	0.0671470452472165	+	xlvldlplpct	XL_VLDL_PL_pct	Phospholipids to total lipids ratio in very large VLDL	%	Relative lipoprotein lipid concentrations	Very large VLDL ratios		yes
+BMI	idltgpct	517	0.279018958843106	0.0226644249402893	7.91578359605574e-35	+	idltgpct	IDL_TG_pct	Triglycerides to total lipids ratio in IDL	%	Relative lipoprotein lipid concentrations	IDL ratios		yes
+BMI	lhdlcpct	517	-0.348216267875859	0.0225130535685944	5.76713157437297e-54	-	lhdlcpct	L_HDL_C_pct	Cholesterol to total lipids ratio in large HDL	%	Relative lipoprotein lipid concentrations	Large HDL ratios		yes
+BMI	mhdlpl	517	-0.135477092915069	0.0209314310874049	9.64431561018653e-11	-	mhdlpl	M_HDL_PL	Phospholipids in medium HDL	mmol/l	Lipoprotein subclasses	Medium HDL	average diameter 10.9 nm	no
+BMI	lldlcepct	517	-0.112916586797039	0.0200871996239523	1.89503344255177e-08	-	lldlcepct	L_LDL_CE_pct	Cholesteryl esters to total lipids ratio in large LDL	%	Relative lipoprotein lipid concentrations	Large LDL ratios		yes
+BMI	lvldll	517	0.201500502792194	0.0223742503025394	2.13882960355085e-19	+	lvldll	L_VLDL_L	Total lipids in large VLDL	mmol/l	Lipoprotein subclasses	Large VLDL	average diameter 53.6 nm	no
+BMI	mvldltgpct	517	0.253276521504558	0.0228774203521884	1.73403295514685e-28	+	mvldltgpct	M_VLDL_TG_pct	Triglycerides to total lipids ratio in medium VLDL	%	Relative lipoprotein lipid concentrations	Medium VLDL ratios		yes
+BMI	hdltg	517	0.127532222161946	0.0213012650964308	2.13651337037216e-09	+	hdltg	HDL_TG	Triglycerides in HDL	mmol/l	Triglycerides	Triglycerides		no
+BMI	dhapct	517	-0.244854313453802	0.0190695668290939	9.78032056431177e-38	-	dhapct	DHA_pct	Ratio of docosahexaenoic acid to total fatty acids	%	Fatty acids	Fatty acid ratios		yes
+BMI	lactate	517	0.0436248859560405	0.0186798072941332	0.0195223556127931	+	lactate	Lactate	Lactate	mmol/l	Glycolysis related metabolites	Glycolysis related metabolites		no
+BMI	mldlfc	517	-0.109643458279609	0.0229999101189943	1.8687290389768e-06	-	mldlfc	M_LDL_FC	Free cholesterol in medium LDL	mmol/l	Lipoprotein subclasses	Medium LDL	average diameter 23 nm	no
+BMI	lvldlcpct	517	-0.163683459773847	0.0210906831750068	8.43043044369831e-15	-	lvldlcpct	L_VLDL_C_pct	Cholesterol to total lipids ratio in large VLDL	%	Relative lipoprotein lipid concentrations	Large VLDL ratios		yes
+BMI	lvldlpl	517	0.218949662514932	0.0224201017274945	1.5790053154822e-22	+	lvldlpl	L_VLDL_PL	Phospholipids in large VLDL	mmol/l	Lipoprotein subclasses	Large VLDL	average diameter 53.6 nm	no
+BMI	svldll	517	0.117482817340249	0.0218106307586495	7.18455898986781e-08	+	svldll	S_VLDL_L	Total lipids in small VLDL	mmol/l	Lipoprotein subclasses	Small VLDL	average diameter 36.8 nm	no
+BMI	xlvldlce	517	0.157579012961413	0.0218600426424659	5.65545573018024e-13	+	xlvldlce	XL_VLDL_CE	Cholesteryl esters in very large VLDL	mmol/l	Lipoprotein subclasses	Very large VLDL	average diameter 64 nm	no
+BMI	shdltgpct	517	0.268876656750789	0.0218530941196908	8.63838501797253e-35	+	shdltgpct	S_HDL_TG_pct	Triglycerides to total lipids ratio in small HDL	%	Relative lipoprotein lipid concentrations	Small HDL ratios		yes
+BMI	mldltg	517	0.166924675857251	0.0213174374301398	4.86208847500747e-15	+	mldltg	M_LDL_TG	Triglycerides in medium LDL	mmol/l	Lipoprotein subclasses	Medium LDL	average diameter 23 nm	no
+BMI	mldlfcpct	517	-0.280413866289301	0.0232535890736011	1.73987034675872e-33	-	mldlfcpct	M_LDL_FC_pct	Free cholesterol to total lipids ratio in medium LDL	%	Relative lipoprotein lipid concentrations	Medium LDL ratios		yes
+BMI	mvldlcpct	517	-0.263031353551232	0.0229781549364694	2.43374261784134e-30	-	mvldlcpct	M_VLDL_C_pct	Cholesterol to total lipids ratio in medium VLDL	%	Relative lipoprotein lipid concentrations	Medium VLDL ratios		yes
+BMI	omega6byomega3	517	0.0357848896339133	0.018363643914671	0.0513334954388853	+	omega6byomega3	Omega_6_by_Omega_3	Ratio of omega-6 fatty acids to omega-3 fatty acids	ratio	Fatty acids	Fatty acid ratios		yes
+BMI	mldlp	517	-0.0194799620073245	0.0213395980993656	0.361318728808806	-	mldlp	M_LDL_P	Concentration of medium LDL particles	mmol/l	Lipoprotein subclasses	Medium LDL	average diameter 23 nm	no
+BMI	svldlplpct	517	-0.239009362839683	0.0235474396080574	3.30952607308057e-24	-	svldlplpct	S_VLDL_PL_pct	Phospholipids to total lipids ratio in small VLDL	%	Relative lipoprotein lipid concentrations	Small VLDL ratios		yes
+BMI	xxlvldlcepct	517	-0.159199330679565	0.0196321090485693	5.09833445998428e-16	-	xxlvldlcepct	XXL_VLDL_CE_pct	Cholesteryl esters to total lipids ratio in chylomicrons and extremely large VLDL	%	Relative lipoprotein lipid concentrations	Chylomicrons and extremely large VLDL ratios		yes
+BMI	sldlpl	517	-0.0362652767933515	0.0243802327450972	0.136886260935157	-	sldlpl	S_LDL_PL	Phospholipids in small LDL	mmol/l	Lipoprotein subclasses	Small LDL	average diameter 18.7 nm	no
+BMI	svldltgpct	517	0.198235599422512	0.0234436325243963	2.77085964493299e-17	+	svldltgpct	S_VLDL_TG_pct	Triglycerides to total lipids ratio in small VLDL	%	Relative lipoprotein lipid concentrations	Small VLDL ratios		yes
+BMI	omega6	517	-0.0906347161832761	0.0209029866045708	1.45118946615171e-05	-	omega6	Omega_6	Omega-6 fatty acids	mmol/l	Fatty acids	Fatty acids		no
+BMI	mvldlplpct	517	-0.200670364098611	0.0220639960135004	9.46527553999007e-20	-	mvldlplpct	M_VLDL_PL_pct	Phospholipids to total lipids ratio in medium VLDL	%	Relative lipoprotein lipid concentrations	Medium VLDL ratios		yes
+BMI	idlplpct	517	0.0778749602494283	0.0193750497436858	5.83607880009755e-05	+	idlplpct	IDL_PL_pct	Phospholipids to total lipids ratio in IDL	%	Relative lipoprotein lipid concentrations	IDL ratios		yes
+BMI	idltg	517	0.146224497290805	0.0200262130461403	2.84249505439713e-13	+	idltg	IDL_TG	Triglycerides in IDL	mmol/l	Lipoprotein subclasses	IDL	average diameter 28.6 nm	no
+BMI	mvldlp	517	0.0465175436192188	0.0217803097037694	0.0326988710877178	+	mvldlp	M_VLDL_P	Concentration of medium VLDL particles	mmol/l	Lipoprotein subclasses	Medium VLDL	average diameter 44.5 nm	no
+BMI	mhdltgpct	517	0.250403181972689	0.0215799630660612	3.95545629369285e-31	+	mhdltgpct	M_HDL_TG_pct	Triglycerides to total lipids ratio in medium HDL	%	Relative lipoprotein lipid concentrations	Medium HDL ratios		yes
+BMI	apobbyapoa1	517	0.0964183763688794	0.0230807130950578	2.94803778239556e-05	+	apobbyapoa1	ApoB_by_ApoA1	Ratio of apolipoprotein B to apolipoprotein A1	ratio	Apolipoproteins	Apolipoproteins		no
+BMI	sldltg	517	0.185895082476239	0.021989279425707	2.8174016990925e-17	+	sldltg	S_LDL_TG	Triglycerides in small LDL	mmol/l	Lipoprotein subclasses	Small LDL	average diameter 18.7 nm	no
+BMI	xsvldltg	517	0.179290681843072	0.0211248538298248	2.11690601111251e-17	+	xsvldltg	XS_VLDL_TG	Triglycerides in very small VLDL	mmol/l	Lipoprotein subclasses	Very small VLDL	average diameter 31.3 nm	no
+BMI	svldlcepct	517	-0.0997358942231729	0.0223364104436152	8.00047917253864e-06	-	svldlcepct	S_VLDL_CE_pct	Cholesteryl esters to total lipids ratio in small VLDL	%	Relative lipoprotein lipid concentrations	Small VLDL ratios		yes
+BMI	svldlc	517	0.0440184555344294	0.0215162250596906	0.0407734798136779	+	svldlc	S_VLDL_C	Cholesterol in small VLDL	mmol/l	Lipoprotein subclasses	Small VLDL	average diameter 36.8 nm	no
+BMI	albumin	517	-0.18679770520713	0.0203140392333921	3.73261903128793e-20	-	albumin	Albumin	Albumin	g/l	Fluid balance	Fluid balance		no
+BMI	hdlsize	517	-0.307356055782334	0.0197737042176899	1.75613921595807e-54	-	hdlsize	HDL_size	Average diameter for HDL particles	nm	Lipoprotein particle sizes	Lipoprotein particle sizes		no
+BMI	lldlpl	517	-0.112777916886486	0.0221314740641277	3.47242499564018e-07	-	lldlpl	L_LDL_PL	Phospholipids in large LDL	mmol/l	Lipoprotein subclasses	Large LDL	average diameter 25.5 nm	no
+BMI	shdlcpct	517	-0.198924001019164	0.0225319981407867	1.06078093287473e-18	-	shdlcpct	S_HDL_C_pct	Cholesterol to total lipids ratio in small HDL	%	Relative lipoprotein lipid concentrations	Small HDL ratios		yes
+BMI	phe	517	0.12414615655132	0.0166329505772856	8.40184295016798e-14	+	phe	Phe	Phenylalanine	mmol/l	Amino acids	Aromatic amino acids		no
+BMI	xlhdlpl	517	-0.306419088190333	0.0200795326284739	1.40665206134068e-52	-	xlhdlpl	XL_HDL_PL	Phospholipids in very large HDL	mmol/l	Lipoprotein subclasses	Very large HDL	average diameter 14.3 nm	no
+BMI	gly	517	-0.112388386266339	0.0588653222986751	0.0562303535327037	-	gly	Gly	Glycine	mmol/l	Amino acids	Amino acids		no
+BMI	shdlfc	517	-0.064783676450978	0.0203389479286191	0.00144652536145473	-	shdlfc	S_HDL_FC	Free cholesterol in small HDL	mmol/l	Lipoprotein subclasses	Small HDL	average diameter 8.7 nm	no
+BMI	mldlcpct	517	-0.19964569275615	0.0189208715927803	4.99330343269129e-26	-	mldlcpct	M_LDL_C_pct	Cholesterol to total lipids ratio in medium LDL	%	Relative lipoprotein lipid concentrations	Medium LDL ratios		yes
+BMI	xxlvldltg	517	0.246137901971203	0.0229025776234743	6.11075866968787e-27	+	xxlvldltg	XXL_VLDL_TG	Triglycerides in chylomicrons and extremely large VLDL	mmol/l	Lipoprotein subclasses	Chylomicrons and extremely large VLDL	particle diameters from 75 nm upwards	no
+BMI	shdlp	517	-0.00189760550243928	0.0210097358182188	0.928032694291875	-	shdlp	S_HDL_P	Concentration of small HDL particles	mmol/l	Lipoprotein subclasses	Small HDL	average diameter 8.7 nm	no
+BMI	lapct	517	-0.317870197694226	0.0202845399003225	2.40433159066939e-55	-	lapct	LA_pct	Ratio of linoleic acid to total fatty acids	%	Fatty acids	Fatty acid ratios		yes
+BMI	vldll	517	0.169682971222607	0.0221876529296268	2.04716453749561e-14	+	vldll	VLDL_L	Total lipids in VLDL	mmol/l	Total lipids	Total lipids		no
+BMI	hdlfc	517	-0.279407381533457	0.0191175345530115	2.24557217622596e-48	-	hdlfc	HDL_FC	Free cholesterol in HDL	mmol/l	Free cholesterol	Free cholesterol		no
+BMI	shdlce	517	-0.0208548406608987	0.0206244841142128	0.311935511144373	-	shdlce	S_HDL_CE	Cholesteryl esters in small HDL	mmol/l	Lipoprotein subclasses	Small HDL	average diameter 8.7 nm	no
+BMI	xlvldlcepct	517	-0.263251628239007	0.0228319663696732	9.31884577075712e-31	-	xlvldlcepct	XL_VLDL_CE_pct	Cholesteryl esters to total lipids ratio in very large VLDL	%	Relative lipoprotein lipid concentrations	Very large VLDL ratios		yes
+BMI	shdlpl	517	0.0396470857958464	0.0221189769879	0.0730614507759236	+	shdlpl	S_HDL_PL	Phospholipids in small HDL	mmol/l	Lipoprotein subclasses	Small HDL	average diameter 8.7 nm	no
+BMI	lhdlplpct	517	0.359545619652202	0.0224253493520186	7.51651090608048e-58	+	lhdlplpct	L_HDL_PL_pct	Phospholipids to total lipids ratio in large HDL	%	Relative lipoprotein lipid concentrations	Large HDL ratios		yes
+BMI	mldll	517	-0.0161917842288045	0.0222629629232598	0.467044088232439	-	mldll	M_LDL_L	Total lipids in medium LDL	mmol/l	Lipoprotein subclasses	Medium LDL	average diameter 23 nm	no
+BMI	lhdll	517	-0.31564899524659	0.019807206307755	3.5606237127637e-57	-	lhdll	L_HDL_L	Total lipids in large HDL	mmol/l	Lipoprotein subclasses	Large HDL	average diameter 12.1 nm	no
+BMI	acetone	517	-0.00169129281595546	0.0181287198709545	0.925670348104717	-	acetone	Acetone	Acetone	mmol/l	Ketone bodies	Ketone bodies		no
+BMI	ldlce	517	-0.0814389017104935	0.0222396690877756	0.000250375434105921	-	ldlce	LDL_CE	Cholesteryl esters in LDL	mmol/l	Cholesteryl esters	Cholesteryl esters		no
+BMI	acetate	517	-0.0772276692146723	0.0178895001977891	1.58216342562685e-05	-	acetate	Acetate	Acetate	mmol/l	Ketone bodies	Ketone bodies		no
+BMI	vldlfc	517	0.115089998262189	0.0217698959876053	1.24571114494436e-07	+	vldlfc	VLDL_FC	Free cholesterol in VLDL	mmol/l	Free cholesterol	Free cholesterol		no
+BMI	pufapct	517	-0.310427941652025	0.0207466224087869	1.28468212103293e-50	-	pufapct	PUFA_pct	Ratio of polyunsaturated fatty acids to total fatty acids	%	Fatty acids	Fatty acid ratios		yes
+BMI	svldltg	517	0.18801515232932	0.0224379515084117	5.32267717881775e-17	+	svldltg	S_VLDL_TG	Triglycerides in small VLDL	mmol/l	Lipoprotein subclasses	Small VLDL	average diameter 36.8 nm	no
+BMI	xlhdlfcpct	517	0.308107585457146	0.0196764197827488	2.89659885258364e-55	+	xlhdlfcpct	XL_HDL_FC_pct	Free cholesterol to total lipids ratio in very large HDL	%	Relative lipoprotein lipid concentrations	Very large HDL ratios		yes
+BMI	lhdlc	517	-0.338218347819021	0.0202906569124022	2.21452389310635e-62	-	lhdlc	L_HDL_C	Cholesterol in large HDL	mmol/l	Lipoprotein subclasses	Large HDL	average diameter 12.1 nm	no
+BMI	xlvldlfc	517	0.212676219962221	0.0223454165046691	1.77111454968409e-21	+	xlvldlfc	XL_VLDL_FC	Free cholesterol in very large VLDL	mmol/l	Lipoprotein subclasses	Very large VLDL	average diameter 64 nm	no
+BMI	sldlce	517	-0.00803098715644495	0.0222306833834921	0.717907430381104	-	sldlce	S_LDL_CE	Cholesteryl esters in small LDL	mmol/l	Lipoprotein subclasses	Small LDL	average diameter 18.7 nm	no
+BMI	lldlplpct	517	0.0840248208202304	0.0195690329154965	1.75668728399515e-05	+	lldlplpct	L_LDL_PL_pct	Phospholipids to total lipids ratio in large LDL	%	Relative lipoprotein lipid concentrations	Large LDL ratios		yes
+BMI	svldlp	517	0.127986772297293	0.0218670316241713	4.82912136954129e-09	+	svldlp	S_VLDL_P	Concentration of small VLDL particles	mmol/l	Lipoprotein subclasses	Small VLDL	average diameter 36.8 nm	no
+BMI	mvldlcepct	517	-0.268911198918354	0.0230113112052471	1.50221999039098e-31	-	mvldlcepct	M_VLDL_CE_pct	Cholesteryl esters to total lipids ratio in medium VLDL	%	Relative lipoprotein lipid concentrations	Medium VLDL ratios		yes
+BMI	tgbypg	517	0.281051653736024	0.022204600769044	1.01866054852145e-36	+	tgbypg	TG_by_PG	Ratio of triglycerides to phosphoglycerides	ratio	Other lipids	Other lipids		no
+BMI	lldlcpct	517	-0.315999450315473	0.0221934023328298	5.28938965241674e-46	-	lldlcpct	L_LDL_C_pct	Cholesterol to total lipids ratio in large LDL	%	Relative lipoprotein lipid concentrations	Large LDL ratios		yes
+BMI	vldltg	517	0.216646512772037	0.0226602587082946	1.17033871939034e-21	+	vldltg	VLDL_TG	Triglycerides in VLDL	mmol/l	Triglycerides	Triglycerides		no
+BMI	mhdltg	517	0.143092349343582	0.0218489582481603	5.78611536457581e-11	+	mhdltg	M_HDL_TG	Triglycerides in medium HDL	mmol/l	Lipoprotein subclasses	Medium HDL	average diameter 10.9 nm	no
+BMI	lldltg	517	0.145024053141184	0.020275561333024	8.51166206635483e-13	+	lldltg	L_LDL_TG	Triglycerides in large LDL	mmol/l	Lipoprotein subclasses	Large LDL	average diameter 25.5 nm	no
+BMI	shdlcepct	517	-0.123082741414712	0.0204647246421501	1.80570436660468e-09	-	shdlcepct	S_HDL_CE_pct	Cholesteryl esters to total lipids ratio in small HDL	%	Relative lipoprotein lipid concentrations	Small HDL ratios		yes
+BMI	mldltgpct	517	0.214870924441768	0.0216701023364713	3.56298354152704e-23	+	mldltgpct	M_LDL_TG_pct	Triglycerides to total lipids ratio in medium LDL	%	Relative lipoprotein lipid concentrations	Medium LDL ratios		yes
+BMI	ldlsize	517	-0.160112650263142	0.0190572159705631	4.40131936460049e-17	-	ldlsize	LDL_size	Average diameter for LDL particles	nm	Lipoprotein particle sizes	Lipoprotein particle sizes		no
+BMI	totalbcaa	517	0.207587546235507	0.0184863055012977	2.92918719002276e-29	+	totalbcaa	Total_BCAA	Total concentration of branched-chain amino acids	mmol/l	Amino acids	Branched-chain amino acids	leucine + isoleucine + valine	no
+BMI	lhdltgpct	517	0.250785897764028	0.0211837979458079	2.46618875398507e-32	+	lhdltgpct	L_HDL_TG_pct	Triglycerides to total lipids ratio in large HDL	%	Relative lipoprotein lipid concentrations	Large HDL ratios		yes
+BMI	ldlfc	517	-0.156929160795458	0.0229917943911307	8.76549657419156e-12	-	ldlfc	LDL_FC	Free cholesterol in LDL	mmol/l	Free cholesterol	Free cholesterol		no
+BMI	pyruvate	517	0.0571252915348468	0.0174796832773691	0.0010827344647531	+	pyruvate	Pyruvate	Pyruvate	mmol/l	Glycolysis related metabolites	Glycolysis related metabolites		no
+BMI	totalpl	517	-0.131931173805656	0.0193776062942466	9.86661168801733e-12	-	totalpl	Total_PL	Total phospholipids in lipoprotein particles	mmol/l	Phospholipids	Phospholipids		no
+BMI	lvldltg	517	0.203340973080851	0.0223761875584376	1.01452045851399e-19	+	lvldltg	L_VLDL_TG	Triglycerides in large VLDL	mmol/l	Lipoprotein subclasses	Large VLDL	average diameter 53.6 nm	no
+BMI	mhdlce	517	-0.229701219236875	0.0207686443399069	1.96096173292581e-28	-	mhdlce	M_HDL_CE	Cholesteryl esters in medium HDL	mmol/l	Lipoprotein subclasses	Medium HDL	average diameter 10.9 nm	no
+BMI	mhdlfcpct	517	-0.312344683748562	0.0197429131539042	2.24353170330912e-56	-	mhdlfcpct	M_HDL_FC_pct	Free cholesterol to total lipids ratio in medium HDL	%	Relative lipoprotein lipid concentrations	Medium HDL ratios		yes
+BMI	xsvldlp	517	-0.000185743220698879	0.0201605894155277	0.992649046691339	-	xsvldlp	XS_VLDL_P	Concentration of very small VLDL particles	mmol/l	Lipoprotein subclasses	Very small VLDL	average diameter 31.3 nm	no
+BMI	svldlfcpct	517	-0.24864556078152	0.0232964652484157	1.36007852907595e-26	-	svldlfcpct	S_VLDL_FC_pct	Free cholesterol to total lipids ratio in small VLDL	%	Relative lipoprotein lipid concentrations	Small VLDL ratios		yes
+BMI	totalfa	517	0.0639190512382128	0.0213095989058648	0.0027038524631856	+	totalfa	Total_FA	Total fatty acids	mmol/l	Fatty acids	Fatty acids		no
+BMI	cholines	517	-0.160215688045573	0.0191835819100259	6.72824292272506e-17	-	cholines	Cholines	Total cholines	mmol/l	Other lipids	Other lipids		no
+BMI	lvldlce	517	0.130553557304886	0.0217349032584117	1.89417208894631e-09	+	lvldlce	L_VLDL_CE	Cholesteryl esters in large VLDL	mmol/l	Lipoprotein subclasses	Large VLDL	average diameter 53.6 nm	no
+BMI	idlc	517	-0.17532337382889	0.021761580437885	7.84745718478451e-16	-	idlc	IDL_C	Cholesterol in IDL	mmol/l	Lipoprotein subclasses	IDL	average diameter 28.6 nm	no
+BMI	xlhdltgpct	517	0.268170532392672	0.0218909738869919	1.67419463170815e-34	+	xlhdltgpct	XL_HDL_TG_pct	Triglycerides to total lipids ratio in very large HDL	%	Relative lipoprotein lipid concentrations	Very large HDL ratios		yes
+BMI	xlvldlpl	517	0.226222258136508	0.0224115383060421	5.87214724574343e-24	+	xlvldlpl	XL_VLDL_PL	Phospholipids in very large VLDL	mmol/l	Lipoprotein subclasses	Very large VLDL	average diameter 64 nm	no
+BMI	totaltg	517	0.210736549204421	0.0225243264777098	8.28490919665026e-21	+	totaltg	Total_TG	Total triglycerides	mmol/l	Triglycerides	Triglycerides		no
+BMI	mhdll	517	-0.173440140195204	0.0207106438977945	5.54849099598859e-17	-	mhdll	M_HDL_L	Total lipids in medium HDL	mmol/l	Lipoprotein subclasses	Medium HDL	average diameter 10.9 nm	no
+BMI	mvldltg	517	0.171233654055934	0.0223411685143869	1.79543734233379e-14	+	mvldltg	M_VLDL_TG	Triglycerides in medium VLDL	mmol/l	Lipoprotein subclasses	Medium VLDL	average diameter 44.5 nm	no
+BMI	xsvldlcepct	517	-0.294267878517578	0.0226037373641224	9.59764776038564e-39	-	xsvldlcepct	XS_VLDL_CE_pct	Cholesteryl esters to total lipids ratio in very small VLDL	%	Relative lipoprotein lipid concentrations	Very small VLDL ratios		yes
+BMI	lvldltgpct	517	0.0133402236593715	0.0192890555842731	0.489191400885074	+	lvldltgpct	L_VLDL_TG_pct	Triglycerides to total lipids ratio in large VLDL	%	Relative lipoprotein lipid concentrations	Large VLDL ratios		yes
+BMI	xlhdlce	517	-0.343748516420027	0.0208486885975504	4.4917795031893e-61	-	xlhdlce	XL_HDL_CE	Cholesteryl esters in very large HDL	mmol/l	Lipoprotein subclasses	Very large HDL	average diameter 14.3 nm	no
+BMI	vldlce	517	0.0228356094467734	0.0211605704968397	0.280517077771411	+	vldlce	VLDL_CE	Cholesteryl esters in VLDL	mmol/l	Cholesteryl esters	Cholesteryl esters		no
+BMI	xlvldltgpct	517	0.230873432091158	0.0222747509219138	3.58491872253333e-25	+	xlvldltgpct	XL_VLDL_TG_pct	Triglycerides to total lipids ratio in very large VLDL	%	Relative lipoprotein lipid concentrations	Very large VLDL ratios		yes
+BMI	clinicalldlc	517	-0.112315438145693	0.0224864333231199	5.8894043793349e-07	-	clinicalldlc	Clinical_LDL_C	Clinical LDL cholesterol	mmol/l	Cholesterol	Cholesterol		no
+BMI	idlpl	517	-0.149315679036516	0.0212983988247322	2.37208746218881e-12	-	idlpl	IDL_PL	Phospholipids in IDL	mmol/l	Lipoprotein subclasses	IDL	average diameter 28.6 nm	no
+BMI	xlhdltg	517	-0.0102983222733353	0.0192258949569091	0.592201485401755	-	xlhdltg	XL_HDL_TG	Triglycerides in very large HDL	mmol/l	Lipoprotein subclasses	Very large HDL	average diameter 14.3 nm	no
+BMI	vldlc	517	0.0636799649624665	0.0213964729011177	0.00291854147813946	+	vldlc	VLDL_C	VLDL cholesterol	mmol/l	Cholesterol	Cholesterol		no
+BMI	lldlp	517	-0.0692380738987824	0.0227942099471745	0.00238526446873245	-	lldlp	L_LDL_P	Concentration of large LDL particles	mmol/l	Lipoprotein subclasses	Large LDL	average diameter 25.5 nm	no
+BMI	shdltg	517	0.247900447762958	0.022512784976951	3.3620455052928e-28	+	shdltg	S_HDL_TG	Triglycerides in small HDL	mmol/l	Lipoprotein subclasses	Small HDL	average diameter 8.7 nm	no
+BMI	glyca	517	0.292356933788183	0.0211605087995505	2.03652626844883e-43	+	glyca	GlycA	Glycoprotein acetyls	mmol/l	Inflammation	Inflammation		no
+BMI	dha	517	-0.203982521563104	0.0183048306975827	7.69065968324404e-29	-	dha	DHA	Docosahexaenoic acid	mmol/l	Fatty acids	Fatty acids		no
+BMI	ldll	517	-0.0832219984703501	0.0224074908784001	0.000203988011333808	-	ldll	LDL_L	Total lipids in LDL	mmol/l	Total lipids	Total lipids		no
+BMI	lhdlfc	517	-0.316818707543436	0.019720318991859	4.4455994287509e-58	-	lhdlfc	L_HDL_FC	Free cholesterol in large HDL	mmol/l	Lipoprotein subclasses	Large HDL	average diameter 12.1 nm	no
+BMI	sphingomyelins	517	-0.195151186537106	0.0199930586091876	1.65601460421662e-22	-	sphingomyelins	Sphingomyelins	Sphingomyelins	mmol/l	Other lipids	Other lipids		no
+BMI	idlp	517	-0.0726744446475602	0.021717485358685	0.000818810983966111	-	idlp	IDL_P	Concentration of IDL particles	mmol/l	Lipoprotein subclasses	IDL	average diameter 28.6 nm	no
+BMI	mufapct	517	0.340860655029653	0.0215724770768079	3.07586766176009e-56	+	mufapct	MUFA_pct	Ratio of monounsaturated fatty acids to total fatty acids	%	Fatty acids	Fatty acid ratios		yes
+BMI	unsaturation	517	-0.254943748265836	0.019248734911771	4.84203121010638e-40	-	unsaturation	Unsaturation	Degree of unsaturation	degree	Fatty acids	Fatty acids		no
+BMI	ala	517	0.0515820796152425	0.0186949657211217	0.00579532089430717	+	ala	Ala	Alanine	mmol/l	Amino acids	Amino acids		no
+BMI	mvldlfc	517	-0.00280234327258731	0.0216352498423291	0.896940871678514	-	mvldlfc	M_VLDL_FC	Free cholesterol in medium VLDL	mmol/l	Lipoprotein subclasses	Medium VLDL	average diameter 44.5 nm	no
+BMI	mhdlp	517	-0.204620275419425	0.0205315512634092	2.14403988361236e-23	-	mhdlp	M_HDL_P	Concentration of medium HDL particles	mmol/l	Lipoprotein subclasses	Medium HDL	average diameter 10.9 nm	no
+BMI	lldll	517	-0.120970022956104	0.0222869384217824	5.70388885100283e-08	-	lldll	L_LDL_L	Total lipids in large LDL	mmol/l	Lipoprotein subclasses	Large LDL	average diameter 25.5 nm	no
+BMI	vldlp	517	0.0958786298386364	0.0215620395166077	8.72237834749472e-06	+	vldlp	VLDL_P	Concentration of VLDL particles	mmol/l	Lipoprotein particle concentrations	Lipoprotein particle concentrations		no
+BMI	mvldlfcpct	517	-0.237534421107227	0.0226147810724628	8.32328496510412e-26	-	mvldlfcpct	M_VLDL_FC_pct	Free cholesterol to total lipids ratio in medium VLDL	%	Relative lipoprotein lipid concentrations	Medium VLDL ratios		yes
+BMI	apoa1	517	-0.22376266302977	0.0200229560652865	5.38643469471168e-29	-	apoa1	ApoA1	Apolipoprotein A1	g/l	Apolipoproteins	Apolipoproteins		no
+BMI	xsvldll	517	0.000806801845469701	0.0199077599615467	0.967672979529214	+	xsvldll	XS_VLDL_L	Total lipids in very small VLDL	mmol/l	Lipoprotein subclasses	Very small VLDL	average diameter 31.3 nm	no
+BMI	xxlvldlpl	517	0.250747142655234	0.0227534880172684	3.05505972344559e-28	+	xxlvldlpl	XXL_VLDL_PL	Phospholipids in chylomicrons and extremely large VLDL	mmol/l	Lipoprotein subclasses	Chylomicrons and extremely large VLDL	particle diameters from 75 nm upwards	no
+BMI	xlvldlc	517	0.187606375631628	0.0221169482278982	2.2046074843106e-17	+	xlvldlc	XL_VLDL_C	Cholesterol in very large VLDL	mmol/l	Lipoprotein subclasses	Very large VLDL	average diameter 64 nm	no
+BMI	val	517	0.220895424740572	0.0185725946686598	1.27743741430287e-32	+	val	Val	Valine	mmol/l	Amino acids	Branched-chain amino acids		no
+BMI	sldltgpct	517	0.235310834786691	0.0231907496514842	3.42567925606504e-24	+	sldltgpct	S_LDL_TG_pct	Triglycerides to total lipids ratio in small LDL	%	Relative lipoprotein lipid concentrations	Small LDL ratios		yes
+BMI	ldltg	517	0.158521650821991	0.0207788678225501	2.36610939833078e-14	+	ldltg	LDL_TG	Triglycerides in LDL	mmol/l	Triglycerides	Triglycerides		no
+BMI	gln	517	-0.142351919365939	0.0190963940900862	9.02863503950591e-14	-	gln	Gln	Glutamine	mmol/l	Amino acids	Amino acids		no
+BMI	totalp	517	-0.19423297315294	0.0199777630856418	2.41869791451107e-22	-	totalp	Total_P	Total concentration of lipoprotein particles	mmol/l	Lipoprotein particle concentrations	Lipoprotein particle concentrations		no
+BMI	mhdlcepct	517	-0.273633217650215	0.0215504798812419	6.11938339848035e-37	-	mhdlcepct	M_HDL_CE_pct	Cholesteryl esters to total lipids ratio in medium HDL	%	Relative lipoprotein lipid concentrations	Medium HDL ratios		yes
+BMI	svldlce	517	0.0716245254213197	0.0213859836154215	0.000810645715372124	+	svldlce	S_VLDL_CE	Cholesteryl esters in small VLDL	mmol/l	Lipoprotein subclasses	Small VLDL	average diameter 36.8 nm	no
+BMI	hdlc	517	-0.300887775224599	0.0200926406675015	1.06929308878003e-50	-	hdlc	HDL_C	HDL cholesterol	mmol/l	Cholesterol	Cholesterol		no
+BMI	xxlvldlp	517	0.248350287594579	0.0226849365432756	6.80764559284043e-28	+	xxlvldlp	XXL_VLDL_P	Concentration of chylomicrons and extremely large VLDL particles	mmol/l	Lipoprotein subclasses	Chylomicrons and extremely large VLDL	particle diameters from 75 nm upwards	no
+BMI	sldlplpct	517	-0.054067791810063	0.0212292732438863	0.0108699892794411	-	sldlplpct	S_LDL_PL_pct	Phospholipids to total lipids ratio in small LDL	%	Relative lipoprotein lipid concentrations	Small LDL ratios		yes
+BMI	xsvldlcpct	517	-0.283243428749694	0.0226541243992592	7.19298160303147e-36	-	xsvldlcpct	XS_VLDL_C_pct	Cholesterol to total lipids ratio in very small VLDL	%	Relative lipoprotein lipid concentrations	Very small VLDL ratios		yes
+BMI	xsvldlpl	517	0.0345047610601351	0.0200737727819034	0.0856330083452326	+	xsvldlpl	XS_VLDL_PL	Phospholipids in very small VLDL	mmol/l	Lipoprotein subclasses	Very small VLDL	average diameter 31.3 nm	no
+BMI	lhdlcepct	517	-0.341633075548375	0.0219078366089157	7.98360646582543e-55	-	lhdlcepct	L_HDL_CE_pct	Cholesteryl esters to total lipids ratio in large HDL	%	Relative lipoprotein lipid concentrations	Large HDL ratios		yes
+WHR	vldlp	314	0.311523042201096	0.039371120173738	2.52319589305169e-15	+	vldlp	VLDL_P	Concentration of VLDL particles	mmol/l	Lipoprotein particle concentrations	Lipoprotein particle concentrations		no
+WHR	totalce	314	-0.135339718172559	0.0323676759315181	2.89817406431744e-05	-	totalce	Total_CE	Total esterified cholesterol	mmol/l	Cholesteryl esters	Cholesteryl esters		no
+WHR	lvldltgpct	314	-0.0626948941843918	0.0274516433407238	0.0223815076083457	-	lvldltgpct	L_VLDL_TG_pct	Triglycerides to total lipids ratio in large VLDL	%	Relative lipoprotein lipid concentrations	Large VLDL ratios		yes
+WHR	svldlp	314	0.374746086551376	0.0437306234194451	1.04007388433546e-17	+	svldlp	S_VLDL_P	Concentration of small VLDL particles	mmol/l	Lipoprotein subclasses	Small VLDL	average diameter 36.8 nm	no
+WHR	mhdlfcpct	314	-0.432402771482513	0.0360825591662795	4.32547124351678e-33	-	mhdlfcpct	M_HDL_FC_pct	Free cholesterol to total lipids ratio in medium HDL	%	Relative lipoprotein lipid concentrations	Medium HDL ratios		yes
+WHR	xlhdlfcpct	314	0.45339923609094	0.0306836620680375	2.0747024911036e-49	+	xlhdlfcpct	XL_HDL_FC_pct	Free cholesterol to total lipids ratio in very large HDL	%	Relative lipoprotein lipid concentrations	Very large HDL ratios		yes
+WHR	val	314	0.273077697244846	0.0263609013899643	3.80150970081978e-25	+	val	Val	Valine	mmol/l	Amino acids	Branched-chain amino acids		no
+WHR	totalfa	314	0.242279836506784	0.0368560126329312	4.90848477313998e-11	+	totalfa	Total_FA	Total fatty acids	mmol/l	Fatty acids	Fatty acids		no
+WHR	xsvldlcpct	314	-0.435534809293734	0.0463017406412516	5.13197742907066e-21	-	xsvldlcpct	XS_VLDL_C_pct	Cholesterol to total lipids ratio in very small VLDL	%	Relative lipoprotein lipid concentrations	Very small VLDL ratios		yes
+WHR	lldlcpct	314	-0.376711442714553	0.0361166410871064	1.80105856778838e-25	-	lldlcpct	L_LDL_C_pct	Cholesterol to total lipids ratio in large LDL	%	Relative lipoprotein lipid concentrations	Large LDL ratios		yes
+WHR	lhdlp	314	-0.499058704940659	0.0357634031363684	2.95563299714723e-44	-	lhdlp	L_HDL_P	Concentration of large HDL particles	mmol/l	Lipoprotein subclasses	Large HDL	average diameter 12.1 nm	no
+WHR	ldlfc	314	-0.101002332998994	0.0342169625157838	0.00315906466136274	-	ldlfc	LDL_FC	Free cholesterol in LDL	mmol/l	Free cholesterol	Free cholesterol		no
+WHR	svldlfc	314	0.160620891304768	0.0331640732814065	1.27751929902986e-06	+	svldlfc	S_VLDL_FC	Free cholesterol in small VLDL	mmol/l	Lipoprotein subclasses	Small VLDL	average diameter 36.8 nm	no
+WHR	gly	314	-0.213869863025936	0.0256952809423969	8.55382591067494e-17	-	gly	Gly	Glycine	mmol/l	Amino acids	Amino acids		no
+WHR	xsvldlplpct	314	0.316291501508563	0.0397299200828468	1.70598577421797e-15	+	xsvldlplpct	XS_VLDL_PL_pct	Phospholipids to total lipids ratio in very small VLDL	%	Relative lipoprotein lipid concentrations	Very small VLDL ratios		yes
+WHR	lldltg	314	0.328513723892572	0.0386088896621179	1.75805351384377e-17	+	lldltg	L_LDL_TG	Triglycerides in large LDL	mmol/l	Lipoprotein subclasses	Large LDL	average diameter 25.5 nm	no
+WHR	omega6byomega3	314	-0.076269612642932	0.0297006782403097	0.0102304335795923	-	omega6byomega3	Omega_6_by_Omega_3	Ratio of omega-6 fatty acids to omega-3 fatty acids	ratio	Fatty acids	Fatty acid ratios		yes
+WHR	shdltg	314	0.515542358251386	0.0455920478060544	1.20164273715961e-29	+	shdltg	S_HDL_TG	Triglycerides in small HDL	mmol/l	Lipoprotein subclasses	Small HDL	average diameter 8.7 nm	no
+WHR	apobbyapoa1	314	0.230889906739764	0.037100652962912	4.86687039944974e-10	+	apobbyapoa1	ApoB_by_ApoA1	Ratio of apolipoprotein B to apolipoprotein A1	ratio	Apolipoproteins	Apolipoproteins		no
+WHR	sldlfc	314	-0.0658954842168005	0.0344973928119901	0.056112823206339	-	sldlfc	S_LDL_FC	Free cholesterol in small LDL	mmol/l	Lipoprotein subclasses	Small LDL	average diameter 18.7 nm	no
+WHR	mufa	314	0.364585275295326	0.0406086379581792	2.7567610006377e-19	+	mufa	MUFA	Monounsaturated fatty acids	mmol/l	Fatty acids	Fatty acids		no
+WHR	lldlfc	314	-0.138168883042951	0.0344854611890351	6.16033287687935e-05	-	lldlfc	L_LDL_FC	Free cholesterol in large LDL	mmol/l	Lipoprotein subclasses	Large LDL	average diameter 25.5 nm	no
+WHR	mvldlfc	314	0.166361030087232	0.0334715808098838	6.68779056316e-07	+	mvldlfc	M_VLDL_FC	Free cholesterol in medium VLDL	mmol/l	Lipoprotein subclasses	Medium VLDL	average diameter 44.5 nm	no
+WHR	hdll	314	-0.330252293891451	0.0357343694483533	2.42232818633906e-20	-	hdll	HDL_L	Total lipids in HDL	mmol/l	Total lipids	Total lipids		no
+WHR	hdlp	314	-0.202556795979595	0.0360959633641372	2.00442306125764e-08	-	hdlp	HDL_P	Concentration of HDL particles	mmol/l	Lipoprotein particle concentrations	Lipoprotein particle concentrations		no
+WHR	acetone	314	-0.107086380842864	0.0240748984244436	8.66528773637917e-06	-	acetone	Acetone	Acetone	mmol/l	Ketone bodies	Ketone bodies		no
+WHR	lvldlfcpct	314	0.191685007813442	0.0271345004481679	1.61480943908808e-12	+	lvldlfcpct	L_VLDL_FC_pct	Free cholesterol to total lipids ratio in large VLDL	%	Relative lipoprotein lipid concentrations	Large VLDL ratios		yes
+WHR	xxlvldlfc	314	0.453602022058821	0.0447238430662266	3.58606579027751e-24	+	xxlvldlfc	XXL_VLDL_FC	Free cholesterol in chylomicrons and extremely large VLDL	mmol/l	Lipoprotein subclasses	Chylomicrons and extremely large VLDL	particle diameters from 75 nm upwards	no
+WHR	ldll	314	0.0377813884649608	0.0330185915571875	0.252521666802737	+	ldll	LDL_L	Total lipids in LDL	mmol/l	Total lipids	Total lipids		no
+WHR	xsvldlfcpct	314	-0.181732392298728	0.0337548873689397	7.28955600777324e-08	-	xsvldlfcpct	XS_VLDL_FC_pct	Free cholesterol to total lipids ratio in very small VLDL	%	Relative lipoprotein lipid concentrations	Very small VLDL ratios		yes
+WHR	vldll	314	0.405650027439892	0.0433971692458472	8.98418422817275e-21	+	vldll	VLDL_L	Total lipids in VLDL	mmol/l	Total lipids	Total lipids		no
+WHR	lldlpl	314	-0.0217261170578658	0.0321968610387388	0.499809249925088	-	lldlpl	L_LDL_PL	Phospholipids in large LDL	mmol/l	Lipoprotein subclasses	Large LDL	average diameter 25.5 nm	no
+WHR	mldlp	314	0.14064595537213	0.0318646513408185	1.01545915674652e-05	+	mldlp	M_LDL_P	Concentration of medium LDL particles	mmol/l	Lipoprotein subclasses	Medium LDL	average diameter 23 nm	no
+WHR	svldlcepct	314	-0.160738071236842	0.0366619249060047	1.16341925303969e-05	-	svldlcepct	S_VLDL_CE_pct	Cholesteryl esters to total lipids ratio in small VLDL	%	Relative lipoprotein lipid concentrations	Small VLDL ratios		yes
+WHR	mhdlc	314	-0.312976090618109	0.0391985179412924	1.41223676685782e-15	-	mhdlc	M_HDL_C	Cholesterol in medium HDL	mmol/l	Lipoprotein subclasses	Medium HDL	average diameter 10.9 nm	no
+WHR	xxlvldll	314	0.441516142884351	0.0435961551031574	4.17562588367742e-24	+	xxlvldll	XXL_VLDL_L	Total lipids in chylomicrons and extremely large VLDL	mmol/l	Lipoprotein subclasses	Chylomicrons and extremely large VLDL	particle diameters from 75 nm upwards	no
+WHR	mvldlcpct	314	-0.426990615800905	0.0432115711183984	5.01299667375409e-23	-	mvldlcpct	M_VLDL_C_pct	Cholesterol to total lipids ratio in medium VLDL	%	Relative lipoprotein lipid concentrations	Medium VLDL ratios		yes
+WHR	xlhdll	314	-0.502712205618143	0.0331317835570088	5.32905276797781e-52	-	xlhdll	XL_HDL_L	Total lipids in very large HDL	mmol/l	Lipoprotein subclasses	Very large HDL	average diameter 14.3 nm	no
+WHR	his	314	0.00526848465591388	0.0212239606426445	0.803954235754047	+	his	His	Histidine	mmol/l	Amino acids	Amino acids		no
+WHR	lvldlp	314	0.456535037131605	0.0454436727376827	9.55037434283672e-24	+	lvldlp	L_VLDL_P	Concentration of large VLDL particles	mmol/l	Lipoprotein subclasses	Large VLDL	average diameter 53.6 nm	no
+WHR	mvldlp	314	0.246756314806218	0.0364216122801912	1.24408820792355e-11	+	mvldlp	M_VLDL_P	Concentration of medium VLDL particles	mmol/l	Lipoprotein subclasses	Medium VLDL	average diameter 44.5 nm	no
+WHR	xxlvldlcepct	314	-0.102915648448297	0.0289172422018842	0.000372309553462841	-	xxlvldlcepct	XXL_VLDL_CE_pct	Cholesteryl esters to total lipids ratio in chylomicrons and extremely large VLDL	%	Relative lipoprotein lipid concentrations	Chylomicrons and extremely large VLDL ratios		yes
+WHR	ldlc	314	0.00832713422533442	0.032837363975558	0.799814508984813	+	ldlc	LDL_C	LDL cholesterol	mmol/l	Cholesterol	Cholesterol		no
+WHR	totalp	314	-0.178205256751064	0.0347422587363552	2.90742027749482e-07	-	totalp	Total_P	Total concentration of lipoprotein particles	mmol/l	Lipoprotein particle concentrations	Lipoprotein particle concentrations		no
+WHR	lhdlpl	314	-0.459677138544611	0.0355977165089355	3.79664389009045e-38	-	lhdlpl	L_HDL_PL	Phospholipids in large HDL	mmol/l	Lipoprotein subclasses	Large HDL	average diameter 12.1 nm	no
+WHR	xlvldlfcpct	314	-0.348101180289677	0.0349492823518548	2.27647735346267e-23	-	xlvldlfcpct	XL_VLDL_FC_pct	Free cholesterol to total lipids ratio in very large VLDL	%	Relative lipoprotein lipid concentrations	Very large VLDL ratios		yes
+WHR	shdll	314	0.196373509481254	0.0320809577197572	9.2881400798045e-10	+	shdll	S_HDL_L	Total lipids in small HDL	mmol/l	Lipoprotein subclasses	Small HDL	average diameter 8.7 nm	no
+WHR	shdlfc	314	0.0674725424122591	0.0316647761016249	0.0331024014937172	+	shdlfc	S_HDL_FC	Free cholesterol in small HDL	mmol/l	Lipoprotein subclasses	Small HDL	average diameter 8.7 nm	no
+WHR	xlhdlce	314	-0.535012302533577	0.0354907915206508	2.3766687767374e-51	-	xlhdlce	XL_HDL_CE	Cholesteryl esters in very large HDL	mmol/l	Lipoprotein subclasses	Very large HDL	average diameter 14.3 nm	no
+WHR	lhdlfcpct	314	-0.393900888508359	0.0343110681998887	1.65730691339017e-30	-	lhdlfcpct	L_HDL_FC_pct	Free cholesterol to total lipids ratio in large HDL	%	Relative lipoprotein lipid concentrations	Large HDL ratios		yes
+WHR	xxlvldlce	314	0.450755909656652	0.0443812616962598	3.10176005982096e-24	+	xxlvldlce	XXL_VLDL_CE	Cholesteryl esters in chylomicrons and extremely large VLDL	mmol/l	Lipoprotein subclasses	Chylomicrons and extremely large VLDL	particle diameters from 75 nm upwards	no
+WHR	ldlp	314	0.0825292217513163	0.0335020320888742	0.0137622660732172	+	ldlp	LDL_P	Concentration of LDL particles	mmol/l	Lipoprotein particle concentrations	Lipoprotein particle concentrations		no
+WHR	lvldlc	314	0.421180712538129	0.0433107128718214	2.36761639345702e-22	+	lvldlc	L_VLDL_C	Cholesterol in large VLDL	mmol/l	Lipoprotein subclasses	Large VLDL	average diameter 53.6 nm	no
+WHR	xsvldlce	314	-0.0811580044173691	0.0285567065116581	0.00448322572559044	-	xsvldlce	XS_VLDL_CE	Cholesteryl esters in very small VLDL	mmol/l	Lipoprotein subclasses	Very small VLDL	average diameter 31.3 nm	no
+WHR	phosphoglyc	314	-0.0450568156010526	0.0295726360093999	0.127609107966716	-	phosphoglyc	Phosphoglyc	Phosphoglycerides	mmol/l	Other lipids	Other lipids		no
+WHR	omega3	314	0.0794982012214936	0.0323899638805913	0.0141116589986036	+	omega3	Omega_3	Omega-3 fatty acids	mmol/l	Fatty acids	Fatty acids		no
+WHR	sldlcpct	314	-0.0647560548738555	0.0280998742763434	0.0211948026561147	-	sldlcpct	S_LDL_C_pct	Cholesterol to total lipids ratio in small LDL	%	Relative lipoprotein lipid concentrations	Small LDL ratios		yes
+WHR	omega6pct	314	-0.427594827321739	0.0376517188310657	6.87835370994926e-30	-	omega6pct	Omega_6_pct	Ratio of omega-6 fatty acids to total fatty acids	%	Fatty acids	Fatty acid ratios		yes
+WHR	lapct	314	-0.396182137537029	0.0317932219746824	1.21506974577635e-35	-	lapct	LA_pct	Ratio of linoleic acid to total fatty acids	%	Fatty acids	Fatty acid ratios		yes
+WHR	idlfcpct	314	-0.242458598330661	0.0357792903896837	1.23116419124102e-11	-	idlfcpct	IDL_FC_pct	Free cholesterol to total lipids ratio in IDL	%	Relative lipoprotein lipid concentrations	IDL ratios		yes
+WHR	xlvldlp	314	0.478696391426394	0.0455758851745565	8.3427683178986e-26	+	xlvldlp	XL_VLDL_P	Concentration of very large VLDL particles	mmol/l	Lipoprotein subclasses	Very large VLDL	average diameter 64 nm	no
+WHR	mvldltgpct	314	0.402368880933739	0.0420249354854749	1.0232456679846e-21	+	mvldltgpct	M_VLDL_TG_pct	Triglycerides to total lipids ratio in medium VLDL	%	Relative lipoprotein lipid concentrations	Medium VLDL ratios		yes
+WHR	shdlc	314	0.080550111533746	0.03250361510409	0.0132051060133567	+	shdlc	S_HDL_C	Cholesterol in small HDL	mmol/l	Lipoprotein subclasses	Small HDL	average diameter 8.7 nm	no
+WHR	apob	314	0.0898224099276953	0.0328762953042401	0.00629257414364744	+	apob	ApoB	Apolipoprotein B	g/l	Apolipoproteins	Apolipoproteins		no
+WHR	xsvldlc	314	-0.031777193543939	0.0281812787933883	0.259489132939082	-	xsvldlc	XS_VLDL_C	Cholesterol in very small VLDL	mmol/l	Lipoprotein subclasses	Very small VLDL	average diameter 31.3 nm	no
+WHR	lhdll	314	-0.488365487420802	0.035985551123426	5.93790232640977e-42	-	lhdll	L_HDL_L	Total lipids in large HDL	mmol/l	Lipoprotein subclasses	Large HDL	average diameter 12.1 nm	no
+WHR	totalc	314	-0.111469064025091	0.0318140049885553	0.000458715532752107	-	totalc	Total_C	Total cholesterol	mmol/l	Cholesterol	Cholesterol		no
+WHR	totaltg	314	0.452406004244679	0.0461597289634426	1.11608061864025e-22	+	totaltg	Total_TG	Total triglycerides	mmol/l	Triglycerides	Triglycerides		no
+WHR	lhdlce	314	-0.53681961956061	0.0383698974661836	1.77791779063932e-44	-	lhdlce	L_HDL_CE	Cholesteryl esters in large HDL	mmol/l	Lipoprotein subclasses	Large HDL	average diameter 12.1 nm	no
+WHR	mldlplpct	314	-0.144060401481285	0.0328304908905004	1.14394452995339e-05	-	mldlplpct	M_LDL_PL_pct	Phospholipids to total lipids ratio in medium LDL	%	Relative lipoprotein lipid concentrations	Medium LDL ratios		yes
+WHR	svldll	314	0.361350720966582	0.0426264536907569	2.30782956636444e-17	+	svldll	S_VLDL_L	Total lipids in small VLDL	mmol/l	Lipoprotein subclasses	Small VLDL	average diameter 36.8 nm	no
+WHR	vldlpl	314	0.372230073089108	0.0417801573532829	5.13766517958871e-19	+	vldlpl	VLDL_PL	Phospholipids in VLDL	mmol/l	Phospholipids	Phospholipids		no
+WHR	lvldlcpct	314	-0.193988789729609	0.0318666241778865	1.14671308986913e-09	-	lvldlcpct	L_VLDL_C_pct	Cholesterol to total lipids ratio in large VLDL	%	Relative lipoprotein lipid concentrations	Large VLDL ratios		yes
+WHR	cholines	314	-0.0983684437263108	0.0297256082858738	0.000935577951433398	-	cholines	Cholines	Total cholines	mmol/l	Other lipids	Other lipids		no
+WHR	lldlce	314	-0.0197852207312531	0.0329688032018401	0.548426617116925	-	lldlce	L_LDL_CE	Cholesteryl esters in large LDL	mmol/l	Lipoprotein subclasses	Large LDL	average diameter 25.5 nm	no
+WHR	acetoacetate	314	0.0556715236883768	0.0220454515512222	0.0115597397629344	+	acetoacetate	Acetoacetate	Acetoacetate	mmol/l	Ketone bodies	Ketone bodies		no
+WHR	pufapct	314	-0.433936932192235	0.0353546976754755	1.2521539401954e-34	-	pufapct	PUFA_pct	Ratio of polyunsaturated fatty acids to total fatty acids	%	Fatty acids	Fatty acid ratios		yes
+WHR	lvldlplpct	314	0.440577620675784	0.039647957745618	1.09380770284942e-28	+	lvldlplpct	L_VLDL_PL_pct	Phospholipids to total lipids ratio in large VLDL	%	Relative lipoprotein lipid concentrations	Large VLDL ratios		yes
+WHR	sldlcepct	314	0.28188069230499	0.0339904795007073	1.10491683481964e-16	+	sldlcepct	S_LDL_CE_pct	Cholesteryl esters to total lipids ratio in small LDL	%	Relative lipoprotein lipid concentrations	Small LDL ratios		yes
+WHR	mldlfc	314	-0.0200594880580926	0.03344060211987	0.548603359692261	-	mldlfc	M_LDL_FC	Free cholesterol in medium LDL	mmol/l	Lipoprotein subclasses	Medium LDL	average diameter 23 nm	no
+WHR	mldlfcpct	314	-0.477888563528651	0.0472134757672567	4.4190062372119e-24	-	mldlfcpct	M_LDL_FC_pct	Free cholesterol to total lipids ratio in medium LDL	%	Relative lipoprotein lipid concentrations	Medium LDL ratios		yes
+WHR	ile	314	0.212887213014676	0.024034949842078	8.19007518076542e-19	+	ile	Ile	Isoleucine	mmol/l	Amino acids	Branched-chain amino acids		no
+WHR	sldltg	314	0.406460579603409	0.0463649100059775	1.84214518003503e-18	+	sldltg	S_LDL_TG	Triglycerides in small LDL	mmol/l	Lipoprotein subclasses	Small LDL	average diameter 18.7 nm	no
+WHR	mhdlpl	314	-0.155229378903015	0.0347587070501962	7.97278221306315e-06	-	mhdlpl	M_HDL_PL	Phospholipids in medium HDL	mmol/l	Lipoprotein subclasses	Medium HDL	average diameter 10.9 nm	no
+WHR	vldlce	314	0.194125881564119	0.0336962482318786	8.35906432687246e-09	+	vldlce	VLDL_CE	Cholesteryl esters in VLDL	mmol/l	Cholesteryl esters	Cholesteryl esters		no
+WHR	mhdlcpct	314	-0.518921938596399	0.0450516269684355	1.06591325243421e-30	-	mhdlcpct	M_HDL_C_pct	Cholesterol to total lipids ratio in medium HDL	%	Relative lipoprotein lipid concentrations	Medium HDL ratios		yes
+WHR	glyca	314	0.432906396619401	0.0339372885986166	2.88391058498234e-37	+	glyca	GlycA	Glycoprotein acetyls	mmol/l	Inflammation	Inflammation		no
+WHR	svldltgpct	314	0.32225799809328	0.0429956161647454	6.62295667268147e-14	+	svldltgpct	S_VLDL_TG_pct	Triglycerides to total lipids ratio in small VLDL	%	Relative lipoprotein lipid concentrations	Small VLDL ratios		yes
+WHR	mldll	314	0.145720422183682	0.0335255705839573	1.38298293958471e-05	+	mldll	M_LDL_L	Total lipids in medium LDL	mmol/l	Lipoprotein subclasses	Medium LDL	average diameter 23 nm	no
+WHR	ldlce	314	0.0495772754222091	0.0329154910792703	0.132016129817053	+	ldlce	LDL_CE	Cholesteryl esters in LDL	mmol/l	Cholesteryl esters	Cholesteryl esters		no
+WHR	ala	314	0.115678861585157	0.0241581993036585	1.68125313555337e-06	+	ala	Ala	Alanine	mmol/l	Amino acids	Amino acids		no
+WHR	xlhdlplpct	314	-0.425065028013677	0.0302725321692045	8.71276084410731e-45	-	xlhdlplpct	XL_HDL_PL_pct	Phospholipids to total lipids ratio in very large HDL	%	Relative lipoprotein lipid concentrations	Very large HDL ratios		yes
+WHR	mhdlfc	314	-0.285615391532538	0.0358565535211764	1.64556497777688e-15	-	mhdlfc	M_HDL_FC	Free cholesterol in medium HDL	mmol/l	Lipoprotein subclasses	Medium HDL	average diameter 10.9 nm	no
+WHR	ldlpl	314	0.0314805292104058	0.0328902613166086	0.338497448115241	+	ldlpl	LDL_PL	Phospholipids in LDL	mmol/l	Phospholipids	Phospholipids		no
+WHR	mhdlcepct	314	-0.477879593633383	0.0439497397187259	1.54474891603544e-27	-	mhdlcepct	M_HDL_CE_pct	Cholesteryl esters to total lipids ratio in medium HDL	%	Relative lipoprotein lipid concentrations	Medium HDL ratios		yes
+WHR	xlvldltgpct	314	0.339458537312005	0.0366646044558533	2.07361426859334e-20	+	xlvldltgpct	XL_VLDL_TG_pct	Triglycerides to total lipids ratio in very large VLDL	%	Relative lipoprotein lipid concentrations	Very large VLDL ratios		yes
+WHR	lhdlplpct	314	0.477107951738343	0.0348042409702285	9.05197612331544e-43	+	lhdlplpct	L_HDL_PL_pct	Phospholipids to total lipids ratio in large HDL	%	Relative lipoprotein lipid concentrations	Large HDL ratios		yes
+WHR	lldlfcpct	314	-0.490086112703453	0.0487728410330348	9.34274611317811e-24	-	lldlfcpct	L_LDL_FC_pct	Free cholesterol to total lipids ratio in large LDL	%	Relative lipoprotein lipid concentrations	Large LDL ratios		yes
+WHR	lvldltg	314	0.435986388797499	0.0442588638739276	6.7982612089689e-23	+	lvldltg	L_VLDL_TG	Triglycerides in large VLDL	mmol/l	Lipoprotein subclasses	Large VLDL	average diameter 53.6 nm	no
+WHR	mvldlplpct	314	-0.284485286468245	0.0367298845385617	9.5329636827526e-15	-	mvldlplpct	M_VLDL_PL_pct	Phospholipids to total lipids ratio in medium VLDL	%	Relative lipoprotein lipid concentrations	Medium VLDL ratios		yes
+WHR	vldlsize	314	0.463817277387421	0.0443469514928883	1.33492226287818e-25	+	vldlsize	VLDL_size	Average diameter for VLDL particles	nm	Lipoprotein particle sizes	Lipoprotein particle sizes		no
+WHR	mhdlce	314	-0.318170807636706	0.0399470070968629	1.65461556167607e-15	-	mhdlce	M_HDL_CE	Cholesteryl esters in medium HDL	mmol/l	Lipoprotein subclasses	Medium HDL	average diameter 10.9 nm	no
+WHR	idlce	314	-0.162044227259211	0.0334166867435364	1.23959830569915e-06	-	idlce	IDL_CE	Cholesteryl esters in IDL	mmol/l	Lipoprotein subclasses	IDL	average diameter 28.6 nm	no
+WHR	albumin	314	-0.0726345211233456	0.0285426287376749	0.0109348686438373	-	albumin	Albumin	Albumin	g/l	Fluid balance	Fluid balance		no
+WHR	idlplpct	314	0.0934455074736557	0.0350013096555112	0.00759028263469858	+	idlplpct	IDL_PL_pct	Phospholipids to total lipids ratio in IDL	%	Relative lipoprotein lipid concentrations	IDL ratios		yes
+WHR	tyr	314	0.167853567501783	0.027925370224097	1.84620149757254e-09	+	tyr	Tyr	Tyrosine	mmol/l	Amino acids	Aromatic amino acids		no
+WHR	sldlc	314	0.0917549129523505	0.0337014159580482	0.00647736975008333	+	sldlc	S_LDL_C	Cholesterol in small LDL	mmol/l	Lipoprotein subclasses	Small LDL	average diameter 18.7 nm	no
+WHR	mldlcepct	314	0.291091711834623	0.0346744066450644	4.65886466832186e-17	+	mldlcepct	M_LDL_CE_pct	Cholesteryl esters to total lipids ratio in medium LDL	%	Relative lipoprotein lipid concentrations	Medium LDL ratios		yes
+WHR	mldlcpct	314	-0.193165069169149	0.0288526217691258	2.15836982362819e-11	-	mldlcpct	M_LDL_C_pct	Cholesterol to total lipids ratio in medium LDL	%	Relative lipoprotein lipid concentrations	Medium LDL ratios		yes
+WHR	xlvldlc	314	0.426544548583535	0.0431463633387447	4.78821670090987e-23	+	xlvldlc	XL_VLDL_C	Cholesterol in very large VLDL	mmol/l	Lipoprotein subclasses	Very large VLDL	average diameter 64 nm	no
+WHR	idlfc	314	-0.159026103620554	0.0334168784355026	1.94693520318876e-06	-	idlfc	IDL_FC	Free cholesterol in IDL	mmol/l	Lipoprotein subclasses	IDL	average diameter 28.6 nm	no
+WHR	lldll	314	-0.0221540892402126	0.0328410078038357	0.49993873046436	-	lldll	L_LDL_L	Total lipids in large LDL	mmol/l	Lipoprotein subclasses	Large LDL	average diameter 25.5 nm	no
+WHR	mhdltg	314	0.364526750208013	0.039200699367603	1.41791578439173e-20	+	mhdltg	M_HDL_TG	Triglycerides in medium HDL	mmol/l	Lipoprotein subclasses	Medium HDL	average diameter 10.9 nm	no
+WHR	hdlc	314	-0.426253118743849	0.039236967466313	1.71915348920482e-27	-	hdlc	HDL_C	HDL cholesterol	mmol/l	Cholesterol	Cholesterol		no
+WHR	idlp	314	-0.0288491736696327	0.0308460952340586	0.349653411346714	-	idlp	IDL_P	Concentration of IDL particles	mmol/l	Lipoprotein subclasses	IDL	average diameter 28.6 nm	no
+WHR	la	314	-0.00635299705183822	0.0330088876297291	0.84737936955059	-	la	LA	Linoleic acid	mmol/l	Fatty acids	Fatty acids		no
+WHR	xsvldlfc	314	0.0892230612709048	0.0295638508128376	0.00254467095512774	+	xsvldlfc	XS_VLDL_FC	Free cholesterol in very small VLDL	mmol/l	Lipoprotein subclasses	Very small VLDL	average diameter 31.3 nm	no
+WHR	idlpl	314	-0.111052862127516	0.0311399531851235	0.00036212575490325	-	idlpl	IDL_PL	Phospholipids in IDL	mmol/l	Lipoprotein subclasses	IDL	average diameter 28.6 nm	no
+WHR	sldlfcpct	314	-0.391329966510954	0.0451319142928772	4.29081128123958e-18	-	sldlfcpct	S_LDL_FC_pct	Free cholesterol to total lipids ratio in small LDL	%	Relative lipoprotein lipid concentrations	Small LDL ratios		yes
+WHR	xlvldlcpct	314	-0.404507602015446	0.0400077154802953	4.95089859826416e-24	-	xlvldlcpct	XL_VLDL_C_pct	Cholesterol to total lipids ratio in very large VLDL	%	Relative lipoprotein lipid concentrations	Very large VLDL ratios		yes
+WHR	shdlcpct	314	-0.309979181468595	0.0388320172714849	1.43320911148517e-15	-	shdlcpct	S_HDL_C_pct	Cholesterol to total lipids ratio in small HDL	%	Relative lipoprotein lipid concentrations	Small HDL ratios		yes
+WHR	leu	314	0.224315266242038	0.0249346790968973	2.33844140147975e-19	+	leu	Leu	Leucine	mmol/l	Amino acids	Branched-chain amino acids		no
+WHR	mldlc	314	0.124283977810335	0.0326448541639177	0.000140575375667258	+	mldlc	M_LDL_C	Cholesterol in medium LDL	mmol/l	Lipoprotein subclasses	Medium LDL	average diameter 23 nm	no
+WHR	phe	314	0.128170885704587	0.0229189116768823	2.23999209068158e-08	+	phe	Phe	Phenylalanine	mmol/l	Amino acids	Aromatic amino acids		no
+WHR	xlhdlp	314	-0.478833603920027	0.0322242257971824	6.04378717142637e-50	-	xlhdlp	XL_HDL_P	Concentration of very large HDL particles	mmol/l	Lipoprotein subclasses	Very large HDL	average diameter 14.3 nm	no
+WHR	xlhdltg	314	0.131449188889769	0.0391723849297552	0.000791759615965533	+	xlhdltg	XL_HDL_TG	Triglycerides in very large HDL	mmol/l	Lipoprotein subclasses	Very large HDL	average diameter 14.3 nm	no
+WHR	vldltg	314	0.456794433127619	0.0461338489774607	4.10066313608308e-23	+	vldltg	VLDL_TG	Triglycerides in VLDL	mmol/l	Triglycerides	Triglycerides		no
+WHR	mvldlc	314	0.0296098318636819	0.0305961006524227	0.3331618041635	+	mvldlc	M_VLDL_C	Cholesterol in medium VLDL	mmol/l	Lipoprotein subclasses	Medium VLDL	average diameter 44.5 nm	no
+WHR	shdlfcpct	314	-0.316640250671987	0.0325309515155553	2.16980041411899e-22	-	shdlfcpct	S_HDL_FC_pct	Free cholesterol to total lipids ratio in small HDL	%	Relative lipoprotein lipid concentrations	Small HDL ratios		yes
+WHR	mhdlp	314	-0.254085533299553	0.0366446279670456	4.09761889613871e-12	-	mhdlp	M_HDL_P	Concentration of medium HDL particles	mmol/l	Lipoprotein subclasses	Medium HDL	average diameter 10.9 nm	no
+WHR	lvldll	314	0.447378541287519	0.0447731493485341	1.65019405729974e-23	+	lvldll	L_VLDL_L	Total lipids in large VLDL	mmol/l	Lipoprotein subclasses	Large VLDL	average diameter 53.6 nm	no
+WHR	ldltg	314	0.357060856325922	0.0409595137873043	2.84639059549863e-18	+	ldltg	LDL_TG	Triglycerides in LDL	mmol/l	Triglycerides	Triglycerides		no
+WHR	lldlc	314	-0.0525005050721302	0.0330982112995073	0.112693109802818	-	lldlc	L_LDL_C	Cholesterol in large LDL	mmol/l	Lipoprotein subclasses	Large LDL	average diameter 25.5 nm	no
+WHR	xxlvldlfcpct	314	-0.214723228872095	0.0294484486757128	3.06533296323034e-13	-	xxlvldlfcpct	XXL_VLDL_FC_pct	Free cholesterol to total lipids ratio in chylomicrons and extremely large VLDL	%	Relative lipoprotein lipid concentrations	Chylomicrons and extremely large VLDL ratios		yes
+WHR	sfapct	314	0.202265554538915	0.0251582715805597	9.00412014213439e-16	+	sfapct	SFA_pct	Ratio of saturated fatty acids to total fatty acids	%	Fatty acids	Fatty acid ratios		yes
+WHR	hdlce	314	-0.4360832523445	0.0404015414422619	3.6852982845463e-27	-	hdlce	HDL_CE	Cholesteryl esters in HDL	mmol/l	Cholesteryl esters	Cholesteryl esters		no
+WHR	idltg	314	0.322632028692559	0.0393852542144714	2.57570580790664e-16	+	idltg	IDL_TG	Triglycerides in IDL	mmol/l	Lipoprotein subclasses	IDL	average diameter 28.6 nm	no
+WHR	idltgpct	314	0.415392096707132	0.0451512540799037	3.57908510075098e-20	+	idltgpct	IDL_TG_pct	Triglycerides to total lipids ratio in IDL	%	Relative lipoprotein lipid concentrations	IDL ratios		yes
+WHR	xsvldltgpct	314	0.424708542962421	0.0455301774396049	1.07819310852912e-20	+	xsvldltgpct	XS_VLDL_TG_pct	Triglycerides to total lipids ratio in very small VLDL	%	Relative lipoprotein lipid concentrations	Very small VLDL ratios		yes
+WHR	lldlcepct	314	0.0133049904187003	0.0322269928202817	0.67971477813186	+	lldlcepct	L_LDL_CE_pct	Cholesteryl esters to total lipids ratio in large LDL	%	Relative lipoprotein lipid concentrations	Large LDL ratios		yes
+WHR	lvldlpl	314	0.468612455854962	0.0456511276208838	1.01237518262014e-24	+	lvldlpl	L_VLDL_PL	Phospholipids in large VLDL	mmol/l	Lipoprotein subclasses	Large VLDL	average diameter 53.6 nm	no
+WHR	pufabymufa	314	-0.471475527544995	0.0406445847768927	4.12274462452487e-31	-	pufabymufa	PUFA_by_MUFA	Ratio of polyunsaturated fatty acids to monounsaturated fatty acids	ratio	Fatty acids	Fatty acid ratios		yes
+WHR	xxlvldltgpct	314	0.0510905585603924	0.0287379859217016	0.0754357526775847	+	xxlvldltgpct	XXL_VLDL_TG_pct	Triglycerides to total lipids ratio in chylomicrons and extremely large VLDL	%	Relative lipoprotein lipid concentrations	Chylomicrons and extremely large VLDL ratios		yes
+WHR	lhdlcpct	314	-0.564532287271381	0.0402718547945521	1.20915723019756e-44	-	lhdlcpct	L_HDL_C_pct	Cholesterol to total lipids ratio in large HDL	%	Relative lipoprotein lipid concentrations	Large HDL ratios		yes
+WHR	xxlvldlc	314	0.455479365821886	0.0447193890785137	2.3070187959978e-24	+	xxlvldlc	XXL_VLDL_C	Cholesterol in chylomicrons and extremely large VLDL	mmol/l	Lipoprotein subclasses	Chylomicrons and extremely large VLDL	particle diameters from 75 nm upwards	no
+WHR	xlhdlcpct	314	0.162464618703802	0.0261807967838415	5.45274530143214e-10	+	xlhdlcpct	XL_HDL_C_pct	Cholesterol to total lipids ratio in very large HDL	%	Relative lipoprotein lipid concentrations	Very large HDL ratios		yes
+WHR	ldlsize	314	-0.259094156888428	0.028372431256338	6.73085277064604e-20	-	ldlsize	LDL_size	Average diameter for LDL particles	nm	Lipoprotein particle sizes	Lipoprotein particle sizes		no
+WHR	glucose	314	0.151057874713268	0.0234956158007468	1.28282227842315e-10	+	glucose	Glucose	Glucose	mmol/l	Glycolysis related metabolites	Glycolysis related metabolites		no
+WHR	svldlpl	314	0.258211562208097	0.0372930944482652	4.39550443711863e-12	+	svldlpl	S_VLDL_PL	Phospholipids in small VLDL	mmol/l	Lipoprotein subclasses	Small VLDL	average diameter 36.8 nm	no
+WHR	xlvldlcepct	314	-0.403372449803247	0.0406083919978499	2.98432234338616e-23	-	xlvldlcepct	XL_VLDL_CE_pct	Cholesteryl esters to total lipids ratio in very large VLDL	%	Relative lipoprotein lipid concentrations	Very large VLDL ratios		yes
+WHR	svldlc	314	0.2344027297162	0.0351518895481533	2.58814253940711e-11	+	svldlc	S_VLDL_C	Cholesterol in small VLDL	mmol/l	Lipoprotein subclasses	Small VLDL	average diameter 36.8 nm	no
+WHR	xlhdlpl	314	-0.495656110345837	0.0326508882594769	4.76293794971409e-52	-	xlhdlpl	XL_HDL_PL	Phospholipids in very large HDL	mmol/l	Lipoprotein subclasses	Very large HDL	average diameter 14.3 nm	no
+WHR	unsaturation	314	-0.310638554894473	0.0316338448381947	9.25116908543894e-23	-	unsaturation	Unsaturation	Degree of unsaturation	degree	Fatty acids	Fatty acids		no
+WHR	xlhdlc	314	-0.527802431704082	0.0353394371335896	1.94417864391164e-50	-	xlhdlc	XL_HDL_C	Cholesterol in very large HDL	mmol/l	Lipoprotein subclasses	Very large HDL	average diameter 14.3 nm	no
+WHR	xlhdltgpct	314	0.531078399563958	0.0444864781357174	7.50288991961244e-33	+	xlhdltgpct	XL_HDL_TG_pct	Triglycerides to total lipids ratio in very large HDL	%	Relative lipoprotein lipid concentrations	Very large HDL ratios		yes
+WHR	mvldlpl	314	0.226365696341077	0.0359402494376273	3.00753647749818e-10	+	mvldlpl	M_VLDL_PL	Phospholipids in medium VLDL	mmol/l	Lipoprotein subclasses	Medium VLDL	average diameter 44.5 nm	no
+WHR	apoa1	314	-0.268646915860797	0.0356675181371063	4.99778747645006e-14	-	apoa1	ApoA1	Apolipoprotein A1	g/l	Apolipoproteins	Apolipoproteins		no
+WHR	sldlp	314	0.14115759418223	0.0346163247293286	4.54686755001206e-05	+	sldlp	S_LDL_P	Concentration of small LDL particles	mmol/l	Lipoprotein subclasses	Small LDL	average diameter 18.7 nm	no
+WHR	mldlpl	314	0.131830305938829	0.0339514546124736	0.000103215487981903	+	mldlpl	M_LDL_PL	Phospholipids in medium LDL	mmol/l	Lipoprotein subclasses	Medium LDL	average diameter 23 nm	no
+WHR	lvldlce	314	0.369124375602945	0.0411736330324259	3.10092500326677e-19	+	lvldlce	L_VLDL_CE	Cholesteryl esters in large VLDL	mmol/l	Lipoprotein subclasses	Large VLDL	average diameter 53.6 nm	no
+WHR	xsvldlpl	314	0.160596526747243	0.0327191425080273	9.185265402012e-07	+	xsvldlpl	XS_VLDL_PL	Phospholipids in very small VLDL	mmol/l	Lipoprotein subclasses	Very small VLDL	average diameter 31.3 nm	no
+WHR	mvldll	314	0.299622888473881	0.0391619351794146	1.99623541647061e-14	+	mvldll	M_VLDL_L	Total lipids in medium VLDL	mmol/l	Lipoprotein subclasses	Medium VLDL	average diameter 44.5 nm	no
+WHR	totall	314	0.0723515325999674	0.0317735431472859	0.0227802594018269	+	totall	Total_L	Total lipids in lipoprotein particles	mmol/l	Total lipids	Total lipids		no
+WHR	svldlplpct	314	-0.392042624810725	0.0450176615188689	3.07541301317806e-18	-	svldlplpct	S_VLDL_PL_pct	Phospholipids to total lipids ratio in small VLDL	%	Relative lipoprotein lipid concentrations	Small VLDL ratios		yes
+WHR	xxlvldlcpct	314	-0.15998195977625	0.0299953049028807	9.63021590630839e-08	-	xxlvldlcpct	XXL_VLDL_C_pct	Cholesterol to total lipids ratio in chylomicrons and extremely large VLDL	%	Relative lipoprotein lipid concentrations	Chylomicrons and extremely large VLDL ratios		yes
+WHR	sldlce	314	0.148560029294141	0.0344192187533041	1.58742399099543e-05	+	sldlce	S_LDL_CE	Cholesteryl esters in small LDL	mmol/l	Lipoprotein subclasses	Small LDL	average diameter 18.7 nm	no
+WHR	xlhdlcepct	314	-0.206711570565136	0.0338486756294659	1.01564292166352e-09	-	xlhdlcepct	XL_HDL_CE_pct	Cholesteryl esters to total lipids ratio in very large HDL	%	Relative lipoprotein lipid concentrations	Very large HDL ratios		yes
+WHR	gln	314	-0.151660535407534	0.0279331588782191	5.65410735658415e-08	-	gln	Gln	Glutamine	mmol/l	Amino acids	Amino acids		no
+WHR	xlvldll	314	0.471524674348461	0.045152638697772	1.57904794753773e-25	+	xlvldll	XL_VLDL_L	Total lipids in very large VLDL	mmol/l	Lipoprotein subclasses	Very large VLDL	average diameter 64 nm	no
+WHR	mhdll	314	-0.209518332328848	0.0358832141616673	5.25480617571258e-09	-	mhdll	M_HDL_L	Total lipids in medium HDL	mmol/l	Lipoprotein subclasses	Medium HDL	average diameter 10.9 nm	no
+WHR	lhdlc	314	-0.528718201146456	0.0377256680964243	1.26530301426034e-44	-	lhdlc	L_HDL_C	Cholesterol in large HDL	mmol/l	Lipoprotein subclasses	Large HDL	average diameter 12.1 nm	no
+WHR	mvldlce	314	-0.0744872563304915	0.0306421262084021	0.0150623045409575	-	mvldlce	M_VLDL_CE	Cholesteryl esters in medium VLDL	mmol/l	Lipoprotein subclasses	Medium VLDL	average diameter 44.5 nm	no
+WHR	pufa	314	0.0443887203168791	0.0340599963897961	0.19248912424499	+	pufa	PUFA	Polyunsaturated fatty acids	mmol/l	Fatty acids	Fatty acids		no
+WHR	sphingomyelins	314	-0.191246882850245	0.0324386620952879	3.73217334775803e-09	-	sphingomyelins	Sphingomyelins	Sphingomyelins	mmol/l	Other lipids	Other lipids		no
+WHR	hdlpl	314	-0.283482284087066	0.0348150947546333	3.87164042508396e-16	-	hdlpl	HDL_PL	Phospholipids in HDL	mmol/l	Phospholipids	Phospholipids		no
+WHR	lvldlcepct	314	-0.316483667793077	0.0352877335780784	3.00144803157711e-19	-	lvldlcepct	L_VLDL_CE_pct	Cholesteryl esters to total lipids ratio in large VLDL	%	Relative lipoprotein lipid concentrations	Large VLDL ratios		yes
+WHR	idlcepct	314	-0.323179236890918	0.041170537908509	4.16802266893766e-15	-	idlcepct	IDL_CE_pct	Cholesteryl esters to total lipids ratio in IDL	%	Relative lipoprotein lipid concentrations	IDL ratios		yes
+WHR	dha	314	-0.116260284934733	0.027631193225188	2.58127106018069e-05	-	dha	DHA	Docosahexaenoic acid	mmol/l	Fatty acids	Fatty acids		no
+WHR	xlhdlfc	314	-0.475077466515654	0.0348802227738631	3.03513547670365e-42	-	xlhdlfc	XL_HDL_FC	Free cholesterol in very large HDL	mmol/l	Lipoprotein subclasses	Very large HDL	average diameter 14.3 nm	no
+WHR	pyruvate	314	0.038691658953467	0.0216701829151832	0.0741836364464402	+	pyruvate	Pyruvate	Pyruvate	mmol/l	Glycolysis related metabolites	Glycolysis related metabolites		no
+WHR	vldlfc	314	0.333099395214796	0.039571874360212	3.84342719426735e-17	+	vldlfc	VLDL_FC	Free cholesterol in VLDL	mmol/l	Free cholesterol	Free cholesterol		no
+WHR	remnantc	314	0.0654339356869673	0.0305721729749682	0.0323297008480111	+	remnantc	Remnant_C	Remnant cholesterol (non-HDL, non-LDL -cholesterol)	mmol/l	Cholesterol	Cholesterol		no
+WHR	shdlp	314	0.138798740629157	0.0316168686418414	1.13339330101128e-05	+	shdlp	S_HDL_P	Concentration of small HDL particles	mmol/l	Lipoprotein subclasses	Small HDL	average diameter 8.7 nm	no
+WHR	svldlfcpct	314	-0.400771109307655	0.0451362251943207	6.73759500695278e-19	-	svldlfcpct	S_VLDL_FC_pct	Free cholesterol to total lipids ratio in small VLDL	%	Relative lipoprotein lipid concentrations	Small VLDL ratios		yes
+WHR	lhdltgpct	314	0.50510874285146	0.0444302521936687	5.99570783442234e-30	+	lhdltgpct	L_HDL_TG_pct	Triglycerides to total lipids ratio in large HDL	%	Relative lipoprotein lipid concentrations	Large HDL ratios		yes
+WHR	sldll	314	0.108463121466234	0.0349454865598593	0.00191064992340106	+	sldll	S_LDL_L	Total lipids in small LDL	mmol/l	Lipoprotein subclasses	Small LDL	average diameter 18.7 nm	no
+WHR	sldltgpct	314	0.395430819258687	0.0455268390252835	3.76536913194772e-18	+	sldltgpct	S_LDL_TG_pct	Triglycerides to total lipids ratio in small LDL	%	Relative lipoprotein lipid concentrations	Small LDL ratios		yes
+WHR	mldlce	314	0.174453394764564	0.0331623956143448	1.43602658418679e-07	+	mldlce	M_LDL_CE	Cholesteryl esters in medium LDL	mmol/l	Lipoprotein subclasses	Medium LDL	average diameter 23 nm	no
+WHR	mldltg	314	0.380187722253787	0.0431871271519615	1.32892343903353e-18	+	mldltg	M_LDL_TG	Triglycerides in medium LDL	mmol/l	Lipoprotein subclasses	Medium LDL	average diameter 23 nm	no
+WHR	xlvldltg	314	0.479332663763681	0.0453992020273773	4.65632406372957e-26	+	xlvldltg	XL_VLDL_TG	Triglycerides in very large VLDL	mmol/l	Lipoprotein subclasses	Very large VLDL	average diameter 64 nm	no
+WHR	svldlce	314	0.273249004515167	0.0363259574477807	5.38860756672995e-14	+	svldlce	S_VLDL_CE	Cholesteryl esters in small VLDL	mmol/l	Lipoprotein subclasses	Small VLDL	average diameter 36.8 nm	no
+WHR	mhdlplpct	314	0.507437675989694	0.0412655842518037	9.41480738257214e-35	+	mhdlplpct	M_HDL_PL_pct	Phospholipids to total lipids ratio in medium HDL	%	Relative lipoprotein lipid concentrations	Medium HDL ratios		yes
+WHR	totalpl	314	-0.054989102153887	0.0297536256120854	0.0645809428886803	-	totalpl	Total_PL	Total phospholipids in lipoprotein particles	mmol/l	Phospholipids	Phospholipids		no
+WHR	mldltgpct	314	0.287284610076525	0.0389382290030371	1.60735903915131e-13	+	mldltgpct	M_LDL_TG_pct	Triglycerides to total lipids ratio in medium LDL	%	Relative lipoprotein lipid concentrations	Medium LDL ratios		yes
+WHR	idll	314	-0.117278367972602	0.0319152160378791	0.000238142971511561	-	idll	IDL_L	Total lipids in IDL	mmol/l	Lipoprotein subclasses	IDL	average diameter 28.6 nm	no
+WHR	xxlvldlplpct	314	0.244574871875741	0.0323115867241746	3.75349888205792e-14	+	xxlvldlplpct	XXL_VLDL_PL_pct	Phospholipids to total lipids ratio in chylomicrons and extremely large VLDL	%	Relative lipoprotein lipid concentrations	Chylomicrons and extremely large VLDL ratios		yes
+WHR	lhdltg	314	0.023751343178769	0.0315984920198798	0.452255157610994	+	lhdltg	L_HDL_TG	Triglycerides in large HDL	mmol/l	Lipoprotein subclasses	Large HDL	average diameter 12.1 nm	no
+WHR	phosphatidylc	314	-0.0979703930303682	0.0292122016936322	0.000797246382015452	-	phosphatidylc	Phosphatidylc	Phosphatidylcholines	mmol/l	Other lipids	Other lipids		no
+WHR	tgbypg	314	0.509132957893357	0.0482087176296919	4.51753579922346e-26	+	tgbypg	TG_by_PG	Ratio of triglycerides to phosphoglycerides	ratio	Other lipids	Other lipids		no
+WHR	shdlplpct	314	-0.061004381515551	0.0323989943766367	0.059712603391108	-	shdlplpct	S_HDL_PL_pct	Phospholipids to total lipids ratio in small HDL	%	Relative lipoprotein lipid concentrations	Small HDL ratios		yes
+WHR	lhdlfc	314	-0.495792182697792	0.0353907043088458	1.37117210555522e-44	-	lhdlfc	L_HDL_FC	Free cholesterol in large HDL	mmol/l	Lipoprotein subclasses	Large HDL	average diameter 12.1 nm	no
+WHR	shdlcepct	314	-0.21577818745323	0.0363957786454711	3.05417218435755e-09	-	shdlcepct	S_HDL_CE_pct	Cholesteryl esters to total lipids ratio in small HDL	%	Relative lipoprotein lipid concentrations	Small HDL ratios		yes
+WHR	mhdltgpct	314	0.491036484816686	0.0465902678165253	5.68213744731377e-26	+	mhdltgpct	M_HDL_TG_pct	Triglycerides to total lipids ratio in medium HDL	%	Relative lipoprotein lipid concentrations	Medium HDL ratios		yes
+WHR	lldltgpct	314	0.360495105308482	0.0400316214157421	2.15158024019936e-19	+	lldltgpct	L_LDL_TG_pct	Triglycerides to total lipids ratio in large LDL	%	Relative lipoprotein lipid concentrations	Large LDL ratios		yes
+WHR	shdltgpct	314	0.505419703937627	0.0490571893237058	6.85370345993412e-25	+	shdltgpct	S_HDL_TG_pct	Triglycerides to total lipids ratio in small HDL	%	Relative lipoprotein lipid concentrations	Small HDL ratios		yes
+WHR	totalbcaa	314	0.257372752295095	0.025793999850193	1.90246586390608e-23	+	totalbcaa	Total_BCAA	Total concentration of branched-chain amino acids	mmol/l	Amino acids	Branched-chain amino acids	leucine + isoleucine + valine	no
+WHR	mvldlcepct	314	-0.447004188331429	0.0441072493550142	3.88421035287673e-24	-	mvldlcepct	M_VLDL_CE_pct	Cholesteryl esters to total lipids ratio in medium VLDL	%	Relative lipoprotein lipid concentrations	Medium VLDL ratios		yes
+WHR	shdlce	314	0.0790188980568028	0.0326217009204424	0.0154234558392594	+	shdlce	S_HDL_CE	Cholesteryl esters in small HDL	mmol/l	Lipoprotein subclasses	Small HDL	average diameter 8.7 nm	no
+WHR	xxlvldlpl	314	0.46538179522834	0.0450335370089137	4.9394523701147e-25	+	xxlvldlpl	XXL_VLDL_PL	Phospholipids in chylomicrons and extremely large VLDL	mmol/l	Lipoprotein subclasses	Chylomicrons and extremely large VLDL	particle diameters from 75 nm upwards	no
+WHR	vldlc	314	0.258129898005427	0.0362101957295449	1.01356348907785e-12	+	vldlc	VLDL_C	VLDL cholesterol	mmol/l	Cholesterol	Cholesterol		no
+WHR	lactate	314	0.0943236900532419	0.0223617859742506	2.46396884425646e-05	+	lactate	Lactate	Lactate	mmol/l	Glycolysis related metabolites	Glycolysis related metabolites		no
+WHR	shdlpl	314	0.180875960398948	0.0323261481811434	2.20183138123448e-08	+	shdlpl	S_HDL_PL	Phospholipids in small HDL	mmol/l	Lipoprotein subclasses	Small HDL	average diameter 8.7 nm	no
+WHR	sldlplpct	314	-0.302640534232207	0.0342856895737918	1.07499715643367e-18	-	sldlplpct	S_LDL_PL_pct	Phospholipids to total lipids ratio in small LDL	%	Relative lipoprotein lipid concentrations	Small LDL ratios		yes
+WHR	xsvldlp	314	0.124735480937621	0.0310600713514766	5.92085270759426e-05	+	xsvldlp	XS_VLDL_P	Concentration of very small VLDL particles	mmol/l	Lipoprotein subclasses	Very small VLDL	average diameter 31.3 nm	no
+WHR	idlc	314	-0.161917897622973	0.0335194909451001	1.36149874671185e-06	-	idlc	IDL_C	Cholesterol in IDL	mmol/l	Lipoprotein subclasses	IDL	average diameter 28.6 nm	no
+WHR	xlvldlce	314	0.391548791908304	0.0411322053533035	1.74390708831797e-21	+	xlvldlce	XL_VLDL_CE	Cholesteryl esters in very large VLDL	mmol/l	Lipoprotein subclasses	Very large VLDL	average diameter 64 nm	no
+WHR	xxlvldltg	314	0.421030773465992	0.0420734315252785	1.41926807445208e-23	+	xxlvldltg	XXL_VLDL_TG	Triglycerides in chylomicrons and extremely large VLDL	mmol/l	Lipoprotein subclasses	Chylomicrons and extremely large VLDL	particle diameters from 75 nm upwards	no
+WHR	svldlcpct	314	-0.283805521091569	0.0415396278303056	8.36435503815992e-12	-	svldlcpct	S_VLDL_C_pct	Cholesterol to total lipids ratio in small VLDL	%	Relative lipoprotein lipid concentrations	Small VLDL ratios		yes
+WHR	xsvldlcepct	314	-0.45287676981959	0.04674881106407	3.40934431411786e-22	-	xsvldlcepct	XS_VLDL_CE_pct	Cholesteryl esters to total lipids ratio in very small VLDL	%	Relative lipoprotein lipid concentrations	Very small VLDL ratios		yes
+WHR	bohbutyrate	314	0.0161360390182959	0.0236625503628228	0.495287595999361	+	bohbutyrate	bOHbutyrate	3-Hydroxybutyrate	mmol/l	Ketone bodies	Ketone bodies		no
+WHR	totalfc	314	-0.0499716039048118	0.0309743035871621	0.106674019039232	-	totalfc	Total_FC	Total free cholesterol	mmol/l	Free cholesterol	Free cholesterol		no
+WHR	mufapct	314	0.469507886279112	0.0431474923770812	1.41275465148747e-27	+	mufapct	MUFA_pct	Ratio of monounsaturated fatty acids to total fatty acids	%	Fatty acids	Fatty acid ratios		yes
+WHR	xlvldlplpct	314	0.100753497382614	0.0295529408217237	0.000651406714989847	+	xlvldlplpct	XL_VLDL_PL_pct	Phospholipids to total lipids ratio in very large VLDL	%	Relative lipoprotein lipid concentrations	Very large VLDL ratios		yes
+WHR	lldlp	314	0.0408405765608027	0.0334789239924101	0.222506894599437	+	lldlp	L_LDL_P	Concentration of large LDL particles	mmol/l	Lipoprotein subclasses	Large LDL	average diameter 25.5 nm	no
+WHR	xlvldlfc	314	0.44956804782416	0.0446260953287624	7.19112324004312e-24	+	xlvldlfc	XL_VLDL_FC	Free cholesterol in very large VLDL	mmol/l	Lipoprotein subclasses	Very large VLDL	average diameter 64 nm	no
+WHR	mvldltg	314	0.422167777445147	0.0450859444585351	7.70485149274769e-21	+	mvldltg	M_VLDL_TG	Triglycerides in medium VLDL	mmol/l	Lipoprotein subclasses	Medium VLDL	average diameter 44.5 nm	no
+WHR	creatinine	314	0.119501014898471	0.0239598872671817	6.11513927842332e-07	+	creatinine	Creatinine	Creatinine	mmol/l	Fluid balance	Fluid balance		no
+WHR	svldltg	314	0.450110810890008	0.0491832929382791	5.60438134508635e-20	+	svldltg	S_VLDL_TG	Triglycerides in small VLDL	mmol/l	Lipoprotein subclasses	Small VLDL	average diameter 36.8 nm	no
+WHR	sldlpl	314	0.0397115220737164	0.0357832119064093	0.267093488358829	+	sldlpl	S_LDL_PL	Phospholipids in small LDL	mmol/l	Lipoprotein subclasses	Small LDL	average diameter 18.7 nm	no
+WHR	xsvldltg	314	0.395236870580273	0.0448122903650588	1.14631622937737e-18	+	xsvldltg	XS_VLDL_TG	Triglycerides in very small VLDL	mmol/l	Lipoprotein subclasses	Very small VLDL	average diameter 31.3 nm	no
+WHR	lldlplpct	314	0.0096294073687934	0.0335662125422624	0.774205748852545	+	lldlplpct	L_LDL_PL_pct	Phospholipids to total lipids ratio in large LDL	%	Relative lipoprotein lipid concentrations	Large LDL ratios		yes
+WHR	omega6	314	0.0274451530060188	0.0327124078388289	0.401478867547461	+	omega6	Omega_6	Omega-6 fatty acids	mmol/l	Fatty acids	Fatty acids		no
+WHR	citrate	314	-0.0480333620489001	0.0257587970935811	0.0622183864991164	-	citrate	Citrate	Citrate	mmol/l	Glycolysis related metabolites	Glycolysis related metabolites		no
+WHR	hdlsize	314	-0.494541519272199	0.0339374814599048	4.22485877964837e-48	-	hdlsize	HDL_size	Average diameter for HDL particles	nm	Lipoprotein particle sizes	Lipoprotein particle sizes		no
+WHR	xlvldlpl	314	0.462458085088545	0.0448796738887725	6.73108009362526e-25	+	xlvldlpl	XL_VLDL_PL	Phospholipids in very large VLDL	mmol/l	Lipoprotein subclasses	Very large VLDL	average diameter 64 nm	no
+WHR	nonhdlc	314	0.036629990367983	0.0317466291929156	0.24857274994725	+	nonhdlc	non_HDL_C	Total cholesterol minus HDL-C	mmol/l	Cholesterol	Cholesterol		no
+WHR	hdltg	314	0.352692518251616	0.0408475319813856	5.90539322830642e-18	+	hdltg	HDL_TG	Triglycerides in HDL	mmol/l	Triglycerides	Triglycerides		no
+WHR	hdlfc	314	-0.378522542380763	0.0347555983001936	1.27262709249522e-27	-	hdlfc	HDL_FC	Free cholesterol in HDL	mmol/l	Free cholesterol	Free cholesterol		no
+WHR	acetate	314	-0.140631848825289	0.0240849099133422	5.251428666688e-09	-	acetate	Acetate	Acetate	mmol/l	Ketone bodies	Ketone bodies		no
+WHR	xxlvldlp	314	0.453831295771865	0.0445030964655147	2.0292623169458e-24	+	xxlvldlp	XXL_VLDL_P	Concentration of chylomicrons and extremely large VLDL particles	mmol/l	Lipoprotein subclasses	Chylomicrons and extremely large VLDL	particle diameters from 75 nm upwards	no
+WHR	lhdlcepct	314	-0.543186088929463	0.0396582794066629	1.06298406484891e-42	-	lhdlcepct	L_HDL_CE_pct	Cholesteryl esters to total lipids ratio in large HDL	%	Relative lipoprotein lipid concentrations	Large HDL ratios		yes
+WHR	mvldlfcpct	314	-0.355732878343655	0.0398206482959728	4.13197286813644e-19	-	mvldlfcpct	M_VLDL_FC_pct	Free cholesterol to total lipids ratio in medium VLDL	%	Relative lipoprotein lipid concentrations	Medium VLDL ratios		yes
+WHR	sfa	314	0.260469667343685	0.0343148803156941	3.18489355821575e-14	+	sfa	SFA	Saturated fatty acids	mmol/l	Fatty acids	Fatty acids		no
+WHR	idlcpct	314	-0.356229756884778	0.0454469939902535	4.56480199438673e-15	-	idlcpct	IDL_C_pct	Cholesterol to total lipids ratio in IDL	%	Relative lipoprotein lipid concentrations	IDL ratios		yes
+WHR	xsvldll	314	0.124729677951148	0.0311233053154663	6.13395635345244e-05	+	xsvldll	XS_VLDL_L	Total lipids in very small VLDL	mmol/l	Lipoprotein subclasses	Very small VLDL	average diameter 31.3 nm	no
+WHR	dhapct	314	-0.262057931088477	0.028392736148003	2.71257625307829e-20	-	dhapct	DHA_pct	Ratio of docosahexaenoic acid to total fatty acids	%	Fatty acids	Fatty acid ratios		yes
+WHR	lvldlfc	314	0.460394256434792	0.0447591281430808	8.14564751426043e-25	+	lvldlfc	L_VLDL_FC	Free cholesterol in large VLDL	mmol/l	Lipoprotein subclasses	Large VLDL	average diameter 53.6 nm	no
+WHR	omega3pct	314	-0.0467977969303079	0.0272620446647748	0.0860538179527977	-	omega3pct	Omega_3_pct	Ratio of omega-3 fatty acids to total fatty acids	%	Fatty acids	Fatty acid ratios		yes
+WHR	clinicalldlc	314	-0.0279784237026923	0.0324182238947163	0.388112087099636	-	clinicalldlc	Clinical_LDL_C	Clinical LDL cholesterol	mmol/l	Cholesterol	Cholesterol		no
+WHRadjBMI	xxlvldll	325	0.3340722188838	0.0364066072388096	4.46810572173552e-20	+	xxlvldll	XXL_VLDL_L	Total lipids in chylomicrons and extremely large VLDL	mmol/l	Lipoprotein subclasses	Chylomicrons and extremely large VLDL	particle diameters from 75 nm upwards	no
+WHRadjBMI	totall	325	0.0779900134757607	0.0340889255081272	0.0221468299796459	+	totall	Total_L	Total lipids in lipoprotein particles	mmol/l	Total lipids	Total lipids		no
+WHRadjBMI	hdll	325	-0.218553919888579	0.0277873653211077	3.68430446986794e-15	-	hdll	HDL_L	Total lipids in HDL	mmol/l	Total lipids	Total lipids		no
+WHRadjBMI	mldlplpct	325	-0.143587374368564	0.0287725950751986	6.02477105969534e-07	-	mldlplpct	M_LDL_PL_pct	Phospholipids to total lipids ratio in medium LDL	%	Relative lipoprotein lipid concentrations	Medium LDL ratios		yes
+WHRadjBMI	lldlpl	325	-0.0039577863811242	0.0348176866993917	0.909498030269379	-	lldlpl	L_LDL_PL	Phospholipids in large LDL	mmol/l	Lipoprotein subclasses	Large LDL	average diameter 25.5 nm	no
+WHRadjBMI	mvldll	325	0.24549033669443	0.037695023622674	7.38906910242357e-11	+	mvldll	M_VLDL_L	Total lipids in medium VLDL	mmol/l	Lipoprotein subclasses	Medium VLDL	average diameter 44.5 nm	no
+WHRadjBMI	lhdlfc	325	-0.355132126770333	0.028348449467952	5.28731793992047e-36	-	lhdlfc	L_HDL_FC	Free cholesterol in large HDL	mmol/l	Lipoprotein subclasses	Large HDL	average diameter 12.1 nm	no
+WHRadjBMI	sldlp	325	0.118489520495508	0.0370164706327556	0.00136954125833052	+	sldlp	S_LDL_P	Concentration of small LDL particles	mmol/l	Lipoprotein subclasses	Small LDL	average diameter 18.7 nm	no
+WHRadjBMI	idltg	325	0.227048921296106	0.0344140312233157	4.17956177704331e-11	+	idltg	IDL_TG	Triglycerides in IDL	mmol/l	Lipoprotein subclasses	IDL	average diameter 28.6 nm	no
+WHRadjBMI	lvldlplpct	325	0.306156808957818	0.0307988236032787	2.7733136346043e-23	+	lvldlplpct	L_VLDL_PL_pct	Phospholipids to total lipids ratio in large VLDL	%	Relative lipoprotein lipid concentrations	Large VLDL ratios		yes
+WHRadjBMI	dha	325	-0.0259485747831474	0.0271099707923731	0.338486593593235	-	dha	DHA	Docosahexaenoic acid	mmol/l	Fatty acids	Fatty acids		no
+WHRadjBMI	ldll	325	0.0459074163638065	0.0368107240867255	0.21235324024023	+	ldll	LDL_L	Total lipids in LDL	mmol/l	Total lipids	Total lipids		no
+WHRadjBMI	lhdlplpct	325	0.328318923772995	0.0330478288615291	2.9417956241101e-23	+	lhdlplpct	L_HDL_PL_pct	Phospholipids to total lipids ratio in large HDL	%	Relative lipoprotein lipid concentrations	Large HDL ratios		yes
+WHRadjBMI	lvldlce	325	0.288040676302571	0.0363735493968208	2.39505716986182e-15	+	lvldlce	L_VLDL_CE	Cholesteryl esters in large VLDL	mmol/l	Lipoprotein subclasses	Large VLDL	average diameter 53.6 nm	no
+WHRadjBMI	xsvldlce	325	-0.0693414684423256	0.029244488635007	0.017735459290176	-	xsvldlce	XS_VLDL_CE	Cholesteryl esters in very small VLDL	mmol/l	Lipoprotein subclasses	Very small VLDL	average diameter 31.3 nm	no
+WHRadjBMI	vldlc	325	0.197429816379656	0.0354780514548913	2.62387262502558e-08	+	vldlc	VLDL_C	VLDL cholesterol	mmol/l	Cholesterol	Cholesterol		no
+WHRadjBMI	shdlfcpct	325	-0.218174901504119	0.0337010070871319	9.55435660396316e-11	-	shdlfcpct	S_HDL_FC_pct	Free cholesterol to total lipids ratio in small HDL	%	Relative lipoprotein lipid concentrations	Small HDL ratios		yes
+WHRadjBMI	omega6byomega3	325	-0.106702335936021	0.0324946110529993	0.0010245636293094	-	omega6byomega3	Omega_6_by_Omega_3	Ratio of omega-6 fatty acids to omega-3 fatty acids	ratio	Fatty acids	Fatty acid ratios		yes
+WHRadjBMI	la	325	0.0310315371399086	0.032196679455242	0.335140327582935	+	la	LA	Linoleic acid	mmol/l	Fatty acids	Fatty acids		no
+WHRadjBMI	xsvldlpl	325	0.0979897618700829	0.0314400877342573	0.00182878889695407	+	xsvldlpl	XS_VLDL_PL	Phospholipids in very small VLDL	mmol/l	Lipoprotein subclasses	Very small VLDL	average diameter 31.3 nm	no
+WHRadjBMI	vldlce	325	0.147038575711905	0.0340632139689628	1.58423401073741e-05	+	vldlce	VLDL_CE	Cholesteryl esters in VLDL	mmol/l	Cholesteryl esters	Cholesteryl esters		no
+WHRadjBMI	sldlcepct	325	0.23819400473571	0.0324856204246891	2.26252059726672e-13	+	sldlcepct	S_LDL_CE_pct	Cholesteryl esters to total lipids ratio in small LDL	%	Relative lipoprotein lipid concentrations	Small LDL ratios		yes
+WHRadjBMI	mldll	325	0.127780876068502	0.0374442535714789	0.000643550386413589	+	mldll	M_LDL_L	Total lipids in medium LDL	mmol/l	Lipoprotein subclasses	Medium LDL	average diameter 23 nm	no
+WHRadjBMI	xlvldlplpct	325	0.0333348701362178	0.0258602539050751	0.197384605060214	+	xlvldlplpct	XL_VLDL_PL_pct	Phospholipids to total lipids ratio in very large VLDL	%	Relative lipoprotein lipid concentrations	Very large VLDL ratios		yes
+WHRadjBMI	shdlplpct	325	-0.0652820564681863	0.0359519258818502	0.0693987121097806	-	shdlplpct	S_HDL_PL_pct	Phospholipids to total lipids ratio in small HDL	%	Relative lipoprotein lipid concentrations	Small HDL ratios		yes
+WHRadjBMI	glucose	325	0.0483352031232478	0.0247548398179259	0.0508722670008316	+	glucose	Glucose	Glucose	mmol/l	Glycolysis related metabolites	Glycolysis related metabolites		no
+WHRadjBMI	mvldlfc	325	0.135451547682028	0.0346620884037619	9.31510450587232e-05	+	mvldlfc	M_VLDL_FC	Free cholesterol in medium VLDL	mmol/l	Lipoprotein subclasses	Medium VLDL	average diameter 44.5 nm	no
+WHRadjBMI	pufabymufa	325	-0.301451990972909	0.0309532796533222	2.05697951079773e-22	-	pufabymufa	PUFA_by_MUFA	Ratio of polyunsaturated fatty acids to monounsaturated fatty acids	ratio	Fatty acids	Fatty acid ratios		yes
+WHRadjBMI	creatinine	325	0.0552375377191616	0.0248629635849285	0.0263049696173569	+	creatinine	Creatinine	Creatinine	mmol/l	Fluid balance	Fluid balance		no
+WHRadjBMI	idlplpct	325	0.0506483487072933	0.024992123078019	0.0427061539239782	+	idlplpct	IDL_PL_pct	Phospholipids to total lipids ratio in IDL	%	Relative lipoprotein lipid concentrations	IDL ratios		yes
+WHRadjBMI	mvldlc	325	0.0273591189894167	0.0328282909624435	0.404618808893068	+	mvldlc	M_VLDL_C	Cholesterol in medium VLDL	mmol/l	Lipoprotein subclasses	Medium VLDL	average diameter 44.5 nm	no
+WHRadjBMI	lhdlcpct	325	-0.411458294922381	0.0347637563594485	2.54776683432792e-32	-	lhdlcpct	L_HDL_C_pct	Cholesterol to total lipids ratio in large HDL	%	Relative lipoprotein lipid concentrations	Large HDL ratios		yes
+WHRadjBMI	xlvldlcepct	325	-0.318478690008353	0.035400309821872	2.33039867411111e-19	-	xlvldlcepct	XL_VLDL_CE_pct	Cholesteryl esters to total lipids ratio in very large VLDL	%	Relative lipoprotein lipid concentrations	Very large VLDL ratios		yes
+WHRadjBMI	mldlfcpct	325	-0.363080422262618	0.0372789987707793	2.04471235437281e-22	-	mldlfcpct	M_LDL_FC_pct	Free cholesterol to total lipids ratio in medium LDL	%	Relative lipoprotein lipid concentrations	Medium LDL ratios		yes
+WHRadjBMI	svldlce	325	0.205046518742692	0.0347580205970414	3.65140680180589e-09	+	svldlce	S_VLDL_CE	Cholesteryl esters in small VLDL	mmol/l	Lipoprotein subclasses	Small VLDL	average diameter 36.8 nm	no
+WHRadjBMI	cholines	325	-0.0470752882723919	0.028197791044589	0.0950248183942791	-	cholines	Cholines	Total cholines	mmol/l	Other lipids	Other lipids		no
+WHRadjBMI	xlhdltgpct	325	0.408142092574586	0.0365000199804416	4.99688380204791e-29	+	xlhdltgpct	XL_HDL_TG_pct	Triglycerides to total lipids ratio in very large HDL	%	Relative lipoprotein lipid concentrations	Very large HDL ratios		yes
+WHRadjBMI	shdlcpct	325	-0.214529697630975	0.0334796947871609	1.47677501047878e-10	-	shdlcpct	S_HDL_C_pct	Cholesterol to total lipids ratio in small HDL	%	Relative lipoprotein lipid concentrations	Small HDL ratios		yes
+WHRadjBMI	mhdlcepct	325	-0.344388335101721	0.0335784098638454	1.10939216234377e-24	-	mhdlcepct	M_HDL_CE_pct	Cholesteryl esters to total lipids ratio in medium HDL	%	Relative lipoprotein lipid concentrations	Medium HDL ratios		yes
+WHRadjBMI	mldlfc	325	0.00104051221096932	0.0362996445124961	0.977132146533589	+	mldlfc	M_LDL_FC	Free cholesterol in medium LDL	mmol/l	Lipoprotein subclasses	Medium LDL	average diameter 23 nm	no
+WHRadjBMI	idlcpct	325	-0.244371482819235	0.0321285420219588	2.82587359232066e-14	-	idlcpct	IDL_C_pct	Cholesterol to total lipids ratio in IDL	%	Relative lipoprotein lipid concentrations	IDL ratios		yes
+WHRadjBMI	lldlp	325	0.0341800887744746	0.0374499901917098	0.361407610394012	+	lldlp	L_LDL_P	Concentration of large LDL particles	mmol/l	Lipoprotein subclasses	Large LDL	average diameter 25.5 nm	no
+WHRadjBMI	svldll	325	0.285627559056394	0.0379782070939513	5.44304643454813e-14	+	svldll	S_VLDL_L	Total lipids in small VLDL	mmol/l	Lipoprotein subclasses	Small VLDL	average diameter 36.8 nm	no
+WHRadjBMI	lactate	325	0.0743047203657387	0.0217208351126523	0.000624151697193261	+	lactate	Lactate	Lactate	mmol/l	Glycolysis related metabolites	Glycolysis related metabolites		no
+WHRadjBMI	xlvldlce	325	0.3000183057158	0.0371512036779448	6.71449825612154e-16	+	xlvldlce	XL_VLDL_CE	Cholesteryl esters in very large VLDL	mmol/l	Lipoprotein subclasses	Very large VLDL	average diameter 64 nm	no
+WHRadjBMI	xsvldlplpct	325	0.161086516737753	0.0248272677470785	8.68159693412197e-11	+	xsvldlplpct	XS_VLDL_PL_pct	Phospholipids to total lipids ratio in very small VLDL	%	Relative lipoprotein lipid concentrations	Very small VLDL ratios		yes
+WHRadjBMI	omega3	325	0.111225683474821	0.0364409519358147	0.00227158015149516	+	omega3	Omega_3	Omega-3 fatty acids	mmol/l	Fatty acids	Fatty acids		no
+WHRadjBMI	sldlce	325	0.126172876640363	0.0381888619363115	0.000953436416536315	+	sldlce	S_LDL_CE	Cholesteryl esters in small LDL	mmol/l	Lipoprotein subclasses	Small LDL	average diameter 18.7 nm	no
+WHRadjBMI	xxlvldlfc	325	0.346669102224152	0.0367081334434973	3.59048344404922e-21	+	xxlvldlfc	XXL_VLDL_FC	Free cholesterol in chylomicrons and extremely large VLDL	mmol/l	Lipoprotein subclasses	Chylomicrons and extremely large VLDL	particle diameters from 75 nm upwards	no
+WHRadjBMI	nonhdlc	325	0.0402396946160162	0.0353780085477287	0.255362276370276	+	nonhdlc	non_HDL_C	Total cholesterol minus HDL-C	mmol/l	Cholesterol	Cholesterol		no
+WHRadjBMI	svldlc	325	0.178498003130289	0.0347843774142903	2.87355714595825e-07	+	svldlc	S_VLDL_C	Cholesterol in small VLDL	mmol/l	Lipoprotein subclasses	Small VLDL	average diameter 36.8 nm	no
+WHRadjBMI	sldlfc	325	-0.042428390365305	0.0379666677020145	0.2637734050768	-	sldlfc	S_LDL_FC	Free cholesterol in small LDL	mmol/l	Lipoprotein subclasses	Small LDL	average diameter 18.7 nm	no
+WHRadjBMI	apob	325	0.071933893706139	0.0365895948043591	0.0493025559802326	+	apob	ApoB	Apolipoprotein B	g/l	Apolipoproteins	Apolipoproteins		no
+WHRadjBMI	glyca	325	0.241591661202283	0.0311011438675593	7.97760349150483e-15	+	glyca	GlycA	Glycoprotein acetyls	mmol/l	Inflammation	Inflammation		no
+WHRadjBMI	sldlc	325	0.0817967001510275	0.0381718228133197	0.0321247038170272	+	sldlc	S_LDL_C	Cholesterol in small LDL	mmol/l	Lipoprotein subclasses	Small LDL	average diameter 18.7 nm	no
+WHRadjBMI	idlce	325	-0.115633603007165	0.0330932494563056	0.000475529301243323	-	idlce	IDL_CE	Cholesteryl esters in IDL	mmol/l	Lipoprotein subclasses	IDL	average diameter 28.6 nm	no
+WHRadjBMI	tgbypg	325	0.389518894244036	0.0366471041336032	2.18645137442739e-26	+	tgbypg	TG_by_PG	Ratio of triglycerides to phosphoglycerides	ratio	Other lipids	Other lipids		no
+WHRadjBMI	lhdlce	325	-0.384530604460152	0.0306331585544144	3.83905089243813e-36	-	lhdlce	L_HDL_CE	Cholesteryl esters in large HDL	mmol/l	Lipoprotein subclasses	Large HDL	average diameter 12.1 nm	no
+WHRadjBMI	xlvldlp	325	0.37333328898437	0.0387133878426208	5.23615601704018e-22	+	xlvldlp	XL_VLDL_P	Concentration of very large VLDL particles	mmol/l	Lipoprotein subclasses	Very large VLDL	average diameter 64 nm	no
+WHRadjBMI	remnantc	325	0.0533656491478994	0.0340345506044465	0.116884740565236	+	remnantc	Remnant_C	Remnant cholesterol (non-HDL, non-LDL -cholesterol)	mmol/l	Cholesterol	Cholesterol		no
+WHRadjBMI	svldlcpct	325	-0.242530334694003	0.0366340962450106	3.58362905844109e-11	-	svldlcpct	S_VLDL_C_pct	Cholesterol to total lipids ratio in small VLDL	%	Relative lipoprotein lipid concentrations	Small VLDL ratios		yes
+WHRadjBMI	lvldlc	325	0.328695010053165	0.03789727208984	4.1971572075588e-18	+	lvldlc	L_VLDL_C	Cholesterol in large VLDL	mmol/l	Lipoprotein subclasses	Large VLDL	average diameter 53.6 nm	no
+WHRadjBMI	mhdlfcpct	325	-0.298430939721046	0.0269211928817415	1.47765592540275e-28	-	mhdlfcpct	M_HDL_FC_pct	Free cholesterol to total lipids ratio in medium HDL	%	Relative lipoprotein lipid concentrations	Medium HDL ratios		yes
+WHRadjBMI	xlvldlcpct	325	-0.323298219876699	0.0354184297055471	6.97983340786476e-20	-	xlvldlcpct	XL_VLDL_C_pct	Cholesterol to total lipids ratio in very large VLDL	%	Relative lipoprotein lipid concentrations	Very large VLDL ratios		yes
+WHRadjBMI	xlvldll	325	0.367719470871434	0.0386642535619922	1.8960269406757e-21	+	xlvldll	XL_VLDL_L	Total lipids in very large VLDL	mmol/l	Lipoprotein subclasses	Very large VLDL	average diameter 64 nm	no
+WHRadjBMI	xxlvldlplpct	325	0.18975622760084	0.0261844547564129	4.26406242814931e-13	+	xxlvldlplpct	XXL_VLDL_PL_pct	Phospholipids to total lipids ratio in chylomicrons and extremely large VLDL	%	Relative lipoprotein lipid concentrations	Chylomicrons and extremely large VLDL ratios		yes
+WHRadjBMI	lldlplpct	325	-0.0344925067538682	0.0287181731612916	0.229724447269382	-	lldlplpct	L_LDL_PL_pct	Phospholipids to total lipids ratio in large LDL	%	Relative lipoprotein lipid concentrations	Large LDL ratios		yes
+WHRadjBMI	xxlvldlfcpct	325	-0.156580451323931	0.0278820919718019	1.95646781843778e-08	-	xxlvldlfcpct	XXL_VLDL_FC_pct	Free cholesterol to total lipids ratio in chylomicrons and extremely large VLDL	%	Relative lipoprotein lipid concentrations	Chylomicrons and extremely large VLDL ratios		yes
+WHRadjBMI	svldltg	325	0.362244995006935	0.0399866078015126	1.31461485022045e-19	+	svldltg	S_VLDL_TG	Triglycerides in small VLDL	mmol/l	Lipoprotein subclasses	Small VLDL	average diameter 36.8 nm	no
+WHRadjBMI	ile	325	0.137792209532139	0.0219745954563563	3.59837042164125e-10	+	ile	Ile	Isoleucine	mmol/l	Amino acids	Branched-chain amino acids		no
+WHRadjBMI	lldlcepct	325	0.0761312194171762	0.0298887512819472	0.0108605836687514	+	lldlcepct	L_LDL_CE_pct	Cholesteryl esters to total lipids ratio in large LDL	%	Relative lipoprotein lipid concentrations	Large LDL ratios		yes
+WHRadjBMI	citrate	325	-0.0174813337951247	0.0237853540547718	0.462362575545478	-	citrate	Citrate	Citrate	mmol/l	Glycolysis related metabolites	Glycolysis related metabolites		no
+WHRadjBMI	mldlce	325	0.151974973020444	0.0363624238458419	2.92213518510553e-05	+	mldlce	M_LDL_CE	Cholesteryl esters in medium LDL	mmol/l	Lipoprotein subclasses	Medium LDL	average diameter 23 nm	no
+WHRadjBMI	omega3pct	325	0.0219187761497148	0.0286247957746118	0.443838817289575	+	omega3pct	Omega_3_pct	Ratio of omega-3 fatty acids to total fatty acids	%	Fatty acids	Fatty acid ratios		yes
+WHRadjBMI	clinicalldlc	325	-0.0103979928375879	0.0353436021136024	0.768607132373546	-	clinicalldlc	Clinical_LDL_C	Clinical LDL cholesterol	mmol/l	Cholesterol	Cholesterol		no
+WHRadjBMI	xlvldlpl	325	0.357228931520783	0.0382392086552366	9.45723193132457e-21	+	xlvldlpl	XL_VLDL_PL	Phospholipids in very large VLDL	mmol/l	Lipoprotein subclasses	Very large VLDL	average diameter 64 nm	no
+WHRadjBMI	leu	325	0.149969573425366	0.0217448311359636	5.31900407352082e-12	+	leu	Leu	Leucine	mmol/l	Amino acids	Branched-chain amino acids		no
+WHRadjBMI	xsvldltg	325	0.29433600290628	0.0365471663689268	8.03982635063816e-16	+	xsvldltg	XS_VLDL_TG	Triglycerides in very small VLDL	mmol/l	Lipoprotein subclasses	Very small VLDL	average diameter 31.3 nm	no
+WHRadjBMI	mvldltgpct	325	0.327036367386831	0.0360182703140249	1.08839025848961e-19	+	mvldltgpct	M_VLDL_TG_pct	Triglycerides to total lipids ratio in medium VLDL	%	Relative lipoprotein lipid concentrations	Medium VLDL ratios		yes
+WHRadjBMI	gln	325	-0.112761015987921	0.0257269144500682	1.17057158613514e-05	-	gln	Gln	Glutamine	mmol/l	Amino acids	Amino acids		no
+WHRadjBMI	idlfcpct	325	-0.20238258268908	0.0289827709310648	2.89234096840579e-12	-	idlfcpct	IDL_FC_pct	Free cholesterol to total lipids ratio in IDL	%	Relative lipoprotein lipid concentrations	IDL ratios		yes
+WHRadjBMI	dhapct	325	-0.136726202770842	0.0223363503705672	9.28488470974496e-10	-	dhapct	DHA_pct	Ratio of docosahexaenoic acid to total fatty acids	%	Fatty acids	Fatty acid ratios		yes
+WHRadjBMI	idlp	325	-0.0377574610775658	0.0339620825598047	0.266244188925258	-	idlp	IDL_P	Concentration of IDL particles	mmol/l	Lipoprotein subclasses	IDL	average diameter 28.6 nm	no
+WHRadjBMI	mhdlplpct	325	0.343447895956125	0.0313762840694209	6.93716575567789e-28	+	mhdlplpct	M_HDL_PL_pct	Phospholipids to total lipids ratio in medium HDL	%	Relative lipoprotein lipid concentrations	Medium HDL ratios		yes
+WHRadjBMI	xsvldlcepct	325	-0.330592185711295	0.0350636786364081	4.16641245683987e-21	-	xsvldlcepct	XS_VLDL_CE_pct	Cholesteryl esters to total lipids ratio in very small VLDL	%	Relative lipoprotein lipid concentrations	Very small VLDL ratios		yes
+WHRadjBMI	hdlp	325	-0.115647088818066	0.0274617188043148	2.54005499794956e-05	-	hdlp	HDL_P	Concentration of HDL particles	mmol/l	Lipoprotein particle concentrations	Lipoprotein particle concentrations		no
+WHRadjBMI	xlhdlpl	325	-0.364828013646403	0.0287448600741929	6.55426849653977e-37	-	xlhdlpl	XL_HDL_PL	Phospholipids in very large HDL	mmol/l	Lipoprotein subclasses	Very large HDL	average diameter 14.3 nm	no
+WHRadjBMI	xsvldlp	325	0.0794633626053984	0.0315900779632452	0.0118879460225097	+	xsvldlp	XS_VLDL_P	Concentration of very small VLDL particles	mmol/l	Lipoprotein subclasses	Very small VLDL	average diameter 31.3 nm	no
+WHRadjBMI	hdltg	325	0.282997893949692	0.035099932488355	7.46680891078043e-16	+	hdltg	HDL_TG	Triglycerides in HDL	mmol/l	Triglycerides	Triglycerides		no
+WHRadjBMI	shdlc	325	0.0940232249927231	0.0275723797591075	0.000649506996436653	+	shdlc	S_HDL_C	Cholesterol in small HDL	mmol/l	Lipoprotein subclasses	Small HDL	average diameter 8.7 nm	no
+WHRadjBMI	idll	325	-0.0860880104714692	0.0330451294300853	0.00918300587332196	-	idll	IDL_L	Total lipids in IDL	mmol/l	Lipoprotein subclasses	IDL	average diameter 28.6 nm	no
+WHRadjBMI	mldlpl	325	0.113577928064273	0.0386948336644174	0.00333309100724604	+	mldlpl	M_LDL_PL	Phospholipids in medium LDL	mmol/l	Lipoprotein subclasses	Medium LDL	average diameter 23 nm	no
+WHRadjBMI	phosphatidylc	325	-0.038530101415829	0.0279030886895039	0.167323748206854	-	phosphatidylc	Phosphatidylc	Phosphatidylcholines	mmol/l	Other lipids	Other lipids		no
+WHRadjBMI	lvldll	325	0.356690564312809	0.0390217410074881	6.19827057839577e-20	+	lvldll	L_VLDL_L	Total lipids in large VLDL	mmol/l	Lipoprotein subclasses	Large VLDL	average diameter 53.6 nm	no
+WHRadjBMI	ldlc	325	0.026239391621445	0.0361822505722313	0.468328944357474	+	ldlc	LDL_C	LDL cholesterol	mmol/l	Cholesterol	Cholesterol		no
+WHRadjBMI	xlhdlcpct	325	0.109441293622887	0.0250751741281464	1.27397670301797e-05	+	xlhdlcpct	XL_HDL_C_pct	Cholesterol to total lipids ratio in very large HDL	%	Relative lipoprotein lipid concentrations	Very large HDL ratios		yes
+WHRadjBMI	mufa	325	0.255081172891291	0.0377603350900646	1.42571743810577e-11	+	mufa	MUFA	Monounsaturated fatty acids	mmol/l	Fatty acids	Fatty acids		no
+WHRadjBMI	xxlvldlcpct	325	-0.114828630399419	0.0271610763416002	2.36102023417143e-05	-	xxlvldlcpct	XXL_VLDL_C_pct	Cholesterol to total lipids ratio in chylomicrons and extremely large VLDL	%	Relative lipoprotein lipid concentrations	Chylomicrons and extremely large VLDL ratios		yes
+WHRadjBMI	xlhdlplpct	325	-0.321228469340298	0.029158802388761	3.18128541347823e-28	-	xlhdlplpct	XL_HDL_PL_pct	Phospholipids to total lipids ratio in very large HDL	%	Relative lipoprotein lipid concentrations	Very large HDL ratios		yes
+WHRadjBMI	xsvldlfcpct	325	-0.173426532761297	0.0295121850023454	4.1918767217835e-09	-	xsvldlfcpct	XS_VLDL_FC_pct	Free cholesterol to total lipids ratio in very small VLDL	%	Relative lipoprotein lipid concentrations	Very small VLDL ratios		yes
+WHRadjBMI	vldlsize	325	0.376008500828303	0.0376323671355808	1.65840419906248e-23	+	vldlsize	VLDL_size	Average diameter for VLDL particles	nm	Lipoprotein particle sizes	Lipoprotein particle sizes		no
+WHRadjBMI	totalbcaa	325	0.16616016266114	0.0230602859625891	5.7844642156077e-13	+	totalbcaa	Total_BCAA	Total concentration of branched-chain amino acids	mmol/l	Amino acids	Branched-chain amino acids	leucine + isoleucine + valine	no
+WHRadjBMI	mhdlcpct	325	-0.373396130619645	0.0332488987446621	2.89393144348907e-29	-	mhdlcpct	M_HDL_C_pct	Cholesterol to total lipids ratio in medium HDL	%	Relative lipoprotein lipid concentrations	Medium HDL ratios		yes
+WHRadjBMI	shdlcepct	325	-0.149207172608865	0.029908244412516	6.07458034736606e-07	-	shdlcepct	S_HDL_CE_pct	Cholesteryl esters to total lipids ratio in small HDL	%	Relative lipoprotein lipid concentrations	Small HDL ratios		yes
+WHRadjBMI	shdltgpct	325	0.379230034912487	0.0351275383979829	3.60293393510472e-27	+	shdltgpct	S_HDL_TG_pct	Triglycerides to total lipids ratio in small HDL	%	Relative lipoprotein lipid concentrations	Small HDL ratios		yes
+WHRadjBMI	xsvldltgpct	325	0.332580387838946	0.0362064232389613	4.08959454093026e-20	+	xsvldltgpct	XS_VLDL_TG_pct	Triglycerides to total lipids ratio in very small VLDL	%	Relative lipoprotein lipid concentrations	Very small VLDL ratios		yes
+WHRadjBMI	bohbutyrate	325	-0.0299750503952743	0.0246634469488685	0.224227526160722	-	bohbutyrate	bOHbutyrate	3-Hydroxybutyrate	mmol/l	Ketone bodies	Ketone bodies		no
+WHRadjBMI	hdlsize	325	-0.35558204487224	0.0291942564349271	3.97949574420353e-34	-	hdlsize	HDL_size	Average diameter for HDL particles	nm	Lipoprotein particle sizes	Lipoprotein particle sizes		no
+WHRadjBMI	mldlp	325	0.126703570597058	0.0341572041745021	0.000207730875693164	+	mldlp	M_LDL_P	Concentration of medium LDL particles	mmol/l	Lipoprotein subclasses	Medium LDL	average diameter 23 nm	no
+WHRadjBMI	ldlce	325	0.0591120863836812	0.0364883570062346	0.105226695817357	+	ldlce	LDL_CE	Cholesteryl esters in LDL	mmol/l	Cholesteryl esters	Cholesteryl esters		no
+WHRadjBMI	lvldlpl	325	0.368103700009854	0.0387801671245997	2.26511428450274e-21	+	lvldlpl	L_VLDL_PL	Phospholipids in large VLDL	mmol/l	Lipoprotein subclasses	Large VLDL	average diameter 53.6 nm	no
+WHRadjBMI	lhdlcepct	325	-0.39021048204081	0.0341536919553299	3.13174823604061e-30	-	lhdlcepct	L_HDL_CE_pct	Cholesteryl esters to total lipids ratio in large HDL	%	Relative lipoprotein lipid concentrations	Large HDL ratios		yes
+WHRadjBMI	xlvldltg	325	0.37724965549685	0.0387386416685674	2.06927980926494e-22	+	xlvldltg	XL_VLDL_TG	Triglycerides in very large VLDL	mmol/l	Lipoprotein subclasses	Very large VLDL	average diameter 64 nm	no
+WHRadjBMI	val	325	0.172266767187762	0.023814703056817	4.70249440261722e-13	+	val	Val	Valine	mmol/l	Amino acids	Branched-chain amino acids		no
+WHRadjBMI	sldlpl	325	0.033656328628169	0.0416669660506993	0.419236769006538	+	sldlpl	S_LDL_PL	Phospholipids in small LDL	mmol/l	Lipoprotein subclasses	Small LDL	average diameter 18.7 nm	no
+WHRadjBMI	shdlce	325	0.0904435420713142	0.0265712944194564	0.000664538349254081	+	shdlce	S_HDL_CE	Cholesteryl esters in small HDL	mmol/l	Lipoprotein subclasses	Small HDL	average diameter 8.7 nm	no
+WHRadjBMI	xlhdlp	325	-0.342344812654821	0.0284183906756365	2.02131060334313e-33	-	xlhdlp	XL_HDL_P	Concentration of very large HDL particles	mmol/l	Lipoprotein subclasses	Very large HDL	average diameter 14.3 nm	no
+WHRadjBMI	mldlc	325	0.113449636866923	0.0363098422088896	0.00178115276897906	+	mldlc	M_LDL_C	Cholesterol in medium LDL	mmol/l	Lipoprotein subclasses	Medium LDL	average diameter 23 nm	no
+WHRadjBMI	lvldltgpct	325	-0.0100966183583936	0.0264555628456636	0.702725119493981	-	lvldltgpct	L_VLDL_TG_pct	Triglycerides to total lipids ratio in large VLDL	%	Relative lipoprotein lipid concentrations	Large VLDL ratios		yes
+WHRadjBMI	pufa	325	0.0655963674676357	0.0362051137839039	0.0700173514074458	+	pufa	PUFA	Polyunsaturated fatty acids	mmol/l	Fatty acids	Fatty acids		no
+WHRadjBMI	mldltgpct	325	0.19507667706256	0.0304286132746696	1.44604438178562e-10	+	mldltgpct	M_LDL_TG_pct	Triglycerides to total lipids ratio in medium LDL	%	Relative lipoprotein lipid concentrations	Medium LDL ratios		yes
+WHRadjBMI	sldll	325	0.0925298079243586	0.0397448647126937	0.019907076966501	+	sldll	S_LDL_L	Total lipids in small LDL	mmol/l	Lipoprotein subclasses	Small LDL	average diameter 18.7 nm	no
+WHRadjBMI	ldltg	325	0.26226386817897	0.0370121008494605	1.38148318025285e-12	+	ldltg	LDL_TG	Triglycerides in LDL	mmol/l	Triglycerides	Triglycerides		no
+WHRadjBMI	acetate	325	-0.0879797201047036	0.0211225621813119	3.11078181621768e-05	-	acetate	Acetate	Acetate	mmol/l	Ketone bodies	Ketone bodies		no
+WHRadjBMI	tyr	325	0.0675618261370435	0.0251696492628578	0.00726910410285004	+	tyr	Tyr	Tyrosine	mmol/l	Amino acids	Aromatic amino acids		no
+WHRadjBMI	mvldlp	325	0.200187080537015	0.0363231616554463	3.56235380442913e-08	+	mvldlp	M_VLDL_P	Concentration of medium VLDL particles	mmol/l	Lipoprotein subclasses	Medium VLDL	average diameter 44.5 nm	no
+WHRadjBMI	xlhdltg	325	0.123357865246878	0.0316608942686209	9.77049340471548e-05	+	xlhdltg	XL_HDL_TG	Triglycerides in very large HDL	mmol/l	Lipoprotein subclasses	Very large HDL	average diameter 14.3 nm	no
+WHRadjBMI	svldlplpct	325	-0.307798684239016	0.0370007204937729	8.89173031669871e-17	-	svldlplpct	S_VLDL_PL_pct	Phospholipids to total lipids ratio in small VLDL	%	Relative lipoprotein lipid concentrations	Small VLDL ratios		yes
+WHRadjBMI	mhdlce	325	-0.210276837729954	0.0295994765502758	1.21132951888015e-12	-	mhdlce	M_HDL_CE	Cholesteryl esters in medium HDL	mmol/l	Lipoprotein subclasses	Medium HDL	average diameter 10.9 nm	no
+WHRadjBMI	omega6pct	325	-0.302637750918911	0.0340411764094295	6.09202913426837e-19	-	omega6pct	Omega_6_pct	Ratio of omega-6 fatty acids to total fatty acids	%	Fatty acids	Fatty acid ratios		yes
+WHRadjBMI	unsaturation	325	-0.195358895401935	0.0240162135407446	4.13783258760508e-16	-	unsaturation	Unsaturation	Degree of unsaturation	degree	Fatty acids	Fatty acids		no
+WHRadjBMI	sldlfcpct	325	-0.290981224251994	0.0355198226494061	2.56750147140068e-16	-	sldlfcpct	S_LDL_FC_pct	Free cholesterol to total lipids ratio in small LDL	%	Relative lipoprotein lipid concentrations	Small LDL ratios		yes
+WHRadjBMI	mhdlc	325	-0.20579595419748	0.0291772683315705	1.74726702216477e-12	-	mhdlc	M_HDL_C	Cholesterol in medium HDL	mmol/l	Lipoprotein subclasses	Medium HDL	average diameter 10.9 nm	no
+WHRadjBMI	ala	325	0.114293782983256	0.0235420033766187	1.20454976826676e-06	+	ala	Ala	Alanine	mmol/l	Amino acids	Amino acids		no
+WHRadjBMI	svldlfc	325	0.127560811673482	0.0345803469556523	0.000225293048024137	+	svldlfc	S_VLDL_FC	Free cholesterol in small VLDL	mmol/l	Lipoprotein subclasses	Small VLDL	average diameter 36.8 nm	no
+WHRadjBMI	vldltg	325	0.364132344516372	0.0394272025409622	2.56935403089913e-20	+	vldltg	VLDL_TG	Triglycerides in VLDL	mmol/l	Triglycerides	Triglycerides		no
+WHRadjBMI	lvldlp	325	0.361295133926592	0.0390924326369066	2.41766048377643e-20	+	lvldlp	L_VLDL_P	Concentration of large VLDL particles	mmol/l	Lipoprotein subclasses	Large VLDL	average diameter 53.6 nm	no
+WHRadjBMI	lvldlcepct	325	-0.263704176302315	0.032352670449224	3.61152360097319e-16	-	lvldlcepct	L_VLDL_CE_pct	Cholesteryl esters to total lipids ratio in large VLDL	%	Relative lipoprotein lipid concentrations	Large VLDL ratios		yes
+WHRadjBMI	sldlplpct	325	-0.259849299045149	0.032294691731284	8.54097719523263e-16	-	sldlplpct	S_LDL_PL_pct	Phospholipids to total lipids ratio in small LDL	%	Relative lipoprotein lipid concentrations	Small LDL ratios		yes
+WHRadjBMI	ldlfc	325	-0.0618668717456332	0.0356819033089358	0.0829456778015937	-	ldlfc	LDL_FC	Free cholesterol in LDL	mmol/l	Free cholesterol	Free cholesterol		no
+WHRadjBMI	svldlfcpct	325	-0.314281327000561	0.036590407611713	8.75978321660325e-18	-	svldlfcpct	S_VLDL_FC_pct	Free cholesterol to total lipids ratio in small VLDL	%	Relative lipoprotein lipid concentrations	Small VLDL ratios		yes
+WHRadjBMI	xlvldlfc	325	0.345688685916711	0.0382388313375445	1.56310511006314e-19	+	xlvldlfc	XL_VLDL_FC	Free cholesterol in very large VLDL	mmol/l	Lipoprotein subclasses	Very large VLDL	average diameter 64 nm	no
+WHRadjBMI	xxlvldlpl	325	0.354556022948926	0.0366354318924228	3.74128159072189e-22	+	xxlvldlpl	XXL_VLDL_PL	Phospholipids in chylomicrons and extremely large VLDL	mmol/l	Lipoprotein subclasses	Chylomicrons and extremely large VLDL	particle diameters from 75 nm upwards	no
+WHRadjBMI	totalpl	325	-0.0187363815392685	0.029825415576533	0.529871712021633	-	totalpl	Total_PL	Total phospholipids in lipoprotein particles	mmol/l	Phospholipids	Phospholipids		no
+WHRadjBMI	xlvldltgpct	325	0.275263951411969	0.0339669213923357	5.32323703621812e-16	+	xlvldltgpct	XL_VLDL_TG_pct	Triglycerides to total lipids ratio in very large VLDL	%	Relative lipoprotein lipid concentrations	Very large VLDL ratios		yes
+WHRadjBMI	svldlpl	325	0.203819690819417	0.0365109039759097	2.37176407414086e-08	+	svldlpl	S_VLDL_PL	Phospholipids in small VLDL	mmol/l	Lipoprotein subclasses	Small VLDL	average diameter 36.8 nm	no
+WHRadjBMI	acetone	325	-0.0983203550849364	0.0219014959971603	7.14887121450601e-06	-	acetone	Acetone	Acetone	mmol/l	Ketone bodies	Ketone bodies		no
+WHRadjBMI	lldltgpct	325	0.237962385933272	0.0314655097234059	3.94963508358685e-14	+	lldltgpct	L_LDL_TG_pct	Triglycerides to total lipids ratio in large LDL	%	Relative lipoprotein lipid concentrations	Large LDL ratios		yes
+WHRadjBMI	hdlfc	325	-0.256457136103855	0.0263025652370878	1.83976688006267e-22	-	hdlfc	HDL_FC	Free cholesterol in HDL	mmol/l	Free cholesterol	Free cholesterol		no
+WHRadjBMI	vldlfc	325	0.257180348542776	0.0371563822806109	4.46678256839372e-12	+	vldlfc	VLDL_FC	Free cholesterol in VLDL	mmol/l	Free cholesterol	Free cholesterol		no
+WHRadjBMI	lapct	325	-0.249036925105539	0.0296613799542161	4.61948423939056e-17	-	lapct	LA_pct	Ratio of linoleic acid to total fatty acids	%	Fatty acids	Fatty acid ratios		yes
+WHRadjBMI	totalc	325	-0.0634746082241409	0.032063620848527	0.0477433572330355	-	totalc	Total_C	Total cholesterol	mmol/l	Cholesterol	Cholesterol		no
+WHRadjBMI	idlfc	325	-0.123193797366102	0.0323698507625238	0.000141335642111454	-	idlfc	IDL_FC	Free cholesterol in IDL	mmol/l	Lipoprotein subclasses	IDL	average diameter 28.6 nm	no
+WHRadjBMI	lldlce	325	0.00782700951310498	0.0359569113985744	0.827680418854535	+	lldlce	L_LDL_CE	Cholesteryl esters in large LDL	mmol/l	Lipoprotein subclasses	Large LDL	average diameter 25.5 nm	no
+WHRadjBMI	mhdlp	325	-0.158786497994272	0.029245350183137	5.65243975415856e-08	-	mhdlp	M_HDL_P	Concentration of medium HDL particles	mmol/l	Lipoprotein subclasses	Medium HDL	average diameter 10.9 nm	no
+WHRadjBMI	idlpl	325	-0.083835656368042	0.0327175640922281	0.0103949961813993	-	idlpl	IDL_PL	Phospholipids in IDL	mmol/l	Lipoprotein subclasses	IDL	average diameter 28.6 nm	no
+WHRadjBMI	lldlfc	325	-0.089501937671516	0.0348866027318952	0.0103024170793475	-	lldlfc	L_LDL_FC	Free cholesterol in large LDL	mmol/l	Lipoprotein subclasses	Large LDL	average diameter 25.5 nm	no
+WHRadjBMI	xsvldlc	325	-0.035066482892509	0.0293374135681855	0.231976862993214	-	xsvldlc	XS_VLDL_C	Cholesterol in very small VLDL	mmol/l	Lipoprotein subclasses	Very small VLDL	average diameter 31.3 nm	no
+WHRadjBMI	omega6	325	0.0408883344610707	0.0337647898135756	0.225904780603965	+	omega6	Omega_6	Omega-6 fatty acids	mmol/l	Fatty acids	Fatty acids		no
+WHRadjBMI	xxlvldlcepct	325	-0.075622694169146	0.0265186223679998	0.00434884995625052	-	xxlvldlcepct	XXL_VLDL_CE_pct	Cholesteryl esters to total lipids ratio in chylomicrons and extremely large VLDL	%	Relative lipoprotein lipid concentrations	Chylomicrons and extremely large VLDL ratios		yes
+WHRadjBMI	idlc	325	-0.118132771873421	0.0330087403600064	0.000345131807049802	-	idlc	IDL_C	Cholesterol in IDL	mmol/l	Lipoprotein subclasses	IDL	average diameter 28.6 nm	no
+WHRadjBMI	hdlce	325	-0.300875151745983	0.029108740281172	4.83083662808519e-25	-	hdlce	HDL_CE	Cholesteryl esters in HDL	mmol/l	Cholesteryl esters	Cholesteryl esters		no
+WHRadjBMI	xxlvldlc	325	0.346530928572881	0.0368322581577067	5.03966234580384e-21	+	xxlvldlc	XXL_VLDL_C	Cholesterol in chylomicrons and extremely large VLDL	mmol/l	Lipoprotein subclasses	Chylomicrons and extremely large VLDL	particle diameters from 75 nm upwards	no
+WHRadjBMI	mhdltgpct	325	0.368263880537508	0.0340047625361312	2.48769556069658e-27	+	mhdltgpct	M_HDL_TG_pct	Triglycerides to total lipids ratio in medium HDL	%	Relative lipoprotein lipid concentrations	Medium HDL ratios		yes
+WHRadjBMI	hdlc	325	-0.292890420666378	0.0284189083434398	6.60748639369225e-25	-	hdlc	HDL_C	HDL cholesterol	mmol/l	Cholesterol	Cholesterol		no
+WHRadjBMI	lvldlfc	325	0.359698801062319	0.0388375795529517	2.01358634998348e-20	+	lvldlfc	L_VLDL_FC	Free cholesterol in large VLDL	mmol/l	Lipoprotein subclasses	Large VLDL	average diameter 53.6 nm	no
+WHRadjBMI	xxlvldlp	325	0.343319718039242	0.0366355278736948	7.16965671707839e-21	+	xxlvldlp	XXL_VLDL_P	Concentration of chylomicrons and extremely large VLDL particles	mmol/l	Lipoprotein subclasses	Chylomicrons and extremely large VLDL	particle diameters from 75 nm upwards	no
+WHRadjBMI	xlhdll	325	-0.367870724089165	0.0290994408533451	1.24101528784191e-36	-	xlhdll	XL_HDL_L	Total lipids in very large HDL	mmol/l	Lipoprotein subclasses	Very large HDL	average diameter 14.3 nm	no
+WHRadjBMI	lhdll	325	-0.346037667650357	0.0287106100208969	1.87913590274803e-33	-	lhdll	L_HDL_L	Total lipids in large HDL	mmol/l	Lipoprotein subclasses	Large HDL	average diameter 12.1 nm	no
+WHRadjBMI	lldltg	325	0.234230739128338	0.0356786841940293	5.20311261594012e-11	+	lldltg	L_LDL_TG	Triglycerides in large LDL	mmol/l	Lipoprotein subclasses	Large LDL	average diameter 25.5 nm	no
+WHRadjBMI	shdlfc	325	0.0871507903704216	0.0298739407622435	0.0035309331841278	+	shdlfc	S_HDL_FC	Free cholesterol in small HDL	mmol/l	Lipoprotein subclasses	Small HDL	average diameter 8.7 nm	no
+WHRadjBMI	lvldlfcpct	325	0.0965560369662231	0.0277885484062341	0.00051148205249487	+	lvldlfcpct	L_VLDL_FC_pct	Free cholesterol to total lipids ratio in large VLDL	%	Relative lipoprotein lipid concentrations	Large VLDL ratios		yes
+WHRadjBMI	mvldlfcpct	325	-0.294967778383236	0.0344350021056543	1.07208062127864e-17	-	mvldlfcpct	M_VLDL_FC_pct	Free cholesterol to total lipids ratio in medium VLDL	%	Relative lipoprotein lipid concentrations	Medium VLDL ratios		yes
+WHRadjBMI	mvldlce	325	-0.0560465883320076	0.0321528119803746	0.0813105987638475	-	mvldlce	M_VLDL_CE	Cholesteryl esters in medium VLDL	mmol/l	Lipoprotein subclasses	Medium VLDL	average diameter 44.5 nm	no
+WHRadjBMI	shdlpl	325	0.160835137147864	0.0327419215885359	9.00563298161016e-07	+	shdlpl	S_HDL_PL	Phospholipids in small HDL	mmol/l	Lipoprotein subclasses	Small HDL	average diameter 8.7 nm	no
+WHRadjBMI	totalfa	325	0.189215128250883	0.0379618918448835	6.2172379418291e-07	+	totalfa	Total_FA	Total fatty acids	mmol/l	Fatty acids	Fatty acids		no
+WHRadjBMI	sldltg	325	0.31713543595688	0.0392511286114657	6.49521803931602e-16	+	sldltg	S_LDL_TG	Triglycerides in small LDL	mmol/l	Lipoprotein subclasses	Small LDL	average diameter 18.7 nm	no
+WHRadjBMI	pufapct	325	-0.280976206001682	0.028774827945299	1.59657837540026e-22	-	pufapct	PUFA_pct	Ratio of polyunsaturated fatty acids to total fatty acids	%	Fatty acids	Fatty acid ratios		yes
+WHRadjBMI	lhdltgpct	325	0.382676978510434	0.0337907016501969	9.87694843345073e-30	+	lhdltgpct	L_HDL_TG_pct	Triglycerides to total lipids ratio in large HDL	%	Relative lipoprotein lipid concentrations	Large HDL ratios		yes
+WHRadjBMI	shdll	325	0.176400112980771	0.031830150906014	2.99174973121097e-08	+	shdll	S_HDL_L	Total lipids in small HDL	mmol/l	Lipoprotein subclasses	Small HDL	average diameter 8.7 nm	no
+WHRadjBMI	mhdlpl	325	-0.0896270617932347	0.0304419515584314	0.00323795222149453	-	mhdlpl	M_HDL_PL	Phospholipids in medium HDL	mmol/l	Lipoprotein subclasses	Medium HDL	average diameter 10.9 nm	no
+WHRadjBMI	vldlpl	325	0.287389053702984	0.037946998104795	3.6348777343999e-14	+	vldlpl	VLDL_PL	Phospholipids in VLDL	mmol/l	Phospholipids	Phospholipids		no
+WHRadjBMI	vldll	325	0.31834059157744	0.0386805355927983	1.87222184970031e-16	+	vldll	VLDL_L	Total lipids in VLDL	mmol/l	Total lipids	Total lipids		no
+WHRadjBMI	phe	325	0.0534867279743472	0.0204134012373777	0.00878840944660369	+	phe	Phe	Phenylalanine	mmol/l	Amino acids	Aromatic amino acids		no
+WHRadjBMI	idlcepct	325	-0.210415468129647	0.0295146579525721	1.00964673842668e-12	-	idlcepct	IDL_CE_pct	Cholesteryl esters to total lipids ratio in IDL	%	Relative lipoprotein lipid concentrations	IDL ratios		yes
+WHRadjBMI	mhdlfc	325	-0.183788977716606	0.0275730210689342	2.63700301910112e-11	-	mhdlfc	M_HDL_FC	Free cholesterol in medium HDL	mmol/l	Lipoprotein subclasses	Medium HDL	average diameter 10.9 nm	no
+WHRadjBMI	xlhdlc	325	-0.386976189222156	0.0308574311379772	4.46590268051046e-36	-	xlhdlc	XL_HDL_C	Cholesterol in very large HDL	mmol/l	Lipoprotein subclasses	Very large HDL	average diameter 14.3 nm	no
+WHRadjBMI	vldlp	325	0.240157566511035	0.0368364282902304	7.05105849015205e-11	+	vldlp	VLDL_P	Concentration of VLDL particles	mmol/l	Lipoprotein particle concentrations	Lipoprotein particle concentrations		no
+WHRadjBMI	xsvldlfc	325	0.0489179692530736	0.0300886049651427	0.103992807402593	+	xsvldlfc	XS_VLDL_FC	Free cholesterol in very small VLDL	mmol/l	Lipoprotein subclasses	Very small VLDL	average diameter 31.3 nm	no
+WHRadjBMI	xlhdlce	325	-0.390072682420222	0.0305563998024855	2.54972518734626e-37	-	xlhdlce	XL_HDL_CE	Cholesteryl esters in very large HDL	mmol/l	Lipoprotein subclasses	Very large HDL	average diameter 14.3 nm	no
+WHRadjBMI	lhdlpl	325	-0.326252503274451	0.0283539540667339	1.22457105112111e-30	-	lhdlpl	L_HDL_PL	Phospholipids in large HDL	mmol/l	Lipoprotein subclasses	Large HDL	average diameter 12.1 nm	no
+WHRadjBMI	lldlc	325	-0.018898960689765	0.0356081484883762	0.595593280602806	-	lldlc	L_LDL_C	Cholesterol in large LDL	mmol/l	Lipoprotein subclasses	Large LDL	average diameter 25.5 nm	no
+WHRadjBMI	totalfc	325	-0.0211884276844812	0.0329389609380598	0.520053207119711	-	totalfc	Total_FC	Total free cholesterol	mmol/l	Free cholesterol	Free cholesterol		no
+WHRadjBMI	xlvldlfcpct	325	-0.293139199052536	0.0325830163939417	2.32631673077738e-19	-	xlvldlfcpct	XL_VLDL_FC_pct	Free cholesterol to total lipids ratio in very large VLDL	%	Relative lipoprotein lipid concentrations	Very large VLDL ratios		yes
+WHRadjBMI	lhdlfcpct	325	-0.305293443426916	0.0332985087211138	4.80172375369866e-20	-	lhdlfcpct	L_HDL_FC_pct	Free cholesterol to total lipids ratio in large HDL	%	Relative lipoprotein lipid concentrations	Large HDL ratios		yes
+WHRadjBMI	lvldlcpct	325	-0.179692429950272	0.0307550456713074	5.1362221014735e-09	-	lvldlcpct	L_VLDL_C_pct	Cholesterol to total lipids ratio in large VLDL	%	Relative lipoprotein lipid concentrations	Large VLDL ratios		yes
+WHRadjBMI	lhdlc	325	-0.378601339858452	0.0300985669503979	2.76485578927588e-36	-	lhdlc	L_HDL_C	Cholesterol in large HDL	mmol/l	Lipoprotein subclasses	Large HDL	average diameter 12.1 nm	no
+WHRadjBMI	mvldltg	325	0.347041238612847	0.0397608235071536	2.58710668314214e-18	+	mvldltg	M_VLDL_TG	Triglycerides in medium VLDL	mmol/l	Lipoprotein subclasses	Medium VLDL	average diameter 44.5 nm	no
+WHRadjBMI	mvldlpl	325	0.183655904305164	0.0361688829891096	3.81966415702296e-07	+	mvldlpl	M_VLDL_PL	Phospholipids in medium VLDL	mmol/l	Lipoprotein subclasses	Medium VLDL	average diameter 44.5 nm	no
+WHRadjBMI	totalce	325	-0.0800609918058227	0.0316856303376261	0.0115130398782729	-	totalce	Total_CE	Total esterified cholesterol	mmol/l	Cholesteryl esters	Cholesteryl esters		no
+WHRadjBMI	lldll	325	0.00118474097371425	0.0357967375873433	0.973597761952373	+	lldll	L_LDL_L	Total lipids in large LDL	mmol/l	Lipoprotein subclasses	Large LDL	average diameter 25.5 nm	no
+WHRadjBMI	lldlfcpct	325	-0.374221588709965	0.0371484002257885	7.22143079804457e-24	-	lldlfcpct	L_LDL_FC_pct	Free cholesterol to total lipids ratio in large LDL	%	Relative lipoprotein lipid concentrations	Large LDL ratios		yes
+WHRadjBMI	xxlvldlce	325	0.341107037635894	0.0367505430735501	1.66816092502499e-20	+	xxlvldlce	XXL_VLDL_CE	Cholesteryl esters in chylomicrons and extremely large VLDL	mmol/l	Lipoprotein subclasses	Chylomicrons and extremely large VLDL	particle diameters from 75 nm upwards	no
+WHRadjBMI	lhdltg	325	0.0498319196428708	0.027958471811	0.0746913727810155	+	lhdltg	L_HDL_TG	Triglycerides in large HDL	mmol/l	Lipoprotein subclasses	Large HDL	average diameter 12.1 nm	no
+WHRadjBMI	xlhdlfcpct	325	0.307238537506042	0.0271953422268385	1.35054316776052e-29	+	xlhdlfcpct	XL_HDL_FC_pct	Free cholesterol to total lipids ratio in very large HDL	%	Relative lipoprotein lipid concentrations	Very large HDL ratios		yes
+WHRadjBMI	lvldltg	325	0.354826507611964	0.0391770315811155	1.34083443646012e-19	+	lvldltg	L_VLDL_TG	Triglycerides in large VLDL	mmol/l	Lipoprotein subclasses	Large VLDL	average diameter 53.6 nm	no
+WHRadjBMI	idltgpct	325	0.294143724073952	0.0341316881337893	6.81888536234124e-18	+	idltgpct	IDL_TG_pct	Triglycerides to total lipids ratio in IDL	%	Relative lipoprotein lipid concentrations	IDL ratios		yes
+WHRadjBMI	shdltg	325	0.399621401898828	0.0379314455226862	5.93562650814118e-26	+	shdltg	S_HDL_TG	Triglycerides in small HDL	mmol/l	Lipoprotein subclasses	Small HDL	average diameter 8.7 nm	no
+WHRadjBMI	apobbyapoa1	325	0.157840290885074	0.0373926194413959	2.43046568043618e-05	+	apobbyapoa1	ApoB_by_ApoA1	Ratio of apolipoprotein B to apolipoprotein A1	ratio	Apolipoproteins	Apolipoproteins		no
+WHRadjBMI	acetoacetate	325	-0.0169579001465725	0.0210983919194935	0.421539519457085	-	acetoacetate	Acetoacetate	Acetoacetate	mmol/l	Ketone bodies	Ketone bodies		no
+WHRadjBMI	lhdlp	325	-0.351584394580798	0.0287241811392708	1.89998611341724e-34	-	lhdlp	L_HDL_P	Concentration of large HDL particles	mmol/l	Lipoprotein subclasses	Large HDL	average diameter 12.1 nm	no
+WHRadjBMI	mhdll	325	-0.12740734771249	0.0296942043893916	1.78153345438803e-05	-	mhdll	M_HDL_L	Total lipids in medium HDL	mmol/l	Lipoprotein subclasses	Medium HDL	average diameter 10.9 nm	no
+WHRadjBMI	sldlcpct	325	-0.0255453580778625	0.0222783604114682	0.251528602111677	-	sldlcpct	S_LDL_C_pct	Cholesterol to total lipids ratio in small LDL	%	Relative lipoprotein lipid concentrations	Small LDL ratios		yes
+WHRadjBMI	albumin	325	0.0439156297864518	0.0263323387771111	0.095366332190096	+	albumin	Albumin	Albumin	g/l	Fluid balance	Fluid balance		no
+WHRadjBMI	mldltg	325	0.287706800373458	0.0384678008601302	7.47997112857811e-14	+	mldltg	M_LDL_TG	Triglycerides in medium LDL	mmol/l	Lipoprotein subclasses	Medium LDL	average diameter 23 nm	no
+WHRadjBMI	totalp	325	-0.0982125592675928	0.02707325698399	0.000286002038871804	-	totalp	Total_P	Total concentration of lipoprotein particles	mmol/l	Lipoprotein particle concentrations	Lipoprotein particle concentrations		no
+WHRadjBMI	mldlcepct	325	0.249251838425528	0.0317188592659246	3.8982038192564e-15	+	mldlcepct	M_LDL_CE_pct	Cholesteryl esters to total lipids ratio in medium LDL	%	Relative lipoprotein lipid concentrations	Medium LDL ratios		yes
+WHRadjBMI	gly	325	-0.16937793271167	0.02410559413473	2.11780120981761e-12	-	gly	Gly	Glycine	mmol/l	Amino acids	Amino acids		no
+WHRadjBMI	phosphoglyc	325	-0.00886298979554694	0.0292061910791384	0.761537264069183	-	phosphoglyc	Phosphoglyc	Phosphoglycerides	mmol/l	Other lipids	Other lipids		no
+WHRadjBMI	xlhdlcepct	325	-0.136989012494926	0.0259710021322339	1.32979921145866e-07	-	xlhdlcepct	XL_HDL_CE_pct	Cholesteryl esters to total lipids ratio in very large HDL	%	Relative lipoprotein lipid concentrations	Very large HDL ratios		yes
+WHRadjBMI	xsvldlcpct	325	-0.323051886293032	0.0350994797324055	3.45208220174481e-20	-	xsvldlcpct	XS_VLDL_C_pct	Cholesterol to total lipids ratio in very small VLDL	%	Relative lipoprotein lipid concentrations	Very small VLDL ratios		yes
+WHRadjBMI	xxlvldltgpct	325	0.0252345483012494	0.0257606046935518	0.327293957553863	+	xxlvldltgpct	XXL_VLDL_TG_pct	Triglycerides to total lipids ratio in chylomicrons and extremely large VLDL	%	Relative lipoprotein lipid concentrations	Chylomicrons and extremely large VLDL ratios		yes
+WHRadjBMI	sphingomyelins	325	-0.143806173461619	0.0287498254544583	5.67432339322538e-07	-	sphingomyelins	Sphingomyelins	Sphingomyelins	mmol/l	Other lipids	Other lipids		no
+WHRadjBMI	svldlcepct	325	-0.160804478205553	0.0346074308827843	3.3756447642248e-06	-	svldlcepct	S_VLDL_CE_pct	Cholesteryl esters to total lipids ratio in small VLDL	%	Relative lipoprotein lipid concentrations	Small VLDL ratios		yes
+WHRadjBMI	mvldlplpct	325	-0.241515294440195	0.0340549682059962	1.32258795596654e-12	-	mvldlplpct	M_VLDL_PL_pct	Phospholipids to total lipids ratio in medium VLDL	%	Relative lipoprotein lipid concentrations	Medium VLDL ratios		yes
+WHRadjBMI	mldlcpct	325	-0.107446925514573	0.0222158571042035	1.32147287949912e-06	-	mldlcpct	M_LDL_C_pct	Cholesterol to total lipids ratio in medium LDL	%	Relative lipoprotein lipid concentrations	Medium LDL ratios		yes
+WHRadjBMI	sldltgpct	325	0.299747151579183	0.0355706988850047	3.55247448341246e-17	+	sldltgpct	S_LDL_TG_pct	Triglycerides to total lipids ratio in small LDL	%	Relative lipoprotein lipid concentrations	Small LDL ratios		yes
+WHRadjBMI	lldlcpct	325	-0.236200076487158	0.0313637847374993	5.03603994141222e-14	-	lldlcpct	L_LDL_C_pct	Cholesterol to total lipids ratio in large LDL	%	Relative lipoprotein lipid concentrations	Large LDL ratios		yes
+WHRadjBMI	mufapct	325	0.295132503799051	0.0316108789780228	9.96446279594599e-21	+	mufapct	MUFA_pct	Ratio of monounsaturated fatty acids to total fatty acids	%	Fatty acids	Fatty acid ratios		yes
+WHRadjBMI	totaltg	325	0.357281931073433	0.0392882014895091	9.55721198294167e-20	+	totaltg	Total_TG	Total triglycerides	mmol/l	Triglycerides	Triglycerides		no
+WHRadjBMI	xxlvldltg	325	0.313813437469925	0.0358730996623634	2.17405440020805e-18	+	xxlvldltg	XXL_VLDL_TG	Triglycerides in chylomicrons and extremely large VLDL	mmol/l	Lipoprotein subclasses	Chylomicrons and extremely large VLDL	particle diameters from 75 nm upwards	no
+WHRadjBMI	mvldlcpct	325	-0.343608401283784	0.0363732342960194	3.49555575302858e-21	-	mvldlcpct	M_VLDL_C_pct	Cholesterol to total lipids ratio in medium VLDL	%	Relative lipoprotein lipid concentrations	Medium VLDL ratios		yes
+WHRadjBMI	hdlpl	325	-0.186561472267832	0.0282519455668316	4.0158630475621e-11	-	hdlpl	HDL_PL	Phospholipids in HDL	mmol/l	Phospholipids	Phospholipids		no
+WHRadjBMI	apoa1	325	-0.167726928279509	0.0279898814388924	2.06750099989695e-09	-	apoa1	ApoA1	Apolipoprotein A1	g/l	Apolipoproteins	Apolipoproteins		no
+WHRadjBMI	xsvldll	325	0.0798363038942822	0.0311289124515056	0.0103265217556148	+	xsvldll	XS_VLDL_L	Total lipids in very small VLDL	mmol/l	Lipoprotein subclasses	Very small VLDL	average diameter 31.3 nm	no
+WHRadjBMI	xlhdlfc	325	-0.359643647644532	0.0319410547353512	2.0768840557101e-29	-	xlhdlfc	XL_HDL_FC	Free cholesterol in very large HDL	mmol/l	Lipoprotein subclasses	Very large HDL	average diameter 14.3 nm	no
+WHRadjBMI	ldlsize	325	-0.218410158007992	0.0271742240705558	9.17633696170645e-16	-	ldlsize	LDL_size	Average diameter for LDL particles	nm	Lipoprotein particle sizes	Lipoprotein particle sizes		no
+WHRadjBMI	xlvldlc	325	0.327540139527003	0.0379062597580117	5.58242380389862e-18	+	xlvldlc	XL_VLDL_C	Cholesterol in very large VLDL	mmol/l	Lipoprotein subclasses	Very large VLDL	average diameter 64 nm	no
+WHRadjBMI	mvldlcepct	325	-0.356801734633471	0.0368268410254003	3.37010118453303e-22	-	mvldlcepct	M_VLDL_CE_pct	Cholesteryl esters to total lipids ratio in medium VLDL	%	Relative lipoprotein lipid concentrations	Medium VLDL ratios		yes
+WHRadjBMI	his	325	-0.00804271444551488	0.0215538275209439	0.709040131983943	-	his	His	Histidine	mmol/l	Amino acids	Amino acids		no
+WHRadjBMI	pyruvate	325	0.0110974488412257	0.02128517984458	0.602109221809108	+	pyruvate	Pyruvate	Pyruvate	mmol/l	Glycolysis related metabolites	Glycolysis related metabolites		no
+WHRadjBMI	svldlp	325	0.294127024189167	0.0381469847798609	1.2546232328576e-14	+	svldlp	S_VLDL_P	Concentration of small VLDL particles	mmol/l	Lipoprotein subclasses	Small VLDL	average diameter 36.8 nm	no
+WHRadjBMI	ldlp	325	0.071615460359744	0.037029514137906	0.0531118660708357	+	ldlp	LDL_P	Concentration of LDL particles	mmol/l	Lipoprotein particle concentrations	Lipoprotein particle concentrations		no
+WHRadjBMI	svldltgpct	325	0.266840200262575	0.0370640534459177	6.046308934537e-13	+	svldltgpct	S_VLDL_TG_pct	Triglycerides to total lipids ratio in small VLDL	%	Relative lipoprotein lipid concentrations	Small VLDL ratios		yes
+WHRadjBMI	ldlpl	325	0.0356597246899327	0.0370347538631813	0.335611801001372	+	ldlpl	LDL_PL	Phospholipids in LDL	mmol/l	Phospholipids	Phospholipids		no
+WHRadjBMI	sfa	325	0.201167170279505	0.0353976308957498	1.32299047207252e-08	+	sfa	SFA	Saturated fatty acids	mmol/l	Fatty acids	Fatty acids		no
+WHRadjBMI	sfapct	325	0.147916676317022	0.0238564343558396	5.63612421185479e-10	+	sfapct	SFA_pct	Ratio of saturated fatty acids to total fatty acids	%	Fatty acids	Fatty acid ratios		yes
+WHRadjBMI	shdlp	325	0.136178286221868	0.0289018789593058	2.45604482284353e-06	+	shdlp	S_HDL_P	Concentration of small HDL particles	mmol/l	Lipoprotein subclasses	Small HDL	average diameter 8.7 nm	no
+WHRadjBMI	mhdltg	325	0.288928551361505	0.0353871166471081	3.21981673874135e-16	+	mhdltg	M_HDL_TG	Triglycerides in medium HDL	mmol/l	Lipoprotein subclasses	Medium HDL	average diameter 10.9 nm	no

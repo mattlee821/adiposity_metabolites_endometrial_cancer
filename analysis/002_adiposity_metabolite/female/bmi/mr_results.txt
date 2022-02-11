@@ -1,0 +1,997 @@
+id.exposure	id.outcome	outcome	exposure	method	nsnp	b	se	pval
+BMI	0Bnijc	MUFA_pct_int_imputed.txt_adiposity_instruments.txt	BMI	MR Egger	264	0.389474325403129	0.137601652078549	0.00500845659495772
+BMI	0Bnijc	MUFA_pct_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted median	264	0.320940912046904	0.0357321554488984	2.66248149702474e-19
+BMI	0Bnijc	MUFA_pct_int_imputed.txt_adiposity_instruments.txt	BMI	Inverse variance weighted (multiplicative random effects)	264	0.344636730070305	0.031511905283632	7.69372315185298e-28
+BMI	0Bnijc	MUFA_pct_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted mode	264	0.210540863652083	0.118765678471335	0.0774290175607574
+BMI	0DpGyr	S_HDL_PL_int_imputed.txt_adiposity_instruments.txt	BMI	MR Egger	264	-0.0660494448197105	0.125453413462339	0.598996109218474
+BMI	0DpGyr	S_HDL_PL_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted median	264	0.114704852662092	0.0349024320090194	0.00101461313035623
+BMI	0DpGyr	S_HDL_PL_int_imputed.txt_adiposity_instruments.txt	BMI	Inverse variance weighted (multiplicative random effects)	264	0.0897983531255051	0.0288156293949978	0.00183131392407029
+BMI	0DpGyr	S_HDL_PL_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted mode	264	0.171595416220636	0.122689220951204	0.163105503782107
+BMI	0lK4Tu	SFA_pct_int_imputed.txt_adiposity_instruments.txt	BMI	MR Egger	264	-0.0094794260237904	0.110842626880033	0.931912131957102
+BMI	0lK4Tu	SFA_pct_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted median	264	0.129862993331151	0.0358118792506478	0.000287561794538565
+BMI	0lK4Tu	SFA_pct_int_imputed.txt_adiposity_instruments.txt	BMI	Inverse variance weighted (multiplicative random effects)	264	0.127128990271279	0.0254562785095989	5.91373607243572e-07
+BMI	0lK4Tu	SFA_pct_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted mode	264	0.165790326745023	0.125564609774907	0.187863182565733
+BMI	0NWZT8	L_VLDL_CE_pct_int_imputed.txt_adiposity_instruments.txt	BMI	MR Egger	264	-0.155862811455228	0.128417358537182	0.225947362619465
+BMI	0NWZT8	L_VLDL_CE_pct_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted median	264	-0.20937382111698	0.0329017461718152	1.97068476753639e-10
+BMI	0NWZT8	L_VLDL_CE_pct_int_imputed.txt_adiposity_instruments.txt	BMI	Inverse variance weighted (multiplicative random effects)	264	-0.221638119821316	0.0294184910859209	4.92192790960723e-14
+BMI	0NWZT8	L_VLDL_CE_pct_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted mode	264	-0.243849018446861	0.132539675956114	0.0669217007773307
+BMI	0WRyb7	XXL_VLDL_CE_pct_int_imputed.txt_adiposity_instruments.txt	BMI	MR Egger	264	-0.11300017582295	0.12086895733025	0.350701599957061
+BMI	0WRyb7	XXL_VLDL_CE_pct_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted median	264	-0.0895071500780753	0.0360388239135448	0.0130050391262705
+BMI	0WRyb7	XXL_VLDL_CE_pct_int_imputed.txt_adiposity_instruments.txt	BMI	Inverse variance weighted (multiplicative random effects)	264	-0.0827172076204629	0.0276861664996321	0.00281110296528851
+BMI	0WRyb7	XXL_VLDL_CE_pct_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted mode	264	-0.138780447832204	0.129831055864157	0.286080840969584
+BMI	0Zzulu	XL_VLDL_PL_pct_int_imputed.txt_adiposity_instruments.txt	BMI	MR Egger	264	8.35243175543395e-05	0.13838327731616	0.999518878287016
+BMI	0Zzulu	XL_VLDL_PL_pct_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted median	264	0.0473112957480741	0.0351679189331614	0.178529342811008
+BMI	0Zzulu	XL_VLDL_PL_pct_int_imputed.txt_adiposity_instruments.txt	BMI	Inverse variance weighted (multiplicative random effects)	264	0.0299031379158851	0.0316901109397475	0.345368458654116
+BMI	0Zzulu	XL_VLDL_PL_pct_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted mode	264	-0.0109269272880814	0.131418110038974	0.933798473613714
+BMI	1EQGV5	Total_P_int_imputed.txt_adiposity_instruments.txt	BMI	MR Egger	264	-0.392635468467492	0.129774369784054	0.0027288919774895
+BMI	1EQGV5	Total_P_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted median	264	-0.189503519278187	0.0355756181146916	9.99686884073315e-08
+BMI	1EQGV5	Total_P_int_imputed.txt_adiposity_instruments.txt	BMI	Inverse variance weighted (multiplicative random effects)	264	-0.195774867223124	0.029852693398793	5.45231402116968e-11
+BMI	1EQGV5	Total_P_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted mode	264	-0.243281888579415	0.125132022477033	0.0529373751889896
+BMI	1Lw3D2	S_VLDL_L_int_imputed.txt_adiposity_instruments.txt	BMI	MR Egger	264	0.0827812579094286	0.152429107655677	0.587536179901119
+BMI	1Lw3D2	S_VLDL_L_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted median	264	0.105119395782951	0.0355984005763483	0.00314778753033787
+BMI	1Lw3D2	S_VLDL_L_int_imputed.txt_adiposity_instruments.txt	BMI	Inverse variance weighted (multiplicative random effects)	264	0.0979917395546357	0.0349024023846429	0.00499132700770354
+BMI	1Lw3D2	S_VLDL_L_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted mode	264	0.118667038718491	0.117884293127365	0.315033074481181
+BMI	1PdAmc	SFA_int_imputed.txt_adiposity_instruments.txt	BMI	MR Egger	264	-0.0687764845515063	0.132022468992114	0.602844880433388
+BMI	1PdAmc	SFA_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted median	264	0.0711779196905173	0.0350442270476436	0.0422460376719493
+BMI	1PdAmc	SFA_int_imputed.txt_adiposity_instruments.txt	BMI	Inverse variance weighted (multiplicative random effects)	264	0.05927947624765	0.0302869117029767	0.0503164598359186
+BMI	1PdAmc	SFA_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted mode	264	-0.0888029608566301	0.121466654287645	0.465375497946027
+BMI	1wudNI	S_HDL_PL_pct_int_imputed.txt_adiposity_instruments.txt	BMI	MR Egger	264	0.158156633733255	0.184132151409398	0.391164274351628
+BMI	1wudNI	S_HDL_PL_pct_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted median	264	-0.0356315258729688	0.0350993306948617	0.310028351520542
+BMI	1wudNI	S_HDL_PL_pct_int_imputed.txt_adiposity_instruments.txt	BMI	Inverse variance weighted (multiplicative random effects)	264	0.0138112700414661	0.0422151213570054	0.74354381051089
+BMI	1wudNI	S_HDL_PL_pct_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted mode	264	-0.115349614096028	0.12728320364063	0.365636336940369
+BMI	21w2tF	M_VLDL_FC_int_imputed.txt_adiposity_instruments.txt	BMI	MR Egger	264	-0.149156139653612	0.161034448463119	0.355174979567449
+BMI	21w2tF	M_VLDL_FC_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted median	264	-0.00634283915746355	0.0365042750337694	0.862057174722133
+BMI	21w2tF	M_VLDL_FC_int_imputed.txt_adiposity_instruments.txt	BMI	Inverse variance weighted (multiplicative random effects)	264	-0.023422587795667	0.0369185456014928	0.525793964268446
+BMI	21w2tF	M_VLDL_FC_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted mode	264	-0.0284279484123235	0.120885507854793	0.814264259767832
+BMI	2d7g5b	XL_VLDL_FC_int_imputed.txt_adiposity_instruments.txt	BMI	MR Egger	264	0.131288074331987	0.147973875632461	0.375764390736503
+BMI	2d7g5b	XL_VLDL_FC_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted median	264	0.181865406122116	0.0350060516255883	2.04438115656293e-07
+BMI	2d7g5b	XL_VLDL_FC_int_imputed.txt_adiposity_instruments.txt	BMI	Inverse variance weighted (multiplicative random effects)	264	0.190780176597074	0.0338923021165142	1.81244750413431e-08
+BMI	2d7g5b	XL_VLDL_FC_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted mode	264	0.112286761227489	0.129089345767245	0.385182360181358
+BMI	2fhosC	XS_VLDL_P_int_imputed.txt_adiposity_instruments.txt	BMI	MR Egger	264	-0.0301292283671174	0.148896907645929	0.83980047122428
+BMI	2fhosC	XS_VLDL_P_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted median	264	-0.00273904511047799	0.0356577055533863	0.938770752116068
+BMI	2fhosC	XS_VLDL_P_int_imputed.txt_adiposity_instruments.txt	BMI	Inverse variance weighted (multiplicative random effects)	264	-0.0211774787941224	0.0340926369318378	0.534484775047074
+BMI	2fhosC	XS_VLDL_P_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted mode	264	-0.0487193605475884	0.121119014974478	0.68783140380524
+BMI	2g87ys	LDL_P_int_imputed.txt_adiposity_instruments.txt	BMI	MR Egger	264	-0.24922573589139	0.179260526590693	0.165618015528224
+BMI	2g87ys	LDL_P_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted median	264	-0.0323890586200603	0.036437088485372	0.374054898025384
+BMI	2g87ys	LDL_P_int_imputed.txt_adiposity_instruments.txt	BMI	Inverse variance weighted (multiplicative random effects)	264	-0.0785005236207733	0.0411222990454855	0.0562681942497173
+BMI	2g87ys	LDL_P_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted mode	264	-0.0193515631119352	0.133891286969725	0.885191155385869
+BMI	2P6qrY	IDL_PL_pct_int_imputed.txt_adiposity_instruments.txt	BMI	MR Egger	264	0.391711670296054	0.129704241232959	0.00277709529502023
+BMI	2P6qrY	IDL_PL_pct_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted median	264	0.0210665413992406	0.035180460250691	0.549297128688997
+BMI	2P6qrY	IDL_PL_pct_int_imputed.txt_adiposity_instruments.txt	BMI	Inverse variance weighted (multiplicative random effects)	264	0.0457369464411445	0.0301209836903147	0.128903180085023
+BMI	2P6qrY	IDL_PL_pct_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted mode	264	-0.000555144652944373	0.108532230402534	0.995922699062371
+BMI	30b4OY	LA_pct_int_imputed.txt_adiposity_instruments.txt	BMI	MR Egger	264	-0.289415444319284	0.122199980467061	0.0185925400951561
+BMI	30b4OY	LA_pct_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted median	264	-0.333705609597019	0.034853846896939	1.02423756662736e-21
+BMI	30b4OY	LA_pct_int_imputed.txt_adiposity_instruments.txt	BMI	Inverse variance weighted (multiplicative random effects)	264	-0.360414855076278	0.0279985192939375	6.41708131942293e-38
+BMI	30b4OY	LA_pct_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted mode	264	-0.31027757264822	0.124612335297073	0.013394455313741
+BMI	3bNsy4	Total_FA_int_imputed.txt_adiposity_instruments.txt	BMI	MR Egger	264	-0.0777853433541652	0.137106714865849	0.570972850536732
+BMI	3bNsy4	Total_FA_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted median	264	0.0481644827130529	0.0356283312738456	0.176420403857146
+BMI	3bNsy4	Total_FA_int_imputed.txt_adiposity_instruments.txt	BMI	Inverse variance weighted (multiplicative random effects)	264	0.0331376866415832	0.0314356711038814	0.291817539268184
+BMI	3bNsy4	Total_FA_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted mode	264	0.0214075452975502	0.122748848860073	0.861684353659173
+BMI	3dTQG7	His_int_imputed.txt_adiposity_instruments.txt	BMI	MR Egger	264	0.0917197765272684	0.107712462566568	0.395255807653148
+BMI	3dTQG7	His_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted median	264	0.000169566180015415	0.0334600388441856	0.995956560044632
+BMI	3dTQG7	His_int_imputed.txt_adiposity_instruments.txt	BMI	Inverse variance weighted (multiplicative random effects)	264	0.00160362258879106	0.0246957996616343	0.948225726408247
+BMI	3dTQG7	His_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted mode	264	-0.0875330159984642	0.116231992552468	0.452070119791059
+BMI	3kzvMK	S_LDL_PL_int_imputed.txt_adiposity_instruments.txt	BMI	MR Egger	264	-0.325680280980909	0.202271938938689	0.108577746287738
+BMI	3kzvMK	S_LDL_PL_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted median	264	-0.0559363650214938	0.0359535877518745	0.119757158664404
+BMI	3kzvMK	S_LDL_PL_int_imputed.txt_adiposity_instruments.txt	BMI	Inverse variance weighted (multiplicative random effects)	264	-0.0965594351900198	0.0464375595029711	0.0375861897514556
+BMI	3kzvMK	S_LDL_PL_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted mode	264	-0.11602877059453	0.138286166287104	0.402204201949428
+BMI	3MA4W4	IDL_C_pct_int_imputed.txt_adiposity_instruments.txt	BMI	MR Egger	264	-0.577222479942942	0.157031559100483	0.000287536379598439
+BMI	3MA4W4	IDL_C_pct_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted median	264	-0.172905886295161	0.0359674205227101	1.52988598526924e-06
+BMI	3MA4W4	IDL_C_pct_int_imputed.txt_adiposity_instruments.txt	BMI	Inverse variance weighted (multiplicative random effects)	264	-0.233591988161275	0.0363004580101654	1.23506010104754e-10
+BMI	3MA4W4	IDL_C_pct_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted mode	264	-0.0588569955927927	0.130612173679612	0.652631748302244
+BMI	4MTTJM	M_HDL_P_int_imputed.txt_adiposity_instruments.txt	BMI	MR Egger	264	-0.31317883741745	0.144748037137479	0.0313981180610469
+BMI	4MTTJM	M_HDL_P_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted median	264	-0.1894311901204	0.0361885977715444	1.6538319974226e-07
+BMI	4MTTJM	M_HDL_P_int_imputed.txt_adiposity_instruments.txt	BMI	Inverse variance weighted (multiplicative random effects)	264	-0.205915911641958	0.0331797174081693	5.4323251002485e-10
+BMI	4MTTJM	M_HDL_P_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted mode	264	-0.207021037150032	0.12605540213584	0.10172253403068
+BMI	4ne75t	XS_VLDL_C_pct_int_imputed.txt_adiposity_instruments.txt	BMI	MR Egger	264	-0.532174328488401	0.157335620040448	0.000828306473455198
+BMI	4ne75t	XS_VLDL_C_pct_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted median	264	-0.291851802169482	0.0360938297198192	6.16969208374583e-16
+BMI	4ne75t	XS_VLDL_C_pct_int_imputed.txt_adiposity_instruments.txt	BMI	Inverse variance weighted (multiplicative random effects)	264	-0.291432245363257	0.0361946599165226	8.15836272104384e-16
+BMI	4ne75t	XS_VLDL_C_pct_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted mode	264	-0.353461338684276	0.132188399774896	0.00796634690320428
+BMI	4v5mVC	S_HDL_FC_int_imputed.txt_adiposity_instruments.txt	BMI	MR Egger	264	-0.213000151814455	0.125262999839992	0.0902379139814941
+BMI	4v5mVC	S_HDL_FC_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted median	264	-0.0460767734819233	0.0353510934428335	0.192436708656893
+BMI	4v5mVC	S_HDL_FC_int_imputed.txt_adiposity_instruments.txt	BMI	Inverse variance weighted (multiplicative random effects)	264	-0.0519114028175968	0.0287778011735781	0.0712517400946575
+BMI	4v5mVC	S_HDL_FC_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted mode	264	-0.127488779217821	0.12783650114149	0.319545307681486
+BMI	4vMZm1	XL_HDL_TG_pct_int_imputed.txt_adiposity_instruments.txt	BMI	MR Egger	264	0.383122051327479	0.146675851011204	0.00952000043551846
+BMI	4vMZm1	XL_HDL_TG_pct_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted median	264	0.295285564797746	0.0351355954311435	4.30893146387547e-17
+BMI	4vMZm1	XL_HDL_TG_pct_int_imputed.txt_adiposity_instruments.txt	BMI	Inverse variance weighted (multiplicative random effects)	264	0.285495855887806	0.0336125559794697	2.00114991381316e-17
+BMI	4vMZm1	XL_HDL_TG_pct_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted mode	264	0.281781541559572	0.126872881161829	0.0272046510938648
+BMI	52EW1L	PUFA_pct_int_imputed.txt_adiposity_instruments.txt	BMI	MR Egger	264	-0.282633448697533	0.131865454725975	0.0330062242425242
+BMI	52EW1L	PUFA_pct_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted median	264	-0.297594104312343	0.0341581657145297	2.97930636647442e-18
+BMI	52EW1L	PUFA_pct_int_imputed.txt_adiposity_instruments.txt	BMI	Inverse variance weighted (multiplicative random effects)	264	-0.322510430849502	0.0301982624570389	1.26587898371327e-26
+BMI	52EW1L	PUFA_pct_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted mode	264	-0.135359192177599	0.139430291984078	0.332538905384724
+BMI	55YuWn	S_HDL_C_int_imputed.txt_adiposity_instruments.txt	BMI	MR Egger	264	-0.237400738398755	0.122568279598297	0.05383437318415
+BMI	55YuWn	S_HDL_C_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted median	264	0.0355962543704395	0.035556688951091	0.316772305518706
+BMI	55YuWn	S_HDL_C_int_imputed.txt_adiposity_instruments.txt	BMI	Inverse variance weighted (multiplicative random effects)	264	0.0232859125682546	0.0283193613186075	0.410928243174727
+BMI	55YuWn	S_HDL_C_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted mode	264	0.205331490547903	0.132626426878456	0.122777956001649
+BMI	5eEHsd	XL_HDL_L_int_imputed.txt_adiposity_instruments.txt	BMI	MR Egger	264	-0.393387901251212	0.140482861860106	0.0054864594886512
+BMI	5eEHsd	XL_HDL_L_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted median	264	-0.385885750882334	0.0355631549609525	1.97865769763793e-27
+BMI	5eEHsd	XL_HDL_L_int_imputed.txt_adiposity_instruments.txt	BMI	Inverse variance weighted (multiplicative random effects)	264	-0.3975976760211	0.0321609482005868	4.15702401062225e-35
+BMI	5eEHsd	XL_HDL_L_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted mode	264	-0.393785659722764	0.117445214998266	0.000917202533233036
+BMI	5EUvpc	TG_by_PG_int_imputed.txt_adiposity_instruments.txt	BMI	MR Egger	264	0.307762501691644	0.14835541813911	0.0390098531001199
+BMI	5EUvpc	TG_by_PG_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted median	264	0.259560628599656	0.0360224127106241	5.78178860025189e-13
+BMI	5EUvpc	TG_by_PG_int_imputed.txt_adiposity_instruments.txt	BMI	Inverse variance weighted (multiplicative random effects)	264	0.274496461965355	0.0339707568481889	6.45677927622561e-16
+BMI	5EUvpc	TG_by_PG_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted mode	264	0.10959788725447	0.116051529804732	0.345837232611172
+BMI	5HvAcF	S_HDL_P_int_imputed.txt_adiposity_instruments.txt	BMI	MR Egger	264	-0.195049732841229	0.123542628786907	0.115587312864322
+BMI	5HvAcF	S_HDL_P_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted median	264	0.0643743740992214	0.036239285009977	0.0756719734123572
+BMI	5HvAcF	S_HDL_P_int_imputed.txt_adiposity_instruments.txt	BMI	Inverse variance weighted (multiplicative random effects)	264	0.0511226162544767	0.0285133932983902	0.0729835679915281
+BMI	5HvAcF	S_HDL_P_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted mode	264	0.258571392961566	0.128285010464783	0.0448587821144659
+BMI	5tzQDT	IDL_FC_pct_int_imputed.txt_adiposity_instruments.txt	BMI	MR Egger	264	-0.259359686640337	0.120460225536219	0.0322258414765872
+BMI	5tzQDT	IDL_FC_pct_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted median	264	-0.10307548814657	0.0337822400123559	0.0022794852919519
+BMI	5tzQDT	IDL_FC_pct_int_imputed.txt_adiposity_instruments.txt	BMI	Inverse variance weighted (multiplicative random effects)	264	-0.142963248604701	0.0276335322324197	2.29697060256321e-07
+BMI	5tzQDT	IDL_FC_pct_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted mode	264	-0.0203088280508288	0.117257372432169	0.862628444551661
+BMI	62lhhx	S_LDL_FC_int_imputed.txt_adiposity_instruments.txt	BMI	MR Egger	264	-0.416830268639941	0.199753115330036	0.0378796332706658
+BMI	62lhhx	S_LDL_FC_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted median	264	-0.102944314539927	0.0343202694553929	0.00270405890013304
+BMI	62lhhx	S_LDL_FC_int_imputed.txt_adiposity_instruments.txt	BMI	Inverse variance weighted (multiplicative random effects)	264	-0.144518766505094	0.0459113201146942	0.00164515076986357
+BMI	62lhhx	S_LDL_FC_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted mode	264	-0.137890213613808	0.124186381281367	0.267862836892175
+BMI	649zmB	XS_VLDL_PL_int_imputed.txt_adiposity_instruments.txt	BMI	MR Egger	264	0.049564156944649	0.141525127351614	0.726459078909369
+BMI	649zmB	XS_VLDL_PL_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted median	264	0.000213120897675656	0.035578052069965	0.995220512450937
+BMI	649zmB	XS_VLDL_PL_int_imputed.txt_adiposity_instruments.txt	BMI	Inverse variance weighted (multiplicative random effects)	264	0.00767729353774202	0.0324100765333453	0.812750015211636
+BMI	649zmB	XS_VLDL_PL_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted mode	264	-0.042252056078075	0.11431857386367	0.711978549965162
+BMI	6JHGZ4	XS_VLDL_C_int_imputed.txt_adiposity_instruments.txt	BMI	MR Egger	264	-0.17104613098181	0.147638351722191	0.247695348519894
+BMI	6JHGZ4	XS_VLDL_C_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted median	264	-0.0580273100654905	0.0350842275252394	0.0981391089193994
+BMI	6JHGZ4	XS_VLDL_C_int_imputed.txt_adiposity_instruments.txt	BMI	Inverse variance weighted (multiplicative random effects)	264	-0.108515182647136	0.0338167647259449	0.00133236065382774
+BMI	6JHGZ4	XS_VLDL_C_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted mode	264	0.00433358706716636	0.119993689845239	0.971217958556392
+BMI	6tKXE6	LDL_FC_int_imputed.txt_adiposity_instruments.txt	BMI	MR Egger	264	-0.436578224268814	0.18849016230023	0.0213202467114688
+BMI	6tKXE6	LDL_FC_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted median	264	-0.155919219338397	0.0349718004675422	8.25633063737343e-06
+BMI	6tKXE6	LDL_FC_int_imputed.txt_adiposity_instruments.txt	BMI	Inverse variance weighted (multiplicative random effects)	264	-0.183420047051857	0.0433175489155608	2.29251774463875e-05
+BMI	6tKXE6	LDL_FC_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted mode	264	-0.215397267340957	0.134313375070626	0.109982190394275
+BMI	6Z2lfL	LA_int_imputed.txt_adiposity_instruments.txt	BMI	MR Egger	264	-0.252089788985914	0.140887084009064	0.0747209022948213
+BMI	6Z2lfL	LA_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted median	264	-0.122549929525608	0.0362303363531942	0.000718233823309477
+BMI	6Z2lfL	LA_int_imputed.txt_adiposity_instruments.txt	BMI	Inverse variance weighted (multiplicative random effects)	264	-0.175763192373256	0.0322792716774223	5.17823260398379e-08
+BMI	6Z2lfL	LA_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted mode	264	-0.083587584607189	0.124405492263656	0.502239526804909
+BMI	723Uab	Gln_int_imputed.txt_adiposity_instruments.txt	BMI	MR Egger	264	0.0506154135458885	0.120090476036749	0.673752141676901
+BMI	723Uab	Gln_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted median	264	-0.0938136535587742	0.0344762053669856	0.00650624999405687
+BMI	723Uab	Gln_int_imputed.txt_adiposity_instruments.txt	BMI	Inverse variance weighted (multiplicative random effects)	264	-0.121757247144564	0.0276094395237452	1.03377209308589e-05
+BMI	723Uab	Gln_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted mode	264	-0.0553442017790013	0.111227858624052	0.619199380045586
+BMI	73eEt5	Cholines_int_imputed.txt_adiposity_instruments.txt	BMI	MR Egger	264	-0.324229701741285	0.12703133066687	0.0112675441368257
+BMI	73eEt5	Cholines_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted median	264	-0.195192232864328	0.0351045763335012	2.69300013474221e-08
+BMI	73eEt5	Cholines_int_imputed.txt_adiposity_instruments.txt	BMI	Inverse variance weighted (multiplicative random effects)	264	-0.192059866618914	0.0291505352728935	4.44131661258056e-11
+BMI	73eEt5	Cholines_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted mode	264	-0.29265372971806	0.120702939416425	0.0160004760276779
+BMI	78duA2	M_VLDL_PL_pct_int_imputed.txt_adiposity_instruments.txt	BMI	MR Egger	264	-0.313706912690744	0.163259753239826	0.0557509292964349
+BMI	78duA2	M_VLDL_PL_pct_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted median	264	-0.172767839118501	0.0351197283085415	8.68118284664059e-07
+BMI	78duA2	M_VLDL_PL_pct_int_imputed.txt_adiposity_instruments.txt	BMI	Inverse variance weighted (multiplicative random effects)	264	-0.209283282401421	0.0374121147473253	2.21899944157444e-08
+BMI	78duA2	M_VLDL_PL_pct_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted mode	264	-0.413175099835393	0.136136169902072	0.0026463867664998
+BMI	7dfh1l	M_LDL_CE_pct_int_imputed.txt_adiposity_instruments.txt	BMI	MR Egger	264	0.0339284313084599	0.132457811766814	0.798039730101331
+BMI	7dfh1l	M_LDL_CE_pct_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted median	264	0.12423275718734	0.0359483220436467	0.00054851812911111
+BMI	7dfh1l	M_LDL_CE_pct_int_imputed.txt_adiposity_instruments.txt	BMI	Inverse variance weighted (multiplicative random effects)	264	0.126371957601412	0.0303585010085569	3.14568850485731e-05
+BMI	7dfh1l	M_LDL_CE_pct_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted mode	264	0.128519745863887	0.111598060702514	0.250518712847229
+BMI	8FHUKb	L_HDL_PL_pct_int_imputed.txt_adiposity_instruments.txt	BMI	MR Egger	264	0.443876682427649	0.13934175270525	0.00161983406455354
+BMI	8FHUKb	L_HDL_PL_pct_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted median	264	0.415678097810254	0.0345351669989288	2.28799905079586e-33
+BMI	8FHUKb	L_HDL_PL_pct_int_imputed.txt_adiposity_instruments.txt	BMI	Inverse variance weighted (multiplicative random effects)	264	0.420544742781799	0.0319065717124572	1.13626961695001e-39
+BMI	8FHUKb	L_HDL_PL_pct_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted mode	264	0.507137733078771	0.131924899878391	0.000151780080709038
+BMI	8qNS5q	L_VLDL_FC_pct_int_imputed.txt_adiposity_instruments.txt	BMI	MR Egger	264	0.173858679355708	0.148290473651553	0.242093496472672
+BMI	8qNS5q	L_VLDL_FC_pct_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted median	264	0.124416009697722	0.0337365807442941	0.000226142137978295
+BMI	8qNS5q	L_VLDL_FC_pct_int_imputed.txt_adiposity_instruments.txt	BMI	Inverse variance weighted (multiplicative random effects)	264	0.114874351541242	0.0339626547438904	0.000718626116400012
+BMI	8qNS5q	L_VLDL_FC_pct_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted mode	264	0.0813490785196427	0.126421226393932	0.520475691741315
+BMI	9ER8b5	L_LDL_P_int_imputed.txt_adiposity_instruments.txt	BMI	MR Egger	264	-0.257668516232368	0.180806155579585	0.155315797656453
+BMI	9ER8b5	L_LDL_P_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted median	264	-0.0487720011416108	0.035264082763525	0.16664943549242
+BMI	9ER8b5	L_LDL_P_int_imputed.txt_adiposity_instruments.txt	BMI	Inverse variance weighted (multiplicative random effects)	264	-0.103576086964832	0.0414622089919134	0.0124866550201783
+BMI	9ER8b5	L_LDL_P_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted mode	264	-0.0638236105738734	0.134266129222588	0.634930979065749
+BMI	9Id2Bv	Remnant_C_int_imputed.txt_adiposity_instruments.txt	BMI	MR Egger	264	-0.237833574009591	0.165087058444465	0.150876001980078
+BMI	9Id2Bv	Remnant_C_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted median	264	-0.0240860444633047	0.0340629462038332	0.479501869539098
+BMI	9Id2Bv	Remnant_C_int_imputed.txt_adiposity_instruments.txt	BMI	Inverse variance weighted (multiplicative random effects)	264	-0.0759664687703677	0.0378743661510411	0.0448830436210824
+BMI	9Id2Bv	Remnant_C_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted mode	264	0.00406947105364264	0.128240217672833	0.974708895775819
+BMI	aCQXOC	VLDL_PL_int_imputed.txt_adiposity_instruments.txt	BMI	MR Egger	264	0.0614494847592618	0.151967478516616	0.686278312912428
+BMI	aCQXOC	VLDL_PL_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted median	264	0.132861394744209	0.0350111947801182	0.00014774699291018
+BMI	aCQXOC	VLDL_PL_int_imputed.txt_adiposity_instruments.txt	BMI	Inverse variance weighted (multiplicative random effects)	264	0.118239096159046	0.034805913297511	0.000681045884215557
+BMI	aCQXOC	VLDL_PL_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted mode	264	0.0911166495043316	0.119882529282032	0.447905815200769
+BMI	ag64UV	XS_VLDL_TG_int_imputed.txt_adiposity_instruments.txt	BMI	MR Egger	264	0.297717929207705	0.137950660658839	0.0318250184458088
+BMI	ag64UV	XS_VLDL_TG_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted median	264	0.153244095457894	0.0355432337885866	1.62162269608357e-05
+BMI	ag64UV	XS_VLDL_TG_int_imputed.txt_adiposity_instruments.txt	BMI	Inverse variance weighted (multiplicative random effects)	264	0.157784289398803	0.0316505748067693	6.18993308646293e-07
+BMI	ag64UV	XS_VLDL_TG_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted mode	264	0.170939941482447	0.121376194747916	0.160209023689195
+BMI	AHK1X2	XL_VLDL_CE_int_imputed.txt_adiposity_instruments.txt	BMI	MR Egger	264	0.072690465495076	0.155267417094561	0.640057226350918
+BMI	AHK1X2	XL_VLDL_CE_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted median	264	0.149017266188991	0.0346863532428114	1.73801537238643e-05
+BMI	AHK1X2	XL_VLDL_CE_int_imputed.txt_adiposity_instruments.txt	BMI	Inverse variance weighted (multiplicative random effects)	264	0.144918307085276	0.0355667243683241	4.61039071053482e-05
+BMI	AHK1X2	XL_VLDL_CE_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted mode	264	0.177445799474064	0.121460425337925	0.145226895920875
+BMI	akjGc8	L_VLDL_TG_int_imputed.txt_adiposity_instruments.txt	BMI	MR Egger	264	0.0814131910055254	0.144544626503762	0.573753753139749
+BMI	akjGc8	L_VLDL_TG_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted median	264	0.186370701178634	0.0360454191166653	2.33542606159073e-07
+BMI	akjGc8	L_VLDL_TG_int_imputed.txt_adiposity_instruments.txt	BMI	Inverse variance weighted (multiplicative random effects)	264	0.181090389450378	0.0331284797842119	4.5951225451824e-08
+BMI	akjGc8	L_VLDL_TG_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted mode	264	0.135765211533542	0.115304975350056	0.240082545505047
+BMI	AnpL5k	Omega_6_pct_int_imputed.txt_adiposity_instruments.txt	BMI	MR Egger	264	-0.279419508270498	0.127055545479218	0.0287382759903611
+BMI	AnpL5k	Omega_6_pct_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted median	264	-0.270812917818737	0.0338165113900175	1.16300727770928e-15
+BMI	AnpL5k	Omega_6_pct_int_imputed.txt_adiposity_instruments.txt	BMI	Inverse variance weighted (multiplicative random effects)	264	-0.283079591503099	0.0290912434713473	2.22945006980412e-22
+BMI	AnpL5k	Omega_6_pct_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted mode	264	-0.243353121356272	0.136110939384022	0.0749429015062519
+BMI	ArGL0G	VLDL_size_int_imputed.txt_adiposity_instruments.txt	BMI	MR Egger	264	0.118807333050233	0.144227300730748	0.410830467286606
+BMI	ArGL0G	VLDL_size_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted median	264	0.229072891196918	0.0356621192908254	1.33243216844226e-10
+BMI	ArGL0G	VLDL_size_int_imputed.txt_adiposity_instruments.txt	BMI	Inverse variance weighted (multiplicative random effects)	264	0.233521624081321	0.0330651486333819	1.63568501639398e-12
+BMI	ArGL0G	VLDL_size_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted mode	264	0.235802200114308	0.12853148627378	0.0676964278361877
+BMI	aSENVF	S_LDL_TG_int_imputed.txt_adiposity_instruments.txt	BMI	MR Egger	264	0.163693441890827	0.145254326311666	0.260797373497408
+BMI	aSENVF	S_LDL_TG_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted median	264	0.158295440921087	0.0349424041278177	5.89329709687561e-06
+BMI	aSENVF	S_LDL_TG_int_imputed.txt_adiposity_instruments.txt	BMI	Inverse variance weighted (multiplicative random effects)	264	0.14914407200448	0.0332595539735448	7.31716911565991e-06
+BMI	aSENVF	S_LDL_TG_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted mode	264	0.18229593155347	0.127255556347018	0.153183006916423
+BMI	AZaBKk	M_VLDL_TG_int_imputed.txt_adiposity_instruments.txt	BMI	MR Egger	264	0.0934764155579002	0.146781347830792	0.524784291691076
+BMI	AZaBKk	M_VLDL_TG_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted median	264	0.126811238248007	0.0348825557041273	0.000277574484903166
+BMI	AZaBKk	M_VLDL_TG_int_imputed.txt_adiposity_instruments.txt	BMI	Inverse variance weighted (multiplicative random effects)	264	0.151299839082781	0.0336193251029579	6.78311332676616e-06
+BMI	AZaBKk	M_VLDL_TG_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted mode	264	0.0278817805091212	0.120170065484791	0.816703417113005
+BMI	AZvfA0	M_LDL_C_pct_int_imputed.txt_adiposity_instruments.txt	BMI	MR Egger	264	-0.476040836041513	0.113742764649277	3.89186494324833e-05
+BMI	AZvfA0	M_LDL_C_pct_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted median	264	-0.179433187793409	0.0352630678466669	3.61065073722265e-07
+BMI	AZvfA0	M_LDL_C_pct_int_imputed.txt_adiposity_instruments.txt	BMI	Inverse variance weighted (multiplicative random effects)	264	-0.170252608377934	0.026420340084514	1.16366917241878e-10
+BMI	AZvfA0	M_LDL_C_pct_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted mode	264	-0.246183549439395	0.113092538241903	0.0303826193984089
+BMI	B7T9OZ	S_HDL_L_int_imputed.txt_adiposity_instruments.txt	BMI	MR Egger	264	-0.0923093254945722	0.122965498269118	0.453511171142508
+BMI	B7T9OZ	S_HDL_L_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted median	264	0.108576289639768	0.0350387555251666	0.00194339943269557
+BMI	B7T9OZ	S_HDL_L_int_imputed.txt_adiposity_instruments.txt	BMI	Inverse variance weighted (multiplicative random effects)	264	0.0892191625940504	0.0282797689061424	0.0016056636398246
+BMI	B7T9OZ	S_HDL_L_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted mode	264	0.260444343548067	0.131078845750743	0.0479677512742691
+BMI	BDA06P	XL_HDL_CE_int_imputed.txt_adiposity_instruments.txt	BMI	MR Egger	264	-0.45667657210671	0.144432221660338	0.00175198558696735
+BMI	BDA06P	XL_HDL_CE_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted median	264	-0.416747994367092	0.0356279482004525	1.31695540515924e-31
+BMI	BDA06P	XL_HDL_CE_int_imputed.txt_adiposity_instruments.txt	BMI	Inverse variance weighted (multiplicative random effects)	264	-0.417290615438071	0.0330698958729024	1.67091016503494e-36
+BMI	BDA06P	XL_HDL_CE_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted mode	264	-0.429947556393859	0.120155246656036	0.000411678832557545
+BMI	bGGCRB	L_VLDL_CE_int_imputed.txt_adiposity_instruments.txt	BMI	MR Egger	264	0.0737608762052257	0.149664117235839	0.622536479578836
+BMI	bGGCRB	L_VLDL_CE_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted median	264	0.126710194333815	0.0348795377607322	0.000280368257565411
+BMI	bGGCRB	L_VLDL_CE_int_imputed.txt_adiposity_instruments.txt	BMI	Inverse variance weighted (multiplicative random effects)	264	0.115045738520296	0.0342734697153267	0.000788787926496004
+BMI	bGGCRB	L_VLDL_CE_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted mode	264	0.14711991649615	0.115672464298248	0.204544096590622
+BMI	BJQlTy	L_LDL_C_int_imputed.txt_adiposity_instruments.txt	BMI	MR Egger	264	-0.39492019213816	0.182446006107562	0.0313226465891718
+BMI	BJQlTy	L_LDL_C_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted median	264	-0.111845830739645	0.0334108741903958	0.000815181968882434
+BMI	BJQlTy	L_LDL_C_int_imputed.txt_adiposity_instruments.txt	BMI	Inverse variance weighted (multiplicative random effects)	264	-0.170405415794282	0.0419043685020987	4.77181292243876e-05
+BMI	BJQlTy	L_LDL_C_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted mode	264	0.000254185135665885	0.129535833421949	0.998435818368
+BMI	BjSL63	M_LDL_P_int_imputed.txt_adiposity_instruments.txt	BMI	MR Egger	264	-0.240212083881972	0.167873844737254	0.15364812206269
+BMI	BjSL63	M_LDL_P_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted median	264	-0.0106279475745021	0.0339705863636031	0.75438904301112
+BMI	BjSL63	M_LDL_P_int_imputed.txt_adiposity_instruments.txt	BMI	Inverse variance weighted (multiplicative random effects)	264	-0.0338473775996989	0.0385558894025043	0.380009781236703
+BMI	BjSL63	M_LDL_P_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted mode	264	-0.0227934452233436	0.130517814107952	0.861497997200742
+BMI	bLrqRi	XXL_VLDL_C_pct_int_imputed.txt_adiposity_instruments.txt	BMI	MR Egger	264	-0.0878323346824116	0.112303997734201	0.43486529521513
+BMI	bLrqRi	XXL_VLDL_C_pct_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted median	264	-0.0801318342074038	0.0350272745968882	0.02215510067383
+BMI	bLrqRi	XXL_VLDL_C_pct_int_imputed.txt_adiposity_instruments.txt	BMI	Inverse variance weighted (multiplicative random effects)	264	-0.107072903883209	0.0257224671318562	3.14614146660519e-05
+BMI	bLrqRi	XXL_VLDL_C_pct_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted mode	264	-0.0567783978133043	0.128704091488159	0.659463544433184
+BMI	BsOlDn	IDL_C_int_imputed.txt_adiposity_instruments.txt	BMI	MR Egger	264	-0.436014679950414	0.174080132670593	0.0128642219415274
+BMI	BsOlDn	IDL_C_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted median	264	-0.165907094549439	0.0355415420923176	3.04180211419332e-06
+BMI	BsOlDn	IDL_C_int_imputed.txt_adiposity_instruments.txt	BMI	Inverse variance weighted (multiplicative random effects)	264	-0.202837349732506	0.0400045407461357	3.97067741986271e-07
+BMI	BsOlDn	IDL_C_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted mode	264	-0.187406129381618	0.126182509898245	0.138688752408821
+BMI	bW9SoL	Clinical_LDL_C_int_imputed.txt_adiposity_instruments.txt	BMI	MR Egger	264	-0.379812111560357	0.18385547910968	0.0398287787164113
+BMI	bW9SoL	Clinical_LDL_C_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted median	264	-0.0744498674789592	0.0356710538668109	0.0368770415133747
+BMI	bW9SoL	Clinical_LDL_C_int_imputed.txt_adiposity_instruments.txt	BMI	Inverse variance weighted (multiplicative random effects)	264	-0.131823352936935	0.0422535336194111	0.00180962548477318
+BMI	bW9SoL	Clinical_LDL_C_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted mode	264	-0.0492651453647577	0.13993114991304	0.725069925647059
+BMI	bX6ZD2	L_VLDL_C_int_imputed.txt_adiposity_instruments.txt	BMI	MR Egger	264	0.102691082694777	0.150884392388759	0.496729136921289
+BMI	bX6ZD2	L_VLDL_C_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted median	264	0.168762147799188	0.0343189499441356	8.76732656815499e-07
+BMI	bX6ZD2	L_VLDL_C_int_imputed.txt_adiposity_instruments.txt	BMI	Inverse variance weighted (multiplicative random effects)	264	0.154315333543638	0.0345556808485457	7.98070581362042e-06
+BMI	bX6ZD2	L_VLDL_C_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted mode	264	0.196450397363882	0.114174063279433	0.0864956061639308
+BMI	C0tiB0	XXL_VLDL_P_int_imputed.txt_adiposity_instruments.txt	BMI	MR Egger	264	0.192112861899025	0.139885361672455	0.17081476189858
+BMI	C0tiB0	XXL_VLDL_P_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted median	264	0.210920188878764	0.034711833126503	1.22972270825447e-09
+BMI	C0tiB0	XXL_VLDL_P_int_imputed.txt_adiposity_instruments.txt	BMI	Inverse variance weighted (multiplicative random effects)	264	0.22493081256615	0.0320335732704248	2.19151901988775e-12
+BMI	C0tiB0	XXL_VLDL_P_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted mode	264	0.0344736674993142	0.12268854013871	0.778942654899159
+BMI	cctLBb	S_VLDL_CE_pct_int_imputed.txt_adiposity_instruments.txt	BMI	MR Egger	264	-0.15617475190345	0.16056152455378	0.331610232337463
+BMI	cctLBb	S_VLDL_CE_pct_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted median	264	-0.0398764836695995	0.0359513750306122	0.267353288345589
+BMI	cctLBb	S_VLDL_CE_pct_int_imputed.txt_adiposity_instruments.txt	BMI	Inverse variance weighted (multiplicative random effects)	264	-0.0690188389270148	0.0367842639515012	0.0606121403290953
+BMI	cctLBb	S_VLDL_CE_pct_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted mode	264	0.0748338986661956	0.124683125213713	0.548894633092007
+BMI	cEg8FT	M_HDL_CE_int_imputed.txt_adiposity_instruments.txt	BMI	MR Egger	264	-0.363666049043779	0.147753534625009	0.014488424416934
+BMI	cEg8FT	M_HDL_CE_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted median	264	-0.222032924716998	0.0357437368935888	5.23812582736853e-10
+BMI	cEg8FT	M_HDL_CE_int_imputed.txt_adiposity_instruments.txt	BMI	Inverse variance weighted (multiplicative random effects)	264	-0.222925810524309	0.0338920745469376	4.78358359632447e-11
+BMI	cEg8FT	M_HDL_CE_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted mode	264	-0.24525964526519	0.117128440374986	0.0372229947748487
+BMI	cfO3Pc	L_HDL_TG_pct_int_imputed.txt_adiposity_instruments.txt	BMI	MR Egger	264	0.454238092085675	0.144926912316213	0.00191889463745021
+BMI	cfO3Pc	L_HDL_TG_pct_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted median	264	0.221242654572248	0.0358746884076589	6.95554451257137e-10
+BMI	cfO3Pc	L_HDL_TG_pct_int_imputed.txt_adiposity_instruments.txt	BMI	Inverse variance weighted (multiplicative random effects)	264	0.254973797972639	0.0333058312082126	1.92516239846268e-14
+BMI	cfO3Pc	L_HDL_TG_pct_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted mode	264	0.164876491365133	0.118751728343864	0.166186017625872
+BMI	CNrMl3	Pyruvate_int_imputed.txt_adiposity_instruments.txt	BMI	MR Egger	264	0.0419568735357939	0.107046691137063	0.695414313677032
+BMI	CNrMl3	Pyruvate_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted median	264	0.0640406197696641	0.0338168254752456	0.0582581755601105
+BMI	CNrMl3	Pyruvate_int_imputed.txt_adiposity_instruments.txt	BMI	Inverse variance weighted (multiplicative random effects)	264	0.0978727064753631	0.0245227133427569	6.57663494500558e-05
+BMI	CNrMl3	Pyruvate_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted mode	264	0.044305912598793	0.108178298673462	0.682459346184324
+BMI	CoXoYD	M_VLDL_CE_pct_int_imputed.txt_adiposity_instruments.txt	BMI	MR Egger	264	-0.355878734206368	0.157606349477899	0.0247673765050901
+BMI	CoXoYD	M_VLDL_CE_pct_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted median	264	-0.263910145344025	0.0340199712892948	8.66155020867724e-15
+BMI	CoXoYD	M_VLDL_CE_pct_int_imputed.txt_adiposity_instruments.txt	BMI	Inverse variance weighted (multiplicative random effects)	264	-0.285931253293307	0.0361014811364122	2.37112871791587e-15
+BMI	CoXoYD	M_VLDL_CE_pct_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted mode	264	-0.364487194808925	0.122416056170753	0.00317768438952625
+BMI	cQg5dN	Glucose_int_imputed.txt_adiposity_instruments.txt	BMI	MR Egger	264	0.00851312412426485	0.120839930967014	0.94388956150542
+BMI	cQg5dN	Glucose_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted median	264	0.0492569821680518	0.0335081995843007	0.141562329639919
+BMI	cQg5dN	Glucose_int_imputed.txt_adiposity_instruments.txt	BMI	Inverse variance weighted (multiplicative random effects)	264	0.041287228085988	0.0276730178292518	0.135707809000724
+BMI	cQg5dN	Glucose_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted mode	264	0.0955861690456938	0.108803411050725	0.38046251335751
+BMI	Cv7Gnz	L_VLDL_PL_int_imputed.txt_adiposity_instruments.txt	BMI	MR Egger	264	0.158113914324501	0.149658003543173	0.291712316672076
+BMI	Cv7Gnz	L_VLDL_PL_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted median	264	0.19762617546922	0.0365932980849155	6.64142274708415e-08
+BMI	Cv7Gnz	L_VLDL_PL_int_imputed.txt_adiposity_instruments.txt	BMI	Inverse variance weighted (multiplicative random effects)	264	0.202318529254261	0.034272661986175	3.56508105598563e-09
+BMI	Cv7Gnz	L_VLDL_PL_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted mode	264	0.0802472087303152	0.121495496570335	0.509514097942573
+BMI	cYEYib	L_LDL_TG_int_imputed.txt_adiposity_instruments.txt	BMI	MR Egger	264	0.191078155597025	0.140587694112331	0.175271444145748
+BMI	cYEYib	L_LDL_TG_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted median	264	0.122017546948412	0.0354252182253343	0.00057239253182296
+BMI	cYEYib	L_LDL_TG_int_imputed.txt_adiposity_instruments.txt	BMI	Inverse variance weighted (multiplicative random effects)	264	0.117430854154743	0.0322073305911644	0.00026625984995118
+BMI	cYEYib	L_LDL_TG_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted mode	264	0.262576043200669	0.128492651323134	0.0419983917288151
+BMI	CZS28l	Total_C_int_imputed.txt_adiposity_instruments.txt	BMI	MR Egger	264	-0.4228912563984	0.161790019440559	0.00947140618959768
+BMI	CZS28l	Total_C_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted median	264	-0.174324493461565	0.0337691147669283	2.44003726579597e-07
+BMI	CZS28l	Total_C_int_imputed.txt_adiposity_instruments.txt	BMI	Inverse variance weighted (multiplicative random effects)	264	-0.207134565397664	0.0371796397199637	2.53015834875991e-08
+BMI	CZS28l	Total_C_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted mode	264	-0.162126333214136	0.124513186304417	0.194027679197612
+BMI	D09rfZ	Total_FC_int_imputed.txt_adiposity_instruments.txt	BMI	MR Egger	264	-0.360279219934906	0.161238838892901	0.0262974905061918
+BMI	D09rfZ	Total_FC_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted median	264	-0.125017320349016	0.035340387290088	0.000403903875967083
+BMI	D09rfZ	Total_FC_int_imputed.txt_adiposity_instruments.txt	BMI	Inverse variance weighted (multiplicative random effects)	264	-0.171204914083161	0.0370230204401988	3.75896857128085e-06
+BMI	D09rfZ	Total_FC_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted mode	264	-0.0317054955872385	0.124827278280467	0.799697936813931
+BMI	D1e34b	XL_VLDL_TG_pct_int_imputed.txt_adiposity_instruments.txt	BMI	MR Egger	264	0.219212501228125	0.141016166515163	0.121267436665761
+BMI	D1e34b	XL_VLDL_TG_pct_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted median	264	0.209016492026323	0.033617001127903	5.04871377396373e-10
+BMI	D1e34b	XL_VLDL_TG_pct_int_imputed.txt_adiposity_instruments.txt	BMI	Inverse variance weighted (multiplicative random effects)	264	0.225938294876833	0.0322915610563784	2.61834163977173e-12
+BMI	D1e34b	XL_VLDL_TG_pct_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted mode	264	0.312342121071483	0.120466032772501	0.0100531443667842
+BMI	DcgqRq	VLDL_FC_int_imputed.txt_adiposity_instruments.txt	BMI	MR Egger	264	0.0102247916858273	0.153950790785147	0.947097304979502
+BMI	DcgqRq	VLDL_FC_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted median	264	0.0922650467266724	0.0359958650382493	0.0103708589624533
+BMI	DcgqRq	VLDL_FC_int_imputed.txt_adiposity_instruments.txt	BMI	Inverse variance weighted (multiplicative random effects)	264	0.0896805562976969	0.0352693522601835	0.0109989147955225
+BMI	DcgqRq	VLDL_FC_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted mode	264	0.0695565991319662	0.116292291203312	0.550275416895676
+BMI	DgdakS	S_VLDL_C_int_imputed.txt_adiposity_instruments.txt	BMI	MR Egger	264	-0.0283063193661069	0.161754065257955	0.861217911366821
+BMI	DgdakS	S_VLDL_C_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted median	264	0.0110580845577432	0.0371755612707984	0.766118584237603
+BMI	DgdakS	S_VLDL_C_int_imputed.txt_adiposity_instruments.txt	BMI	Inverse variance weighted (multiplicative random effects)	264	0.0351485122887583	0.0370484192094947	0.342763917824097
+BMI	DgdakS	S_VLDL_C_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted mode	264	-0.0132566665970852	0.111823147261875	0.905722145382982
+BMI	Dhiijc	HDL_size_int_imputed.txt_adiposity_instruments.txt	BMI	MR Egger	264	-0.331896646297516	0.148588077620214	0.0263491465698331
+BMI	Dhiijc	HDL_size_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted median	264	-0.356835298051632	0.0362951012435715	8.23822162700459e-23
+BMI	Dhiijc	HDL_size_int_imputed.txt_adiposity_instruments.txt	BMI	Inverse variance weighted (multiplicative random effects)	264	-0.369801821948685	0.0340203825564438	1.60187246420971e-27
+BMI	Dhiijc	HDL_size_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted mode	264	-0.288339501892155	0.120092323778953	0.0170459868726241
+BMI	DIZNdE	M_VLDL_L_int_imputed.txt_adiposity_instruments.txt	BMI	MR Egger	264	-0.046012646724586	0.155235121392296	0.767154740297322
+BMI	DIZNdE	M_VLDL_L_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted median	264	0.0647230600850401	0.0340312230192693	0.0571877756517946
+BMI	DIZNdE	M_VLDL_L_int_imputed.txt_adiposity_instruments.txt	BMI	Inverse variance weighted (multiplicative random effects)	264	0.0544566754822885	0.035575168764846	0.125831289257692
+BMI	DIZNdE	M_VLDL_L_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted mode	264	0.00891029154224476	0.112465682193016	0.936912508539679
+BMI	DiznWt	Total_CE_int_imputed.txt_adiposity_instruments.txt	BMI	MR Egger	264	-0.445057232961256	0.16170236915807	0.00633085202648787
+BMI	DiznWt	Total_CE_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted median	264	-0.184536517625859	0.0367489343502064	5.12568370345463e-07
+BMI	DiznWt	Total_CE_int_imputed.txt_adiposity_instruments.txt	BMI	Inverse variance weighted (multiplicative random effects)	264	-0.220016693573016	0.0371712006347256	3.23886053141799e-09
+BMI	DiznWt	Total_CE_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted mode	264	-0.226910468212631	0.128145312513954	0.0777642727253611
+BMI	DJTy7y	XXL_VLDL_TG_pct_int_imputed.txt_adiposity_instruments.txt	BMI	MR Egger	264	0.0034954438398169	0.113505394447924	0.975456155878934
+BMI	DJTy7y	XXL_VLDL_TG_pct_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted median	264	0.00195441008550262	0.0354792561175645	0.956069954463059
+BMI	DJTy7y	XXL_VLDL_TG_pct_int_imputed.txt_adiposity_instruments.txt	BMI	Inverse variance weighted (multiplicative random effects)	264	0.0327741704839529	0.0259992929268747	0.207460460395421
+BMI	DJTy7y	XXL_VLDL_TG_pct_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted mode	264	-0.0462800462723949	0.137046119550007	0.735861007879593
+BMI	dNz7Nu	M_HDL_FC_pct_int_imputed.txt_adiposity_instruments.txt	BMI	MR Egger	264	-0.495575447396997	0.148101133636877	0.000939304963085476
+BMI	dNz7Nu	M_HDL_FC_pct_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted median	264	-0.344813168512365	0.0363709365107411	2.53167241922073e-21
+BMI	dNz7Nu	M_HDL_FC_pct_int_imputed.txt_adiposity_instruments.txt	BMI	Inverse variance weighted (multiplicative random effects)	264	-0.380694177875642	0.033947016076767	3.46671441740656e-29
+BMI	dNz7Nu	M_HDL_FC_pct_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted mode	264	-0.345632700697276	0.126202979687609	0.00658971767318652
+BMI	DPo1eq	L_LDL_PL_int_imputed.txt_adiposity_instruments.txt	BMI	MR Egger	264	-0.37577192532314	0.18055947820289	0.0383911204323054
+BMI	DPo1eq	L_LDL_PL_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted median	264	-0.0742163313606582	0.0365279618090457	0.0421771829698849
+BMI	DPo1eq	L_LDL_PL_int_imputed.txt_adiposity_instruments.txt	BMI	Inverse variance weighted (multiplicative random effects)	264	-0.128092180941957	0.0415010207303028	0.00202539757973837
+BMI	DPo1eq	L_LDL_PL_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted mode	264	-0.00713221120945207	0.13484423032264	0.957857932868003
+BMI	dtYoay	M_HDL_PL_pct_int_imputed.txt_adiposity_instruments.txt	BMI	MR Egger	264	0.494374801670589	0.144722111289823	0.00073635765108937
+BMI	dtYoay	M_HDL_PL_pct_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted median	264	0.337736935967928	0.0364584176744498	1.97615690491394e-20
+BMI	dtYoay	M_HDL_PL_pct_int_imputed.txt_adiposity_instruments.txt	BMI	Inverse variance weighted (multiplicative random effects)	264	0.393467210655869	0.0331670749530656	1.83841860266272e-32
+BMI	dtYoay	M_HDL_PL_pct_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted mode	264	0.264375115979344	0.123980100490816	0.0339004797998959
+BMI	dUJIQD	M_HDL_CE_pct_int_imputed.txt_adiposity_instruments.txt	BMI	MR Egger	264	-0.414170104968519	0.142403292278051	0.00394392359281561
+BMI	dUJIQD	M_HDL_CE_pct_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted median	264	-0.24955052457389	0.0353754264749901	1.73413458860503e-12
+BMI	dUJIQD	M_HDL_CE_pct_int_imputed.txt_adiposity_instruments.txt	BMI	Inverse variance weighted (multiplicative random effects)	264	-0.267158489047048	0.0326736291655555	2.92017652628912e-16
+BMI	dUJIQD	M_HDL_CE_pct_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted mode	264	-0.259484887367156	0.127425824218697	0.0427159773770621
+BMI	dvDl2P	S_LDL_PL_pct_int_imputed.txt_adiposity_instruments.txt	BMI	MR Egger	264	-0.0666204430436642	0.132193730842909	0.614712507996844
+BMI	dvDl2P	S_LDL_PL_pct_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted median	264	-0.101703369047697	0.0360905823405159	0.00483233594153025
+BMI	dvDl2P	S_LDL_PL_pct_int_imputed.txt_adiposity_instruments.txt	BMI	Inverse variance weighted (multiplicative random effects)	264	-0.105625949077815	0.0302733072124576	0.000484688562910866
+BMI	dvDl2P	S_LDL_PL_pct_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted mode	264	0.0673715358877063	0.136500415387431	0.622026837418442
+BMI	DYm41e	S_HDL_TG_pct_int_imputed.txt_adiposity_instruments.txt	BMI	MR Egger	264	0.414147290797553	0.148287875252211	0.00560968660301025
+BMI	DYm41e	S_HDL_TG_pct_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted median	264	0.226121280764679	0.0358409491013315	2.80807020444197e-10
+BMI	DYm41e	S_HDL_TG_pct_int_imputed.txt_adiposity_instruments.txt	BMI	Inverse variance weighted (multiplicative random effects)	264	0.256241657215935	0.034028038151424	5.06202129113008e-14
+BMI	DYm41e	S_HDL_TG_pct_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted mode	264	0.121537729909436	0.118323750273706	0.30528767567369
+BMI	EhFxoZ	Acetone_int_imputed.txt_adiposity_instruments.txt	BMI	MR Egger	264	0.139971641464866	0.11837559165323	0.238104445791903
+BMI	EhFxoZ	Acetone_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted median	264	-0.0220672082328202	0.0360998837918394	0.541012922405584
+BMI	EhFxoZ	Acetone_int_imputed.txt_adiposity_instruments.txt	BMI	Inverse variance weighted (multiplicative random effects)	264	0.0102865903955577	0.0271701056496043	0.704985239340262
+BMI	EhFxoZ	Acetone_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted mode	264	-0.0201974566546477	0.103303961402708	0.84514089454232
+BMI	enZ1yy	L_HDL_P_int_imputed.txt_adiposity_instruments.txt	BMI	MR Egger	264	-0.432010491864666	0.147672499644282	0.00374084730208566
+BMI	enZ1yy	L_HDL_P_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted median	264	-0.390524978256606	0.0365774256242973	1.30887444463435e-26
+BMI	enZ1yy	L_HDL_P_int_imputed.txt_adiposity_instruments.txt	BMI	Inverse variance weighted (multiplicative random effects)	264	-0.391367013325714	0.0338116205109823	5.52187326192496e-31
+BMI	enZ1yy	L_HDL_P_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted mode	264	-0.377965589808009	0.113326616780735	0.000975206954697117
+BMI	esHX4A	M_HDL_FC_int_imputed.txt_adiposity_instruments.txt	BMI	MR Egger	264	-0.355965692507892	0.141748867662041	0.0126330960153735
+BMI	esHX4A	M_HDL_FC_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted median	264	-0.255110392476198	0.034987856409323	3.06754683523212e-13
+BMI	esHX4A	M_HDL_FC_int_imputed.txt_adiposity_instruments.txt	BMI	Inverse variance weighted (multiplicative random effects)	264	-0.239262786862917	0.0324996753303762	1.81167575131248e-13
+BMI	esHX4A	M_HDL_FC_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted mode	264	-0.343835360769777	0.134023458397031	0.010858114525242
+BMI	EW7Wxi	XS_VLDL_PL_pct_int_imputed.txt_adiposity_instruments.txt	BMI	MR Egger	264	0.526126586233869	0.125770758805936	3.92445720145397e-05
+BMI	EW7Wxi	XS_VLDL_PL_pct_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted median	264	0.211906344047673	0.0350425184051428	1.47457142906233e-09
+BMI	EW7Wxi	XS_VLDL_PL_pct_int_imputed.txt_adiposity_instruments.txt	BMI	Inverse variance weighted (multiplicative random effects)	264	0.242376671225154	0.0290919532277393	7.98925507603257e-17
+BMI	EW7Wxi	XS_VLDL_PL_pct_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted mode	264	0.101272699247335	0.110249432418914	0.359158021394331
+BMI	eZV6qQ	XXL_VLDL_CE_int_imputed.txt_adiposity_instruments.txt	BMI	MR Egger	264	0.137531742160229	0.143972868654247	0.340326009110004
+BMI	eZV6qQ	XXL_VLDL_CE_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted median	264	0.208331198564888	0.0353207079842361	3.67324585341097e-09
+BMI	eZV6qQ	XXL_VLDL_CE_int_imputed.txt_adiposity_instruments.txt	BMI	Inverse variance weighted (multiplicative random effects)	264	0.213091103101652	0.0329833934754083	1.04318091378241e-10
+BMI	eZV6qQ	XXL_VLDL_CE_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted mode	264	0.0271857707969545	0.132329985665806	0.837387891594858
+BMI	FCbT9x	M_HDL_PL_int_imputed.txt_adiposity_instruments.txt	BMI	MR Egger	264	-0.216940907623231	0.145360450941837	0.136788503552477
+BMI	FCbT9x	M_HDL_PL_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted median	264	-0.13125819551449	0.0350389324792066	0.000179628495008731
+BMI	FCbT9x	M_HDL_PL_int_imputed.txt_adiposity_instruments.txt	BMI	Inverse variance weighted (multiplicative random effects)	264	-0.125684089995455	0.0333106727688871	0.000161239571951812
+BMI	FCbT9x	M_HDL_PL_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted mode	264	-0.139813976499329	0.125316809593575	0.265575723182131
+BMI	FFDKxx	Acetoacetate_int_imputed.txt_adiposity_instruments.txt	BMI	MR Egger	264	0.140107431959728	0.103571600050276	0.177298821117218
+BMI	FFDKxx	Acetoacetate_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted median	264	0.104282713144825	0.0345859038150935	0.00256827089778387
+BMI	FFDKxx	Acetoacetate_int_imputed.txt_adiposity_instruments.txt	BMI	Inverse variance weighted (multiplicative random effects)	264	0.0896997144005749	0.0237264309754667	0.00015646226718388
+BMI	FFDKxx	Acetoacetate_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted mode	264	0.16745432261448	0.115042263013769	0.146698714249056
+BMI	FM8kHu	Ile_int_imputed.txt_adiposity_instruments.txt	BMI	MR Egger	264	0.218191081286919	0.10902148068687	0.0463849898640405
+BMI	FM8kHu	Ile_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted median	264	0.218830032033719	0.0339842667736308	1.20138817211504e-10
+BMI	FM8kHu	Ile_int_imputed.txt_adiposity_instruments.txt	BMI	Inverse variance weighted (multiplicative random effects)	264	0.225452145910257	0.0249630809149814	1.69453550247745e-19
+BMI	FM8kHu	Ile_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted mode	264	0.215245932126916	0.110894068764744	0.0533259894799551
+BMI	fPz00a	XXL_VLDL_PL_pct_int_imputed.txt_adiposity_instruments.txt	BMI	MR Egger	264	0.34910762347028	0.126572735606288	0.0062221267627616
+BMI	fPz00a	XXL_VLDL_PL_pct_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted median	264	0.129640098510329	0.0352745166232072	0.000237684407467209
+BMI	fPz00a	XXL_VLDL_PL_pct_int_imputed.txt_adiposity_instruments.txt	BMI	Inverse variance weighted (multiplicative random effects)	264	0.144496244925427	0.0291397433662763	7.09539293511445e-07
+BMI	fPz00a	XXL_VLDL_PL_pct_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted mode	264	0.0668831724323722	0.116346779765007	0.565877043002621
+BMI	g2Rh6J	S_HDL_CE_int_imputed.txt_adiposity_instruments.txt	BMI	MR Egger	264	-0.230969368041002	0.120661445450477	0.0566847237961609
+BMI	g2Rh6J	S_HDL_CE_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted median	264	0.0684333340084513	0.0357171464931827	0.055367656887167
+BMI	g2Rh6J	S_HDL_CE_int_imputed.txt_adiposity_instruments.txt	BMI	Inverse variance weighted (multiplicative random effects)	264	0.0463579737741806	0.0279202156897485	0.0968394276102051
+BMI	g2Rh6J	S_HDL_CE_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted mode	264	0.257564379780191	0.122028069851993	0.0357423680319874
+BMI	GAPacH	HDL_PL_int_imputed.txt_adiposity_instruments.txt	BMI	MR Egger	264	-0.318188499061237	0.145430131713032	0.0295595245377366
+BMI	GAPacH	HDL_PL_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted median	264	-0.253754434950075	0.035758078726446	1.28027673080815e-12
+BMI	GAPacH	HDL_PL_int_imputed.txt_adiposity_instruments.txt	BMI	Inverse variance weighted (multiplicative random effects)	264	-0.237628463259784	0.0333188940135964	9.89616359149832e-13
+BMI	GAPacH	HDL_PL_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted mode	264	-0.365662763880044	0.123958358542776	0.00346522050927441
+BMI	GD2SDv	L_HDL_FC_pct_int_imputed.txt_adiposity_instruments.txt	BMI	MR Egger	264	-0.396426482020263	0.160761768797458	0.0143070465287159
+BMI	GD2SDv	L_HDL_FC_pct_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted median	264	-0.284570659311298	0.0363659429117411	5.06863461321086e-15
+BMI	GD2SDv	L_HDL_FC_pct_int_imputed.txt_adiposity_instruments.txt	BMI	Inverse variance weighted (multiplicative random effects)	264	-0.324919839264559	0.0368221257527096	1.10404671089498e-18
+BMI	GD2SDv	L_HDL_FC_pct_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted mode	264	-0.242008779492478	0.113077079312645	0.0332578013510655
+BMI	gPscy6	S_LDL_CE_int_imputed.txt_adiposity_instruments.txt	BMI	MR Egger	264	-0.244517310002562	0.178632451100131	0.17222510981493
+BMI	gPscy6	S_LDL_CE_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted median	264	-0.00656414124270194	0.0353952323670841	0.852873980299704
+BMI	gPscy6	S_LDL_CE_int_imputed.txt_adiposity_instruments.txt	BMI	Inverse variance weighted (multiplicative random effects)	264	-0.0365283883883855	0.0410149966920589	0.373138142285746
+BMI	gPscy6	S_LDL_CE_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted mode	264	0.0386718981620939	0.135433861498617	0.775454576509733
+BMI	gvJ8uG	XS_VLDL_TG_pct_int_imputed.txt_adiposity_instruments.txt	BMI	MR Egger	264	0.477647522822496	0.158523397718937	0.00283912787798187
+BMI	gvJ8uG	XS_VLDL_TG_pct_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted median	264	0.259124637161092	0.0356736249543567	3.76476744608349e-13
+BMI	gvJ8uG	XS_VLDL_TG_pct_int_imputed.txt_adiposity_instruments.txt	BMI	Inverse variance weighted (multiplicative random effects)	264	0.273707990750447	0.0364177881516826	5.65737231742355e-14
+BMI	gvJ8uG	XS_VLDL_TG_pct_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted mode	264	0.32234287265117	0.132057570284162	0.0153097519355359
+BMI	H5o2He	IDL_L_int_imputed.txt_adiposity_instruments.txt	BMI	MR Egger	264	-0.374798356769775	0.171029994756226	0.0293021098086984
+BMI	H5o2He	IDL_L_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted median	264	-0.152170024647653	0.0356274888025984	1.9447548146055e-05
+BMI	H5o2He	IDL_L_int_imputed.txt_adiposity_instruments.txt	BMI	Inverse variance weighted (multiplicative random effects)	264	-0.181465855885612	0.0392627856314968	3.80372683849081e-06
+BMI	H5o2He	IDL_L_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted mode	264	-0.0744191711472073	0.127805727859116	0.560874545999344
+BMI	HcX40t	L_VLDL_FC_int_imputed.txt_adiposity_instruments.txt	BMI	MR Egger	264	0.128973890719949	0.151440927727306	0.395188967695861
+BMI	HcX40t	L_VLDL_FC_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted median	264	0.197709940319894	0.0364152581687602	5.65704729214435e-08
+BMI	HcX40t	L_VLDL_FC_int_imputed.txt_adiposity_instruments.txt	BMI	Inverse variance weighted (multiplicative random effects)	264	0.191014594597747	0.0346866504624178	3.65286545216584e-08
+BMI	HcX40t	L_VLDL_FC_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted mode	264	0.149539353101362	0.127703785277924	0.242664236464922
+BMI	hdYfTH	S_LDL_TG_pct_int_imputed.txt_adiposity_instruments.txt	BMI	MR Egger	264	0.429187372589924	0.157185258615657	0.00675381633851777
+BMI	hdYfTH	S_LDL_TG_pct_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted median	264	0.22294198288665	0.0352251650102119	2.46668265003323e-10
+BMI	hdYfTH	S_LDL_TG_pct_int_imputed.txt_adiposity_instruments.txt	BMI	Inverse variance weighted (multiplicative random effects)	264	0.22791903623531	0.0361090942193447	2.75529472076851e-10
+BMI	hdYfTH	S_LDL_TG_pct_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted mode	264	0.334383906549154	0.131245608096254	0.0114108903711768
+BMI	HjRIDw	L_LDL_TG_pct_int_imputed.txt_adiposity_instruments.txt	BMI	MR Egger	264	0.592065709020216	0.156776606368282	0.000196851462463179
+BMI	HjRIDw	L_LDL_TG_pct_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted median	264	0.264423991469743	0.0358916047876372	1.74126678483506e-13
+BMI	HjRIDw	L_LDL_TG_pct_int_imputed.txt_adiposity_instruments.txt	BMI	Inverse variance weighted (multiplicative random effects)	264	0.282207888741856	0.0361781817350376	6.16626091445109e-15
+BMI	HjRIDw	L_LDL_TG_pct_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted mode	264	0.327851678798074	0.12800832208228	0.0109904109094532
+BMI	hLLwbB	XS_VLDL_FC_pct_int_imputed.txt_adiposity_instruments.txt	BMI	MR Egger	264	-0.314346570324675	0.136033796529527	0.021620897169892
+BMI	hLLwbB	XS_VLDL_FC_pct_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted median	264	-0.092546378822784	0.0351527017788327	0.00847101202319631
+BMI	hLLwbB	XS_VLDL_FC_pct_int_imputed.txt_adiposity_instruments.txt	BMI	Inverse variance weighted (multiplicative random effects)	264	-0.117116990080133	0.0312797072854036	0.000180980749704871
+BMI	hLLwbB	XS_VLDL_FC_pct_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted mode	264	-0.238101927493635	0.137717124234509	0.0849968633521358
+BMI	HLSSp5	Total_TG_int_imputed.txt_adiposity_instruments.txt	BMI	MR Egger	264	0.169092785850066	0.144402017219167	0.242668178030171
+BMI	HLSSp5	Total_TG_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted median	264	0.191090270632733	0.0355132099880512	7.4146378075575e-08
+BMI	HLSSp5	Total_TG_int_imputed.txt_adiposity_instruments.txt	BMI	Inverse variance weighted (multiplicative random effects)	264	0.191063862033951	0.0330653299273882	7.54257363063208e-09
+BMI	HLSSp5	Total_TG_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted mode	264	-0.0245385486915572	0.127318192306762	0.847316013977101
+BMI	hsvSEK	M_VLDL_PL_int_imputed.txt_adiposity_instruments.txt	BMI	MR Egger	264	-0.101897665020616	0.159595949666004	0.523723686220553
+BMI	hsvSEK	M_VLDL_PL_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted median	264	-0.00647822426011236	0.0354520854690318	0.855008443826249
+BMI	hsvSEK	M_VLDL_PL_int_imputed.txt_adiposity_instruments.txt	BMI	Inverse variance weighted (multiplicative random effects)	264	0.0116169305397323	0.0365809954113753	0.750813128007532
+BMI	hsvSEK	M_VLDL_PL_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted mode	264	-0.0225790845903857	0.127689880151607	0.859779968892723
+BMI	htaNAD	Unsaturation_int_imputed.txt_adiposity_instruments.txt	BMI	MR Egger	264	-0.300863454130337	0.126265343889513	0.0178955981030073
+BMI	htaNAD	Unsaturation_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted median	264	-0.246016514557385	0.0364159519722897	1.4211314094011e-11
+BMI	htaNAD	Unsaturation_int_imputed.txt_adiposity_instruments.txt	BMI	Inverse variance weighted (multiplicative random effects)	264	-0.246242843219641	0.0289208449057267	1.67494962526626e-17
+BMI	htaNAD	Unsaturation_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted mode	264	-0.248853176798421	0.123228140664947	0.0444546404378609
+BMI	HweF9T	XXL_VLDL_FC_pct_int_imputed.txt_adiposity_instruments.txt	BMI	MR Egger	264	0.00131257867441293	0.110331701420808	0.990517116732137
+BMI	HweF9T	XXL_VLDL_FC_pct_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted median	264	-0.112596686749559	0.0345065628083849	0.00110219542548183
+BMI	HweF9T	XXL_VLDL_FC_pct_int_imputed.txt_adiposity_instruments.txt	BMI	Inverse variance weighted (multiplicative random effects)	264	-0.114058701170255	0.0253248653459943	6.67419230839392e-06
+BMI	HweF9T	XXL_VLDL_FC_pct_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted mode	264	-0.115245225057161	0.120497314960396	0.339741813764538
+BMI	ICqg81	L_HDL_L_int_imputed.txt_adiposity_instruments.txt	BMI	MR Egger	264	-0.419712252852647	0.148785027853708	0.00515488014062685
+BMI	ICqg81	L_HDL_L_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted median	264	-0.369181881023455	0.0362975969068774	2.67225541474295e-24
+BMI	ICqg81	L_HDL_L_int_imputed.txt_adiposity_instruments.txt	BMI	Inverse variance weighted (multiplicative random effects)	264	-0.373216909378135	0.0340681494784482	6.2871604745648e-28
+BMI	ICqg81	L_HDL_L_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted mode	264	-0.35233697134322	0.111859754748478	0.00182243137937308
+BMI	iekXeU	XL_VLDL_P_int_imputed.txt_adiposity_instruments.txt	BMI	MR Egger	264	0.156732190506566	0.14822436847479	0.29130382463626
+BMI	iekXeU	XL_VLDL_P_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted median	264	0.208529258320206	0.0355602222324362	4.51532498333964e-09
+BMI	iekXeU	XL_VLDL_P_int_imputed.txt_adiposity_instruments.txt	BMI	Inverse variance weighted (multiplicative random effects)	264	0.217652796106536	0.0339501490489844	1.44613163278543e-10
+BMI	iekXeU	XL_VLDL_P_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted mode	264	0.108686398479965	0.122626869109515	0.376255912422797
+BMI	IrlBJE	LDL_size_int_imputed.txt_adiposity_instruments.txt	BMI	MR Egger	264	-0.177222191359916	0.122262657061092	0.14838827640825
+BMI	IrlBJE	LDL_size_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted median	264	-0.181837804134113	0.0335772810764762	6.11172807486818e-08
+BMI	IrlBJE	LDL_size_int_imputed.txt_adiposity_instruments.txt	BMI	Inverse variance weighted (multiplicative random effects)	264	-0.180569491729329	0.0279943410336517	1.1169228927256e-10
+BMI	IrlBJE	LDL_size_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted mode	264	-0.186608203795628	0.12692901738521	0.142708944522747
+BMI	J2D6Q9	M_HDL_C_int_imputed.txt_adiposity_instruments.txt	BMI	MR Egger	264	-0.364379850242974	0.146701748075788	0.0136240713109047
+BMI	J2D6Q9	M_HDL_C_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted median	264	-0.229839929901115	0.0358275353405064	1.40660648939665e-10
+BMI	J2D6Q9	M_HDL_C_int_imputed.txt_adiposity_instruments.txt	BMI	Inverse variance weighted (multiplicative random effects)	264	-0.227489593553207	0.0336483524331509	1.37237135204862e-11
+BMI	J2D6Q9	M_HDL_C_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted mode	264	-0.277539149017124	0.118628797440849	0.020055139696041
+BMI	jCB0D9	Creatinine_int_imputed.txt_adiposity_instruments.txt	BMI	MR Egger	264	0.157584942004521	0.125798188304699	0.211438920707414
+BMI	jCB0D9	Creatinine_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted median	264	0.137452427743845	0.037304653860261	0.000229069311234906
+BMI	jCB0D9	Creatinine_int_imputed.txt_adiposity_instruments.txt	BMI	Inverse variance weighted (multiplicative random effects)	264	0.151368964868636	0.0288080709393285	1.48512375242234e-07
+BMI	jCB0D9	Creatinine_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted mode	264	0.173154660510318	0.131760529318636	0.189936764339937
+BMI	jD5mOv	XXL_VLDL_L_int_imputed.txt_adiposity_instruments.txt	BMI	MR Egger	264	0.160541256500494	0.138219432389008	0.246497491324061
+BMI	jD5mOv	XXL_VLDL_L_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted median	264	0.213050824844235	0.0366386283783482	6.06615849358849e-09
+BMI	jD5mOv	XXL_VLDL_L_int_imputed.txt_adiposity_instruments.txt	BMI	Inverse variance weighted (multiplicative random effects)	264	0.227131414779188	0.0316636477466443	7.32353370860856e-13
+BMI	jD5mOv	XXL_VLDL_L_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted mode	264	0.0538003519581309	0.120762288264679	0.656320449295052
+BMI	jDwaYZ	S_LDL_P_int_imputed.txt_adiposity_instruments.txt	BMI	MR Egger	264	-0.185155031158079	0.176931092359651	0.296303473314859
+BMI	jDwaYZ	S_LDL_P_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted median	264	-0.00254445554090265	0.0350403879040895	0.942112540529966
+BMI	jDwaYZ	S_LDL_P_int_imputed.txt_adiposity_instruments.txt	BMI	Inverse variance weighted (multiplicative random effects)	264	-0.0427862526038025	0.0405661924895358	0.291550266144386
+BMI	jDwaYZ	S_LDL_P_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted mode	264	-0.00969429674157496	0.120950244136544	0.936178026128511
+BMI	jGf8xW	IDL_CE_int_imputed.txt_adiposity_instruments.txt	BMI	MR Egger	264	-0.446060471709582	0.174140999449069	0.0109828340413423
+BMI	jGf8xW	IDL_CE_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted median	264	-0.162889650243006	0.0343948538174736	2.18114438696109e-06
+BMI	jGf8xW	IDL_CE_int_imputed.txt_adiposity_instruments.txt	BMI	Inverse variance weighted (multiplicative random effects)	264	-0.202728721820151	0.0400313366979827	4.10009960342568e-07
+BMI	jGf8xW	IDL_CE_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted mode	264	-0.221793944465813	0.128020588782272	0.08435929315464
+BMI	jgO983	HDL_FC_int_imputed.txt_adiposity_instruments.txt	BMI	MR Egger	264	-0.429340770689104	0.141570267576431	0.0026669678307274
+BMI	jgO983	HDL_FC_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted median	264	-0.363245616316503	0.0363650535675654	1.70522744369464e-23
+BMI	jgO983	HDL_FC_int_imputed.txt_adiposity_instruments.txt	BMI	Inverse variance weighted (multiplicative random effects)	264	-0.330205694528529	0.0324440606125726	2.49403521369119e-24
+BMI	jgO983	HDL_FC_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted mode	264	-0.459311683166116	0.124053142602508	0.000260054964575007
+BMI	jHmch8	LDL_TG_int_imputed.txt_adiposity_instruments.txt	BMI	MR Egger	264	0.187400289734869	0.143019041226176	0.191236152924555
+BMI	jHmch8	LDL_TG_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted median	264	0.117709365494747	0.0349099588591557	0.000746789195051077
+BMI	jHmch8	LDL_TG_int_imputed.txt_adiposity_instruments.txt	BMI	Inverse variance weighted (multiplicative random effects)	264	0.127786682652333	0.0327579285374818	9.58202753252008e-05
+BMI	jHmch8	LDL_TG_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted mode	264	0.128484403876632	0.119007165427418	0.281293465504293
+BMI	jPaJTq	XS_VLDL_FC_int_imputed.txt_adiposity_instruments.txt	BMI	MR Egger	264	-0.0499177194309642	0.144761848549313	0.730501466404266
+BMI	jPaJTq	XS_VLDL_FC_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted median	264	-0.0131816210395949	0.0345847176563162	0.703099330168003
+BMI	jPaJTq	XS_VLDL_FC_int_imputed.txt_adiposity_instruments.txt	BMI	Inverse variance weighted (multiplicative random effects)	264	-0.0363809823023916	0.0331463010214123	0.272384434406613
+BMI	jPaJTq	XS_VLDL_FC_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted mode	264	0.00808633931336189	0.112670602578931	0.942839705415438
+BMI	jpTPPY	M_VLDL_C_pct_int_imputed.txt_adiposity_instruments.txt	BMI	MR Egger	264	-0.356755704730431	0.158566106032105	0.0252863968575689
+BMI	jpTPPY	M_VLDL_C_pct_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted median	264	-0.249847117935817	0.0358274782326619	3.08893904027556e-12
+BMI	jpTPPY	M_VLDL_C_pct_int_imputed.txt_adiposity_instruments.txt	BMI	Inverse variance weighted (multiplicative random effects)	264	-0.279589402814491	0.036324361416938	1.39274109895431e-14
+BMI	jpTPPY	M_VLDL_C_pct_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted mode	264	-0.30518360310897	0.125955888419095	0.0160711763688333
+BMI	Jvqfia	Phosphatidylc_int_imputed.txt_adiposity_instruments.txt	BMI	MR Egger	264	-0.284431499005767	0.124704696263396	0.0233610789715153
+BMI	Jvqfia	Phosphatidylc_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted median	264	-0.191590862010313	0.0346026334249	3.07895523278351e-08
+BMI	Jvqfia	Phosphatidylc_int_imputed.txt_adiposity_instruments.txt	BMI	Inverse variance weighted (multiplicative random effects)	264	-0.190082706762146	0.0285871471632505	2.94616967488106e-11
+BMI	Jvqfia	Phosphatidylc_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted mode	264	-0.248351590456665	0.119681831128399	0.0389496589388628
+BMI	jWl913	L_LDL_C_pct_int_imputed.txt_adiposity_instruments.txt	BMI	MR Egger	264	-0.574067677239065	0.160400123292325	0.000410885597383635
+BMI	jWl913	L_LDL_C_pct_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted median	264	-0.294224118035145	0.0357310036206709	1.80428489517948e-16
+BMI	jWl913	L_LDL_C_pct_int_imputed.txt_adiposity_instruments.txt	BMI	Inverse variance weighted (multiplicative random effects)	264	-0.364059112196478	0.036854399453998	5.16983856508582e-23
+BMI	jWl913	L_LDL_C_pct_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted mode	264	-0.158195326325344	0.138915276239055	0.25582697767741
+BMI	jYpO6k	XL_HDL_TG_int_imputed.txt_adiposity_instruments.txt	BMI	MR Egger	264	0.0709916792153661	0.121023918650393	0.557982726958114
+BMI	jYpO6k	XL_HDL_TG_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted median	264	-0.0921619034933561	0.0367975741094925	0.0122602195131367
+BMI	jYpO6k	XL_HDL_TG_int_imputed.txt_adiposity_instruments.txt	BMI	Inverse variance weighted (multiplicative random effects)	264	-0.0801972710354141	0.0277962790627013	0.00391189809906442
+BMI	jYpO6k	XL_HDL_TG_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted mode	264	-0.127440346742768	0.133928084946089	0.342194826947201
+BMI	JZ1hvI	Sphingomyelins_int_imputed.txt_adiposity_instruments.txt	BMI	MR Egger	264	-0.441913694580061	0.150497692296611	0.0036161201999063
+BMI	JZ1hvI	Sphingomyelins_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted median	264	-0.182967456809146	0.036209755637992	4.34951481360692e-07
+BMI	JZ1hvI	Sphingomyelins_int_imputed.txt_adiposity_instruments.txt	BMI	Inverse variance weighted (multiplicative random effects)	264	-0.232253863688556	0.0345942462934739	1.89807694010816e-11
+BMI	JZ1hvI	Sphingomyelins_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted mode	264	-0.415582445765783	0.133970435115056	0.00213123069482476
+BMI	klu0Lr	L_LDL_PL_pct_int_imputed.txt_adiposity_instruments.txt	BMI	MR Egger	264	-0.0363974618906639	0.124033877603346	0.769412241606955
+BMI	klu0Lr	L_LDL_PL_pct_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted median	264	0.148605704129357	0.0361182487756664	3.88151393842411e-05
+BMI	klu0Lr	L_LDL_PL_pct_int_imputed.txt_adiposity_instruments.txt	BMI	Inverse variance weighted (multiplicative random effects)	264	0.155916971650452	0.0285355241622576	4.65627668226023e-08
+BMI	klu0Lr	L_LDL_PL_pct_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted mode	264	0.173018959386943	0.129713885460258	0.183406717008536
+BMI	Ks9Gfw	non_HDL_C_int_imputed.txt_adiposity_instruments.txt	BMI	MR Egger	264	-0.305026949419042	0.175184421292983	0.0828265084664221
+BMI	Ks9Gfw	non_HDL_C_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted median	264	-0.0528644227923371	0.0364412956655474	0.146870791327133
+BMI	Ks9Gfw	non_HDL_C_int_imputed.txt_adiposity_instruments.txt	BMI	Inverse variance weighted (multiplicative random effects)	264	-0.104779726829535	0.0402193203045459	0.00918182884005673
+BMI	Ks9Gfw	non_HDL_C_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted mode	264	0.00419047543154694	0.131734261572011	0.974647646800417
+BMI	kuYq5o	Total_BCAA_int_imputed.txt_adiposity_instruments.txt	BMI	MR Egger	264	0.253899175606585	0.11410321461813	0.0269214192143411
+BMI	kuYq5o	Total_BCAA_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted median	264	0.230346734646598	0.034443465998766	2.26742724325247e-11
+BMI	kuYq5o	Total_BCAA_int_imputed.txt_adiposity_instruments.txt	BMI	Inverse variance weighted (multiplicative random effects)	264	0.245323485075069	0.0261267979267552	6.01562968025514e-21
+BMI	kuYq5o	Total_BCAA_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted mode	264	0.245889841058897	0.11318177872634	0.0307095546357081
+BMI	kvdR2X	XS_VLDL_CE_int_imputed.txt_adiposity_instruments.txt	BMI	MR Egger	264	-0.220002713984481	0.148935417993847	0.140831460637462
+BMI	kvdR2X	XS_VLDL_CE_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted median	264	-0.070073636167768	0.0342807646615704	0.0409427324271784
+BMI	kvdR2X	XS_VLDL_CE_int_imputed.txt_adiposity_instruments.txt	BMI	Inverse variance weighted (multiplicative random effects)	264	-0.137419595564434	0.0341227386620465	5.64414841773837e-05
+BMI	kvdR2X	XS_VLDL_CE_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted mode	264	-0.0223196733974174	0.128874736926477	0.862636166866511
+BMI	KWVoW8	L_LDL_CE_int_imputed.txt_adiposity_instruments.txt	BMI	MR Egger	264	-0.372046034270045	0.181092875587121	0.0409242123967255
+BMI	KWVoW8	L_LDL_CE_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted median	264	-0.0908592110897099	0.0356118837934631	0.0107299315590953
+BMI	KWVoW8	L_LDL_CE_int_imputed.txt_adiposity_instruments.txt	BMI	Inverse variance weighted (multiplicative random effects)	264	-0.154387843852419	0.0415878026067236	0.000205356154537507
+BMI	KWVoW8	L_LDL_CE_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted mode	264	0.0254541156035	0.133090082991348	0.848473546029828
+BMI	KYA1sq	XXL_VLDL_FC_int_imputed.txt_adiposity_instruments.txt	BMI	MR Egger	264	0.196452705787316	0.140669955186437	0.163730700314293
+BMI	KYA1sq	XXL_VLDL_FC_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted median	264	0.207717403621849	0.0358126284626999	6.62690140230776e-09
+BMI	KYA1sq	XXL_VLDL_FC_int_imputed.txt_adiposity_instruments.txt	BMI	Inverse variance weighted (multiplicative random effects)	264	0.229025093960646	0.0322129814604876	1.16283439908595e-12
+BMI	KYA1sq	XXL_VLDL_FC_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted mode	264	0.100041554601739	0.129457583763543	0.440349618608779
+BMI	l0Zbty	XL_VLDL_FC_pct_int_imputed.txt_adiposity_instruments.txt	BMI	MR Egger	264	-0.14033126115013	0.135388125454799	0.300919572185535
+BMI	l0Zbty	XL_VLDL_FC_pct_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted median	264	-0.212294282441267	0.0367707414910118	7.76615877055743e-09
+BMI	l0Zbty	XL_VLDL_FC_pct_int_imputed.txt_adiposity_instruments.txt	BMI	Inverse variance weighted (multiplicative random effects)	264	-0.238679003565605	0.03103521530332	1.46462226285055e-14
+BMI	l0Zbty	XL_VLDL_FC_pct_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted mode	264	0.00181263020262978	0.129106989586291	0.988808910456211
+BMI	L2bNEp	S_VLDL_CE_int_imputed.txt_adiposity_instruments.txt	BMI	MR Egger	264	0.028266472692127	0.159324353341463	0.859319790873756
+BMI	L2bNEp	S_VLDL_CE_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted median	264	0.0454757479452346	0.0362040233863827	0.209080976108911
+BMI	L2bNEp	S_VLDL_CE_int_imputed.txt_adiposity_instruments.txt	BMI	Inverse variance weighted (multiplicative random effects)	264	0.0648770761143607	0.0364839179144964	0.0753648332976839
+BMI	L2bNEp	S_VLDL_CE_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted mode	264	0.0109343778356275	0.116411138313119	0.925237101935384
+BMI	l9d0R8	HDL_CE_int_imputed.txt_adiposity_instruments.txt	BMI	MR Egger	264	-0.467245050915495	0.148736922312993	0.00187424906045558
+BMI	l9d0R8	HDL_CE_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted median	264	-0.342209608684207	0.0360435178907106	2.21599234509122e-21
+BMI	l9d0R8	HDL_CE_int_imputed.txt_adiposity_instruments.txt	BMI	Inverse variance weighted (multiplicative random effects)	264	-0.329018949325919	0.0341122920395927	5.15243727479965e-22
+BMI	l9d0R8	HDL_CE_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted mode	264	-0.404122417548345	0.110642427794981	0.000313348371593474
+BMI	lBCv55	PUFA_by_MUFA_int_imputed.txt_adiposity_instruments.txt	BMI	MR Egger	264	-0.349068939244686	0.137241484452234	0.0115512396741053
+BMI	lBCv55	PUFA_by_MUFA_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted median	264	-0.302543554161793	0.0371589622813462	3.89209178641863e-16
+BMI	lBCv55	PUFA_by_MUFA_int_imputed.txt_adiposity_instruments.txt	BMI	Inverse variance weighted (multiplicative random effects)	264	-0.345315145552087	0.0314233388618046	4.31062614360873e-28
+BMI	lBCv55	PUFA_by_MUFA_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted mode	264	-0.157856693346888	0.131322382587835	0.23042352128652
+BMI	leBC8l	S_VLDL_TG_int_imputed.txt_adiposity_instruments.txt	BMI	MR Egger	264	0.235807676876258	0.145072166341844	0.105268773815611
+BMI	leBC8l	S_VLDL_TG_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted median	264	0.155583916381918	0.0351852028281926	9.7856460489242e-06
+BMI	leBC8l	S_VLDL_TG_int_imputed.txt_adiposity_instruments.txt	BMI	Inverse variance weighted (multiplicative random effects)	264	0.171492761283828	0.0332298810942705	2.45897128238961e-07
+BMI	leBC8l	S_VLDL_TG_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted mode	264	0.298068182524374	0.11131377481495	0.00787875617481388
+BMI	leni64	IDL_CE_pct_int_imputed.txt_adiposity_instruments.txt	BMI	MR Egger	264	-0.57947303946047	0.150684757165927	0.000151054324369467
+BMI	leni64	IDL_CE_pct_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted median	264	-0.185105852650682	0.0349049863457121	1.13830714149167e-07
+BMI	leni64	IDL_CE_pct_int_imputed.txt_adiposity_instruments.txt	BMI	Inverse variance weighted (multiplicative random effects)	264	-0.210385809103208	0.0349169069986895	1.68767258838274e-09
+BMI	leni64	IDL_CE_pct_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted mode	264	-0.195084615719002	0.117168966246216	0.0971064497666298
+BMI	lj2iSL	VLDL_CE_int_imputed.txt_adiposity_instruments.txt	BMI	MR Egger	264	-0.0749416453430052	0.157338078733669	0.634250754493307
+BMI	lj2iSL	VLDL_CE_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted median	264	-0.000577636122053349	0.0355600447756117	0.987039761099971
+BMI	lj2iSL	VLDL_CE_int_imputed.txt_adiposity_instruments.txt	BMI	Inverse variance weighted (multiplicative random effects)	264	0.00957603189648956	0.0360469628134666	0.790505436145143
+BMI	lj2iSL	VLDL_CE_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted mode	264	-0.0383907269764983	0.111672372577253	0.731286430952765
+BMI	Lohalr	S_HDL_FC_pct_int_imputed.txt_adiposity_instruments.txt	BMI	MR Egger	264	-0.309907416839591	0.157068247922767	0.0495380564475581
+BMI	Lohalr	S_HDL_FC_pct_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted median	264	-0.293401881449253	0.0343177076481249	1.23540509588747e-17
+BMI	Lohalr	S_HDL_FC_pct_int_imputed.txt_adiposity_instruments.txt	BMI	Inverse variance weighted (multiplicative random effects)	264	-0.356392747983002	0.0359668530002341	3.80731095029176e-23
+BMI	Lohalr	S_HDL_FC_pct_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted mode	264	-0.266384118290643	0.129843539417202	0.0412010523688296
+BMI	lqx4zV	GlycA_int_imputed.txt_adiposity_instruments.txt	BMI	MR Egger	264	0.12053874708396	0.128323833936587	0.348425230517744
+BMI	lqx4zV	GlycA_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted median	264	0.295446258614239	0.0352636529003504	5.37390987498405e-17
+BMI	lqx4zV	GlycA_int_imputed.txt_adiposity_instruments.txt	BMI	Inverse variance weighted (multiplicative random effects)	264	0.284546706485284	0.0294786052713808	4.79008273477684e-22
+BMI	lqx4zV	GlycA_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted mode	264	0.335360497216778	0.136642884271901	0.0147651333477543
+BMI	LusZEP	VLDL_L_int_imputed.txt_adiposity_instruments.txt	BMI	MR Egger	264	0.0784260198375661	0.149408356528264	0.600089263234334
+BMI	LusZEP	VLDL_L_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted median	264	0.143064149068511	0.0354171147782617	5.35864600515764e-05
+BMI	LusZEP	VLDL_L_int_imputed.txt_adiposity_instruments.txt	BMI	Inverse variance weighted (multiplicative random effects)	264	0.142718700701925	0.0342230241983014	3.04260443801915e-05
+BMI	LusZEP	VLDL_L_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted mode	264	0.0460997911244663	0.11859979600284	0.69781225665608
+BMI	LUYJrr	XXL_VLDL_TG_int_imputed.txt_adiposity_instruments.txt	BMI	MR Egger	264	0.143069006599406	0.134460807033032	0.288299230378167
+BMI	LUYJrr	XXL_VLDL_TG_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted median	264	0.22739879416406	0.0343010843547704	3.36842104567546e-11
+BMI	LUYJrr	XXL_VLDL_TG_int_imputed.txt_adiposity_instruments.txt	BMI	Inverse variance weighted (multiplicative random effects)	264	0.217962856958427	0.0308080204797625	1.49584826411456e-12
+BMI	LUYJrr	XXL_VLDL_TG_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted mode	264	0.265651879996372	0.118487252289352	0.0257933510737236
+BMI	LvMFNP	L_LDL_FC_int_imputed.txt_adiposity_instruments.txt	BMI	MR Egger	264	-0.446291882651507	0.184272524655875	0.0161182953621754
+BMI	LvMFNP	L_LDL_FC_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted median	264	-0.175493651438342	0.0357323730942596	9.04584300450543e-07
+BMI	LvMFNP	L_LDL_FC_int_imputed.txt_adiposity_instruments.txt	BMI	Inverse variance weighted (multiplicative random effects)	264	-0.209234675415087	0.0423355739761057	7.72103316285339e-07
+BMI	LvMFNP	L_LDL_FC_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted mode	264	-0.228975773089217	0.126177098673156	0.0707065228631472
+BMI	m47X3e	VLDL_C_int_imputed.txt_adiposity_instruments.txt	BMI	MR Egger	264	-0.038439282205298	0.156062407392455	0.805637358807517
+BMI	m47X3e	VLDL_C_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted median	264	0.0328565013095219	0.0346194429740229	0.34258168290917
+BMI	m47X3e	VLDL_C_int_imputed.txt_adiposity_instruments.txt	BMI	Inverse variance weighted (multiplicative random effects)	264	0.0443209829090308	0.0357541996605772	0.215122583613013
+BMI	m47X3e	VLDL_C_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted mode	264	0.00492076043205536	0.110141207384338	0.964398801582421
+BMI	MFi8Qh	M_HDL_C_pct_int_imputed.txt_adiposity_instruments.txt	BMI	MR Egger	264	-0.465265163035445	0.147200189545967	0.00175842561447664
+BMI	MFi8Qh	M_HDL_C_pct_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted median	264	-0.315078549884975	0.0362642091693952	3.67526500782476e-18
+BMI	MFi8Qh	M_HDL_C_pct_int_imputed.txt_adiposity_instruments.txt	BMI	Inverse variance weighted (multiplicative random effects)	264	-0.316424179608697	0.0337705242024541	7.26472276627882e-21
+BMI	MFi8Qh	M_HDL_C_pct_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted mode	264	-0.342413436441733	0.117611160957111	0.00390657891334164
+BMI	mFjaBK	L_LDL_L_int_imputed.txt_adiposity_instruments.txt	BMI	MR Egger	264	-0.36587874897203	0.181573479946021	0.0449212842955358
+BMI	mFjaBK	L_LDL_L_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted median	264	-0.0862999676978939	0.0354223965930376	0.0148379290538155
+BMI	mFjaBK	L_LDL_L_int_imputed.txt_adiposity_instruments.txt	BMI	Inverse variance weighted (multiplicative random effects)	264	-0.14806483944497	0.0416974671474764	0.000383870665793955
+BMI	mFjaBK	L_LDL_L_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted mode	264	0.018755782807399	0.128763891992773	0.884301164282533
+BMI	mJjx3I	Omega_6_by_Omega_3_int_imputed.txt_adiposity_instruments.txt	BMI	MR Egger	264	0.0137070321012533	0.117889092353914	0.907527178871531
+BMI	mJjx3I	Omega_6_by_Omega_3_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted median	264	0.00145002651546894	0.0354870054214317	0.967406888969608
+BMI	mJjx3I	Omega_6_by_Omega_3_int_imputed.txt_adiposity_instruments.txt	BMI	Inverse variance weighted (multiplicative random effects)	264	0.0294386859073756	0.026992778936673	0.275443038972821
+BMI	mJjx3I	Omega_6_by_Omega_3_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted mode	264	-0.0392181305126358	0.128594010416071	0.760625383029017
+BMI	MnxZ9Q	M_HDL_TG_pct_int_imputed.txt_adiposity_instruments.txt	BMI	MR Egger	264	0.415457320729265	0.145574062769667	0.00466331136560848
+BMI	MnxZ9Q	M_HDL_TG_pct_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted median	264	0.225557994806174	0.0363730528991958	5.60203580620976e-10
+BMI	MnxZ9Q	M_HDL_TG_pct_int_imputed.txt_adiposity_instruments.txt	BMI	Inverse variance weighted (multiplicative random effects)	264	0.243928057400248	0.0334215893470616	2.90955495718779e-13
+BMI	MnxZ9Q	M_HDL_TG_pct_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted mode	264	0.143550758966203	0.11850151220331	0.226835836067871
+BMI	mqQaCi	Total_PL_int_imputed.txt_adiposity_instruments.txt	BMI	MR Egger	264	-0.316230655840304	0.132805418525021	0.0179732276842776
+BMI	mqQaCi	Total_PL_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted median	264	-0.149365417695595	0.0359164349899485	3.20074085928327e-05
+BMI	mqQaCi	Total_PL_int_imputed.txt_adiposity_instruments.txt	BMI	Inverse variance weighted (multiplicative random effects)	264	-0.165310429469151	0.0304889715637383	5.89442585958938e-08
+BMI	mqQaCi	Total_PL_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted mode	264	-0.156269121083625	0.124440423868754	0.210312181760249
+BMI	MuMrjJ	XL_HDL_PL_pct_int_imputed.txt_adiposity_instruments.txt	BMI	MR Egger	264	-0.106817549143623	0.15005841899673	0.477197354622355
+BMI	MuMrjJ	XL_HDL_PL_pct_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted median	264	-0.292628188087223	0.0355939013066383	2.01306765934858e-16
+BMI	MuMrjJ	XL_HDL_PL_pct_int_imputed.txt_adiposity_instruments.txt	BMI	Inverse variance weighted (multiplicative random effects)	264	-0.280355012287528	0.0344490856609426	4.01057011698609e-16
+BMI	MuMrjJ	XL_HDL_PL_pct_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted mode	264	-0.330983890273087	0.123130846108354	0.00764537940901415
+BMI	mySniE	L_HDL_C_pct_int_imputed.txt_adiposity_instruments.txt	BMI	MR Egger	264	-0.516319520349636	0.14822687283171	0.000580241355748562
+BMI	mySniE	L_HDL_C_pct_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted median	264	-0.370090282200646	0.0365757683820038	4.57579390636436e-24
+BMI	mySniE	L_HDL_C_pct_int_imputed.txt_adiposity_instruments.txt	BMI	Inverse variance weighted (multiplicative random effects)	264	-0.391681668131073	0.0339847808313151	9.84740921825205e-31
+BMI	mySniE	L_HDL_C_pct_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted mode	264	-0.373678188222765	0.129944917654198	0.00436184089203011
+BMI	n6ckSU	M_LDL_PL_int_imputed.txt_adiposity_instruments.txt	BMI	MR Egger	264	-0.275370322603231	0.187720179778077	0.143597346268777
+BMI	n6ckSU	M_LDL_PL_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted median	264	-0.0104728397545698	0.0350215468990637	0.76490960465905
+BMI	n6ckSU	M_LDL_PL_int_imputed.txt_adiposity_instruments.txt	BMI	Inverse variance weighted (multiplicative random effects)	264	-0.040083947134445	0.043120334120162	0.352586821535581
+BMI	n6ckSU	M_LDL_PL_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted mode	264	0.00563536247343066	0.13188734774695	0.965950297717263
+BMI	N8uNh3	ApoB_int_imputed.txt_adiposity_instruments.txt	BMI	MR Egger	264	-0.229290931895828	0.177658001037151	0.197969404412858
+BMI	N8uNh3	ApoB_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted median	264	-0.0226675711745632	0.0356047107031753	0.524355921111973
+BMI	N8uNh3	ApoB_int_imputed.txt_adiposity_instruments.txt	BMI	Inverse variance weighted (multiplicative random effects)	264	-0.0668526374596282	0.040748553428125	0.1008776168098
+BMI	N8uNh3	ApoB_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted mode	264	0.00842353122391071	0.125496619152684	0.946535913061558
+BMI	nEftsb	XL_HDL_C_int_imputed.txt_adiposity_instruments.txt	BMI	MR Egger	264	-0.445200968985772	0.143863744656298	0.00218432845867342
+BMI	nEftsb	XL_HDL_C_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted median	264	-0.410894566316089	0.0352478260389301	2.1060966833793e-31
+BMI	nEftsb	XL_HDL_C_int_imputed.txt_adiposity_instruments.txt	BMI	Inverse variance weighted (multiplicative random effects)	264	-0.410519622350654	0.032939017856742	1.18786289148766e-35
+BMI	nEftsb	XL_HDL_C_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted mode	264	-0.422614062425858	0.123235356340832	0.000702301551022362
+BMI	nID2go	L_VLDL_L_int_imputed.txt_adiposity_instruments.txt	BMI	MR Egger	264	0.106161847033483	0.148286901534886	0.474677126906744
+BMI	nID2go	L_VLDL_L_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted median	264	0.174618389365996	0.0348316299655357	5.35285114842986e-07
+BMI	nID2go	L_VLDL_L_int_imputed.txt_adiposity_instruments.txt	BMI	Inverse variance weighted (multiplicative random effects)	264	0.181800119545706	0.0339709831729172	8.71656700450573e-08
+BMI	nID2go	L_VLDL_L_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted mode	264	0.0454675215725198	0.120748504455936	0.706813673327441
+BMI	NpRNA2	ApoA1_int_imputed.txt_adiposity_instruments.txt	BMI	MR Egger	264	-0.347384572176286	0.140732835250669	0.0142108813030495
+BMI	NpRNA2	ApoA1_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted median	264	-0.237979435810279	0.0370249324967908	1.29680843028355e-10
+BMI	NpRNA2	ApoA1_int_imputed.txt_adiposity_instruments.txt	BMI	Inverse variance weighted (multiplicative random effects)	264	-0.238179335158957	0.0322623695659298	1.55258026508592e-13
+BMI	NpRNA2	ApoA1_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted mode	264	-0.356659897216534	0.117377572436978	0.00261641168998742
+BMI	nTcL1o	Tyr_int_imputed.txt_adiposity_instruments.txt	BMI	MR Egger	264	0.180669883619454	0.109881071977425	0.101327787399277
+BMI	nTcL1o	Tyr_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted median	264	0.173964973189443	0.0346232081220267	5.04695370191708e-07
+BMI	nTcL1o	Tyr_int_imputed.txt_adiposity_instruments.txt	BMI	Inverse variance weighted (multiplicative random effects)	264	0.184300516004963	0.0251590826093624	2.38175023519786e-13
+BMI	nTcL1o	Tyr_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted mode	264	0.121550956996366	0.127174193667268	0.340059484644178
+BMI	nuiq1s	DHA_int_imputed.txt_adiposity_instruments.txt	BMI	MR Egger	264	-0.252207317165933	0.120092555812949	0.036675553925918
+BMI	nuiq1s	DHA_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted median	264	-0.204734003106149	0.0345120890415683	2.988289522749e-09
+BMI	nuiq1s	DHA_int_imputed.txt_adiposity_instruments.txt	BMI	Inverse variance weighted (multiplicative random effects)	264	-0.204615990072704	0.0275056213157873	1.01403626785983e-13
+BMI	nuiq1s	DHA_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted mode	264	-0.132689778911701	0.110454384056326	0.230712303259577
+BMI	NVAMIP	VLDL_TG_int_imputed.txt_adiposity_instruments.txt	BMI	MR Egger	264	0.142184358422039	0.145177374150125	0.328293882385934
+BMI	NVAMIP	VLDL_TG_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted median	264	0.188570680043439	0.0354646359348446	1.05406950933856e-07
+BMI	NVAMIP	VLDL_TG_int_imputed.txt_adiposity_instruments.txt	BMI	Inverse variance weighted (multiplicative random effects)	264	0.196403032808624	0.0332508562352086	3.49015747865186e-09
+BMI	NVAMIP	VLDL_TG_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted mode	264	0.0431929590078104	0.127215822479738	0.734485195495998
+BMI	O15XdN	L_HDL_TG_int_imputed.txt_adiposity_instruments.txt	BMI	MR Egger	264	0.0759958281167551	0.122371201069282	0.535121713298091
+BMI	O15XdN	L_HDL_TG_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted median	264	-0.135128821963143	0.0342132812744442	7.82814595504299e-05
+BMI	O15XdN	L_HDL_TG_int_imputed.txt_adiposity_instruments.txt	BMI	Inverse variance weighted (multiplicative random effects)	264	-0.117633126563255	0.028158963335958	2.94774036497062e-05
+BMI	O15XdN	L_HDL_TG_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted mode	264	-0.232513000115352	0.126429349488226	0.0670314889422055
+BMI	O6t4Mr	L_VLDL_P_int_imputed.txt_adiposity_instruments.txt	BMI	MR Egger	264	0.127914481482525	0.149389987559014	0.392644510610783
+BMI	O6t4Mr	L_VLDL_P_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted median	264	0.188471756109337	0.0345420429167573	4.86157706963048e-08
+BMI	O6t4Mr	L_VLDL_P_int_imputed.txt_adiposity_instruments.txt	BMI	Inverse variance weighted (multiplicative random effects)	264	0.188224975196171	0.0342167311429108	3.77722277059656e-08
+BMI	O6t4Mr	L_VLDL_P_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted mode	264	0.0444023599544314	0.123042215169015	0.718485617738752
+BMI	obQtiT	LDL_L_int_imputed.txt_adiposity_instruments.txt	BMI	MR Egger	264	-0.334258015541616	0.182843084655675	0.0686694950095407
+BMI	obQtiT	LDL_L_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted median	264	-0.0686001071554825	0.0346064068644558	0.0474462337706412
+BMI	obQtiT	LDL_L_int_imputed.txt_adiposity_instruments.txt	BMI	Inverse variance weighted (multiplicative random effects)	264	-0.109746040243623	0.0419948547401539	0.00896670123702911
+BMI	obQtiT	LDL_L_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted mode	264	0.00432041403129446	0.13330827199161	0.974170310053573
+BMI	OGHBgB	L_HDL_FC_int_imputed.txt_adiposity_instruments.txt	BMI	MR Egger	264	-0.438093786817324	0.146101891612685	0.0029735084107347
+BMI	OGHBgB	L_HDL_FC_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted median	264	-0.377770060867331	0.0355581583922942	2.30455995682762e-26
+BMI	OGHBgB	L_HDL_FC_int_imputed.txt_adiposity_instruments.txt	BMI	Inverse variance weighted (multiplicative random effects)	264	-0.384021464767712	0.0334560949222196	1.69443135922461e-30
+BMI	OGHBgB	L_HDL_FC_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted mode	264	-0.353068190385373	0.110264148687692	0.00153252612631914
+BMI	OlqVEx	IDL_P_int_imputed.txt_adiposity_instruments.txt	BMI	MR Egger	264	-0.276967212912498	0.177974931330768	0.120864126860906
+BMI	OlqVEx	IDL_P_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted median	264	-0.0411381265866645	0.0342612905115269	0.229860854407309
+BMI	OlqVEx	IDL_P_int_imputed.txt_adiposity_instruments.txt	BMI	Inverse variance weighted (multiplicative random effects)	264	-0.0969105512866365	0.0408358376715022	0.0176359500708332
+BMI	OlqVEx	IDL_P_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted mode	264	0.0318708698068617	0.126358981469874	0.801064303811443
+BMI	oM9sK8	XS_VLDL_L_int_imputed.txt_adiposity_instruments.txt	BMI	MR Egger	264	-0.0107152692360172	0.142204214327377	0.939992726195446
+BMI	oM9sK8	XS_VLDL_L_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted median	264	-0.00568031816913672	0.034954801332999	0.870908457481128
+BMI	oM9sK8	XS_VLDL_L_int_imputed.txt_adiposity_instruments.txt	BMI	Inverse variance weighted (multiplicative random effects)	264	-0.0204072897334461	0.0325602433516615	0.530819957695765
+BMI	oM9sK8	XS_VLDL_L_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted mode	264	-0.0718391467929358	0.117228954967678	0.540531107077745
+BMI	oPLIqu	HDL_C_int_imputed.txt_adiposity_instruments.txt	BMI	MR Egger	264	-0.464048684586618	0.147465680015583	0.00184119484384745
+BMI	oPLIqu	HDL_C_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted median	264	-0.344228567243917	0.0361344747292687	1.62957677075008e-21
+BMI	oPLIqu	HDL_C_int_imputed.txt_adiposity_instruments.txt	BMI	Inverse variance weighted (multiplicative random effects)	264	-0.332289470429902	0.0338162022750158	8.67138165201919e-23
+BMI	oPLIqu	HDL_C_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted mode	264	-0.414478992977475	0.122008318013664	0.000786367869223449
+BMI	OQ0Vkp	M_VLDL_C_int_imputed.txt_adiposity_instruments.txt	BMI	MR Egger	264	-0.242471146427128	0.166849732471417	0.147356407137074
+BMI	OQ0Vkp	M_VLDL_C_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted median	264	-0.0739806056416645	0.034841599986207	0.0337252684072882
+BMI	OQ0Vkp	M_VLDL_C_int_imputed.txt_adiposity_instruments.txt	BMI	Inverse variance weighted (multiplicative random effects)	264	-0.0961491962074233	0.0382642043118547	0.0119786945402874
+BMI	OQ0Vkp	M_VLDL_C_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted mode	264	-0.0722457593663846	0.132810680133041	0.586919161146437
+BMI	ovtVGy	Citrate_int_imputed.txt_adiposity_instruments.txt	BMI	MR Egger	264	0.143432276531927	0.11113965023054	0.19799436105219
+BMI	ovtVGy	Citrate_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted median	264	-0.0966423029229737	0.0365024095553238	0.00810750797381973
+BMI	ovtVGy	Citrate_int_imputed.txt_adiposity_instruments.txt	BMI	Inverse variance weighted (multiplicative random effects)	264	-0.0943065813788125	0.0256814259455253	0.000240498891450887
+BMI	ovtVGy	Citrate_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted mode	264	-0.160951356034684	0.120161482233098	0.181577693850739
+BMI	OX8WV6	S_HDL_C_pct_int_imputed.txt_adiposity_instruments.txt	BMI	MR Egger	264	-0.399082362660564	0.155299047967677	0.0107303106585567
+BMI	OX8WV6	S_HDL_C_pct_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted median	264	-0.180242663687333	0.0345187805218812	1.77400470374539e-07
+BMI	OX8WV6	S_HDL_C_pct_int_imputed.txt_adiposity_instruments.txt	BMI	Inverse variance weighted (multiplicative random effects)	264	-0.188423242254048	0.0356903673674424	1.29617166351951e-07
+BMI	OX8WV6	S_HDL_C_pct_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted mode	264	-0.2308117841756	0.122015816294463	0.0596356192458725
+BMI	OxmNal	M_VLDL_FC_pct_int_imputed.txt_adiposity_instruments.txt	BMI	MR Egger	264	-0.34642662651626	0.15787698013662	0.0290933134067526
+BMI	OxmNal	M_VLDL_FC_pct_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted median	264	-0.209488296326622	0.0337610576298396	5.46872843310548e-10
+BMI	OxmNal	M_VLDL_FC_pct_int_imputed.txt_adiposity_instruments.txt	BMI	Inverse variance weighted (multiplicative random effects)	264	-0.250187800205164	0.036176420569355	4.65329199971231e-12
+BMI	OxmNal	M_VLDL_FC_pct_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted mode	264	-0.477634754612903	0.144744705953719	0.00110107648554248
+BMI	oxql0H	ApoB_by_ApoA1_int_imputed.txt_adiposity_instruments.txt	BMI	MR Egger	264	-0.00508073017357357	0.183801992366015	0.977968398890394
+BMI	oxql0H	ApoB_by_ApoA1_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted median	264	0.110002250023515	0.0360624259214653	0.00228591096130939
+BMI	oxql0H	ApoB_by_ApoA1_int_imputed.txt_adiposity_instruments.txt	BMI	Inverse variance weighted (multiplicative random effects)	264	0.0726966121148796	0.0421006365307187	0.084215397001917
+BMI	oxql0H	ApoB_by_ApoA1_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted mode	264	0.0178311732684406	0.114773859674002	0.876657329289406
+BMI	OZuGij	XL_VLDL_CE_pct_int_imputed.txt_adiposity_instruments.txt	BMI	MR Egger	264	-0.225402863790878	0.141232627894036	0.111701222929098
+BMI	OZuGij	XL_VLDL_CE_pct_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted median	264	-0.25177793077277	0.0353829223217849	1.11262530531687e-12
+BMI	OZuGij	XL_VLDL_CE_pct_int_imputed.txt_adiposity_instruments.txt	BMI	Inverse variance weighted (multiplicative random effects)	264	-0.25356606111127	0.0323441203407154	4.51862021664773e-15
+BMI	OZuGij	XL_VLDL_CE_pct_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted mode	264	-0.102630898131118	0.119818862457673	0.392473152629288
+BMI	p0AESt	M_LDL_TG_pct_int_imputed.txt_adiposity_instruments.txt	BMI	MR Egger	264	0.51347147920697	0.15291952569349	0.000902352227319851
+BMI	p0AESt	M_LDL_TG_pct_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted median	264	0.208118739884608	0.0378889248900396	3.95465657792129e-08
+BMI	p0AESt	M_LDL_TG_pct_int_imputed.txt_adiposity_instruments.txt	BMI	Inverse variance weighted (multiplicative random effects)	264	0.198622526650454	0.0353107587006099	1.85522919586298e-08
+BMI	p0AESt	M_LDL_TG_pct_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted mode	264	0.268236877196885	0.127443911295791	0.036262399856357
+BMI	p6i1QF	Omega_3_int_imputed.txt_adiposity_instruments.txt	BMI	MR Egger	264	-0.108035985211808	0.12215094587841	0.377266110082798
+BMI	p6i1QF	Omega_3_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted median	264	-0.0778101687970356	0.0352446526608744	0.0272641060626195
+BMI	p6i1QF	Omega_3_int_imputed.txt_adiposity_instruments.txt	BMI	Inverse variance weighted (multiplicative random effects)	264	-0.071521009999642	0.0279732383962009	0.0105650421951644
+BMI	p6i1QF	Omega_3_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted mode	264	-0.0912102187227029	0.114290175370301	0.425556680843246
+BMI	P7aFSP	M_HDL_L_int_imputed.txt_adiposity_instruments.txt	BMI	MR Egger	264	-0.270083311565856	0.144827637177928	0.0633189463579927
+BMI	P7aFSP	M_HDL_L_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted median	264	-0.16049288742964	0.0358740647247903	7.68466648037485e-06
+BMI	P7aFSP	M_HDL_L_int_imputed.txt_adiposity_instruments.txt	BMI	Inverse variance weighted (multiplicative random effects)	264	-0.167723242925458	0.0331950811571153	4.35713934127842e-07
+BMI	P7aFSP	M_HDL_L_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted mode	264	-0.176229614230432	0.128796687563984	0.172392992441783
+BMI	p92b6w	bOHbutyrate_int_imputed.txt_adiposity_instruments.txt	BMI	MR Egger	264	0.0615655422041651	0.112757589102713	0.58553115690435
+BMI	p92b6w	bOHbutyrate_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted median	264	0.0127144268165418	0.0346704220429612	0.713825957682876
+BMI	p92b6w	bOHbutyrate_int_imputed.txt_adiposity_instruments.txt	BMI	Inverse variance weighted (multiplicative random effects)	264	0.0185830267707463	0.0258246144659696	0.471780035850534
+BMI	p92b6w	bOHbutyrate_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted mode	264	-0.077297789021443	0.115814578567477	0.505084551615481
+BMI	ph15ff	S_VLDL_PL_pct_int_imputed.txt_adiposity_instruments.txt	BMI	MR Egger	264	-0.4928179170283	0.173966675538876	0.00497241558941722
+BMI	ph15ff	S_VLDL_PL_pct_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted median	264	-0.261881548540721	0.0352217137005793	1.04386036007641e-13
+BMI	ph15ff	S_VLDL_PL_pct_int_imputed.txt_adiposity_instruments.txt	BMI	Inverse variance weighted (multiplicative random effects)	264	-0.256303200816116	0.0399817966503169	1.45045691217282e-10
+BMI	ph15ff	S_VLDL_PL_pct_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted mode	264	-0.369251120292535	0.135179337018529	0.00673010949175994
+BMI	pQQcbP	HDL_P_int_imputed.txt_adiposity_instruments.txt	BMI	MR Egger	264	-0.373046195236299	0.132777547411466	0.0053349478556034
+BMI	pQQcbP	HDL_P_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted median	264	-0.199818936402252	0.0357431626387084	2.26533984405556e-08
+BMI	pQQcbP	HDL_P_int_imputed.txt_adiposity_instruments.txt	BMI	Inverse variance weighted (multiplicative random effects)	264	-0.193674428080891	0.0305141420613608	2.19499513143748e-10
+BMI	pQQcbP	HDL_P_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted mode	264	-0.236758127337454	0.113946347385277	0.0386976005586838
+BMI	ptBBYZ	M_LDL_TG_int_imputed.txt_adiposity_instruments.txt	BMI	MR Egger	264	0.173001198194042	0.146726474382631	0.239438798850499
+BMI	ptBBYZ	M_LDL_TG_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted median	264	0.111967496726085	0.0355375820676877	0.00162891671527931
+BMI	ptBBYZ	M_LDL_TG_int_imputed.txt_adiposity_instruments.txt	BMI	Inverse variance weighted (multiplicative random effects)	264	0.132260120408028	0.0336008768169762	8.27784091407897e-05
+BMI	ptBBYZ	M_LDL_TG_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted mode	264	0.121654390985872	0.125895797744643	0.334776714399488
+BMI	PZl9Js	M_LDL_FC_int_imputed.txt_adiposity_instruments.txt	BMI	MR Egger	264	-0.399014949012597	0.190151326125911	0.0368267292549439
+BMI	PZl9Js	M_LDL_FC_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted median	264	-0.0812808493999494	0.0358404654635178	0.0233382659986635
+BMI	PZl9Js	M_LDL_FC_int_imputed.txt_adiposity_instruments.txt	BMI	Inverse variance weighted (multiplicative random effects)	264	-0.128228712420981	0.043718776133633	0.00335665756166652
+BMI	PZl9Js	M_LDL_FC_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted mode	264	-0.0537815818660512	0.12875141482952	0.676495275639097
+BMI	Q4UNDy	XL_HDL_C_pct_int_imputed.txt_adiposity_instruments.txt	BMI	MR Egger	264	-0.132300000964821	0.144363234677014	0.360279802143861
+BMI	Q4UNDy	XL_HDL_C_pct_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted median	264	0.142278136594032	0.0352435557287339	5.41397095343417e-05
+BMI	Q4UNDy	XL_HDL_C_pct_int_imputed.txt_adiposity_instruments.txt	BMI	Inverse variance weighted (multiplicative random effects)	264	0.147947462227072	0.033303884916675	8.89822958439079e-06
+BMI	Q4UNDy	XL_HDL_C_pct_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted mode	264	0.00856977375209489	0.115853410828299	0.941089819221021
+BMI	q65dKt	Albumin_int_imputed.txt_adiposity_instruments.txt	BMI	MR Egger	264	-0.28019479684915	0.114863079762661	0.0153764664619525
+BMI	q65dKt	Albumin_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted median	264	-0.217820751622385	0.0358203679564186	1.1949574464728e-09
+BMI	q65dKt	Albumin_int_imputed.txt_adiposity_instruments.txt	BMI	Inverse variance weighted (multiplicative random effects)	264	-0.229725446402886	0.0263103505503282	2.51602647824717e-18
+BMI	q65dKt	Albumin_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted mode	264	-0.272566627082582	0.108219204027856	0.0123742972334666
+BMI	QbaiWV	Phe_int_imputed.txt_adiposity_instruments.txt	BMI	MR Egger	264	0.166381777429591	0.103461804261592	0.109007350354905
+BMI	QbaiWV	Phe_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted median	264	0.132135550891022	0.0335676536726259	8.27147162175387e-05
+BMI	QbaiWV	Phe_int_imputed.txt_adiposity_instruments.txt	BMI	Inverse variance weighted (multiplicative random effects)	264	0.146160133101532	0.0236901906191457	6.84422612780154e-10
+BMI	QbaiWV	Phe_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted mode	264	0.0967994436420023	0.113353701021836	0.393904695166924
+BMI	qgxxxK	LDL_CE_int_imputed.txt_adiposity_instruments.txt	BMI	MR Egger	264	-0.329398705370255	0.179216547910645	0.067195605353984
+BMI	qgxxxK	LDL_CE_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted median	264	-0.0606638444611491	0.0351700379541108	0.0845503849746079
+BMI	qgxxxK	LDL_CE_int_imputed.txt_adiposity_instruments.txt	BMI	Inverse variance weighted (multiplicative random effects)	264	-0.10727224220038	0.0411642872817404	0.00916187449026145
+BMI	qgxxxK	LDL_CE_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted mode	264	0.0100265453429964	0.126599446751841	0.936934593320095
+BMI	qKruqs	Omega_6_int_imputed.txt_adiposity_instruments.txt	BMI	MR Egger	264	-0.273521274599677	0.140993718606462	0.0534583972628702
+BMI	qKruqs	Omega_6_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted median	264	-0.106151849265566	0.0353891533191924	0.00270370856239455
+BMI	qKruqs	Omega_6_int_imputed.txt_adiposity_instruments.txt	BMI	Inverse variance weighted (multiplicative random effects)	264	-0.127312692946837	0.0323548310383682	8.32348962438439e-05
+BMI	qKruqs	Omega_6_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted mode	264	-0.139555729908712	0.113266680438117	0.219012612948128
+BMI	QWKbWZ	Gly_int_imputed.txt_adiposity_instruments.txt	BMI	MR Egger	264	-0.087179966760541	0.125220574134422	0.486913726874799
+BMI	QWKbWZ	Gly_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted median	264	-0.153145318842658	0.0356091996276957	1.70241432320187e-05
+BMI	QWKbWZ	Gly_int_imputed.txt_adiposity_instruments.txt	BMI	Inverse variance weighted (multiplicative random effects)	264	-0.135917834081977	0.0286873001239393	2.15934114748736e-06
+BMI	QWKbWZ	Gly_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted mode	264	-0.195076280886396	0.121845906499583	0.110575578323981
+BMI	rckiZo	S_VLDL_C_pct_int_imputed.txt_adiposity_instruments.txt	BMI	MR Egger	264	-0.321166496413752	0.169961248508449	0.0599093723153203
+BMI	rckiZo	S_VLDL_C_pct_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted median	264	-0.138054992609063	0.034020597629759	4.9498458636036e-05
+BMI	rckiZo	S_VLDL_C_pct_int_imputed.txt_adiposity_instruments.txt	BMI	Inverse variance weighted (multiplicative random effects)	264	-0.167894634476853	0.0389796181314157	1.65302994806279e-05
+BMI	rckiZo	S_VLDL_C_pct_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted mode	264	-0.363621283593436	0.140524360846082	0.0102016259544191
+BMI	REjg0e	HDL_TG_int_imputed.txt_adiposity_instruments.txt	BMI	MR Egger	264	0.239632976067201	0.132852012165067	0.0724177319417633
+BMI	REjg0e	HDL_TG_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted median	264	0.0802391689243447	0.0361813238122307	0.0265755825806587
+BMI	REjg0e	HDL_TG_int_imputed.txt_adiposity_instruments.txt	BMI	Inverse variance weighted (multiplicative random effects)	264	0.118887333639332	0.0304689352779414	9.54328855212042e-05
+BMI	REjg0e	HDL_TG_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted mode	264	0.0520100518975708	0.132672830784007	0.695362866601664
+BMI	RiUuXD	Total_L_int_imputed.txt_adiposity_instruments.txt	BMI	MR Egger	264	-0.263878820393022	0.146909930681002	0.073615561443299
+BMI	RiUuXD	Total_L_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted median	264	-0.077060399721229	0.0344154670198565	0.0251480351701002
+BMI	RiUuXD	Total_L_int_imputed.txt_adiposity_instruments.txt	BMI	Inverse variance weighted (multiplicative random effects)	264	-0.102515698269244	0.0337214416669658	0.00236519556581359
+BMI	RiUuXD	Total_L_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted mode	264	-0.0821827904704531	0.122717971952971	0.503644025378209
+BMI	RKd2WE	L_LDL_FC_pct_int_imputed.txt_adiposity_instruments.txt	BMI	MR Egger	264	-0.4128467589569	0.152308038707603	0.00715972931513537
+BMI	RKd2WE	L_LDL_FC_pct_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted median	264	-0.283558081230339	0.0354323272212278	1.21614342457884e-15
+BMI	RKd2WE	L_LDL_FC_pct_int_imputed.txt_adiposity_instruments.txt	BMI	Inverse variance weighted (multiplicative random effects)	264	-0.304082281797198	0.0349100240090919	3.02650680370957e-18
+BMI	RKd2WE	L_LDL_FC_pct_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted mode	264	-0.310109789812722	0.128850159447294	0.0167851117645274
+BMI	Rkjfah	M_HDL_TG_int_imputed.txt_adiposity_instruments.txt	BMI	MR Egger	264	0.248456171657616	0.135620614795149	0.0680874328822664
+BMI	Rkjfah	M_HDL_TG_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted median	264	0.115824601049891	0.0344887988869231	0.000784163108351501
+BMI	Rkjfah	M_HDL_TG_int_imputed.txt_adiposity_instruments.txt	BMI	Inverse variance weighted (multiplicative random effects)	264	0.148385172004437	0.0310867299638099	1.81263842908154e-06
+BMI	Rkjfah	M_HDL_TG_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted mode	264	0.0758915950880614	0.123563208778823	0.539619060880461
+BMI	s3HiyE	XL_VLDL_C_int_imputed.txt_adiposity_instruments.txt	BMI	MR Egger	264	0.100197701492629	0.152102551915742	0.510634203495164
+BMI	s3HiyE	XL_VLDL_C_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted median	264	0.168175319435488	0.0360467433866516	3.0789914309001e-06
+BMI	s3HiyE	XL_VLDL_C_int_imputed.txt_adiposity_instruments.txt	BMI	Inverse variance weighted (multiplicative random effects)	264	0.169440673547458	0.0348411174654779	1.15480397132704e-06
+BMI	s3HiyE	XL_VLDL_C_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted mode	264	0.165508919852878	0.123638041018164	0.181838383399282
+BMI	s9hXNG	HDL_L_int_imputed.txt_adiposity_instruments.txt	BMI	MR Egger	264	-0.371261945551299	0.144639991094074	0.0108202262444215
+BMI	s9hXNG	HDL_L_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted median	264	-0.291697455353756	0.035514885091557	2.15037112879727e-16
+BMI	s9hXNG	HDL_L_int_imputed.txt_adiposity_instruments.txt	BMI	Inverse variance weighted (multiplicative random effects)	264	-0.278609633014084	0.0331439582430724	4.24065375839221e-17
+BMI	s9hXNG	HDL_L_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted mode	264	-0.439367537584511	0.115933090761285	0.000186945301077284
+BMI	sGaQln	XL_HDL_PL_int_imputed.txt_adiposity_instruments.txt	BMI	MR Egger	264	-0.357513715250853	0.140179839389083	0.0113297343702585
+BMI	sGaQln	XL_HDL_PL_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted median	264	-0.382865874465464	0.0363833781702434	6.76127522894608e-26
+BMI	sGaQln	XL_HDL_PL_int_imputed.txt_adiposity_instruments.txt	BMI	Inverse variance weighted (multiplicative random effects)	264	-0.384104589637102	0.0320939493168253	5.21910506312243e-33
+BMI	sGaQln	XL_HDL_PL_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted mode	264	-0.360068209619694	0.117898407208503	0.00248948162428474
+BMI	SoE3ta	LDL_C_int_imputed.txt_adiposity_instruments.txt	BMI	MR Egger	264	-0.361945020599869	0.182283947869888	0.0481188882178488
+BMI	SoE3ta	LDL_C_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted median	264	-0.0882854835747016	0.0359787903749903	0.0141347625218264
+BMI	SoE3ta	LDL_C_int_imputed.txt_adiposity_instruments.txt	BMI	Inverse variance weighted (multiplicative random effects)	264	-0.129271234683312	0.0418767047177073	0.00202222565616626
+BMI	SoE3ta	LDL_C_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted mode	264	-0.0105719308572194	0.129255749227497	0.934875284255671
+BMI	sXGEQV	DHA_pct_int_imputed.txt_adiposity_instruments.txt	BMI	MR Egger	264	-0.204953501668663	0.123597602879483	0.0984673591555984
+BMI	sXGEQV	DHA_pct_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted median	264	-0.234616218181237	0.0353312466457335	3.12676382414179e-11
+BMI	sXGEQV	DHA_pct_int_imputed.txt_adiposity_instruments.txt	BMI	Inverse variance weighted (multiplicative random effects)	264	-0.233619879289241	0.0283022345884505	1.52580823884383e-16
+BMI	sXGEQV	DHA_pct_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted mode	264	-0.272747755465026	0.106801215976194	0.0112203831228684
+BMI	tctbOR	XXL_VLDL_PL_int_imputed.txt_adiposity_instruments.txt	BMI	MR Egger	264	0.180210747109663	0.14099975528298	0.202347927090052
+BMI	tctbOR	XXL_VLDL_PL_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted median	264	0.211140609608541	0.0342850383775502	7.34885782204361e-10
+BMI	tctbOR	XXL_VLDL_PL_int_imputed.txt_adiposity_instruments.txt	BMI	Inverse variance weighted (multiplicative random effects)	264	0.236965626325161	0.0322956511708113	2.17807409896604e-13
+BMI	tctbOR	XXL_VLDL_PL_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted mode	264	0.102376532828565	0.12118787577313	0.399004082920003
+BMI	tGm9CY	XXL_VLDL_C_int_imputed.txt_adiposity_instruments.txt	BMI	MR Egger	264	0.15422682217046	0.142473698251022	0.280028655877023
+BMI	tGm9CY	XXL_VLDL_C_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted median	264	0.19457124948123	0.0359931462497177	6.45247660818857e-08
+BMI	tGm9CY	XXL_VLDL_C_int_imputed.txt_adiposity_instruments.txt	BMI	Inverse variance weighted (multiplicative random effects)	264	0.222425199140888	0.0326371861322115	9.42080174739984e-12
+BMI	tGm9CY	XXL_VLDL_C_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted mode	264	0.0311925330923581	0.123796269162411	0.801263616974178
+BMI	tHoCYJ	M_VLDL_TG_pct_int_imputed.txt_adiposity_instruments.txt	BMI	MR Egger	264	0.35359060821072	0.160638208079641	0.0285969086104652
+BMI	tHoCYJ	M_VLDL_TG_pct_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted median	264	0.25488183743997	0.036647506407716	3.52669165300634e-12
+BMI	tHoCYJ	M_VLDL_TG_pct_int_imputed.txt_adiposity_instruments.txt	BMI	Inverse variance weighted (multiplicative random effects)	264	0.26894324440631	0.036802061628902	2.71489072867e-13
+BMI	tHoCYJ	M_VLDL_TG_pct_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted mode	264	0.194026398909322	0.125736406916921	0.124003954221656
+BMI	TIkLwY	L_HDL_CE_int_imputed.txt_adiposity_instruments.txt	BMI	MR Egger	264	-0.462184440531948	0.149668817933944	0.00223132661105935
+BMI	TIkLwY	L_HDL_CE_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted median	264	-0.380689233008537	0.0351964527517615	2.88728171585038e-27
+BMI	TIkLwY	L_HDL_CE_int_imputed.txt_adiposity_instruments.txt	BMI	Inverse variance weighted (multiplicative random effects)	264	-0.396120397271724	0.034276889028126	6.84528309716298e-31
+BMI	TIkLwY	L_HDL_CE_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted mode	264	-0.377463236027526	0.115318236925552	0.00120564047538867
+BMI	TIrfFC	XL_VLDL_PL_int_imputed.txt_adiposity_instruments.txt	BMI	MR Egger	264	0.143458870528001	0.147757429394516	0.332489563311463
+BMI	TIrfFC	XL_VLDL_PL_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted median	264	0.189858986889389	0.0362461498687921	1.62285944827983e-07
+BMI	TIrfFC	XL_VLDL_PL_int_imputed.txt_adiposity_instruments.txt	BMI	Inverse variance weighted (multiplicative random effects)	264	0.205384650750778	0.0338437400000322	1.2901748160101e-09
+BMI	TIrfFC	XL_VLDL_PL_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted mode	264	0.114035909593372	0.112229645714866	0.310518284623101
+BMI	TjS3jN	L_VLDL_C_pct_int_imputed.txt_adiposity_instruments.txt	BMI	MR Egger	264	-0.07398262288474	0.130904504722086	0.572445268701294
+BMI	TjS3jN	L_VLDL_C_pct_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted median	264	-0.106112099180789	0.0342786716021515	0.00196433614389606
+BMI	TjS3jN	L_VLDL_C_pct_int_imputed.txt_adiposity_instruments.txt	BMI	Inverse variance weighted (multiplicative random effects)	264	-0.137665185781265	0.0299862557402912	4.41248200038061e-06
+BMI	TjS3jN	L_VLDL_C_pct_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted mode	264	-0.0325469428429392	0.120502796450525	0.787300643400427
+BMI	Tl9ILD	Leu_int_imputed.txt_adiposity_instruments.txt	BMI	MR Egger	264	0.21112475389764	0.111492105852387	0.0593758376509251
+BMI	Tl9ILD	Leu_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted median	264	0.199108638965037	0.0351944608476858	1.53696119864413e-08
+BMI	Tl9ILD	Leu_int_imputed.txt_adiposity_instruments.txt	BMI	Inverse variance weighted (multiplicative random effects)	264	0.229953052991863	0.0255302705973214	2.1162603054503e-19
+BMI	Tl9ILD	Leu_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted mode	264	0.0329238445937579	0.120648501083775	0.785151444384669
+BMI	TMDm9j	L_HDL_CE_pct_int_imputed.txt_adiposity_instruments.txt	BMI	MR Egger	264	-0.50319301022357	0.143293016375326	0.000524270897632552
+BMI	TMDm9j	L_HDL_CE_pct_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted median	264	-0.346339366090194	0.0366239500325805	3.18009361310724e-21
+BMI	TMDm9j	L_HDL_CE_pct_int_imputed.txt_adiposity_instruments.txt	BMI	Inverse variance weighted (multiplicative random effects)	264	-0.371312153247684	0.0328631910770215	1.33137140894286e-29
+BMI	TMDm9j	L_HDL_CE_pct_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted mode	264	-0.259825528016755	0.135477746758849	0.0562133858164532
+BMI	tPGVfB	IDL_FC_int_imputed.txt_adiposity_instruments.txt	BMI	MR Egger	264	-0.398931160157582	0.171473841080951	0.0207557879707683
+BMI	tPGVfB	IDL_FC_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted median	264	-0.153542041278496	0.0361983144647996	2.21842621728424e-05
+BMI	tPGVfB	IDL_FC_int_imputed.txt_adiposity_instruments.txt	BMI	Inverse variance weighted (multiplicative random effects)	264	-0.198807833463244	0.0393710777255901	4.42757356711966e-07
+BMI	tPGVfB	IDL_FC_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted mode	264	-0.0776742615305848	0.121417012224289	0.522904174493582
+BMI	tSNWwD	Val_int_imputed.txt_adiposity_instruments.txt	BMI	MR Egger	264	0.276303136624531	0.115373192740739	0.017329396075971
+BMI	tSNWwD	Val_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted median	264	0.257462128802242	0.0348227431897475	1.43007979461183e-13
+BMI	tSNWwD	Val_int_imputed.txt_adiposity_instruments.txt	BMI	Inverse variance weighted (multiplicative random effects)	264	0.239663054032251	0.0264225646653885	1.18588156615571e-19
+BMI	tSNWwD	Val_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted mode	264	0.31298061293032	0.109925502817209	0.00475843857990686
+BMI	tU2AU8	XL_HDL_FC_int_imputed.txt_adiposity_instruments.txt	BMI	MR Egger	264	-0.389866237165515	0.141713146341999	0.0063539748213002
+BMI	tU2AU8	XL_HDL_FC_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted median	264	-0.366850434647709	0.036925416439396	2.93461103820306e-23
+BMI	tU2AU8	XL_HDL_FC_int_imputed.txt_adiposity_instruments.txt	BMI	Inverse variance weighted (multiplicative random effects)	264	-0.366861856941875	0.0324460422993353	1.21397739148077e-29
+BMI	tU2AU8	XL_HDL_FC_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted mode	264	-0.378134841780106	0.116305569906244	0.00129902720260895
+BMI	TuBAT0	L_VLDL_PL_pct_int_imputed.txt_adiposity_instruments.txt	BMI	MR Egger	264	0.356886068391096	0.145433397868965	0.0147811118112445
+BMI	TuBAT0	L_VLDL_PL_pct_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted median	264	0.235509271675533	0.0367913999594201	1.54156022023567e-10
+BMI	TuBAT0	L_VLDL_PL_pct_int_imputed.txt_adiposity_instruments.txt	BMI	Inverse variance weighted (multiplicative random effects)	264	0.248037690469714	0.0333340122952022	9.99417219143504e-14
+BMI	TuBAT0	L_VLDL_PL_pct_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted mode	264	0.270062347044801	0.12019818744292	0.0254819757336991
+BMI	tXplDd	S_LDL_CE_pct_int_imputed.txt_adiposity_instruments.txt	BMI	MR Egger	264	0.0835788791294247	0.13126525020102	0.52486479108736
+BMI	tXplDd	S_LDL_CE_pct_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted median	264	0.0865288236662188	0.0347120403720064	0.0126754101120572
+BMI	tXplDd	S_LDL_CE_pct_int_imputed.txt_adiposity_instruments.txt	BMI	Inverse variance weighted (multiplicative random effects)	264	0.108442163129401	0.0300574715736345	0.000308772032256784
+BMI	tXplDd	S_LDL_CE_pct_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted mode	264	0.0538338145283053	0.129532220898599	0.678040348578184
+BMI	ul5yBk	M_VLDL_CE_int_imputed.txt_adiposity_instruments.txt	BMI	MR Egger	264	-0.304311547503647	0.169885974707905	0.0744042172637217
+BMI	ul5yBk	M_VLDL_CE_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted median	264	-0.117248471565176	0.0360739816618677	0.00115314695609288
+BMI	ul5yBk	M_VLDL_CE_int_imputed.txt_adiposity_instruments.txt	BMI	Inverse variance weighted (multiplicative random effects)	264	-0.148262028016555	0.0389663740797441	0.000141878093427071
+BMI	ul5yBk	M_VLDL_CE_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted mode	264	-0.189964274711632	0.130427149329051	0.146453312192471
+BMI	uupFwj	XL_HDL_P_int_imputed.txt_adiposity_instruments.txt	BMI	MR Egger	264	-0.40927043134253	0.139525118758918	0.00365054929886479
+BMI	uupFwj	XL_HDL_P_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted median	264	-0.393456562300005	0.0354574728260713	1.30341297721109e-28
+BMI	uupFwj	XL_HDL_P_int_imputed.txt_adiposity_instruments.txt	BMI	Inverse variance weighted (multiplicative random effects)	264	-0.409882386000533	0.0319414903246413	1.08123998278572e-37
+BMI	uupFwj	XL_HDL_P_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted mode	264	-0.386875783818942	0.129668689852078	0.00311682903999004
+BMI	uvSGRf	L_HDL_C_int_imputed.txt_adiposity_instruments.txt	BMI	MR Egger	264	-0.45948934573326	0.149022391319617	0.00226552793935268
+BMI	uvSGRf	L_HDL_C_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted median	264	-0.377211692709791	0.0370607119910165	2.48083851190056e-24
+BMI	uvSGRf	L_HDL_C_int_imputed.txt_adiposity_instruments.txt	BMI	Inverse variance weighted (multiplicative random effects)	264	-0.394772483633539	0.0341283501724094	6.0359965577531e-31
+BMI	uvSGRf	L_HDL_C_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted mode	264	-0.372329338279679	0.128338238922782	0.0040324532495883
+BMI	uVuy3c	S_VLDL_TG_pct_int_imputed.txt_adiposity_instruments.txt	BMI	MR Egger	264	0.382351200986123	0.172807563245507	0.0277888682532463
+BMI	uVuy3c	S_VLDL_TG_pct_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted median	264	0.166351486087297	0.036017354381052	3.86248217349821e-06
+BMI	uVuy3c	S_VLDL_TG_pct_int_imputed.txt_adiposity_instruments.txt	BMI	Inverse variance weighted (multiplicative random effects)	264	0.198982378110053	0.0396577094097909	5.23494300631558e-07
+BMI	uVuy3c	S_VLDL_TG_pct_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted mode	264	0.40074610099588	0.137364714604794	0.00383472309283725
+BMI	UWhaC5	Phosphoglyc_int_imputed.txt_adiposity_instruments.txt	BMI	MR Egger	264	-0.269988925090503	0.124191459639833	0.0306025335768573
+BMI	UWhaC5	Phosphoglyc_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted median	264	-0.151372310621517	0.034599773365854	1.214597981756e-05
+BMI	UWhaC5	Phosphoglyc_int_imputed.txt_adiposity_instruments.txt	BMI	Inverse variance weighted (multiplicative random effects)	264	-0.150442988433881	0.0284899389299831	1.28785777480394e-07
+BMI	UWhaC5	Phosphoglyc_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted mode	264	-0.179588342281497	0.11655187098498	0.124556865370108
+BMI	Uyyv8B	MUFA_int_imputed.txt_adiposity_instruments.txt	BMI	MR Egger	264	0.0981654044134301	0.138421831521193	0.478846012950207
+BMI	Uyyv8B	MUFA_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted median	264	0.183473724863961	0.0345836123594197	1.12536243257731e-07
+BMI	Uyyv8B	MUFA_int_imputed.txt_adiposity_instruments.txt	BMI	Inverse variance weighted (multiplicative random effects)	264	0.16309018201428	0.0317088324936425	2.69856842095109e-07
+BMI	Uyyv8B	MUFA_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted mode	264	0.223994410484806	0.128060894975875	0.0814360774974994
+BMI	v021TE	IDL_TG_pct_int_imputed.txt_adiposity_instruments.txt	BMI	MR Egger	264	0.597471170911997	0.161149356867774	0.000255392783970614
+BMI	v021TE	IDL_TG_pct_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted median	264	0.253953361301461	0.0354159112280239	7.466934450513e-13
+BMI	v021TE	IDL_TG_pct_int_imputed.txt_adiposity_instruments.txt	BMI	Inverse variance weighted (multiplicative random effects)	264	0.292260309256483	0.0371635690968003	3.71577916094761e-15
+BMI	v021TE	IDL_TG_pct_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted mode	264	0.382311361926194	0.131207509253366	0.00387774753301766
+BMI	V246f8	IDL_TG_int_imputed.txt_adiposity_instruments.txt	BMI	MR Egger	264	0.25059481699953	0.134406488276684	0.0633760490329938
+BMI	V246f8	IDL_TG_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted median	264	0.128987975724765	0.0355862698088216	0.000289346661212669
+BMI	V246f8	IDL_TG_int_imputed.txt_adiposity_instruments.txt	BMI	Inverse variance weighted (multiplicative random effects)	264	0.124431474165989	0.0308281830046761	5.43031817778419e-05
+BMI	V246f8	IDL_TG_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted mode	264	0.2484416519691	0.117655591930041	0.0356640438010811
+BMI	V2XBtk	L_VLDL_TG_pct_int_imputed.txt_adiposity_instruments.txt	BMI	MR Egger	264	-0.116758421748159	0.135614825568672	0.390049388076687
+BMI	V2XBtk	L_VLDL_TG_pct_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted median	264	-0.0599521313243917	0.034555538396582	0.0827496618925137
+BMI	V2XBtk	L_VLDL_TG_pct_int_imputed.txt_adiposity_instruments.txt	BMI	Inverse variance weighted (multiplicative random effects)	264	-0.0218380877291055	0.0310800203159705	0.482279681711571
+BMI	V2XBtk	L_VLDL_TG_pct_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted mode	264	-0.0929276838962148	0.123049675728467	0.450801990536894
+BMI	v9Oz0x	S_LDL_C_pct_int_imputed.txt_adiposity_instruments.txt	BMI	MR Egger	264	-0.314377461898905	0.122465764462761	0.0108121998247369
+BMI	v9Oz0x	S_LDL_C_pct_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted median	264	-0.104197086688974	0.0351558508363607	0.00303804599072631
+BMI	v9Oz0x	S_LDL_C_pct_int_imputed.txt_adiposity_instruments.txt	BMI	Inverse variance weighted (multiplicative random effects)	264	-0.0899660154093748	0.0282296927844657	0.00143792264964366
+BMI	v9Oz0x	S_LDL_C_pct_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted mode	264	-0.120167355462225	0.12204746401995	0.32572782364235
+BMI	vApCCI	M_LDL_CE_int_imputed.txt_adiposity_instruments.txt	BMI	MR Egger	264	-0.238795279437555	0.170401624629709	0.162287675184966
+BMI	vApCCI	M_LDL_CE_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted median	264	0.0289835120011522	0.036538885156119	0.427647464647204
+BMI	vApCCI	M_LDL_CE_int_imputed.txt_adiposity_instruments.txt	BMI	Inverse variance weighted (multiplicative random effects)	264	-0.0155657408601654	0.0391530709330928	0.690953684768967
+BMI	vApCCI	M_LDL_CE_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted mode	264	0.0711891999234986	0.13718057428947	0.604235346905735
+BMI	vBgjsy	Lactate_int_imputed.txt_adiposity_instruments.txt	BMI	MR Egger	264	0.0987568395946045	0.116386603308191	0.396920714818463
+BMI	vBgjsy	Lactate_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted median	264	0.065114399244936	0.0356501670155338	0.0677776441781597
+BMI	vBgjsy	Lactate_int_imputed.txt_adiposity_instruments.txt	BMI	Inverse variance weighted (multiplicative random effects)	264	0.0560140782321479	0.0266551010304906	0.035602416595778
+BMI	vBgjsy	Lactate_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted mode	264	0.0402862667357238	0.113667532893952	0.723306706551082
+BMI	VdPPz3	XS_VLDL_CE_pct_int_imputed.txt_adiposity_instruments.txt	BMI	MR Egger	264	-0.541762533282783	0.157518361394399	0.000678236152804869
+BMI	VdPPz3	XS_VLDL_CE_pct_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted median	264	-0.297820172148604	0.0363925644549735	2.75614340417374e-16
+BMI	VdPPz3	XS_VLDL_CE_pct_int_imputed.txt_adiposity_instruments.txt	BMI	Inverse variance weighted (multiplicative random effects)	264	-0.303336176412853	0.0362329663613521	5.67310225458181e-17
+BMI	VdPPz3	XS_VLDL_CE_pct_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted mode	264	-0.352554055146306	0.120775938981737	0.00381467906781956
+BMI	vhceKI	XL_VLDL_L_int_imputed.txt_adiposity_instruments.txt	BMI	MR Egger	264	0.147379353731419	0.147365943193812	0.318189224896049
+BMI	vhceKI	XL_VLDL_L_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted median	264	0.193249820427933	0.0364659798705939	1.16148838857968e-07
+BMI	vhceKI	XL_VLDL_L_int_imputed.txt_adiposity_instruments.txt	BMI	Inverse variance weighted (multiplicative random effects)	264	0.21508329195523	0.0337566180540922	1.87079832060461e-10
+BMI	vhceKI	XL_VLDL_L_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted mode	264	0.0999864959684946	0.121860667522228	0.412675018709905
+BMI	VIeAgJ	S_LDL_C_int_imputed.txt_adiposity_instruments.txt	BMI	MR Egger	264	-0.302314587860564	0.18635112693697	0.105945068533071
+BMI	VIeAgJ	S_LDL_C_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted median	264	-0.0153373803202229	0.0340355117506046	0.652257137751155
+BMI	VIeAgJ	S_LDL_C_int_imputed.txt_adiposity_instruments.txt	BMI	Inverse variance weighted (multiplicative random effects)	264	-0.068919978875732	0.0428058167815827	0.107384526287018
+BMI	VIeAgJ	S_LDL_C_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted mode	264	-0.0235855535900358	0.135166694863907	0.861612792606049
+BMI	W3n6ZD	M_LDL_L_int_imputed.txt_adiposity_instruments.txt	BMI	MR Egger	264	-0.265024735157851	0.17919142701769	0.140340677486194
+BMI	W3n6ZD	M_LDL_L_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted median	264	0.00567899525540228	0.0344641880541117	0.86911745832672
+BMI	W3n6ZD	M_LDL_L_int_imputed.txt_adiposity_instruments.txt	BMI	Inverse variance weighted (multiplicative random effects)	264	-0.0357290815829354	0.041166506646868	0.385440162306755
+BMI	W3n6ZD	M_LDL_L_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted mode	264	0.0595155276014818	0.140111717749958	0.671350223594593
+BMI	wM3GCC	XL_VLDL_C_pct_int_imputed.txt_adiposity_instruments.txt	BMI	MR Egger	264	-0.216740135059983	0.140809698497239	0.124952178638424
+BMI	wM3GCC	XL_VLDL_C_pct_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted median	264	-0.245252674692074	0.0347600943481797	1.71880544769516e-12
+BMI	wM3GCC	XL_VLDL_C_pct_int_imputed.txt_adiposity_instruments.txt	BMI	Inverse variance weighted (multiplicative random effects)	264	-0.257786854550681	0.0322500802374072	1.31298307126737e-15
+BMI	wM3GCC	XL_VLDL_C_pct_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted mode	264	-0.0984280601845087	0.121590989858257	0.418958637790566
+BMI	wtQCpA	XL_HDL_CE_pct_int_imputed.txt_adiposity_instruments.txt	BMI	MR Egger	264	-0.4049728967384	0.137991796308472	0.00363407558555632
+BMI	wtQCpA	XL_HDL_CE_pct_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted median	264	-0.115496954458623	0.035351519625197	0.00108655241571233
+BMI	wtQCpA	XL_HDL_CE_pct_int_imputed.txt_adiposity_instruments.txt	BMI	Inverse variance weighted (multiplicative random effects)	264	-0.140238847695529	0.0318291133494343	1.05300408187446e-05
+BMI	wtQCpA	XL_HDL_CE_pct_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted mode	264	-0.137030547220954	0.115235410800979	0.235458758652882
+BMI	x4eg3s	L_HDL_PL_int_imputed.txt_adiposity_instruments.txt	BMI	MR Egger	264	-0.389234809427516	0.149801350290586	0.00989797311807653
+BMI	x4eg3s	L_HDL_PL_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted median	264	-0.341670282286294	0.0359740113444276	2.14582047779431e-21
+BMI	x4eg3s	L_HDL_PL_int_imputed.txt_adiposity_instruments.txt	BMI	Inverse variance weighted (multiplicative random effects)	264	-0.346533169257825	0.0343002741902072	5.36174586608189e-24
+BMI	x4eg3s	L_HDL_PL_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted mode	264	-0.315591937757676	0.118250556710834	0.00808454381337799
+BMI	XbbwcH	S_VLDL_FC_pct_int_imputed.txt_adiposity_instruments.txt	BMI	MR Egger	264	-0.466678945024804	0.170078967368408	0.00649093685232309
+BMI	XbbwcH	S_VLDL_FC_pct_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted median	264	-0.235887956210238	0.03680931984954	1.47077976830479e-10
+BMI	XbbwcH	S_VLDL_FC_pct_int_imputed.txt_adiposity_instruments.txt	BMI	Inverse variance weighted (multiplicative random effects)	264	-0.265011527876097	0.0390537119962978	1.15427603289899e-11
+BMI	XbbwcH	S_VLDL_FC_pct_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted mode	264	-0.381669236764493	0.131920456727194	0.00413303857340085
+BMI	xeGlav	S_VLDL_FC_int_imputed.txt_adiposity_instruments.txt	BMI	MR Egger	264	-0.129131266784747	0.165454650861801	0.435822823077536
+BMI	xeGlav	S_VLDL_FC_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted median	264	-0.0057140572818025	0.0352525934798765	0.871235776034598
+BMI	xeGlav	S_VLDL_FC_int_imputed.txt_adiposity_instruments.txt	BMI	Inverse variance weighted (multiplicative random effects)	264	-0.0197872737123474	0.0379185744698693	0.601784586514293
+BMI	xeGlav	S_VLDL_FC_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted mode	264	-0.00724994963422176	0.11524417565203	0.949886381057353
+BMI	xhLelZ	IDL_PL_int_imputed.txt_adiposity_instruments.txt	BMI	MR Egger	264	-0.326269518346261	0.167281921227778	0.0521926710315531
+BMI	xhLelZ	IDL_PL_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted median	264	-0.12271378988886	0.0346061622641702	0.000391111689266545
+BMI	xhLelZ	IDL_PL_int_imputed.txt_adiposity_instruments.txt	BMI	Inverse variance weighted (multiplicative random effects)	264	-0.183517719889115	0.0383599190870376	1.71754473629611e-06
+BMI	xhLelZ	IDL_PL_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted mode	264	-0.0337595311793883	0.12252068212721	0.783116620081165
+BMI	xhpg8f	S_LDL_L_int_imputed.txt_adiposity_instruments.txt	BMI	MR Egger	264	-0.287087881094867	0.190188748083022	0.13237878526547
+BMI	xhpg8f	S_LDL_L_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted median	264	-0.0279843060944849	0.0341426917481593	0.412428207528493
+BMI	xhpg8f	S_LDL_L_int_imputed.txt_adiposity_instruments.txt	BMI	Inverse variance weighted (multiplicative random effects)	264	-0.0628332437310362	0.0436720926244937	0.150221234532298
+BMI	xhpg8f	S_LDL_L_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted mode	264	-0.0240950759667689	0.126433374306252	0.849005380200339
+BMI	XTYKH8	S_HDL_TG_int_imputed.txt_adiposity_instruments.txt	BMI	MR Egger	264	0.312793445345621	0.144367574068937	0.0311634121948998
+BMI	XTYKH8	S_HDL_TG_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted median	264	0.23683930579546	0.0354873919578576	2.49093353111917e-11
+BMI	XTYKH8	S_HDL_TG_int_imputed.txt_adiposity_instruments.txt	BMI	Inverse variance weighted (multiplicative random effects)	264	0.25064390865138	0.0330666393106121	3.45653026426049e-14
+BMI	XTYKH8	S_HDL_TG_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted mode	264	0.227257724728714	0.125589032273864	0.0715095416556949
+BMI	Xu9Igh	S_HDL_CE_pct_int_imputed.txt_adiposity_instruments.txt	BMI	MR Egger	264	-0.319921620369314	0.13743130656172	0.0206810674182797
+BMI	Xu9Igh	S_HDL_CE_pct_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted median	264	-0.0603381470052636	0.0348779088203251	0.0836335294240928
+BMI	Xu9Igh	S_HDL_CE_pct_int_imputed.txt_adiposity_instruments.txt	BMI	Inverse variance weighted (multiplicative random effects)	264	-0.0829698031924758	0.0316544832388334	0.00876446222215094
+BMI	Xu9Igh	S_HDL_CE_pct_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted mode	264	-0.0696865434511205	0.115380326674064	0.546382537577828
+BMI	Y7rFJp	S_LDL_FC_pct_int_imputed.txt_adiposity_instruments.txt	BMI	MR Egger	264	-0.416773918236134	0.15303951894977	0.00689748226442863
+BMI	Y7rFJp	S_LDL_FC_pct_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted median	264	-0.217782046790285	0.0358014186048052	1.17912882307598e-09
+BMI	Y7rFJp	S_LDL_FC_pct_int_imputed.txt_adiposity_instruments.txt	BMI	Inverse variance weighted (multiplicative random effects)	264	-0.230797317249958	0.0351454889714744	5.13695407193839e-11
+BMI	Y7rFJp	S_LDL_FC_pct_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted mode	264	-0.286191602993076	0.12935266868355	0.0277920601858631
+BMI	YdmEGq	Ala_int_imputed.txt_adiposity_instruments.txt	BMI	MR Egger	264	-0.0280933391131549	0.114102535075462	0.805711412063563
+BMI	YdmEGq	Ala_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted median	264	0.10410239767658	0.0362857658195569	0.00411824343783605
+BMI	YdmEGq	Ala_int_imputed.txt_adiposity_instruments.txt	BMI	Inverse variance weighted (multiplicative random effects)	264	0.0669800334744357	0.0261631207327336	0.0104644026487266
+BMI	YdmEGq	Ala_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted mode	264	0.175535892286761	0.126366440762963	0.165976743264254
+BMI	yIHbG8	M_LDL_PL_pct_int_imputed.txt_adiposity_instruments.txt	BMI	MR Egger	264	-0.0353904086993612	0.136170823881667	0.795147229335534
+BMI	yIHbG8	M_LDL_PL_pct_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted median	264	-0.0338987087205443	0.0342560313650074	0.322384799632127
+BMI	yIHbG8	M_LDL_PL_pct_int_imputed.txt_adiposity_instruments.txt	BMI	Inverse variance weighted (multiplicative random effects)	264	-0.0306333054666917	0.0311788893464789	0.325852845681613
+BMI	yIHbG8	M_LDL_PL_pct_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted mode	264	-0.132528936095329	0.124710354089931	0.288895576476792
+BMI	yNPH7j	M_VLDL_P_int_imputed.txt_adiposity_instruments.txt	BMI	MR Egger	264	-0.0937720974862872	0.159264314218568	0.556514215228979
+BMI	yNPH7j	M_VLDL_P_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted median	264	0.0227311883339425	0.0350511843914949	0.516652475094505
+BMI	yNPH7j	M_VLDL_P_int_imputed.txt_adiposity_instruments.txt	BMI	Inverse variance weighted (multiplicative random effects)	264	0.0240555067260809	0.0365079217614524	0.50995229748346
+BMI	yNPH7j	M_VLDL_P_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted mode	264	-0.00766454462736199	0.126621046272748	0.951778408466441
+BMI	yRQy3f	S_VLDL_P_int_imputed.txt_adiposity_instruments.txt	BMI	MR Egger	264	0.102969981412248	0.152816362829313	0.501022849479856
+BMI	yRQy3f	S_VLDL_P_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted median	264	0.107566252015611	0.036711697423008	0.00338932928736649
+BMI	yRQy3f	S_VLDL_P_int_imputed.txt_adiposity_instruments.txt	BMI	Inverse variance weighted (multiplicative random effects)	264	0.105429811102735	0.0349902200063046	0.00258574715246484
+BMI	yRQy3f	S_VLDL_P_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted mode	264	0.122741547187739	0.113278352584433	0.279561463131996
+BMI	yTvmrA	XL_VLDL_TG_int_imputed.txt_adiposity_instruments.txt	BMI	MR Egger	264	0.170610184391463	0.144921685341742	0.240160969043805
+BMI	yTvmrA	XL_VLDL_TG_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted median	264	0.214879071054703	0.0352940236508059	1.14146850406793e-09
+BMI	yTvmrA	XL_VLDL_TG_int_imputed.txt_adiposity_instruments.txt	BMI	Inverse variance weighted (multiplicative random effects)	264	0.232088510276422	0.0331949210152162	2.71599562205548e-12
+BMI	yTvmrA	XL_VLDL_TG_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted mode	264	0.158068093007036	0.127702924544145	0.216901601660657
+BMI	YTy1CR	M_LDL_C_int_imputed.txt_adiposity_instruments.txt	BMI	MR Egger	264	-0.286680791821048	0.176442921038294	0.105411948458531
+BMI	YTy1CR	M_LDL_C_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted median	264	-0.00499697273659999	0.034962408116007	0.886350079227799
+BMI	YTy1CR	M_LDL_C_int_imputed.txt_adiposity_instruments.txt	BMI	Inverse variance weighted (multiplicative random effects)	264	-0.0467135027859054	0.0405522556246438	0.249348390469562
+BMI	YTy1CR	M_LDL_C_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted mode	264	0.00700130452959424	0.131022183006648	0.957425069742947
+BMI	z05Ze7	LDL_PL_int_imputed.txt_adiposity_instruments.txt	BMI	MR Egger	264	-0.345983365013368	0.187051196714942	0.0654869315913892
+BMI	z05Ze7	LDL_PL_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted median	264	-0.0518870640852161	0.0357752659069823	0.14695777035915
+BMI	z05Ze7	LDL_PL_int_imputed.txt_adiposity_instruments.txt	BMI	Inverse variance weighted (multiplicative random effects)	264	-0.0998493847279092	0.0429805493587772	0.0201721934155716
+BMI	z05Ze7	LDL_PL_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted mode	264	-0.0340810022474285	0.128208185560996	0.790581882499543
+BMI	z1nVYC	VLDL_P_int_imputed.txt_adiposity_instruments.txt	BMI	MR Egger	264	0.0271139567603492	0.153853076352408	0.860247203746829
+BMI	z1nVYC	VLDL_P_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted median	264	0.0710577759193928	0.0341293928742906	0.0373414528523677
+BMI	z1nVYC	VLDL_P_int_imputed.txt_adiposity_instruments.txt	BMI	Inverse variance weighted (multiplicative random effects)	264	0.0704198911803047	0.0352335306346054	0.0456450220564054
+BMI	z1nVYC	VLDL_P_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted mode	264	0.0186431230860573	0.116521410227204	0.8730059327688
+BMI	z4dnj3	Omega_3_pct_int_imputed.txt_adiposity_instruments.txt	BMI	MR Egger	264	-0.0873501592176011	0.119987306381363	0.467266753205976
+BMI	z4dnj3	Omega_3_pct_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted median	264	-0.0890377862975033	0.0353177598512971	0.0117005716230799
+BMI	z4dnj3	Omega_3_pct_int_imputed.txt_adiposity_instruments.txt	BMI	Inverse variance weighted (multiplicative random effects)	264	-0.106264109412469	0.027473568274468	0.000109791494474097
+BMI	z4dnj3	Omega_3_pct_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted mode	264	-0.07039158833966	0.12217828340762	0.565014403063731
+BMI	z9Hv6x	Acetate_int_imputed.txt_adiposity_instruments.txt	BMI	MR Egger	264	0.0488733446923078	0.102965689753441	0.635427143395839
+BMI	z9Hv6x	Acetate_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted median	264	-0.129705092913195	0.0354484132824016	0.000253219491280902
+BMI	z9Hv6x	Acetate_int_imputed.txt_adiposity_instruments.txt	BMI	Inverse variance weighted (multiplicative random effects)	264	-0.116499525462995	0.0236983521416258	8.83603470581046e-07
+BMI	z9Hv6x	Acetate_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted mode	264	-0.191875877842205	0.113900547763333	0.0932537093936761
+BMI	zExuvI	PUFA_int_imputed.txt_adiposity_instruments.txt	BMI	MR Egger	264	-0.256349049038701	0.139349874052551	0.0669572102737207
+BMI	zExuvI	PUFA_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted median	264	-0.115272438892588	0.0349657003943966	0.000978178311123323
+BMI	zExuvI	PUFA_int_imputed.txt_adiposity_instruments.txt	BMI	Inverse variance weighted (multiplicative random effects)	264	-0.127269947090327	0.0319637114181129	6.84237738809418e-05
+BMI	zExuvI	PUFA_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted mode	264	-0.135809780542126	0.118161427042371	0.251452538123716
+BMI	zfmT2P	M_LDL_FC_pct_int_imputed.txt_adiposity_instruments.txt	BMI	MR Egger	264	-0.40144771548057	0.154596492197912	0.00994285091278427
+BMI	zfmT2P	M_LDL_FC_pct_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted median	264	-0.272787266518388	0.0371091610303369	1.96815763565499e-13
+BMI	zfmT2P	M_LDL_FC_pct_int_imputed.txt_adiposity_instruments.txt	BMI	Inverse variance weighted (multiplicative random effects)	264	-0.287196553709301	0.0354362770558484	5.29229808465834e-16
+BMI	zfmT2P	M_LDL_FC_pct_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted mode	264	-0.373541186988053	0.129145870455267	0.00414298724511569
+BMI	zFycp4	S_VLDL_PL_int_imputed.txt_adiposity_instruments.txt	BMI	MR Egger	264	-0.041548879124677	0.160923416617335	0.79646267590671
+BMI	zFycp4	S_VLDL_PL_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted median	264	0.0205612947866088	0.0356700197032912	0.564324091795942
+BMI	zFycp4	S_VLDL_PL_int_imputed.txt_adiposity_instruments.txt	BMI	Inverse variance weighted (multiplicative random effects)	264	0.0344137519373877	0.0368638389954185	0.350542856165567
+BMI	zFycp4	S_VLDL_PL_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted mode	264	-0.00451783500635994	0.119133379500877	0.969778246454385
+BMI	ZRp6g2	XL_HDL_FC_pct_int_imputed.txt_adiposity_instruments.txt	BMI	MR Egger	264	0.317592616946071	0.144361538745967	0.0286815670614935
+BMI	ZRp6g2	XL_HDL_FC_pct_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted median	264	0.363416183250435	0.0349230247122786	2.32296249442373e-25
+BMI	ZRp6g2	XL_HDL_FC_pct_int_imputed.txt_adiposity_instruments.txt	BMI	Inverse variance weighted (multiplicative random effects)	264	0.368640499098681	0.0330584502565344	7.06685340611489e-29
+BMI	ZRp6g2	XL_HDL_FC_pct_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted mode	264	0.332440185282299	0.116528288707752	0.004676977068465
+BMI	ZxAwLM	L_LDL_CE_pct_int_imputed.txt_adiposity_instruments.txt	BMI	MR Egger	264	-0.257621039208664	0.133156837394641	0.0541012453563097
+BMI	ZxAwLM	L_LDL_CE_pct_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted median	264	-0.0928856752609795	0.0357742806941573	0.00941961073437965
+BMI	ZxAwLM	L_LDL_CE_pct_int_imputed.txt_adiposity_instruments.txt	BMI	Inverse variance weighted (multiplicative random effects)	264	-0.147606530707353	0.0305311971833125	1.3340473481952e-06
+BMI	ZxAwLM	L_LDL_CE_pct_int_imputed.txt_adiposity_instruments.txt	BMI	Weighted mode	264	-0.0307144940629103	0.118120684770749	0.795046874052338
