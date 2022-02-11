@@ -1,0 +1,13 @@
+unique.adiposity_metabolites.UKB_label.
+la
+xsvldlc
+ldlc
+ldlp
+svldlcpct
+lldlc
+mldlfcpct
+lhdll
+ldlce
+xsvldlcepct
+mhdlcepct
+lhdlcepct
