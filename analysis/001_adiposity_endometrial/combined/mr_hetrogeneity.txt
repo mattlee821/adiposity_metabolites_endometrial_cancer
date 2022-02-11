@@ -1,0 +1,37 @@
+id.exposure	id.outcome	outcome	exposure	method	Q	Q_df	Q_pval
+BMI	ebi-a-GCST006464	Endometrial cancer || id:ebi-a-GCST006464	BMI	Maximum likelihood	666.663015393921	516	7.85219088419427e-06
+BMI	ebi-a-GCST006464	Endometrial cancer || id:ebi-a-GCST006464	BMI	MR Egger	668.161195653014	515	5.7268343501775e-06
+BMI	ebi-a-GCST006464	Endometrial cancer || id:ebi-a-GCST006464	BMI	Inverse variance weighted	668.164838583681	516	6.56228674919715e-06
+BMI	ebi-a-GCST006464	Endometrial cancer || id:ebi-a-GCST006464	BMI	Unweighted regression	0.320038335034749	516	1
+BMI	ebi-a-GCST006465	Endometrial cancer (endometrioid histology) || id:ebi-a-GCST006465	BMI	Maximum likelihood	677.922739973194	516	1.98515930872668e-06
+BMI	ebi-a-GCST006465	Endometrial cancer (endometrioid histology) || id:ebi-a-GCST006465	BMI	MR Egger	679.043645320632	515	1.49293952741249e-06
+BMI	ebi-a-GCST006465	Endometrial cancer (endometrioid histology) || id:ebi-a-GCST006465	BMI	Inverse variance weighted	679.055080191508	516	1.72229561724232e-06
+BMI	ebi-a-GCST006465	Endometrial cancer (endometrioid histology) || id:ebi-a-GCST006465	BMI	Unweighted regression	0.42158140159736	516	1
+BMI	ebi-a-GCST006466	Endometrial cancer (Non-endometrioid histology) || id:ebi-a-GCST006466	BMI	Maximum likelihood	485.225058438553	516	0.830680826202648
+BMI	ebi-a-GCST006466	Endometrial cancer (Non-endometrioid histology) || id:ebi-a-GCST006466	BMI	MR Egger	485.05113234739	515	0.824079362893639
+BMI	ebi-a-GCST006466	Endometrial cancer (Non-endometrioid histology) || id:ebi-a-GCST006466	BMI	Inverse variance weighted	485.258852116494	516	0.830404061279326
+BMI	ebi-a-GCST006466	Endometrial cancer (Non-endometrioid histology) || id:ebi-a-GCST006466	BMI	Unweighted regression	1.94226668119573	516	1
+WHR	ebi-a-GCST006464	Endometrial cancer || id:ebi-a-GCST006464	WHR	Maximum likelihood	421.471428620082	313	4.03331690907037e-05
+WHR	ebi-a-GCST006464	Endometrial cancer || id:ebi-a-GCST006464	WHR	MR Egger	419.659724009089	312	4.41128335026874e-05
+WHR	ebi-a-GCST006464	Endometrial cancer || id:ebi-a-GCST006464	WHR	Inverse variance weighted	421.724100291336	313	3.89597496277919e-05
+WHR	ebi-a-GCST006464	Endometrial cancer || id:ebi-a-GCST006464	WHR	Unweighted regression	0.251592415851406	313	1
+WHR	ebi-a-GCST006465	Endometrial cancer (endometrioid histology) || id:ebi-a-GCST006465	WHR	Maximum likelihood	429.644479205818	313	1.28121826510894e-05
+WHR	ebi-a-GCST006465	Endometrial cancer (endometrioid histology) || id:ebi-a-GCST006465	WHR	MR Egger	428.965234078148	312	1.194154624476e-05
+WHR	ebi-a-GCST006465	Endometrial cancer (endometrioid histology) || id:ebi-a-GCST006465	WHR	Inverse variance weighted	429.873616014738	313	1.23972799612928e-05
+WHR	ebi-a-GCST006465	Endometrial cancer (endometrioid histology) || id:ebi-a-GCST006465	WHR	Unweighted regression	0.322627029552942	313	1
+WHR	ebi-a-GCST006466	Endometrial cancer (Non-endometrioid histology) || id:ebi-a-GCST006466	WHR	Maximum likelihood	369.450062301942	312	0.0139586950647796
+WHR	ebi-a-GCST006466	Endometrial cancer (Non-endometrioid histology) || id:ebi-a-GCST006466	WHR	MR Egger	369.389078227213	311	0.0127013396295827
+WHR	ebi-a-GCST006466	Endometrial cancer (Non-endometrioid histology) || id:ebi-a-GCST006466	WHR	Inverse variance weighted	369.452082701722	312	0.0139561214500317
+WHR	ebi-a-GCST006466	Endometrial cancer (Non-endometrioid histology) || id:ebi-a-GCST006466	WHR	Unweighted regression	1.65962459936544	312	1
+WHRadjBMI	ebi-a-GCST006464	Endometrial cancer || id:ebi-a-GCST006464	WHRadjBMI	Maximum likelihood	532.869772739764	322	1.26646511894003e-12
+WHRadjBMI	ebi-a-GCST006464	Endometrial cancer || id:ebi-a-GCST006464	WHRadjBMI	MR Egger	532.775172320472	321	9.96747405208832e-13
+WHRadjBMI	ebi-a-GCST006464	Endometrial cancer || id:ebi-a-GCST006464	WHRadjBMI	Inverse variance weighted	532.870296786534	322	1.26633076991967e-12
+WHRadjBMI	ebi-a-GCST006464	Endometrial cancer || id:ebi-a-GCST006464	WHRadjBMI	Unweighted regression	0.311814459542214	322	1
+WHRadjBMI	ebi-a-GCST006465	Endometrial cancer (endometrioid histology) || id:ebi-a-GCST006465	WHRadjBMI	Maximum likelihood	494.761955792771	322	1.87245761486345e-09
+WHRadjBMI	ebi-a-GCST006465	Endometrial cancer (endometrioid histology) || id:ebi-a-GCST006465	WHRadjBMI	MR Egger	494.748200728734	321	1.50261701574048e-09
+WHRadjBMI	ebi-a-GCST006465	Endometrial cancer (endometrioid histology) || id:ebi-a-GCST006465	WHRadjBMI	Inverse variance weighted	494.787612437568	322	1.86382495367723e-09
+WHRadjBMI	ebi-a-GCST006465	Endometrial cancer (endometrioid histology) || id:ebi-a-GCST006465	WHRadjBMI	Unweighted regression	0.420801159474161	322	1
+WHRadjBMI	ebi-a-GCST006466	Endometrial cancer (Non-endometrioid histology) || id:ebi-a-GCST006466	WHRadjBMI	Maximum likelihood	350.240961507608	318	0.103143309098012
+WHRadjBMI	ebi-a-GCST006466	Endometrial cancer (Non-endometrioid histology) || id:ebi-a-GCST006466	WHRadjBMI	MR Egger	350.217664673354	317	0.0964504385190844
+WHRadjBMI	ebi-a-GCST006466	Endometrial cancer (Non-endometrioid histology) || id:ebi-a-GCST006466	WHRadjBMI	Inverse variance weighted	350.264203890162	318	0.102988269379894
+WHRadjBMI	ebi-a-GCST006466	Endometrial cancer (Non-endometrioid histology) || id:ebi-a-GCST006466	WHRadjBMI	Unweighted regression	1.6796766488453	318	1
