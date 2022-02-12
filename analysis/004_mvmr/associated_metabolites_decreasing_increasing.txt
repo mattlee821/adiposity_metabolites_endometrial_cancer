@@ -1,5 +1,0 @@
-unique.adiposity_metabolites.UKB_label.
-xlhdlpl
-xlhdltg
-lhdlfcpct
-acetone
