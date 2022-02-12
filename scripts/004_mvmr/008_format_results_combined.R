@@ -3,12 +3,11 @@ rm(list=ls())
 directory_1 <- Sys.getenv("directory_1")
 setwd(directory_1)
 
-
 # mvmr BMI ====
-my_files <- list.files(path = "adiposity_metabolites_endometrial_cancer/analysis/004_mvmr/results/adiposity/bmi/", pattern = "*txt")
+my_files <- list.files(path = "adiposity_metabolites_endometrial_cancer/analysis/004_mvmr/combined/results/adiposity/bmi/", pattern = "*txt")
 data <- list()
 for (i in seq_along(my_files)) {
-  data[[i]] <- read.table(paste0("adiposity_metabolites_endometrial_cancer/analysis/004_mvmr/results/adiposity/bmi/",file = my_files[i]), header = T, sep = "\t")
+  data[[i]] <- read.table(paste0("adiposity_metabolites_endometrial_cancer/analysis/004_mvmr/combined/results/adiposity/bmi/",file = my_files[i]), header = T, sep = "\t")
 }
 my_files <- gsub("_int_imputed.txt", "", my_files)
 my_files = gsub("_", "", my_files)
@@ -48,7 +47,7 @@ for (i in 1:length(mvmr_result))
   colnames(mvmr_result[[i]])[8] <- "pval"
 mvmr_result <- bind_rows(mvmr_result, .id = "column_label")
 mvmr_result <- subset(mvmr_result, select = -column_label)
-write.table(mvmr_result, "adiposity_metabolites_endometrial_cancer/analysis/004_mvmr/results/combined/bmi_mvmr_results_formatted.txt", 
+write.table(mvmr_result, "adiposity_metabolites_endometrial_cancer/analysis/004_mvmr/combined/results/combined/bmi_mvmr_results_formatted.txt", 
             row.names = FALSE, col.names = TRUE, quote = FALSE, sep = "\t")
 
 ## sensitivity ====
@@ -57,15 +56,15 @@ for (i in 1:length(data))
   mvmr_sensitivity[[i]] <- data[[i]][,c("exposure", "outcome", "group", "adjusted", "method", "fstat.exposure1", "fstat.exposure2", "Qstat", "Qpval")]
 mvmr_sensitivity <- bind_rows(mvmr_sensitivity, .id = "column_label")
 mvmr_sensitivity <- subset(mvmr_sensitivity, select = -column_label)
-write.table(mvmr_sensitivity, "adiposity_metabolites_endometrial_cancer/analysis/004_mvmr/results/combined/bmi_mvmr_sensitivity_formatted.txt", 
+write.table(mvmr_sensitivity, "adiposity_metabolites_endometrial_cancer/analysis/004_mvmr/combined/results/combined/bmi_mvmr_sensitivity_formatted.txt", 
             row.names = FALSE, col.names = TRUE, quote = FALSE, sep = "\t")
 
 
 # mvmr WHR ====
-my_files <- list.files(path = "adiposity_metabolites_endometrial_cancer/analysis/004_mvmr/results/adiposity/whr/", pattern = "*txt")
+my_files <- list.files(path = "adiposity_metabolites_endometrial_cancer/analysis/004_mvmr/combined/results/adiposity/whr/", pattern = "*txt")
 data <- list()
 for (i in seq_along(my_files)) {
-  data[[i]] <- read.table(paste0("adiposity_metabolites_endometrial_cancer/analysis/004_mvmr/results/adiposity/whr/",file = my_files[i]), header = T, sep = "\t")
+  data[[i]] <- read.table(paste0("adiposity_metabolites_endometrial_cancer/analysis/004_mvmr/combined/results/adiposity/whr/",file = my_files[i]), header = T, sep = "\t")
 }
 my_files <- gsub("_int_imputed.txt", "", my_files)
 my_files = gsub("_", "", my_files)
@@ -105,7 +104,7 @@ for (i in 1:length(mvmr_result))
   colnames(mvmr_result[[i]])[8] <- "pval"
 mvmr_result <- bind_rows(mvmr_result, .id = "column_label")
 mvmr_result <- subset(mvmr_result, select = -column_label)
-write.table(mvmr_result, "adiposity_metabolites_endometrial_cancer/analysis/004_mvmr/results/combined/whr_mvmr_results_formatted.txt", 
+write.table(mvmr_result, "adiposity_metabolites_endometrial_cancer/analysis/004_mvmr/combined/results/combined/whr_mvmr_results_formatted.txt", 
             row.names = FALSE, col.names = TRUE, quote = FALSE, sep = "\t")
 
 ## sensitivity ====
@@ -114,15 +113,15 @@ for (i in 1:length(data))
   mvmr_sensitivity[[i]] <- data[[i]][,c("exposure", "outcome", "group", "adjusted", "method", "fstat.exposure1", "fstat.exposure2", "Qstat", "Qpval")]
 mvmr_sensitivity <- bind_rows(mvmr_sensitivity, .id = "column_label")
 mvmr_sensitivity <- subset(mvmr_sensitivity, select = -column_label)
-write.table(mvmr_sensitivity, "adiposity_metabolites_endometrial_cancer/analysis/004_mvmr/results/combined/whr_mvmr_sensitivity_formatted.txt", 
+write.table(mvmr_sensitivity, "adiposity_metabolites_endometrial_cancer/analysis/004_mvmr/combined/results/combined/whr_mvmr_sensitivity_formatted.txt", 
             row.names = FALSE, col.names = TRUE, quote = FALSE, sep = "\t")
 
 
 # mvmr WHRadjBMI ====
-my_files <- list.files(path = "adiposity_metabolites_endometrial_cancer/analysis/004_mvmr/results/adiposity/whradjbmi/", pattern = "*txt")
+my_files <- list.files(path = "adiposity_metabolites_endometrial_cancer/analysis/004_mvmr/combined/results/adiposity/whradjbmi/", pattern = "*txt")
 data <- list()
 for (i in seq_along(my_files)) {
-  data[[i]] <- read.table(paste0("adiposity_metabolites_endometrial_cancer/analysis/004_mvmr/results/adiposity/whradjbmi/",file = my_files[i]), header = T, sep = "\t")
+  data[[i]] <- read.table(paste0("adiposity_metabolites_endometrial_cancer/analysis/004_mvmr/combined/results/adiposity/whradjbmi/",file = my_files[i]), header = T, sep = "\t")
 }
 my_files <- gsub("_int_imputed.txt", "", my_files)
 my_files = gsub("_", "", my_files)
@@ -162,7 +161,7 @@ for (i in 1:length(mvmr_result))
   colnames(mvmr_result[[i]])[8] <- "pval"
 mvmr_result <- bind_rows(mvmr_result, .id = "column_label")
 mvmr_result <- subset(mvmr_result, select = -column_label)
-write.table(mvmr_result, "adiposity_metabolites_endometrial_cancer/analysis/004_mvmr/results/combined/whradjbmi_mvmr_results_formatted.txt", 
+write.table(mvmr_result, "adiposity_metabolites_endometrial_cancer/analysis/004_mvmr/combined/results/combined/whradjbmi_mvmr_results_formatted.txt", 
             row.names = FALSE, col.names = TRUE, quote = FALSE, sep = "\t")
 
 ## sensitivity ====
@@ -171,32 +170,31 @@ for (i in 1:length(data))
   mvmr_sensitivity[[i]] <- data[[i]][,c("exposure", "outcome", "group", "adjusted", "method", "fstat.exposure1", "fstat.exposure2", "Qstat", "Qpval")]
 mvmr_sensitivity <- bind_rows(mvmr_sensitivity, .id = "column_label")
 mvmr_sensitivity <- subset(mvmr_sensitivity, select = -column_label)
-write.table(mvmr_sensitivity, "adiposity_metabolites_endometrial_cancer/analysis/004_mvmr/results/combined/whradjbmi_mvmr_sensitivity_formatted.txt", 
+write.table(mvmr_sensitivity, "adiposity_metabolites_endometrial_cancer/analysis/004_mvmr/combined/results/combined/whradjbmi_mvmr_sensitivity_formatted.txt", 
             row.names = FALSE, col.names = TRUE, quote = FALSE, sep = "\t")
 
 # combined ====
 ## master results ====
-my_files <- list.files(path = "adiposity_metabolites_endometrial_cancer/analysis/004_mvmr/results/combined/", pattern = "*results*")
+my_files <- c("bmi_mvmr_results_formatted.txt","whr_mvmr_results_formatted.txt","whradjbmi_mvmr_results_formatted.txt")
 data <- list()
 for (i in seq_along(my_files)) {
-  data[[i]] <- read.table(paste0("adiposity_metabolites_endometrial_cancer/analysis/004_mvmr/results/combined/",file = my_files[i]), header = T, sep = "\t")
+  data[[i]] <- read.table(paste0("adiposity_metabolites_endometrial_cancer/analysis/004_mvmr/female/results/combined/",file = my_files[i]), header = T, sep = "\t")
 }
-data = data[-3] # remove negative control dataframe
 data <- bind_rows(data, .id = "column_label")
 data <- subset(data, select = -column_label)
 
-write.table(data, "adiposity_metabolites_endometrial_cancer/analysis/004_mvmr/results/combined/combined_results.txt", 
+write.table(data, "adiposity_metabolites_endometrial_cancer/analysis/004_mvmr/female/results/combined/combined_results.txt", 
             row.names = FALSE, col.names = TRUE, quote = FALSE, sep = "\t")
 
 ## sensitivity ====
-my_files <- list.files(path = "adiposity_metabolites_endometrial_cancer/analysis/004_mvmr/results/combined/", pattern = "*sensitivity*")
+my_files <- c("bmi_mvmr_sensitivity_formatted.txt","whr_mvmr_sensitivity_formatted.txt","whradjbmi_mvmr_sensitivity_formatted.txt")
 data <- list()
 for (i in seq_along(my_files)) {
-  data[[i]] <- read.table(paste0("adiposity_metabolites_endometrial_cancer/analysis/004_mvmr/results/combined/",file = my_files[i]), header = T, sep = "\t")
+  data[[i]] <- read.table(paste0("adiposity_metabolites_endometrial_cancer/analysis/004_mvmr/female/results/combined/",file = my_files[i]), header = T, sep = "\t")
 }
 data = data[-3] # remove negative control dataframe
 data <- bind_rows(data, .id = "column_label")
 data <- subset(data, select = -column_label)
 
-write.table(data, "adiposity_metabolites_endometrial_cancer/analysis/004_mvmr/results/combined/combined_sensitivity.txt", 
+write.table(data, "adiposity_metabolites_endometrial_cancer/analysis/004_mvmr/female/results/combined/combined_sensitivity.txt", 
             row.names = FALSE, col.names = TRUE, quote = FALSE, sep = "\t")

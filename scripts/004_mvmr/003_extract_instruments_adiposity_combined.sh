@@ -33,7 +33,7 @@ grep -w -F -f ${BMI_SNP_DIR}/LDL_CE_int_imputed.txt ${ADIPOSITY_DIR}/${BMI} > ${
 grep -w -F -f ${BMI_SNP_DIR}/LDL_P_int_imputed.txt ${ADIPOSITY_DIR}/${BMI} > ${BMI_INSTRUMENTS_SNP_DIR}/LDL_P_int_imputed.txt
 grep -w -F -f ${BMI_SNP_DIR}/M_HDL_CE_pct_int_imputed.txt ${ADIPOSITY_DIR}/${BMI} > ${BMI_INSTRUMENTS_SNP_DIR}/M_HDL_CE_pct_int_imputed.txt
 grep -w -F -f ${BMI_SNP_DIR}/M_LDL_FC_pct_int_imputed.txt ${ADIPOSITY_DIR}/${BMI} > ${BMI_INSTRUMENTS_SNP_DIR}/M_LDL_FC_pct_int_imputed.txt
-grep -w -F -f ${BMI_SNP_DIR}/S_HDL_TG_pct_int_imputed.txt ${ADIPOSITY_DIR}/${BMI} > ${BMI_INSTRUMENTS_SNP_DIR}/.imputed.txt
+grep -w -F -f ${BMI_SNP_DIR}/S_HDL_TG_pct_int_imputed.txt ${ADIPOSITY_DIR}/${BMI} > ${BMI_INSTRUMENTS_SNP_DIR}/S_HDL_TG_pct_int_imputed.imputed.txt
 grep -w -F -f ${BMI_SNP_DIR}/S_VLDL_C_pct_int_imputed.txt ${ADIPOSITY_DIR}/${BMI} > ${BMI_INSTRUMENTS_SNP_DIR}/S_VLDL_C_pct_int_imputed.txt
 grep -w -F -f ${BMI_SNP_DIR}/S_VLDL_TG_int_imputed.txt ${ADIPOSITY_DIR}/${BMI} > ${BMI_INSTRUMENTS_SNP_DIR}/S_VLDL_TG_int_imputed.txt
 grep -w -F -f ${BMI_SNP_DIR}/S_VLDL_TG_pct_int_imputed.txt ${ADIPOSITY_DIR}/${BMI} > ${BMI_INSTRUMENTS_SNP_DIR}/S_VLDL_TG_pct_int_imputed.txt
@@ -54,7 +54,7 @@ grep -w -F -f ${WHR_SNP_DIR}/LDL_CE_int_imputed.txt ${ADIPOSITY_DIR}/${WHR} > ${
 grep -w -F -f ${WHR_SNP_DIR}/LDL_P_int_imputed.txt ${ADIPOSITY_DIR}/${WHR} > ${WHR_INSTRUMENTS_SNP_DIR}/LDL_P_int_imputed.txt
 grep -w -F -f ${WHR_SNP_DIR}/M_HDL_CE_pct_int_imputed.txt ${ADIPOSITY_DIR}/${WHR} > ${WHR_INSTRUMENTS_SNP_DIR}/M_HDL_CE_pct_int_imputed.txt
 grep -w -F -f ${WHR_SNP_DIR}/M_LDL_FC_pct_int_imputed.txt ${ADIPOSITY_DIR}/${WHR} > ${WHR_INSTRUMENTS_SNP_DIR}/M_LDL_FC_pct_int_imputed.txt
-grep -w -F -f ${WHR_SNP_DIR}/S_HDL_TG_pct_int_imputed.txt ${ADIPOSITY_DIR}/${WHR} > ${WHR_INSTRUMENTS_SNP_DIR}/.imputed.txt
+grep -w -F -f ${WHR_SNP_DIR}/S_HDL_TG_pct_int_imputed.txt ${ADIPOSITY_DIR}/${WHR} > ${WHR_INSTRUMENTS_SNP_DIR}/S_HDL_TG_pct_int_imputed.imputed.txt
 grep -w -F -f ${WHR_SNP_DIR}/S_VLDL_C_pct_int_imputed.txt ${ADIPOSITY_DIR}/${WHR} > ${WHR_INSTRUMENTS_SNP_DIR}/S_VLDL_C_pct_int_imputed.txt
 grep -w -F -f ${WHR_SNP_DIR}/S_VLDL_TG_int_imputed.txt ${ADIPOSITY_DIR}/${WHR} > ${WHR_INSTRUMENTS_SNP_DIR}/S_VLDL_TG_int_imputed.txt
 grep -w -F -f ${WHR_SNP_DIR}/S_VLDL_TG_pct_int_imputed.txt ${ADIPOSITY_DIR}/${WHR} > ${WHR_INSTRUMENTS_SNP_DIR}/S_VLDL_TG_pct_int_imputed.txt
@@ -75,7 +75,7 @@ grep -w -F -f ${WHRadjBMI_SNP_DIR}/LDL_CE_int_imputed.txt ${ADIPOSITY_DIR}/${WHR
 grep -w -F -f ${WHRadjBMI_SNP_DIR}/LDL_P_int_imputed.txt ${ADIPOSITY_DIR}/${WHRadjBMI} > ${WHRadjBMI_INSTRUMENTS_SNP_DIR}/LDL_P_int_imputed.txt
 grep -w -F -f ${WHRadjBMI_SNP_DIR}/M_HDL_CE_pct_int_imputed.txt ${ADIPOSITY_DIR}/${WHRadjBMI} > ${WHRadjBMI_INSTRUMENTS_SNP_DIR}/M_HDL_CE_pct_int_imputed.txt
 grep -w -F -f ${WHRadjBMI_SNP_DIR}/M_LDL_FC_pct_int_imputed.txt ${ADIPOSITY_DIR}/${WHRadjBMI} > ${WHRadjBMI_INSTRUMENTS_SNP_DIR}/M_LDL_FC_pct_int_imputed.txt
-grep -w -F -f ${WHRadjBMI_SNP_DIR}/S_HDL_TG_pct_int_imputed.txt ${ADIPOSITY_DIR}/${WHRadjBMI} > ${WHRadjBMI_INSTRUMENTS_SNP_DIR}/.imputed.txt
+grep -w -F -f ${WHRadjBMI_SNP_DIR}/S_HDL_TG_pct_int_imputed.txt ${ADIPOSITY_DIR}/${WHRadjBMI} > ${WHRadjBMI_INSTRUMENTS_SNP_DIR}/S_HDL_TG_pct_int_imputed.imputed.txt
 grep -w -F -f ${WHRadjBMI_SNP_DIR}/S_VLDL_C_pct_int_imputed.txt ${ADIPOSITY_DIR}/${WHRadjBMI} > ${WHRadjBMI_INSTRUMENTS_SNP_DIR}/S_VLDL_C_pct_int_imputed.txt
 grep -w -F -f ${WHRadjBMI_SNP_DIR}/S_VLDL_TG_int_imputed.txt ${ADIPOSITY_DIR}/${WHRadjBMI} > ${WHRadjBMI_INSTRUMENTS_SNP_DIR}/S_VLDL_TG_int_imputed.txt
 grep -w -F -f ${WHRadjBMI_SNP_DIR}/S_VLDL_TG_pct_int_imputed.txt ${ADIPOSITY_DIR}/${WHRadjBMI} > ${WHRadjBMI_INSTRUMENTS_SNP_DIR}/S_VLDL_TG_pct_int_imputed.txt

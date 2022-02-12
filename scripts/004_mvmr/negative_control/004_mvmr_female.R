@@ -12,7 +12,7 @@ library(data.table)
 library(dplyr)
 
 # bmi instruments ====
-exposure_data <- read_exposure_data("adiposity_metabolites_endometrial_cancer/analysis/004_mvmr/adiposity_instruments/BMI_adj_WHR.txt",
+exposure_data <- read_exposure_data("adiposity_metabolites_endometrial_cancer/analysis/004_mvmr/female/adiposity_instruments/BMI_adj_WHR_female.txt",
                         clump = F,
                         sep = " ",
                         snp_col = "SNP",
@@ -35,7 +35,7 @@ exposure_data <- clump_data(exposure_data,
 
 
 # whr instruments ====
-outcome_data <- read_outcome_data("adiposity_metabolites_endometrial_cancer/analysis/004_mvmr/adiposity_instruments/WHR_adj_BMI.txt",
+outcome_data <- read_outcome_data("adiposity_metabolites_endometrial_cancer/analysis/004_mvmr/female/adiposity_instruments/WHR_adj_BMI_female.txt",
                                     sep = " ",
                                     snp_col = "SNP",
                                     beta_col = "BETA",
@@ -220,6 +220,6 @@ table3 <- data.frame(
 # save ====
 meta_table <- rbind(table, table2, table3)
 
-write.table(meta_table, "adiposity_metabolites_endometrial_cancer/analysis/004_mvmr/results/negative_control.txt", 
+write.table(meta_table, "adiposity_metabolites_endometrial_cancer/analysis/004_mvmr/female/results/combined/negative_control_female.txt", 
                                  row.names = FALSE, col.names = TRUE, quote = FALSE, sep = "\t")
 

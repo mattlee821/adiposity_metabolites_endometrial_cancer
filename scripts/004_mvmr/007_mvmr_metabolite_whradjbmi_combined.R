@@ -12,10 +12,10 @@ library(data.table)
 library(dplyr)
 
 # metabolite instruments ====
-my_files <- list.files(path = "adiposity_metabolites_endometrial_cancer/analysis/004_mvmr/metabolite_instruments/whradjbmi/", pattern = "*txt")
+my_files <- list.files(path = "adiposity_metabolites_endometrial_cancer/analysis/004_mvmr/combined/metabolite_instruments/whradjbmi/", pattern = "*txt")
 metabolites <- list()
 for (i in seq_along(my_files)) {
-  metabolites[[i]] <- read.table(paste0("adiposity_metabolites_endometrial_cancer/analysis/004_mvmr/metabolite_instruments/whradjbmi/",file = my_files[i]), header = T, sep = "\t")
+  metabolites[[i]] <- read.table(paste0("adiposity_metabolites_endometrial_cancer/analysis/004_mvmr/combined/metabolite_instruments/whradjbmi/",file = my_files[i]), header = T, sep = "\t")
 }
 names(metabolites) <- gsub("\\.txt$", "", my_files)
 
@@ -32,10 +32,10 @@ for (i in 1:length(metabolites))
   metabolites[[i]] <- select(metabolites[[i]], c("CHR","POS","SNP","effect_allele.exposure","other_allele.exposure","eaf.exposure","beta.exposure","se.exposure","pval.exposure","samplesize.exposure","exposure","id.exposure"))
 
 # adiposity instruments ====
-my_files <- list.files(path = "adiposity_metabolites_endometrial_cancer/analysis/004_mvmr/adiposity_instruments/whradjbmi/", pattern = "*txt")
+my_files <- list.files(path = "adiposity_metabolites_endometrial_cancer/analysis/004_mvmr/combined/adiposity_instruments/whradjbmi/", pattern = "*txt")
 adiposity <- list()
 for (i in seq_along(my_files)) {
-  adiposity[[i]] <- read.table(paste0("adiposity_metabolites_endometrial_cancer/analysis/004_mvmr/adiposity_instruments/whradjbmi/",file = my_files[i]), header = T, sep = " ")
+  adiposity[[i]] <- read.table(paste0("adiposity_metabolites_endometrial_cancer/analysis/004_mvmr/combined/adiposity_instruments/whradjbmi/",file = my_files[i]), header = T, sep = " ")
 }
 names(adiposity) <- gsub("\\.txt$", "", my_files)
 
@@ -290,6 +290,6 @@ for (i in 1:length(table))
   meta_table[[i]] <- rbind(table[[i]], table2[[i]], table3[[i]])
 
 for (i in 1:length(meta_table))
-  write.table(meta_table[[i]], paste0("adiposity_metabolites_endometrial_cancer/analysis/004_mvmr/results/metabolites/whradjbmi/",my_files[[i]]), 
+  write.table(meta_table[[i]], paste0("adiposity_metabolites_endometrial_cancer/analysis/004_mvmr/combined/results/metabolites/whradjbmi/",my_files[[i]]), 
               row.names = FALSE, col.names = TRUE, quote = FALSE, sep = "\t")
 

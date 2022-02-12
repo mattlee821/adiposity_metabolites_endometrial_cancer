@@ -16,7 +16,7 @@ ls *.txt | while read f; do grep -w -F -f /user/work/ml16847/001_projects/adipos
 ls *.txt | while read f; do grep -w -F -f /user/work/ml16847/001_projects/adiposity_metabolites_endometrial_cancer/data/adiposity/whradjbmi_snp_list_female.txt ${f} > /user/work/ml16847/001_projects/adiposity_metabolites_endometrial_cancer/data/adiposity_metabolites_outcomes/female/whradjbmi/${f}_adiposity_instruments.txt; done;
 
 
-cd /user/work/ml16847/UKB_NMR_GWAS/nmr_dat_combined/
+cd /user/work/ml16847/UKB_NMR_GWAS/nmr_dat_all/
 
 # loop through metabolite summary stats
 ls *.txt | while read f; do grep -w -F -f /user/work/ml16847/001_projects/adiposity_metabolites_endometrial_cancer/data/adiposity/bmi_snp_list_combined.txt ${f} > /user/work/ml16847/001_projects/adiposity_metabolites_endometrial_cancer/data/adiposity_metabolites_outcomes/combined/bmi/${f}_adiposity_instruments.txt; done;

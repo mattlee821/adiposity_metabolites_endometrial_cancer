@@ -11,54 +11,50 @@ library(MVMR)
 library(data.table)
 library(dplyr)
 
-# adiposity instruments ====
-my_files <- list.files(path = "adiposity_metabolites_endometrial_cancer/analysis/004_mvmr/adiposity_instruments/whradjbmi/", pattern = "*txt")
-adiposity <- list()
-for (i in seq_along(my_files)) {
-  adiposity[[i]] <- read.table(paste0("adiposity_metabolites_endometrial_cancer/analysis/004_mvmr/adiposity_instruments/whradjbmi/",file = my_files[i]), header = T, sep = " ")
-}
-names(adiposity) <- gsub("\\.txt$", "", my_files)
-
-for (i in 1:length(adiposity))
-  colnames(adiposity[[i]]) <- c("CHR","POS","SNP","effect_allele.exposure","other_allele.exposure","eaf.exposure","beta.exposure","se.exposure","pval.exposure","samplesize.exposure","INFO")
-for (i in 1:length(adiposity))
-  adiposity[[i]]$exposure <- "WHRadjBMI"
-for (i in 1:length(adiposity))
-  adiposity[[i]]$id.exposure <- "WHR_adjBMI"
-for (i in 1:length(adiposity))
-  adiposity[[i]]$SNP <- gsub(":.*", "", adiposity[[i]]$SNP)
-for (i in 1:length(adiposity))
-  adiposity[[i]] <- select(adiposity[[i]], c("CHR","POS","SNP","effect_allele.exposure","other_allele.exposure","eaf.exposure","beta.exposure","se.exposure","pval.exposure","samplesize.exposure","exposure","id.exposure"))
-
 # metabolite instruments ====
-my_files <- list.files(path = "adiposity_metabolites_endometrial_cancer/analysis/004_mvmr/metabolite_instruments/whradjbmi/", pattern = "*txt")
+my_files <- list.files(path = "adiposity_metabolites_endometrial_cancer/analysis/004_mvmr/female/metabolite_instruments/bmi/", pattern = "*txt")
 metabolites <- list()
 for (i in seq_along(my_files)) {
-  metabolites[[i]] <- read.table(paste0("adiposity_metabolites_endometrial_cancer/analysis/004_mvmr/metabolite_instruments/whradjbmi/",file = my_files[i]), header = T, sep = "\t")
+  metabolites[[i]] <- read.table(paste0("adiposity_metabolites_endometrial_cancer/analysis/004_mvmr/female/metabolite_instruments/bmi/",file = my_files[i]), header = T, sep = "\t")
 }
 names(metabolites) <- gsub("\\.txt$", "", my_files)
 
 for (i in 1:length(metabolites))
-  metabolites[[i]] <- select(metabolites[[i]], c("SNP", "CHR", "BP", "ALLELE1", "ALLELE0", "A1FREQ",
-                                                 "INFO", "BETA", "SE", "P_BOLT_LMM_INF")) 
+  colnames(metabolites[[i]]) <- c("SNP","CHR","POS","GENPOS","effect_allele.exposure","other_allele.exposure","eaf.exposure",
+                                  "INFO","CHISQ_LINREG","P_LINREG","beta.exposure","se.exposure","CHISQ_BOLT_LMM_INF","pval.exposure")
 for (i in 1:length(metabolites))
-  colnames(metabolites[[i]]) <- c("SNP","CHR","POS","effect_allele.outcome","other_allele.outcome","eaf.outcome",
-                                  "INFO","beta.outcome","se.outcome","pval.outcome")
+  metabolites[[i]]$exposure <- my_files[[i]]
 for (i in 1:length(metabolites))
-  metabolites[[i]]$outcome <- my_files[[i]]
+  metabolites[[i]]$id.exposure <- my_files[[i]]
 for (i in 1:length(metabolites))
-  metabolites[[i]]$id.outcome <- my_files[[i]]
+  metabolites[[i]]$samplesize.exposure <- 118466
 for (i in 1:length(metabolites))
-  metabolites[[i]]$samplesize.outcome <- 118466
-for (i in 1:length(metabolites))
-  metabolites[[i]] <- select(metabolites[[i]], c("CHR","POS","SNP","effect_allele.outcome","other_allele.outcome","eaf.outcome","beta.outcome","se.outcome","pval.outcome","samplesize.outcome","outcome","id.outcome"))
+  metabolites[[i]] <- select(metabolites[[i]], c("CHR","POS","SNP","effect_allele.exposure","other_allele.exposure","eaf.exposure","beta.exposure","se.exposure","pval.exposure","samplesize.exposure","exposure","id.exposure"))
 
-# harmonise adiposity instruments and metabolite instruments ====
-harmonize_data <- list()
+# adiposity instruments ====
+my_files <- list.files(path = "adiposity_metabolites_endometrial_cancer/analysis/004_mvmr/female/adiposity_instruments/bmi/", pattern = "*txt")
+adiposity <- list()
+for (i in seq_along(my_files)) {
+  adiposity[[i]] <- read.table(paste0("adiposity_metabolites_endometrial_cancer/analysis/004_mvmr/female/adiposity_instruments/bmi/",file = my_files[i]), header = T, sep = " ")
+}
+names(adiposity) <- gsub("\\.txt$", "", my_files)
+
 for (i in 1:length(adiposity))
-  harmonize_data[[i]] <- harmonise_data(exposure_dat = adiposity[[i]], outcome_dat = metabolites[[i]])
+  colnames(adiposity[[i]]) <- c("CHR","POS","SNP","effect_allele.outcome","other_allele.outcome","eaf.outcome","beta.outcome","se.outcome","pval.outcome","samplesize.outcome","INFO")
+for (i in 1:length(adiposity))
+  adiposity[[i]]$outcome <- "BMI"
+for (i in 1:length(adiposity))
+  adiposity[[i]]$id.outcome <- "BMI"
+for (i in 1:length(adiposity))
+  adiposity[[i]]$SNP <- gsub(":.*", "", adiposity[[i]]$SNP)
+for (i in 1:length(adiposity))
+  adiposity[[i]] <- select(adiposity[[i]], c("CHR","POS","SNP","effect_allele.outcome","other_allele.outcome","eaf.outcome","beta.outcome","se.outcome","pval.outcome","samplesize.outcome","outcome","id.outcome"))
 
-names(harmonize_data[[1]])
+
+# harmonise metabolite instruments and adiposity instruments ====
+harmonize_data <- list()
+for (i in 1:length(metabolites))
+  harmonize_data[[i]] <- harmonise_data(exposure_dat = metabolites[[i]], outcome_dat = adiposity[[i]])
 
 for (i in 1:length(harmonize_data))
   harmonize_data[[i]] <- harmonize_data[[i]][,c(
@@ -92,7 +88,7 @@ outcome <- list()
 for (i in 1:length(harmonize_data))
   outcome[[i]] <- extract_outcome_data(harmonize_data[[i]]$SNP, c('ebi-a-GCST006464'), proxies = 1, rsq = 0.8, align_alleles = 1, palindromes = 1, maf_threshold = 0.3)
 
-# harmonise adiposity and metabolite instruments with outcome data ====
+# harmonise metabolite and adiposity instruments with outcome data ====
 harmonise_outcome <- list()
 for (i in 1:length(harmonize_data))
   harmonise_outcome[[i]] <- harmonise_data(exposure_dat = harmonize_data[[i]], outcome_dat = outcome[[i]])
@@ -107,8 +103,8 @@ for (i in 1:length(harmonise_outcome))
 for (i in 1:length(harmonise_outcome))
   colnames(harmonise_outcome[[i]]) <- c(
     "SNP",
-    "adiposity_b", "metabolite_b", "outcome_b",
-    "adiposity_se","metabolite_se", "outcome_se",
+    "metabolite_b", "adiposity_b", "outcome_b",
+    "metabolite_se","adiposity_se", "outcome_se",
     "outcome")
 
 # format data for MVMR ====
@@ -143,8 +139,8 @@ for (i in 1:length(result))
     se = c(result[[i]][1,2], result[[i]][2,2]),
     t = c(result[[i]][1,3], result[[i]][2,3]),
     p = c(result[[i]][1,4], result[[i]][2,4]),
-    exposure = c("whradjbmi", my_files[[i]]),
-    group = c(paste0("whradjbmi_",my_files[[i]])),
+    exposure = c(my_files[[i]],"bmi"),
+    group = c(paste0("bmi_",my_files[[i]])),
     outcome = c("endometrial_cancer","endometrial_cancer"),
     fstat = c(fstat[[i]]),
     qstat = c(qstat[[i]][1]),
@@ -173,8 +169,8 @@ for (i in 1:length(harmonise_outcome))
 for (i in 1:length(harmonise_outcome))
   colnames(harmonise_outcome[[i]]) <- c(
     "SNP",
-    "adiposity_b", "metabolite_b", "outcome_b",
-    "adiposity_se","metabolite_se", "outcome_se",
+    "metabolite_b", "adiposity_b", "outcome_b",
+    "metabolite_se","adiposity_se", "outcome_se",
     "outcome")
 
 # format data for MVMR ====
@@ -209,8 +205,8 @@ for (i in 1:length(result))
     se = c(result[[i]][1,2], result[[i]][2,2]),
     t = c(result[[i]][1,3], result[[i]][2,3]),
     p = c(result[[i]][1,4], result[[i]][2,4]),
-    exposure = c("whradjbmi", my_files[[i]]),
-    group = c(paste0("whradjbmi_",my_files[[i]])),
+    exposure = c(my_files[[i]],"bmi"),
+    group = c(paste0("bmi_",my_files[[i]])),
     outcome = c("endometrioid_cancer","endometrioid_cancer"),
     fstat = c(fstat[[i]]),
     qstat = c(qstat[[i]][1]),
@@ -241,8 +237,8 @@ for (i in 1:length(harmonise_outcome))
 for (i in 1:length(harmonise_outcome))
   colnames(harmonise_outcome[[i]]) <- c(
     "SNP",
-    "adiposity_b", "metabolite_b", "outcome_b",
-    "adiposity_se","metabolite_se", "outcome_se",
+    "metabolite_b", "adiposity_b", "outcome_b",
+    "metabolite_se","adiposity_se", "outcome_se",
     "outcome")
 
 # format data for MVMR ====
@@ -277,8 +273,8 @@ for (i in 1:length(result))
     se = c(result[[i]][1,2], result[[i]][2,2]),
     t = c(result[[i]][1,3], result[[i]][2,3]),
     p = c(result[[i]][1,4], result[[i]][2,4]),
-    exposure = c("whradjbmi", my_files[[i]]),
-    group = c(paste0("whradjbmi_",my_files[[i]])),
+    exposure = c(my_files[[i]],"bmi"),
+    group = c(paste0("bmi_",my_files[[i]])),
     outcome = c("non_endometrioid_cancer","non_endometrioid_cancer"),
     fstat = c(fstat[[i]]),
     qstat = c(qstat[[i]][1]),
@@ -294,5 +290,6 @@ for (i in 1:length(table))
   meta_table[[i]] <- rbind(table[[i]], table2[[i]], table3[[i]])
 
 for (i in 1:length(meta_table))
-  write.table(meta_table[[i]], paste0("adiposity_metabolites_endometrial_cancer/analysis/004_mvmr/results/adiposity/whradjbmi/",my_files[[i]]), 
+  write.table(meta_table[[i]], paste0("adiposity_metabolites_endometrial_cancer/analysis/004_mvmr/female/results/metabolites/bmi/",my_files[[i]]), 
               row.names = FALSE, col.names = TRUE, quote = FALSE, sep = "\t")
+

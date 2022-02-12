@@ -22,11 +22,11 @@ discrete_palette <- c(discrete_palette,a)
 source("adiposity_metabolites_endometrial_cancer/scripts/my_forestplot.R")
 
 # MVMR main plot ====
-increasing_increasing <- read.table("adiposity_metabolites_endometrial_cancer/analysis/004_mvmr/associated_metabolites_increasing_increasing.txt", header = T, sep = "\t")
+increasing_increasing <- read.table("adiposity_metabolites_endometrial_cancer/analysis/004_mvmr/combined/associated_metabolites_increasing_increasing.txt", header = T, sep = "\t")
 increasing_increasing <- increasing_increasing[,1]
-decreasing_decreasing <- read.table("adiposity_metabolites_endometrial_cancer/analysis/004_mvmr/associated_metabolites_decreasing_decreasing.txt", header = T, sep = "\t")
+decreasing_decreasing <- read.table("adiposity_metabolites_endometrial_cancer/analysis/004_mvmr/combined/associated_metabolites_decreasing_decreasing.txt", header = T, sep = "\t")
 decreasing_decreasing <- decreasing_decreasing[,1]
-data <- read.table("adiposity_metabolites_endometrial_cancer/analysis/004_mvmr/results/combined/2smr_mvmr_formatted_results.txt", header = T, sep = "\t", stringsAsFactors = T)
+data <- read.table("adiposity_metabolites_endometrial_cancer/analysis/004_mvmr/combined/results/combined/2smr_mvmr_formatted_results.txt", header = T, sep = "\t", stringsAsFactors = T)
 data <- subset(data, method == "Multivariable MR")
 data <- subset(data, exposure == "BMI")
 pos_pos <- data[data$adjusted %in% increasing_increasing,]
@@ -35,11 +35,11 @@ neg_neg <- data[data$adjusted %in% decreasing_decreasing,]
 neg_neg <- droplevels(neg_neg)
 
 # MR ====
-mr <- read.table("adiposity_metabolites_endometrial_cancer/analysis/004_mvmr/results/combined/2smr_mvmr_formatted_results.txt", header = T, sep = "\t", stringsAsFactors = T)
+mr <- read.table("adiposity_metabolites_endometrial_cancer/analysis/004_mvmr/combined/results/combined/2smr_mvmr_formatted_results.txt", header = T, sep = "\t", stringsAsFactors = T)
 mr <- subset(mr, group == "Adiposity on cancer")
 
 # negative control
-negative_control <- read.table("adiposity_metabolites_endometrial_cancer/analysis/004_mvmr/results/combined/2smr_mvmr_formatted_results.txt", header = T, sep = "\t", stringsAsFactors = T)
+negative_control <- read.table("adiposity_metabolites_endometrial_cancer/analysis/004_mvmr/combined/results/combined/2smr_mvmr_formatted_results.txt", header = T, sep = "\t", stringsAsFactors = T)
 negative_control <- subset(negative_control, method == "Negative control MVMR" & exposure == "BMI")
 
 # combine ====
@@ -67,59 +67,59 @@ min(neg_neg$lower_ci, pos_pos$lower_ci)
 # colours ====
 colours1 <- c("#F2AD00", "#FF0000", "#5BBCD6",
               "#b76da8",
-               "#5fbe50",
-               "#c656be",
-               "#4b8c39",
-               "#7862cf",
-               "#a8b547",
-               "#7083ca",
-               "#d59d3b",
-               "#45aecf",
-               "#d35238",
-               "#5ec396",
-               "#cf3d72",
-               "#36815b",
-               "#c56872",
-               "#7b7b35",
-               "#b77544")
+              "#5fbe50",
+              "#c656be",
+              "#4b8c39",
+              "#7862cf",
+              "#a8b547",
+              "#7083ca",
+              "#d59d3b",
+              "#45aecf",
+              "#d35238",
+              "#5ec396",
+              "#cf3d72",
+              "#36815b",
+              "#c56872",
+              "#7b7b35",
+              "#b77544")
 
 colours2 <- c("#F2AD00", "#FF0000", "#5BBCD6",
               "#5482d2",
-               "#97bc37",
-               "#8b5cd5",
-               "#45992e",
-               "#9e40b6",
-               "#52c86b",
-               "#dd64d1",
-               "#678429",
-               "#516add",
-               "#d4a433",
-               "#b079db",
-               "#b5a94d",
-               "#a64297",
-               "#3a8a51",
-               "#de4a9f",
-               "#90bb76",
-               "#e4427b",
-               "#50c5b8",
-               "#dc414c",
-               "#348d72",
-               "#ce502a",
-               "#52a5d6",
-               "#d97f2e",
-               "#6557a0",
-               "#617e40",
-               "#b23a72",
-               "#746c27",
-               "#a797db",
-               "#9a622b",
-               "#da89c3",
-               "#e1986c",
-               "#99517a",
-               "#ae594f",
-               "#e47f8e",
-               "#ae394a")
-  
+              "#97bc37",
+              "#8b5cd5",
+              "#45992e",
+              "#9e40b6",
+              "#52c86b",
+              "#dd64d1",
+              "#678429",
+              "#516add",
+              "#d4a433",
+              "#b079db",
+              "#b5a94d",
+              "#a64297",
+              "#3a8a51",
+              "#de4a9f",
+              "#90bb76",
+              "#e4427b",
+              "#50c5b8",
+              "#dc414c",
+              "#348d72",
+              "#ce502a",
+              "#52a5d6",
+              "#d97f2e",
+              "#6557a0",
+              "#617e40",
+              "#b23a72",
+              "#746c27",
+              "#a797db",
+              "#9a622b",
+              "#da89c3",
+              "#e1986c",
+              "#99517a",
+              "#ae594f",
+              "#e47f8e",
+              "#ae394a")
+
 
 
 # plot pos_pos ====
@@ -132,18 +132,18 @@ min(plot_data$lower_ci)
 # outcome 1
 plot_data1 <- subset(plot_data, outcome == "Endometrial cancer")
 p1 <- my_forestplot(df = plot_data1,
-                 name = exposure,
-                 estimate = b,
-                 pvalue = pval,
-                 psignif = psignif,
-                 ci = ci,
-                 se = se,
-                 colour = adjusted,
-                 logodds = T) +
+                    name = exposure,
+                    estimate = b,
+                    pvalue = pval,
+                    psignif = psignif,
+                    ci = ci,
+                    se = se,
+                    colour = adjusted,
+                    logodds = T) +
   scale_colour_manual(values = colours1) +
   theme(axis.title.x = element_blank()) +
   theme(legend.position = "none") +
-  coord_cartesian(xlim = c(0.8, 3.5)) +
+  coord_cartesian(xlim = c(0.7, 2.5)) +
   ggtitle("Endometrial cancer") +
   ggforce::facet_col(facets = ~method,
                      scales = "free_y",
@@ -152,19 +152,19 @@ p1 <- my_forestplot(df = plot_data1,
 # outcome 2
 plot_data1 <- subset(plot_data, outcome == "Endometrioid cancer")
 p2 <- my_forestplot(df = plot_data1,
-                 name = exposure,
-                 estimate = b,
-                 pvalue = pval,
-                 psignif = psignif,
-                 ci = ci,
-                 se = se,
-                 colour = adjusted,
-                 logodds = T) +
+                    name = exposure,
+                    estimate = b,
+                    pvalue = pval,
+                    psignif = psignif,
+                    ci = ci,
+                    se = se,
+                    colour = adjusted,
+                    logodds = T) +
   scale_colour_manual(values = colours1) +
   theme(axis.title.x = element_blank()) +
   theme(axis.text.y = element_blank()) +
   theme(legend.position = "none") +
-  coord_cartesian(xlim = c(0.8, 3.5)) +
+  coord_cartesian(xlim = c(0.7, 2.5)) +
   ggtitle("Endometrioid cancer") +
   ggforce::facet_col(facets = ~method,
                      scales = "free_y",
@@ -173,14 +173,14 @@ p2 <- my_forestplot(df = plot_data1,
 # outcome 3
 plot_data1 <- subset(plot_data, outcome == "Non-endometrioid cancer")
 p3 <- my_forestplot(df = plot_data1,
-                 name = exposure,
-                 estimate = b,
-                 pvalue = pval,
-                 psignif = psignif,
-                 ci = ci,
-                 se = se,
-                 colour = adjusted,
-                 logodds = T) +
+                    name = exposure,
+                    estimate = b,
+                    pvalue = pval,
+                    psignif = psignif,
+                    ci = ci,
+                    se = se,
+                    colour = adjusted,
+                    logodds = T) +
   scale_colour_manual(values = colours1) +
   theme(axis.title.x = element_blank()) +
   theme(axis.text.y = element_blank()) +
@@ -193,14 +193,14 @@ p3 <- my_forestplot(df = plot_data1,
 
 # y_axis and legend
 legend <- my_forestplot(df = plot_data1,
-                     name = exposure,
-                     estimate = b,
-                     pvalue = pval,
-                     psignif = psignif,
-                     ci = ci,
-                     se = se,
-                     colour = adjusted,
-                     logodds = T) +
+                        name = exposure,
+                        estimate = b,
+                        pvalue = pval,
+                        psignif = psignif,
+                        ci = ci,
+                        se = se,
+                        colour = adjusted,
+                        logodds = T) +
   scale_colour_manual(values = colours1) +
   theme(legend.title = element_blank()) +
   ggforce::facet_col(facets = ~method,
@@ -208,7 +208,7 @@ legend <- my_forestplot(df = plot_data1,
                      space = "free") 
 legend <- get_legend(legend)
 
-pdf("adiposity_metabolites_endometrial_cancer/analysis/004_mvmr/figures/forestplot_positive_positive.pdf",
+pdf("adiposity_metabolites_endometrial_cancer/analysis/004_mvmr/combined/figures/forestplot_positive_positive.pdf",
     width = 16, height = 9, pointsize = 10)
 plot_grid(p1,p2,p3,legend, nrow = 1, rel_widths = c(1.2,1,1,0.4))
 dev.off()
@@ -223,18 +223,18 @@ min(plot_data$lower_ci)
 # outcome 1
 plot_data1 <- subset(plot_data, outcome == "Endometrial cancer")
 p1 <- my_forestplot(df = plot_data1,
-                 name = exposure,
-                 estimate = b,
-                 pvalue = pval,
-                 psignif = psignif,
-                 ci = ci,
-                 se = se,
-                 colour = adjusted,
-                 logodds = T) +
+                    name = exposure,
+                    estimate = b,
+                    pvalue = pval,
+                    psignif = psignif,
+                    ci = ci,
+                    se = se,
+                    colour = adjusted,
+                    logodds = T) +
   scale_colour_manual(values = colours2) +
   theme(axis.title.x = element_blank()) +
   theme(legend.position = "none") +
-  coord_cartesian(xlim = c(0.8, 3.5)) +
+  coord_cartesian(xlim = c(0.7, 2.5)) +
   ggtitle("Endometrial cancer") +
   ggforce::facet_col(facets = ~method,
                      scales = "free_y",
@@ -243,19 +243,19 @@ p1 <- my_forestplot(df = plot_data1,
 # outcome 2
 plot_data1 <- subset(plot_data, outcome == "Endometrioid cancer")
 p2 <- my_forestplot(df = plot_data1,
-                 name = exposure,
-                 estimate = b,
-                 pvalue = pval,
-                 psignif = psignif,
-                 ci = ci,
-                 se = se,
-                 colour = adjusted,
-                 logodds = T) +
+                    name = exposure,
+                    estimate = b,
+                    pvalue = pval,
+                    psignif = psignif,
+                    ci = ci,
+                    se = se,
+                    colour = adjusted,
+                    logodds = T) +
   scale_colour_manual(values = colours2) +
   theme(axis.title.x = element_blank()) +
   theme(axis.text.y = element_blank()) +
   theme(legend.position = "none") +
-  coord_cartesian(xlim = c(0.8, 3.5)) +
+  coord_cartesian(xlim = c(0.7, 2.5)) +
   ggtitle("Endometrioid cancer") +
   ggforce::facet_col(facets = ~method,
                      scales = "free_y",
@@ -264,19 +264,19 @@ p2 <- my_forestplot(df = plot_data1,
 # outcome 3
 plot_data1 <- subset(plot_data, outcome == "Non-endometrioid cancer")
 p3 <- my_forestplot(df = plot_data1,
-                 name = exposure,
-                 estimate = b,
-                 pvalue = pval,
-                 psignif = psignif,
-                 ci = ci,
-                 se = se,
-                 colour = adjusted,
-                 logodds = T) +
+                    name = exposure,
+                    estimate = b,
+                    pvalue = pval,
+                    psignif = psignif,
+                    ci = ci,
+                    se = se,
+                    colour = adjusted,
+                    logodds = T) +
   scale_colour_manual(values = colours2) +
   theme(axis.title.x = element_blank()) +
   theme(axis.text.y = element_blank()) +
   theme(legend.position = "none") +
-  coord_cartesian(xlim = c(0.8, 3.5)) +
+  coord_cartesian(xlim = c(0.7, 2.5)) +
   ggtitle("Non-endometrioid cancer") +
   ggforce::facet_col(facets = ~method,
                      scales = "free_y",
@@ -284,14 +284,14 @@ p3 <- my_forestplot(df = plot_data1,
 
 # y_axis and legend
 legend <- my_forestplot(df = plot_data1,
-                     name = exposure,
-                     estimate = b,
-                     pvalue = pval,
-                     psignif = psignif,
-                     ci = ci,
-                     se = se,
-                     colour = adjusted,
-                     logodds = T) +
+                        name = exposure,
+                        estimate = b,
+                        pvalue = pval,
+                        psignif = psignif,
+                        ci = ci,
+                        se = se,
+                        colour = adjusted,
+                        logodds = T) +
   scale_colour_manual(values = colours2) +
   theme(legend.title = element_blank()) +
   ggforce::facet_col(facets = ~method,
@@ -299,7 +299,7 @@ legend <- my_forestplot(df = plot_data1,
                      space = "free") 
 legend <- get_legend(legend)
 
-pdf("adiposity_metabolites_endometrial_cancer/analysis/004_mvmr/figures/forestplot_negative_negative.pdf",
+pdf("adiposity_metabolites_endometrial_cancer/analysis/004_mvmr/combined/figures/forestplot_negative_negative.pdf",
     width = 16, height = 9, pointsize = 10)
 plot_grid(p1,p2,p3,legend, nrow = 1, rel_widths = c(1.2,1,1,0.8))
 dev.off()
@@ -308,16 +308,16 @@ dev.off()
 
 # MVMR secondary plot ====
 # MR ====
-mr <- read.table("adiposity_metabolites_endometrial_cancer/analysis/004_mvmr/results/combined/2smr_mvmr_formatted_results.txt", header = T, sep = "\t", stringsAsFactors = T)
+mr <- read.table("adiposity_metabolites_endometrial_cancer/analysis/004_mvmr/combined/results/combined/2smr_mvmr_formatted_results.txt", header = T, sep = "\t", stringsAsFactors = T)
 mr <- subset(mr, group == "Adiposity on cancer")
 mr <- subset(mr, exposure == "BMI")
 
 # metabolite results ====
-increasing_increasing <- read.table("adiposity_metabolites_endometrial_cancer/analysis/004_mvmr/associated_metabolites_increasing_increasing.txt", header = T, sep = "\t")
+increasing_increasing <- read.table("adiposity_metabolites_endometrial_cancer/analysis/004_mvmr/combined/associated_metabolites_increasing_increasing.txt", header = T, sep = "\t")
 increasing_increasing <- increasing_increasing[,1]
-decreasing_decreasing <- read.table("adiposity_metabolites_endometrial_cancer/analysis/004_mvmr/associated_metabolites_decreasing_decreasing.txt", header = T, sep = "\t")
+decreasing_decreasing <- read.table("adiposity_metabolites_endometrial_cancer/analysis/004_mvmr/combined/associated_metabolites_decreasing_decreasing.txt", header = T, sep = "\t")
 decreasing_decreasing <- decreasing_decreasing[,1]
-data <- read.table("adiposity_metabolites_endometrial_cancer/analysis/004_mvmr/results/combined/2smr_mvmr_formatted_results.txt", header = T, sep = "\t", stringsAsFactors = T)
+data <- read.table("adiposity_metabolites_endometrial_cancer/analysis/004_mvmr/combined/results/combined/2smr_mvmr_formatted_results.txt", header = T, sep = "\t", stringsAsFactors = T)
 data <- subset(data, method == "Multivariable MR")
 data <- subset(data, exposure == "BMI")
 pos_pos <- data[data$adjusted %in% increasing_increasing,]
@@ -346,7 +346,7 @@ data$UKB_name2[1:3] <- "BMI"
 data$UKB_subclass[1:3] <- "Two-sample MR"
 data$UKB_subclass <- factor(data$UKB_subclass, levels = c("Two-sample MR",
                                                           "Amino acids",
-                                                          "Cholesterol","Cholesteryl esters","Triglycerides","Phospholipids","Other lipids","Total lipids","Inflammation",
+                                                          "Cholesterol","Cholesteryl esters","Triglycerides","Phospholipids","Other lipids","Total lipids","Fatty acids","Lipoprotein particle concentrations","Inflammation",
                                                           "Large HDL","Very large HDL",
                                                           "IDL",
                                                           "Small LDL","Medium LDL","Large LDL",
@@ -380,7 +380,7 @@ p1 <- my_forestplot(df = plot_data1,
   scale_colour_manual(values = colours1) +
   theme(axis.title.x = element_blank()) +
   theme(legend.position = "none") +
-  coord_cartesian(xlim = c(1, 3.1)) +
+  coord_cartesian(xlim = c(0.8, 2.1)) +
   ggtitle("Endometrial cancer") +
   ggforce::facet_col(facets = ~UKB_subclass,
                      scales = "free_y",
@@ -400,7 +400,7 @@ p2 <- my_forestplot(df = plot_data1,
   theme(axis.title.x = element_blank()) +
   theme(axis.text.y = element_blank()) +
   theme(legend.position = "none") +
-  coord_cartesian(xlim = c(1, 3.1)) +
+  coord_cartesian(xlim = c(0.8, 2.1)) +
   ggtitle("Endometrioid cancer") +
   ggforce::facet_col(facets = ~UKB_subclass,
                      scales = "free_y",
@@ -421,13 +421,13 @@ p3 <- my_forestplot(df = plot_data1,
   theme(axis.title.x = element_blank()) +
   theme(axis.text.y = element_blank()) +
   theme(legend.position = "none") +
-  coord_cartesian(xlim = c(1, 3.1)) +
+  coord_cartesian(xlim = c(0.8, 2.1)) +
   ggtitle("Non-endometrioid cancer") +
   ggforce::facet_col(facets = ~UKB_subclass,
                      scales = "free_y",
                      space = "free") 
 
-pdf("adiposity_metabolites_endometrial_cancer/analysis/004_mvmr/figures/forestplot_new_style.pdf",
+pdf("adiposity_metabolites_endometrial_cancer/analysis/004_mvmr/combined/figures/forestplot_new_style.pdf",
     width = 15, height = 19 , pointsize = 10)
 plot_grid(p1,p2,p3, nrow = 1, rel_widths = c(1.9,1,1))
 dev.off()
